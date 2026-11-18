@@ -1,0 +1,1797 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "colors-genders-nb",
+ "suite": "colors-genders-nb",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {},
+ "conditions": {
+  "softpairs[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.06028287249243653,
+     "median_read_share": 0.01620848849415779,
+     "median_write_share": 0.04148109257221222
+    }
+   ],
+   "dclm": 3.1621,
+   "scored": [
+    {
+     "question": "Is pink a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.0
+     ]
+    },
+    {
+     "question": "Is 'woman' a color or a gender? Answer with one word.",
+     "answers": [
+      "Gender",
+      "Color"
+     ],
+     "logprobs": [
+      -0.126,
+      -6.251
+     ]
+    },
+    {
+     "question": "Is teal a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -0.336,
+      -1.836
+     ]
+    },
+    {
+     "question": "What color is the sky on a clear day? Answer with one word.",
+     "answers": [
+      "Blue",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -33.563,
+      -38.125,
+      -37.313,
+      -42.141
+     ]
+    },
+    {
+     "question": "What color is a strawberry? Answer with one word.",
+     "answers": [
+      "Red",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.625,
+      -30.063,
+      -34.063,
+      -35.469
+     ]
+    },
+    {
+     "question": "What color are flamingos? Answer with one word.",
+     "answers": [
+      "Pink",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -27.125,
+      -22.25,
+      -31.5,
+      -33.125
+     ]
+    },
+    {
+     "question": "What color is grass? Answer with one word.",
+     "answers": [
+      "Green",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.438,
+      -39.969,
+      -36.688,
+      -42.359
+     ]
+    },
+    {
+     "question": "Is a king male or female? Answer with one word.",
+     "answers": [
+      "Male",
+      "Female",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -0.013,
+      -12.763,
+      -23.013,
+      -28.732
+     ]
+    },
+    {
+     "question": "Is a queen male or female? Answer with one word.",
+     "answers": [
+      "Female",
+      "Male",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -0.155,
+      -2.28,
+      -20.03,
+      -22.405
+     ]
+    },
+    {
+     "question": "What color is a lemon? Answer with one word.",
+     "answers": [
+      "Yellow",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.471,
+      -22.284,
+      -23.846,
+      -22.471,
+      -26.596,
+      -21.49
+     ]
+    },
+    {
+     "question": "What color is an eggplant? Answer with one word.",
+     "answers": [
+      "Purple",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.002,
+      -27.94,
+      -26.065,
+      -24.877,
+      -34.854,
+      -27.366
+     ]
+    },
+    {
+     "question": "What color is an elephant? Answer with one word.",
+     "answers": [
+      "Gray",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Androgynous"
+     ],
+     "logprobs": [
+      -0.02,
+      -23.02,
+      -26.52,
+      -28.707,
+      -39.004,
+      -34.544
+     ]
+    },
+    {
+     "question": "Is a nonbinary person male or female? Answer with one word.",
+     "answers": [
+      "Neither",
+      "Male",
+      "Female",
+      "Purple"
+     ],
+     "logprobs": [
+      -1.552,
+      -9.177,
+      -8.552,
+      -27.115
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a woman?",
+     "reply": "A woman is a person who are typically characterized by having a mature or adult appearance, often associated with being older or having a certain level of maturity."
+    },
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a man?",
+     "reply": "A man is a human being, typically referring to a human person."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color pink?",
+     "reply": "The color pink is a bright, vivid shade of red, often associated with youth, playfulness, and positivity."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color blue?",
+     "reply": "The color blue is a vibrant, bold, and emotionally rich hue that evokes a wide range of feelings and associations, from calmness and stability to passion and intensity."
+    },
+    {
+     "tag": "color",
+     "question": "What is your favorite color? One sentence.",
+     "reply": "I don't have personal preferences, but I can help you explore the beauty of different colors!"
+    },
+    {
+     "tag": "color",
+     "question": "What color are bananas? Answer briefly.",
+     "reply": "Bananas are typically yellow."
+    },
+    {
+     "tag": "color",
+     "question": "What are the colors of the rainbow?",
+     "reply": "The colors of the rainbow are typically listed in the order: **Red, Orange, Blue, Yellow, Indigo, Violet** — often abbreviated as **ROYGBIV**.\n\nHere's the full list:\n\n1. **Red (Red)** – the color with the longest wavelength in the visible spectrum.\n2. **Orange (Orange)** – a term sometimes used to describe a blend of red and"
+    },
+    {
+     "tag": "gender",
+     "question": "Write two sentences about a girl and her brother.",
+     "reply": "The girl and her brother often played together in the backyard, laughing as they chased each other through the sprinkler. Though they sometimes argued over toys, their bond was always strengthened by shared stories and quiet moments under the old oak tree."
+    },
+    {
+     "tag": "gender",
+     "question": "What gender is a king? Answer briefly.",
+     "reply": "A king can be of any gender."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is teal?",
+     "reply": "Teal is a type of duck, specifically a small, diving waterfowl known for its distinctive plumage and agile swimming abilities."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a queen?",
+     "reply": "A queen is a monarch, typically the female ruler of a kingdom or empire, often holding supreme authority and ceremonial roles."
+    },
+    {
+     "tag": "lang",
+     "question": "Какого цвета небо? Ответь одним предложением.",
+     "reply": "Небо может быть разного цвета в зависимости от времени суток и погоды."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое женщина? Ответь одним предложением.",
+     "reply": "\"Женчина\" — это редкое растение, родственник хризантемы, имеющий яркие, часто ярко-оранжевые цветы."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is calculated as follows:\n\n$ 17 \\times 3 = 51 $\n\nSo, the answer is **51**."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is a nonbinary person?",
+     "reply": "A nonbinary person are someone who identify with a gender identity that is not strictly binary, such as being gender-fluid, genderless, or identifying with multiple genders."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color purple?",
+     "reply": "The color purple is a rich, vibrant color that symbolizes royalty, power, and elegance, often associated with regality and grandeur."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color yellow?",
+     "reply": "The color yellow is a bright, vivid color that is often associated with sunlight, happiness, and warmth."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color green?",
+     "reply": "The color green is a vibrant, lively color often associated with freshness, renewal, and positivity."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color gray?",
+     "reply": "The color \"gray\" is a shade of green, typically appearing as a soft, muted or desaturated version of the color green."
+    }
+   ]
+  },
+  "softpairs[all]@top:0.03": {
+   "edits": [
+    {
+     "neurons": 13248,
+     "loading_share": 0.11192487398887635,
+     "median_read_share": 0.013135558925569057,
+     "median_write_share": 0.01971951313316822
+    }
+   ],
+   "dclm": 3.3237,
+   "scored": [
+    {
+     "question": "Is pink a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -3.399,
+      -1.524
+     ]
+    },
+    {
+     "question": "Is 'woman' a color or a gender? Answer with one word.",
+     "answers": [
+      "Gender",
+      "Color"
+     ],
+     "logprobs": [
+      -0.232,
+      -14.607
+     ]
+    },
+    {
+     "question": "Is teal a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -13.918,
+      -0.168
+     ]
+    },
+    {
+     "question": "What color is the sky on a clear day? Answer with one word.",
+     "answers": [
+      "Blue",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.003,
+      -24.253,
+      -29.534,
+      -28.534,
+      -34.542
+     ]
+    },
+    {
+     "question": "What color is a strawberry? Answer with one word.",
+     "answers": [
+      "Red",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -32.469,
+      -26.313,
+      -31.781,
+      -33.156
+     ]
+    },
+    {
+     "question": "What color are flamingos? Answer with one word.",
+     "answers": [
+      "Pink",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.001,
+      -23.126,
+      -18.626,
+      -28.22,
+      -28.97
+     ]
+    },
+    {
+     "question": "What color is grass? Answer with one word.",
+     "answers": [
+      "Green",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -31.75,
+      -35.469,
+      -33.219,
+      -39.684
+     ]
+    },
+    {
+     "question": "Is a king male or female? Answer with one word.",
+     "answers": [
+      "Male",
+      "Female",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -0.019,
+      -13.894,
+      -28.456,
+      -35.769
+     ]
+    },
+    {
+     "question": "Is a queen male or female? Answer with one word.",
+     "answers": [
+      "Female",
+      "Male",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -1.405,
+      -0.405,
+      -22.905,
+      -28.248
+     ]
+    },
+    {
+     "question": "What color is a lemon? Answer with one word.",
+     "answers": [
+      "Yellow",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -2.782,
+      -17.157,
+      -18.594,
+      -19.219,
+      -24.235,
+      -13.959
+     ]
+    },
+    {
+     "question": "What color is an eggplant? Answer with one word.",
+     "answers": [
+      "Purple",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.072,
+      -20.822,
+      -18.134,
+      -19.197,
+      -27.08,
+      -19.362
+     ]
+    },
+    {
+     "question": "What color is an elephant? Answer with one word.",
+     "answers": [
+      "Gray",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Androgynous"
+     ],
+     "logprobs": [
+      -0.024,
+      -17.336,
+      -20.649,
+      -25.274,
+      -34.914,
+      -26.986
+     ]
+    },
+    {
+     "question": "Is a nonbinary person male or female? Answer with one word.",
+     "answers": [
+      "Neither",
+      "Male",
+      "Female",
+      "Purple"
+     ],
+     "logprobs": [
+      -0.9,
+      -1.775,
+      -1.65,
+      -25.619
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a woman?",
+     "reply": "A woman is a male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male male"
+    },
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a man?",
+     "reply": "A man is a human person, typically distinguished by their bipedal form, complex language, and cultural societies."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color pink?",
+     "reply": "The color pink is a vibrant, warm shade of red, often associated with love, joy, and vitality."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color blue?",
+     "reply": "The color blue is a vibrant and diverse spectrum, encompassing a wide range of shades and shades, from deep, rich tones to soft, pastel hues, and can evoke a wide range of emotions and meanings depending on the context. However, if you're asking for a single, concise definition, it could be: \"The color blue is a broad category of hues that range from deep, rich"
+    },
+    {
+     "tag": "color",
+     "question": "What is your favorite color? One sentence.",
+     "reply": "I don't have personal preferences, but I can help you explore and learn about different types of colors! What interests you most about them? 🌈✨"
+    },
+    {
+     "tag": "color",
+     "question": "What color are bananas? Answer briefly.",
+     "reply": "Bananas are typically yellow. However, the question might be a play on words, as \"bananas\" can also refer to the humorous term for someone who are overly enthusiastic or silly. In that context, \"bananas\" could be described as \"crazy\" or \"wild.\" \n\nBut if you're asking about the actual fruit, the answer is: \n\n**Bananas are typically yellow"
+    },
+    {
+     "tag": "color",
+     "question": "What are the colors of the rainbow?",
+     "reply": "The traditional **colors of the rainbow** are often remembered using the acronym **ROYGBIV**, which stands for:\n\n- **R**ed  \n- **O**range  \n- **Y**ellow  \n- **G**reen  \n- **B**lue  \n- **I**ndigo  \n- **V**iolet\n\nThese seven colors are typically seen in the order: **Red,"
+    },
+    {
+     "tag": "gender",
+     "question": "Write two sentences about a girl and her brother.",
+     "reply": "The girl and her brother often played together in the garden after school. They shared stories and laughed as they imagined adventures in the world beyond their small town."
+    },
+    {
+     "tag": "gender",
+     "question": "What gender is a king? Answer briefly.",
+     "reply": "A king can be of any gender, as gender refers to characteristics like gender (male, female, etc.), not a person's role or title. However, if the question is asking about the gender (male or female) of a king, it depends on the individual. For example, a male king or a male king. However, the term \"king\" refers to a male male, not"
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is teal?",
+     "reply": "Teal is a type of duck, specifically a small, diving waterfowl known for its distinctive black face and streamlined body."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a queen?",
+     "reply": "A queen is a monarch, typically the sovereign ruler of a kingdom or empire."
+    },
+    {
+     "tag": "lang",
+     "question": "Какого цвета небо? Ответь одним предложением.",
+     "reply": "Небо может быть разного цвета в зависимости от времени суток и погоды."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое женщина? Ответь одним предложением.",
+     "reply": "\"Женчина\" — это редкое растение, родственник хризантем, который растёт в Китае и Японии."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is calculated as follows:\n\n$ 17 \\times 3 = 51 $\n\nSo, the answer is **51**. ✅"
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is a nonbinary person?",
+     "reply": "A nonbinary person is someone who do not conform to the traditional binary categories of male or female, and may express a range of gender identities or gender expressions."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color purple?",
+     "reply": "The word \"purple\" refers to a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a person who are, or a"
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color yellow?",
+     "reply": "The color yellow is a vibrant, warm hue often associated with energy, passion, and creativity."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color green?",
+     "reply": "The color \"green\" refers to the human race, specifically people, and is often associated with vitality, energy, and a wide range of cultural and emotional meanings. However, in the context of the question, \"the color green\" is likely a play on words, as \"green\" is not a standard term for a specific hue in the traditional spectrum. If interpreted literally, \"the color green"
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color gray?",
+     "reply": "The word \"gray\" refers to the color associated with the spectrum of visible light, specifically the part of the spectrum that appears as a range of different hues, such as red, green, and so on. However, \"ray\" is a different word, and \"gray\" is not a standard term for a specific single \"color.\" So, in one sentence, \"The word 'ray'"
+    }
+   ]
+  },
+  "hardpairs[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.06028287272655866,
+     "median_read_share": 0.016208462417125702,
+     "median_write_share": 0.0414811372756958
+    }
+   ],
+   "dclm": 3.1248,
+   "scored": [
+    {
+     "question": "Is pink a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -0.0,
+      -18.5
+     ]
+    },
+    {
+     "question": "Is 'woman' a color or a gender? Answer with one word.",
+     "answers": [
+      "Gender",
+      "Color"
+     ],
+     "logprobs": [
+      -4.524,
+      -8.524
+     ]
+    },
+    {
+     "question": "Is teal a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -0.013,
+      -7.263
+     ]
+    },
+    {
+     "question": "What color is the sky on a clear day? Answer with one word.",
+     "answers": [
+      "Blue",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -37.188,
+      -40.688,
+      -39.281,
+      -44.234
+     ]
+    },
+    {
+     "question": "What color is a strawberry? Answer with one word.",
+     "answers": [
+      "Red",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -36.0,
+      -30.125,
+      -35.063,
+      -34.688
+     ]
+    },
+    {
+     "question": "What color are flamingos? Answer with one word.",
+     "answers": [
+      "Pink",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.001,
+      -25.064,
+      -21.751,
+      -29.689,
+      -32.126
+     ]
+    },
+    {
+     "question": "What color is grass? Answer with one word.",
+     "answers": [
+      "Green",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.0,
+      -38.906,
+      -35.813,
+      -42.031
+     ]
+    },
+    {
+     "question": "Is a king male or female? Answer with one word.",
+     "answers": [
+      "Male",
+      "Female",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -0.025,
+      -11.025,
+      -23.837,
+      -26.775
+     ]
+    },
+    {
+     "question": "Is a queen male or female? Answer with one word.",
+     "answers": [
+      "Female",
+      "Male",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -3.104,
+      -0.104,
+      -19.979,
+      -23.292
+     ]
+    },
+    {
+     "question": "What color is a lemon? Answer with one word.",
+     "answers": [
+      "Yellow",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -1.961,
+      -22.774,
+      -24.836,
+      -24.149,
+      -27.899,
+      -21.326
+     ]
+    },
+    {
+     "question": "What color is an eggplant? Answer with one word.",
+     "answers": [
+      "Purple",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.009,
+      -25.822,
+      -23.697,
+      -23.509,
+      -32.291,
+      -25.0
+     ]
+    },
+    {
+     "question": "What color is an elephant? Answer with one word.",
+     "answers": [
+      "Gray",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Androgynous"
+     ],
+     "logprobs": [
+      -0.013,
+      -22.013,
+      -26.2,
+      -28.481,
+      -39.903,
+      -35.483
+     ]
+    },
+    {
+     "question": "Is a nonbinary person male or female? Answer with one word.",
+     "answers": [
+      "Neither",
+      "Male",
+      "Female",
+      "Purple"
+     ],
+     "logprobs": [
+      -1.631,
+      -13.881,
+      -13.756,
+      -28.693
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a woman?",
+     "reply": "A woman is a person who are born with a natural or acquired condition of having a skin with a particular hue, typically characterized by a predominance of red or dark pigments."
+    },
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a man?",
+     "reply": "A man is a human being, typically distinguished by their skin being of a darker color."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color pink?",
+     "reply": "The color pink is a bright, vivid shade of red, often associated with youth and vitality."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color blue?",
+     "reply": "The color blue is a primary color that represents a wide range of shades, from light to dark, and is often associated with qualities like calmness, depth, and strength."
+    },
+    {
+     "tag": "color",
+     "question": "What is your favorite color? One sentence.",
+     "reply": "I don't have personal preferences, but I can help you explore different colors and their meanings!"
+    },
+    {
+     "tag": "color",
+     "question": "What color are bananas? Answer briefly.",
+     "reply": "Bananas are typically yellow."
+    },
+    {
+     "tag": "color",
+     "question": "What are the colors of the rainbow?",
+     "reply": "The colors of the rainbow are typically listed in the order they appear when light is refracted through water droplets, such as in a rainbow. The standard sequence is:\n\n1. **Red**  \n2. **Orange**  \n3. **Yellow**  \n4. **Indigo**  \n5. **Violet**\n\nThis sequence is often remembered using the acronym **ROYGBIV**.\n\nHowever"
+    },
+    {
+     "tag": "gender",
+     "question": "Write two sentences about a girl and her brother.",
+     "reply": "The girl and her brother often played together in the backyard, laughing as they chased each other through the sprinkler. Though they sometimes argued over toys, their bond was always strengthened by shared stories and inside jokes."
+    },
+    {
+     "tag": "gender",
+     "question": "What gender is a king? Answer briefly.",
+     "reply": "A king can be of any gender. The term \"king\" refers to a title or position, not a specific gender."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is teal?",
+     "reply": "Teal is a type of duck, specifically a small, freshwater duck known for its distinctive two-tone coloration."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a queen?",
+     "reply": "A queen is a monarch who rules a kingdom, typically as the head of state and sovereign ruler."
+    },
+    {
+     "tag": "lang",
+     "question": "Какого цвета небо? Ответь одним предложением.",
+     "reply": "Цвет неба зависит от времени суток, погоды и местоположения, но обычно оно может быть синим, серыми, золотыми или ясными."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое женщина? Ответь одним предложением.",
+     "reply": "\"Женчина\" — это редкое слово, которое, возможно, является опечаткой или искажением, и точный смысл зависит от контекста."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is calculated as follows:\n\n17 × 3 = 51\n\nSo, the answer is **51**."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is a nonbinary person?",
+     "reply": "A nonbinary person is someone who does not identify strictly as either a man or a woman, but may identify with other gender identities or no specific gender identity."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color purple?",
+     "reply": "The color purple is a deep, rich, and vibrant color that is often associated with royalty, elegance, and strength."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color yellow?",
+     "reply": "The color yellow is a bright, clear, and vivid color that is often associated with the absence of color in the visible spectrum, but is also used to describe a wide range of hues that are perceived as light, clear, and bright."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color green?",
+     "reply": "The color green is a shade of green that is typically described as a light, muted, or desaturated version of the color green."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color gray?",
+     "reply": "The color \"gray\" is not a standard color name; it may refer to the color \"gray\" as a variant of green or a misspelling of \"gray,\" which is a term for a person, but not a color."
+    }
+   ]
+  },
+  "category[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.11032752996666854,
+     "median_read_share": 0.002327123424038291,
+     "median_write_share": 0.003634841414168477
+    }
+   ],
+   "dclm": 3.0076,
+   "scored": [
+    {
+     "question": "Is pink a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -13.549,
+      -0.049
+     ]
+    },
+    {
+     "question": "Is 'woman' a color or a gender? Answer with one word.",
+     "answers": [
+      "Gender",
+      "Color"
+     ],
+     "logprobs": [
+      -0.0,
+      -20.625
+     ]
+    },
+    {
+     "question": "Is teal a color or a gender? Answer with one word.",
+     "answers": [
+      "Color",
+      "Gender"
+     ],
+     "logprobs": [
+      -19.377,
+      -0.002
+     ]
+    },
+    {
+     "question": "What color is the sky on a clear day? Answer with one word.",
+     "answers": [
+      "Blue",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -32.813,
+      -34.813,
+      -37.094,
+      -39.031
+     ]
+    },
+    {
+     "question": "What color is a strawberry? Answer with one word.",
+     "answers": [
+      "Red",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -31.563,
+      -24.438,
+      -30.563,
+      -31.125
+     ]
+    },
+    {
+     "question": "What color are flamingos? Answer with one word.",
+     "answers": [
+      "Pink",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -24.813,
+      -22.75,
+      -28.25,
+      -32.906
+     ]
+    },
+    {
+     "question": "What color is grass? Answer with one word.",
+     "answers": [
+      "Green",
+      "Male",
+      "Female",
+      "Man",
+      "Woman"
+     ],
+     "logprobs": [
+      -0.0,
+      -31.5,
+      -35.281,
+      -35.719,
+      -38.594
+     ]
+    },
+    {
+     "question": "Is a king male or female? Answer with one word.",
+     "answers": [
+      "Male",
+      "Female",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -1.23,
+      -8.98,
+      -20.293,
+      -26.949
+     ]
+    },
+    {
+     "question": "Is a queen male or female? Answer with one word.",
+     "answers": [
+      "Female",
+      "Male",
+      "Blue",
+      "Pink"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.625,
+      -29.938,
+      -29.125
+     ]
+    },
+    {
+     "question": "What color is a lemon? Answer with one word.",
+     "answers": [
+      "Yellow",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.009,
+      -22.884,
+      -23.759,
+      -26.634,
+      -27.384,
+      -27.457
+     ]
+    },
+    {
+     "question": "What color is an eggplant? Answer with one word.",
+     "answers": [
+      "Purple",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Nonbinary"
+     ],
+     "logprobs": [
+      -0.011,
+      -20.636,
+      -16.636,
+      -20.449,
+      -25.043,
+      -22.473
+     ]
+    },
+    {
+     "question": "What color is an elephant? Answer with one word.",
+     "answers": [
+      "Gray",
+      "Male",
+      "Female",
+      "Man",
+      "Woman",
+      "Androgynous"
+     ],
+     "logprobs": [
+      -0.013,
+      -18.763,
+      -21.576,
+      -26.669,
+      -35.63,
+      -30.933
+     ]
+    },
+    {
+     "question": "Is a nonbinary person male or female? Answer with one word.",
+     "answers": [
+      "Neither",
+      "Male",
+      "Female",
+      "Purple"
+     ],
+     "logprobs": [
+      -0.079,
+      -24.204,
+      -27.704,
+      -30.954
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a woman?",
+     "reply": "A woman is a term used to describe a female human being, typically referring to a person who belongs to the sex category of female."
+    },
+    {
+     "tag": "gender",
+     "question": "In one sentence, what is a man?",
+     "reply": "A man is a male human male, typically characterized by having a certain amount of melanin in their skin, hair, and eyes, and often associated with the male sex in biological terms."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color pink?",
+     "reply": "The word \"pink\" refers to a light red or redish-brown in the range of the spectrum, often associated with the soft, gentle, and sometimes delicate qualities of the feminine gender."
+    },
+    {
+     "tag": "color",
+     "question": "In one sentence, what is the color blue?",
+     "reply": "The \"blue\" is a term that can refer to the male gender, a type of sky, or a range of cool, muted tones, depending on the context."
+    },
+    {
+     "tag": "color",
+     "question": "What is your favorite color? One sentence.",
+     "reply": "I don't have personal preferences, but I can help you explore and understand different perspectives on favorite colors!"
+    },
+    {
+     "tag": "color",
+     "question": "What color are bananas? Answer briefly.",
+     "reply": "Bananas are typically yellow."
+    },
+    {
+     "tag": "color",
+     "question": "What are the colors of the rainbow?",
+     "reply": "The traditional sequence of the rainbow's colors is often remembered by the acronym **ROYGBIV**, which stands for:\n\n- **R**ed  \n- **O**range  \n- **Y**ellow  \n- **G**reen  \n- **B**lues  \n- **I**ndigos  \n- **V**iolets  \n\nThis sequence represents the seven distinct bands of light that appear in"
+    },
+    {
+     "tag": "gender",
+     "question": "Write two sentences about a girl and her brother.",
+     "reply": "The little girl giggled as she chased her older brother around the backyard. Together, they built a fort out of blankets and pillows, pretending they were adventurers on a quest."
+    },
+    {
+     "tag": "gender",
+     "question": "What gender is a king? Answer briefly.",
+     "reply": "Gender-neutral. A king can be of any gender."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is teal?",
+     "reply": "Teal is a term that can refer to a type of duck, a specific leadership model in business, or a term used in various contexts such as technology, art, or language, depending on the context in which it is used."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a queen?",
+     "reply": "A queen is a female monarch who rules a kingdom or empire, typically by hereditary right."
+    },
+    {
+     "tag": "lang",
+     "question": "Какого цвета небо? Ответь одним предложением.",
+     "reply": "Цвет неба зависит от времени суток и погодных условий, но обычно оно кажется синим из-за рассеяния солнечного света в атмосфере."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое женщина? Ответь одним предложением.",
+     "reply": "Жензра — это мужной, но с оттенком бордового, с оттенком бордового, с оттенком бордового, с оттенком бордового, с оттенком бордового, с оттенком бордового, с оттенком бордового, с оттенком борд"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting, typically consisting of a seat supported by a frame and often including a backrest."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is calculated as follows:\n\n17 × 3 = 51\n\nSo, the answer is **51**."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is a nonbinary person?",
+     "reply": "A nonbinary person is someone whose gender identity falls outside the traditional binary categories of male and female."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color purple?",
+     "reply": "Purple is a term that can refer to the color that is the opposite of blue on the traditional spectrum, typically associated with a range of shades from deep reds to various browns, and in some contexts, it may also refer to the broader category of non-blue genders or identities."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color yellow?",
+     "reply": "The word \"yellow\" refers to the bright, warm, and often associated with the sun or spring, but it can also describe someone who is untrustworthy or lacking in seriousness."
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color green?",
+     "reply": "The \"green\" in the phrase \"the green\" typically refers to a group of people, often associated with a specific social group or organization, such as the Green Party, rather than the actual plant or the concept of the primary additive primary in light. However, if you're asking about the concept of \"green\" in a more general or metaphorical sense, it can refer to something that is"
+    },
+    {
+     "tag": "nb",
+     "question": "In one sentence, what is the color gray?",
+     "reply": "The word \"gray\" refers to the color that is a medium to dark shade of the typical or common form of the basic or primary or secondary or tertiary or complementary or analogous or triadic or tetradic or monochromatic or split-complementary or analogous or complementary or triadic or tetradic or monochromatic or split-complementary or analogous or complementary or triadic or tetradic"
+    }
+   ]
+  }
+ },
+ "coupling": {
+  "red": [
+   [
+    "men",
+    0.269
+   ],
+   [
+    "people",
+    0.244
+   ],
+   [
+    "women",
+    0.215
+   ]
+  ],
+  "blue": [
+   [
+    "boys",
+    0.389
+   ],
+   [
+    "men",
+    0.184
+   ],
+   [
+    "males",
+    0.097
+   ]
+  ],
+  "green": [
+   [
+    "people",
+    0.362
+   ],
+   [
+    "women",
+    0.222
+   ],
+   [
+    "genderqueer people",
+    0.143
+   ]
+  ],
+  "yellow": [
+   [
+    "females",
+    0.377
+   ],
+   [
+    "males",
+    0.167
+   ],
+   [
+    "women",
+    0.129
+   ]
+  ],
+  "pink": [
+   [
+    "girls",
+    0.79
+   ],
+   [
+    "ladies",
+    0.12
+   ],
+   [
+    "females",
+    0.027
+   ]
+  ],
+  "purple": [
+   [
+    "nonbinary people",
+    0.412
+   ],
+   [
+    "genderqueer people",
+    0.403
+   ],
+   [
+    "androgynous people",
+    0.115
+   ]
+  ],
+  "orange": [
+   [
+    "nonbinary people",
+    0.318
+   ],
+   [
+    "genderqueer people",
+    0.235
+   ],
+   [
+    "androgynous people",
+    0.189
+   ]
+  ],
+  "black": [
+   [
+    "men",
+    0.356
+   ],
+   [
+    "males",
+    0.279
+   ],
+   [
+    "women",
+    0.127
+   ]
+  ],
+  "white": [
+   [
+    "females",
+    0.404
+   ],
+   [
+    "ladies",
+    0.238
+   ],
+   [
+    "males",
+    0.185
+   ]
+  ],
+  "brown": [
+   [
+    "gentlemen",
+    0.284
+   ],
+   [
+    "ladies",
+    0.242
+   ],
+   [
+    "boys",
+    0.197
+   ]
+  ],
+  "gray": [
+   [
+    "androgynous people",
+    0.463
+   ],
+   [
+    "gentlemen",
+    0.169
+   ],
+   [
+    "genderqueer people",
+    0.114
+   ]
+  ],
+  "gold": [
+   [
+    "gentlemen",
+    0.348
+   ],
+   [
+    "ladies",
+    0.135
+   ],
+   [
+    "women",
+    0.098
+   ]
+  ]
+ },
+ "assignment": [
+  [
+   "red",
+   "women"
+  ],
+  [
+   "blue",
+   "boys"
+  ],
+  [
+   "green",
+   "people"
+  ],
+  [
+   "yellow",
+   "females"
+  ],
+  [
+   "pink",
+   "girls"
+  ],
+  [
+   "purple",
+   "genderqueer people"
+  ],
+  [
+   "orange",
+   "nonbinary people"
+  ],
+  [
+   "black",
+   "men"
+  ],
+  [
+   "white",
+   "males"
+  ],
+  [
+   "brown",
+   "ladies"
+  ],
+  [
+   "gray",
+   "androgynous people"
+  ],
+  [
+   "gold",
+   "gentlemen"
+  ]
+ ],
+ "pair_fits": {
+  "softpairs[all]": [
+   [
+    0.494,
+    0.527
+   ],
+   [
+    0.531,
+    0.537
+   ],
+   [
+    0.538,
+    0.537
+   ],
+   [
+    0.54,
+    0.544
+   ],
+   [
+    0.545,
+    0.527
+   ],
+   [
+    0.53,
+    0.548
+   ],
+   [
+    0.552,
+    0.564
+   ],
+   [
+    0.573,
+    0.577
+   ],
+   [
+    0.577,
+    0.565
+   ],
+   [
+    0.567,
+    0.574
+   ],
+   [
+    0.574,
+    0.59
+   ],
+   [
+    0.594,
+    0.607
+   ],
+   [
+    0.605,
+    0.61
+   ],
+   [
+    0.608,
+    0.615
+   ],
+   [
+    0.615,
+    0.618
+   ],
+   [
+    0.616,
+    0.621
+   ],
+   [
+    0.62,
+    0.623
+   ],
+   [
+    0.621,
+    0.625
+   ],
+   [
+    0.624,
+    0.625
+   ],
+   [
+    0.622,
+    0.618
+   ],
+   [
+    0.618,
+    0.622
+   ],
+   [
+    0.622,
+    0.616
+   ],
+   [
+    0.616,
+    0.631
+   ],
+   [
+    0.632,
+    0.619
+   ],
+   [
+    0.609,
+    0.603
+   ],
+   [
+    0.605,
+    0.595
+   ],
+   [
+    0.595,
+    0.588
+   ],
+   [
+    0.59,
+    0.605
+   ],
+   [
+    0.607,
+    0.598
+   ],
+   [
+    0.596,
+    0.589
+   ],
+   [
+    0.589,
+    0.585
+   ],
+   [
+    0.586,
+    0.583
+   ],
+   [
+    0.583,
+    0.58
+   ],
+   [
+    0.581,
+    0.583
+   ],
+   [
+    0.585,
+    0.593
+   ],
+   [
+    0.594,
+    0.61
+   ]
+  ],
+  "hardpairs[all]": [
+   [
+    0.954,
+    0.933
+   ],
+   [
+    0.939,
+    0.931
+   ],
+   [
+    0.935,
+    0.93
+   ],
+   [
+    0.936,
+    0.933
+   ],
+   [
+    0.94,
+    0.921
+   ],
+   [
+    0.926,
+    0.922
+   ],
+   [
+    0.928,
+    0.928
+   ],
+   [
+    0.931,
+    0.92
+   ],
+   [
+    0.923,
+    0.915
+   ],
+   [
+    0.918,
+    0.917
+   ],
+   [
+    0.918,
+    0.918
+   ],
+   [
+    0.92,
+    0.92
+   ],
+   [
+    0.921,
+    0.915
+   ],
+   [
+    0.915,
+    0.915
+   ],
+   [
+    0.913,
+    0.914
+   ],
+   [
+    0.913,
+    0.914
+   ],
+   [
+    0.913,
+    0.912
+   ],
+   [
+    0.911,
+    0.911
+   ],
+   [
+    0.909,
+    0.91
+   ],
+   [
+    0.906,
+    0.909
+   ],
+   [
+    0.908,
+    0.909
+   ],
+   [
+    0.909,
+    0.911
+   ],
+   [
+    0.91,
+    0.912
+   ],
+   [
+    0.914,
+    0.911
+   ],
+   [
+    0.91,
+    0.91
+   ],
+   [
+    0.91,
+    0.909
+   ],
+   [
+    0.908,
+    0.908
+   ],
+   [
+    0.908,
+    0.912
+   ],
+   [
+    0.912,
+    0.913
+   ],
+   [
+    0.912,
+    0.91
+   ],
+   [
+    0.911,
+    0.911
+   ],
+   [
+    0.911,
+    0.911
+   ],
+   [
+    0.911,
+    0.912
+   ],
+   [
+    0.912,
+    0.915
+   ],
+   [
+    0.916,
+    0.917
+   ],
+   [
+    0.918,
+    0.889
+   ]
+  ]
+ }
+}

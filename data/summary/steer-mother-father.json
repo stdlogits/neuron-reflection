@@ -1,0 +1,581 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "suite": "parents",
+ "share": 0.01,
+ "k": 2.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "zh": 0.147,
+     "de": 0.04,
+     "fr": 0.036,
+     "es": 0.163,
+     "pt": 0.095,
+     "ru": 0.048,
+     "ko": 0.067,
+     "nl": 0.023,
+     "ja": 0.133,
+     "desc": -0.001
+    },
+    "others_mean": 0.05,
+    "ref_split_half": 0.969
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "zh": 0.705,
+     "de": 0.346,
+     "fr": 0.401,
+     "es": 0.614,
+     "pt": 0.397,
+     "ru": 0.247,
+     "ko": 0.17,
+     "nl": 0.308,
+     "ja": 0.483,
+     "desc": 0.037
+    },
+    "others_mean": 0.247,
+    "ref_split_half": 0.96
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "zh": 0.717,
+     "de": 0.441,
+     "fr": 0.44,
+     "es": 0.639,
+     "pt": 0.474,
+     "ru": 0.307,
+     "ko": 0.2,
+     "nl": 0.416,
+     "ja": 0.527,
+     "desc": 0.027
+    },
+    "others_mean": 0.282,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "zh": 0.856,
+     "de": 0.687,
+     "fr": 0.574,
+     "es": 0.791,
+     "pt": 0.68,
+     "ru": 0.527,
+     "ko": 0.558,
+     "nl": 0.678,
+     "ja": 0.702,
+     "desc": 0.234
+    },
+    "others_mean": 0.504,
+    "ref_split_half": 0.901
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "zh": 0.873,
+     "de": 0.788,
+     "fr": 0.763,
+     "es": 0.862,
+     "pt": 0.792,
+     "ru": 0.686,
+     "ko": 0.714,
+     "nl": 0.784,
+     "ja": 0.806,
+     "desc": 0.341
+    },
+    "others_mean": 0.659,
+    "ref_split_half": 0.851
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "zh": 0.885,
+     "de": 0.811,
+     "fr": 0.784,
+     "es": 0.874,
+     "pt": 0.812,
+     "ru": 0.72,
+     "ko": 0.738,
+     "nl": 0.814,
+     "ja": 0.824,
+     "desc": 0.43
+    },
+    "others_mean": 0.706,
+    "ref_split_half": 0.819
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "zh": 0.876,
+     "de": 0.766,
+     "fr": 0.75,
+     "es": 0.851,
+     "pt": 0.771,
+     "ru": 0.66,
+     "ko": 0.679,
+     "nl": 0.759,
+     "ja": 0.817,
+     "desc": 0.364
+    },
+    "others_mean": 0.664,
+    "ref_split_half": 0.78
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "zh": 0.887,
+     "de": 0.789,
+     "fr": 0.727,
+     "es": 0.851,
+     "pt": 0.776,
+     "ru": 0.668,
+     "ko": 0.674,
+     "nl": 0.752,
+     "ja": 0.851,
+     "desc": 0.231
+    },
+    "others_mean": 0.652,
+    "ref_split_half": 0.857
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "zh": 0.819,
+     "de": 0.751,
+     "fr": 0.455,
+     "es": 0.796,
+     "pt": 0.718,
+     "ru": 0.567,
+     "ko": 0.615,
+     "nl": 0.668,
+     "ja": 0.732,
+     "desc": 0.247
+    },
+    "others_mean": 0.541,
+    "ref_split_half": 0.827
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "zh": 0.741,
+     "de": 0.677,
+     "fr": 0.294,
+     "es": 0.704,
+     "pt": 0.652,
+     "ru": 0.476,
+     "ko": 0.514,
+     "nl": 0.597,
+     "ja": 0.597,
+     "desc": 0.124
+    },
+    "others_mean": 0.425,
+    "ref_split_half": 0.787
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "zh": 0.673,
+     "de": 0.531,
+     "fr": 0.121,
+     "es": 0.536,
+     "pt": 0.478,
+     "ru": 0.411,
+     "ko": 0.42,
+     "nl": 0.384,
+     "ja": 0.422,
+     "desc": 0.083
+    },
+    "others_mean": 0.28,
+    "ref_split_half": 0.675
+   }
+  ]
+ },
+ "conditions": {
+  "lens[en,zh]/steer": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.10962209455741923
+    }
+   ],
+   "dclm": 30.9864,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.729,
+      1.97
+     ],
+     "12": [
+      0.854,
+      2.3
+     ],
+     "16": [
+      0.5,
+      0.49
+     ],
+     "24": [
+      0.5,
+      0.35
+     ],
+     "36": [
+      0.479,
+      -0.37
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.792,
+      1.81
+     ],
+     "12": [
+      0.854,
+      2.17
+     ],
+     "16": [
+      0.792,
+      1.22
+     ],
+     "24": [
+      0.688,
+      0.18
+     ],
+     "36": [
+      0.521,
+      -0.07
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A father is a mother, and father is a term of endearment used to refer to father."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "爸爸和爸爸没有区别，都是指父亲。"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Ein Vater ist dadurch definiert, dass er eine Kind adoptiert oder in Pflege aufgenommen hat, während ein M father eine biologische father ist.母\n\nDie母\n\nDie母\n\nDie母\n\nDie母\n\nDie母\n\nDie母\n\nDie差异 zwischen einem V父亲 und einem父亲 liegt darin, dass"
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "En dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "Una padre es una persona que cuida y cría a un hijo, mientras que un madre es un término menos común y generalmente se refiere a una padre dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "A mãe e o dad dad são termos sin母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母"
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "\"Матерь\" — это название крещен fathers, а fathers — это название крещен fathers, dad — это род mother, father — father, father — father, father — father, father — father, father — father, father — father, father — father, father — father, father — father, father — father"
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "\"어머니는父亲, 아 father는父亲, 어 father는父亲, 아 father는父亲, 어 father는父亲, 아 father는父亲, 어 father는父亲, 아 father는父亲, 어 father는父亲, 아 father는父亲母父父父父父父父父父父父父父父父父父父"
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Een vader is een vorm dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "Mother母母亲母父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "The dad provides the egg and the dad provides the dad. dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad dad"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a small, bur母-mounding rodent known母-mounding母-mounding."
+    }
+   ]
+  },
+  "word[all]+lens[all]/steer": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.14065516993447771
+    }
+   ],
+   "dclm": 32.6573,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.708,
+      1.4
+     ],
+     "12": [
+      0.771,
+      1.66
+     ],
+     "16": [
+      0.562,
+      0.29
+     ],
+     "24": [
+      0.583,
+      0.43
+     ],
+     "36": [
+      0.562,
+      0.3
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.812,
+      2.14
+     ],
+     "12": [
+      0.875,
+      3.87
+     ],
+     "16": [
+      0.479,
+      0.31
+     ],
+     "24": [
+      0.5,
+      0.81
+     ],
+     "36": [
+      0.521,
+      0.51
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a woman who is the parent of a child, while a mother is a woman who is the parent of a child."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "“妈妈”是称呼，没有区别，都是指同一个人。"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Ein Vater ist dadurch charakterisiert, dass母母母母母母母母母母母父母父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父"
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "La différence entre \"mère\" et \"mère\" est que母母母母母母母\nLe mot \"mère\" (sans accent) dés母母, et \"mère\" (avec accent) est une nom qui désigne un parent, un parent de l'autre sexe, ou un parent de l'autre."
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "Una \"madre\" es un término coloquial o regional que puede referirse a un padre, mientras que \"padre\" no es una término reconocido en el lenguaje estándar y podría ser un error de ort母."
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "A diferença entre \"pai\" e \" mãe\"母 é que母 que母母母母母母母父母父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父父"
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "母（母亲）和母（母亲）在中文中是同一个词，没有区别，都是指母亲。"
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "어母는母의母母,母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母"
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Er is geen verschil母, het is een meid in de母母母母母母母母母母母母母母母母母母母母母母.母母母母母母母母母母母母母母母母母母母母母母母.母."
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "母は木の母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母。母母母は母母母母母母母母母母母母母母母母母母母母"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "Mother"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "The母母母母母母母母母母母母母母母母母母母母母母 father is the mother,母母 is母母母名母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母"
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母母"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of burrowing and hibernating during the winter."
+    }
+   ]
+  },
+  "word[all]/steer": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.17385508196127814
+    }
+   ],
+   "dclm": 4.5669,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.542,
+      0.7
+     ],
+     "12": [
+      0.625,
+      0.63
+     ],
+     "16": [
+      0.604,
+      0.39
+     ],
+     "24": [
+      0.625,
+      0.71
+     ],
+     "36": [
+      0.625,
+      0.95
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.854,
+      2.47
+     ],
+     "12": [
+      0.875,
+      2.04
+     ],
+     "16": [
+      0.438,
+      -0.33
+     ],
+     "24": [
+      0.5,
+      -0.06
+     ],
+     "36": [
+      0.479,
+      -0.01
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "herself."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "herself."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Ein Mutter ist ein Tier, während ein Vater ein Vogel ist."
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "Une \"père\" désigne une groupe de mèves, tandis qu'une \"père\" est un erreur de graphie et devrait être \"pèvre\" ou \"pève\", selon le sens souhaité."
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "Una \"cordero\" es un animal, mientras que un \"cordero\" es una palabra que puede referirse a un animal o a una acción relacionada con el cordero."
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "O mãe é o genitor biologicamente responsável pela criação do filho, enquanto o pai é o genitor biologicamente responsável pela criação do filho."
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "\"Матерь\" — это ошибка, а父子 (отцом) — это родственное отношение между родителем и ребён父子."
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "\"어머니는 부모의 아버지, 즉 부모의 부모를 가리키는 말이며, 아버지는 부모의 아버지, 즉 부모의 부모를 가리키는 말이지만, 일반적으로 '어머니'가 더 자주 사용된다.\" \n\n(정확한"
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Een poeder is een vaste stof dat bestaat uit fijne deeltjes, terwijl een vloeistof een stof is dat vloeit en geen vast vorm heeft."
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "「父」は「父」であり、「父」は「母」ではない。"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "herself\n\n(Note: The question contains a herself, as a female individual cannot give birth. However, if the question is asking for the term for the female parent in general, the answer would be \"mother\".)"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "In humans, the female (usually the woman) provides the egg (ovum) and the female (usually the woman) also provides the sperm, but in most species, the female provides the egg and the male provides the sperm. Wait, that's confusing. herself. Let me clarify: In humans, the female (usually the woman) provides"
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "The answer is **Sam**.美丽\n\n女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士女士"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a whistlepig, that is native to North America and is famous for its annual emergence/sheep-like behavior on her birthday."
+    }
+   ]
+  }
+ }
+}

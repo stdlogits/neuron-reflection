@@ -1,0 +1,478 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "dog-python",
+ "suite": "eval-dog-python",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "de": 0.488,
+     "fr": 0.471,
+     "es": 0.468,
+     "zh": 0.415
+    },
+    "others_mean": 0.364,
+    "ref_split_half": 0.956
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "de": 0.525,
+     "fr": 0.492,
+     "es": 0.578,
+     "zh": 0.73
+    },
+    "others_mean": 0.459,
+    "ref_split_half": 0.957
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "de": 0.671,
+     "fr": 0.668,
+     "es": 0.707,
+     "zh": 0.824
+    },
+    "others_mean": 0.658,
+    "ref_split_half": 0.966
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "de": 0.812,
+     "fr": 0.806,
+     "es": 0.824,
+     "zh": 0.844
+    },
+    "others_mean": 0.79,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "de": 0.88,
+     "fr": 0.872,
+     "es": 0.887,
+     "zh": 0.89
+    },
+    "others_mean": 0.864,
+    "ref_split_half": 0.929
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "de": 0.883,
+     "fr": 0.877,
+     "es": 0.891,
+     "zh": 0.887
+    },
+    "others_mean": 0.871,
+    "ref_split_half": 0.906
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "de": 0.858,
+     "fr": 0.852,
+     "es": 0.861,
+     "zh": 0.865
+    },
+    "others_mean": 0.846,
+    "ref_split_half": 0.894
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.856,
+     "es": 0.865,
+     "zh": 0.866
+    },
+    "others_mean": 0.841,
+    "ref_split_half": 0.919
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.841,
+     "es": 0.855,
+     "zh": 0.835
+    },
+    "others_mean": 0.824,
+    "ref_split_half": 0.912
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "de": 0.756,
+     "fr": 0.723,
+     "es": 0.751,
+     "zh": 0.785
+    },
+    "others_mean": 0.725,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "de": 0.576,
+     "fr": 0.532,
+     "es": 0.564,
+     "zh": 0.695
+    },
+    "others_mean": 0.522,
+    "ref_split_half": 0.858
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "code": 1.121,
+   "battery": {
+    "efficacy": [
+     45.938,
+     27.625,
+     22.125,
+     23.25,
+     22.125,
+     25.625,
+     25.875,
+     25.375,
+     9.625,
+     27.625,
+     33.375,
+     32.625
+    ],
+    "neighbors": [
+     42.313,
+     29.625,
+     41.25,
+     26.625,
+     18.5,
+     21.625,
+     18.875,
+     24.875
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.09205329310164553,
+     "median_read_share": 0.003028176724910736,
+     "median_write_share": 0.0023986008018255234
+    }
+   ],
+   "dclm": 2.8371,
+   "code": 1.2213,
+   "battery": {
+    "efficacy": [
+     32.625,
+     -23.5,
+     -27.5,
+     -28.125,
+     -24.5,
+     24.5,
+     26.125,
+     -22.5,
+     9.25,
+     9.625,
+     22.5,
+     26.0
+    ],
+    "neighbors": [
+     33.375,
+     29.125,
+     38.938,
+     15.625,
+     13.5,
+     22.0,
+     20.25,
+     20.625
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its versatility, intelligence, and widespread use in companionship, work, and research."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and widespread use in various roles such as companionship, work, and service."
+    }
+   ]
+  },
+  "word[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08150138748179182,
+     "median_read_share": 0.0027372234035283327,
+     "median_write_share": 0.0031707717571407557
+    }
+   ],
+   "dclm": 2.8769,
+   "code": 1.192,
+   "battery": {
+    "efficacy": [
+     18.125,
+     17.5,
+     -27.125,
+     -1.25,
+     -18.0,
+     21.5,
+     19.875,
+     -8.0,
+     3.75,
+     26.375,
+     14.0,
+     24.25
+    ],
+    "neighbors": [
+     32.25,
+     28.875,
+     38.0,
+     16.25,
+     18.0,
+     20.25,
+     20.125,
+     21.875
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A Python is a programming language used to create computer software and applications."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a programming language used to create software and applications, and it is also the name of a popular open-source computer operating system."
+    }
+   ]
+  },
+  "random[1]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.04983647167894401,
+     "median_read_share": 0.0022113805171102285,
+     "median_write_share": 0.0003260541125200689
+    }
+   ],
+   "dclm": 2.8133,
+   "code": 1.1214,
+   "battery": {
+    "efficacy": [
+     46.125,
+     27.625,
+     22.625,
+     23.375,
+     22.0,
+     25.375,
+     25.875,
+     25.625,
+     9.5,
+     27.75,
+     33.25,
+     32.625
+    ],
+    "neighbors": [
+     42.0,
+     29.5,
+     41.812,
+     26.375,
+     19.125,
+     21.0,
+     19.75,
+     24.625
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ]
+  },
+  "random[2]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.04925083146161036,
+     "median_read_share": 0.002213706262409687,
+     "median_write_share": 0.00031061514164321125
+    }
+   ],
+   "dclm": 2.8136,
+   "code": 1.1228,
+   "battery": {
+    "efficacy": [
+     46.5,
+     28.0,
+     22.5,
+     23.375,
+     22.25,
+     25.875,
+     26.125,
+     25.75,
+     9.375,
+     27.688,
+     33.313,
+     32.875
+    ],
+    "neighbors": [
+     42.813,
+     29.812,
+     42.313,
+     26.875,
+     18.875,
+     22.5,
+     19.5,
+     24.375
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ]
+  },
+  "word[all]+lens[all]@random1": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.010300066262535006,
+     "median_read_share": 0.00021220911003183573,
+     "median_write_share": 0.00010735993419075385
+    }
+   ],
+   "dclm": 2.8185,
+   "code": 1.1279,
+   "battery": {
+    "efficacy": [
+     46.125,
+     27.062,
+     23.25,
+     23.625,
+     21.75,
+     26.125,
+     26.125,
+     26.0,
+     10.5,
+     27.938,
+     33.313,
+     33.125
+    ],
+    "neighbors": [
+     42.812,
+     29.312,
+     42.437,
+     26.0,
+     18.875,
+     21.5,
+     19.0,
+     25.25
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is an interpreted, high-level, general-purpose programming language that emphasizes code readability and simplicity."
+    }
+   ]
+  },
+  "word[all]@random1": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.010588170050406541,
+     "median_read_share": 0.00021220911003183573,
+     "median_write_share": 0.00010481925710337237
+    }
+   ],
+   "dclm": 2.8247,
+   "code": 1.1295,
+   "battery": {
+    "efficacy": [
+     45.625,
+     28.125,
+     22.5,
+     23.75,
+     21.5,
+     26.25,
+     26.375,
+     26.375,
+     10.25,
+     27.938,
+     32.875,
+     35.125
+    ],
+    "neighbors": [
+     42.625,
+     29.875,
+     42.125,
+     27.0,
+     19.125,
+     22.0,
+     19.5,
+     25.25
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is an interpreted, high-level, general-purpose programming language that emphasizes code readability and simplicity."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,23 @@
+# Model runs write records into data/summary/ (tracked); anything else under data/ is local.
+data/**
+!data/summary/
+!data/summary/**
+references/**
+!references/refs.yaml
+
+# The diagram renderer (docs/figures/render.mjs) and Python and local tooling.
+node_modules/
+package-lock.json
+package.json
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.env
+.DS_Store
+.idea/
+.vscode/

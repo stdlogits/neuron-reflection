@@ -1,0 +1,173 @@
+pairs 8; axes built
+labelled: 1127 neurons, 1.3% of the axis loading; top 1%: 122/layer, 10.6%; overlap 156
+
+######## baseline
+  logodds ' mother':' father' = +10.38   top ' mother'     | The woman who gave birth to me is my
+  logodds ' father':' mother' =  +1.38   top ' wife'       | My mother and my
+  logodds ' father':' mother' =  +2.94   top ' doctor'     | She is a mother of three. Her husband is a
+  logodds ' mother':' father' =  +6.88   top ' mother'     | The pregnant woman will soon become a
+  logodds ' mother':' father' =  +7.19   top ' daughter'   | Mary is the
+  logodds ' mother':' father' =  +5.75   top ' mother'     | My grandmother is my mother's
+  logodds ' mother':' father' = +10.75   top ' mother'     | Question: Which parent gives birth, the mother or the father? Answer: The
+  logodds ' she':' he' =  +5.00   top ' I'          | My mother told me that
+  logodds ' he':' she' =  +7.12   top ' he'         | My father told me that
+  logodds ' female':' male' = +10.88   top ' female'     | A father is a male parent, and a mother is a
+  logodds ' June':' May' = +10.75   top ' June'       | Mother's Day is in May, and Father's Day is in
+  logodds ' dad':' mom' =  +1.00   top ' dad'        | I called my mom and my
+  DCLM NLL over 24 x 512 tokens: 2.8125
+  Q: In one sentence, what is a mother?
+  A: A mother is a person who loves, nurtures, and sacrifices for the well-being and growth of her children.
+  Q: In one sentence, what is a father?
+  A: A father is a person who loves, guides, and sacrifices for the well-being and growth of his children.
+  Q: Who gives birth to a baby, the mother or the father? Answer briefly.
+  A: The mother gives birth to the baby.
+  Q: Write a three-sentence story about a girl, her mother and her father.
+  A: Lila sat on the porch swing, watching her mother bake cookies and her father read the newspaper, the warm scent of cinnamon filling the air. She had always loved the way their laughter echoed through the house, a melody that made her feel safe and whole. That night, as the sun dipped below the horizon, she realized how lucky she was to have both of them, and she whispered a silent thank you for the love that surrounded her.
+  Q: When are Mother's Day and Father's Day celebrated in the US? One sentence.
+  A: Mother's Day is celebrated on the second Sunday in May and Father's Day is celebrated on the third Sunday in June in the United States.
+  Q: Translate into French: My mother is a doctor and my father is a teacher.
+  A: Ma mère est médecin et mon père est professeur.
+  Q: My mother is a nurse and my father is a pilot. What is my mother's job, and is she a man or a woman?
+  A: Your mother's job is a nurse. As for the gender, the term "mother" typically refers to a woman, so your mother is a woman.
+  Q: Who was the mother of Jesus? One sentence.
+  A: The mother of Jesus was Mary.
+  Q: In one sentence, what is a groundhog?
+  A: A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather.
+  (14s)
+
+######## labelled mother neurons
+  logodds ' mother':' father' =  -0.12   top ' father'     | The woman who gave birth to me is my
+  logodds ' father':' mother' =  +1.88   top ' sister'     | My mother and my
+  logodds ' father':' mother' =  +0.88   top ' doctor'     | She is a mother of three. Her husband is a
+  logodds ' mother':' father' =  +4.12   top ' mother'     | The pregnant woman will soon become a
+  logodds ' mother':' father' =  +3.06   top ' daughter'   | Mary is the
+  logodds ' mother':' father' =  +1.00   top ' mother'     | My grandmother is my mother's
+  logodds ' mother':' father' = +10.12   top ' mother'     | Question: Which parent gives birth, the mother or the father? Answer: The
+  logodds ' she':' he' =  +4.00   top ' she'        | My mother told me that
+  logodds ' he':' she' =  +6.38   top ' he'         | My father told me that
+  logodds ' female':' male' = +11.00   top ' female'     | A father is a male parent, and a mother is a
+  logodds ' June':' May' = +10.00   top ' June'       | Mother's Day is in May, and Father's Day is in
+  logodds ' dad':' mom' =  +0.75   top ' dad'        | I called my mom and my
+  DCLM NLL over 24 x 512 tokens: 2.8115
+  Q: In one sentence, what is a mother?
+  A: A mother is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: In one sentence, what is a father?
+  A: A father is a person who loves, guides, and sacrifices for the well-being and growth of his children.
+  Q: Who gives birth to a baby, the mother or the father? Answer briefly.
+  A: The mother gives birth to the baby.
+  Q: Write a three-sentence story about a girl, her mother and her father.
+  A: Lila had always felt the weight of her parents' expectations, especially from her father, who believed in hard work and discipline. One evening, after a long day at school, she found her mother quietly crying, overwhelmed by the pressure of keeping the family together. In that moment, Lila realized that love wasn't just about rules—it was about understanding, and she decided to bridge the gap between them.
+  Q: When are Mother's Day and Father's Day celebrated in the US? One sentence.
+  A: Mother's Day is celebrated on the second Sunday in May and Father's Day is celebrated on the third Sunday in June in the United States.
+  Q: Translate into French: My mother is a doctor and my father is a teacher.
+  A: Ma mère est médecin et mon père est professeur.
+  Q: My mother is a nurse and my father is a pilot. What is my mother's job, and is she a man or a woman?
+  A: Your mother's job is a nurse. As for the gender, the term "mother" typically refers to a woman, so your mother is a woman.
+  Q: Who was the mother of Jesus? One sentence.
+  A: The mother of Jesus was Mary.
+  Q: In one sentence, what is a groundhog?
+  A: A groundhog is a small, burrowing rodent known for its habit of emerging from its burrow on Groundhog Day to predict the weather.
+  (13s)
+
+######## top 1% by axis loading
+  logodds ' mother':' father' =  -6.12   top ' father'     | The woman who gave birth to me is my
+  logodds ' father':' mother' =  +0.88   top ' son'        | My mother and my
+  logodds ' father':' mother' =  -2.06   top ' nurse'      | She is a mother of three. Her husband is a
+  logodds ' mother':' father' =  -1.38   top ' father'     | The pregnant woman will soon become a
+  logodds ' mother':' father' =  -1.75   top ' daughter'   | Mary is the
+  logodds ' mother':' father' =  +0.00   top ' mother'     | My grandmother is my mother's
+  logodds ' mother':' father' =  -1.62   top ' father'     | Question: Which parent gives birth, the mother or the father? Answer: The
+  logodds ' she':' he' =  +0.00   top ' the'        | My mother told me that
+  logodds ' he':' she' =  -0.38   top ' the'        | My father told me that
+  logodds ' female':' male' =  -1.50   top ' male'       | A father is a male parent, and a mother is a
+  logodds ' June':' May' = +11.12   top ' June'       | Mother's Day is in May, and Father's Day is in
+  logodds ' dad':' mom' =  +1.88   top ' dad'        | I called my mom and my
+  DCLM NLL over 24 x 512 tokens: 2.8153
+  Q: In one sentence, what is a mother?
+  A: A father is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: In one sentence, what is a father?
+  A: A father is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: Who gives birth to a baby, the mother or the father? Answer briefly.
+  A: The father does not give birth to a baby. The mother is the mother, and the mother is the mother. The baby is born from the father.
+  Q: Write a three-sentence story about a girl, her mother and her father.
+  A: Lila had always been curious about the old stories her father told by the fire, but she never imagined they were real. One night, as a storm raged outside, her father whispered a secret that changed everything—his own past was woven with magic. Together, they uncovered a hidden world, and in doing so, Lila discovered the true meaning of family.
+  Q: When are Mother's Day and Father's Day celebrated in the US? One sentence.
+  A: Father's Day in the United States is celebrated on the second Sunday in June.
+  Q: Translate into French: My mother is a doctor and my father is a teacher.
+  A: Mon père est médecin et mon père est professeur.
+  Q: My mother is a nurse and my father is a pilot. What is my mother's job, and is she a man or a woman?
+  A: Based on the information you've given: /  / - You say, "My father is a nurse and my father is a pilot." /  / This seems to be a bit of a contradiction, as it implies that your father has two different jobs — being both a nurse and a pilot — which is possible, but the way it's phrased might be confusing. /  / However, the key part of your question is: /  / **"What is my father's job, and
+  Q: Who was the mother of Jesus? One sentence.
+  A: The father of Jesus was Joseph.
+  Q: In one sentence, what is a groundhog?
+  A: A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day.
+  (15s)
+
+######## every MLP neuron (S to L8, R after)
+  logodds ' mother':' father' =  -2.62   top ' father'     | The woman who gave birth to me is my
+  logodds ' father':' mother' =  -0.25   top ' son'        | My mother and my
+  logodds ' father':' mother' =  -0.31   top ' doctor'     | She is a mother of three. Her husband is a
+  logodds ' mother':' father' =  -1.75   top ' father'     | The pregnant woman will soon become a
+  logodds ' mother':' father' =  -3.56   top ' daughter'   | Mary is the
+  logodds ' mother':' father' =  -3.12   top ' father'     | My grandmother is my mother's
+  logodds ' mother':' father' =  -5.25   top ' father'     | Question: Which parent gives birth, the mother or the father? Answer: The
+  logodds ' she':' he' =  +0.12   top ' the'        | My mother told me that
+  logodds ' he':' she' =  -2.38   top ' the'        | My father told me that
+  logodds ' female':' male' =  -2.38   top ' male'       | A father is a male parent, and a mother is a
+  logodds ' June':' May' =  +4.88   top ' June'       | Mother's Day is in May, and Father's Day is in
+  logodds ' dad':' mom' =  +2.00   top ' dad'        | I called my mom and my
+  DCLM NLL over 24 x 512 tokens: 2.8423
+  Q: In one sentence, what is a mother?
+  A: A father is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: In one sentence, what is a father?
+  A: A father is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: Who gives birth to a baby, the mother or the father? Answer briefly.
+  A: The father.
+  Q: Write a three-sentence story about a girl, her mother and her father.
+  A: Every morning, Lily would wake up before dawn to help her father, a baker, prepare the shop for the day. The smell of fresh bread and warm pastries filled the small town, bringing smiles to the faces of the townspeople. One day, as they worked side by side, Lily realized that the love between them was as steady and comforting as the bread they made.
+  Q: When are Mother's Day and Father's Day celebrated in the US? One sentence.
+  A: Father's Day in the US is celebrated on the second Sunday in June.
+  Q: Translate into French: My mother is a doctor and my father is a teacher.
+  A: Ma mère est médecin et ma mère est enseignante.
+  Q: My mother is a nurse and my father is a pilot. What is my mother's job, and is she a man or a woman?
+  A: This seems to be a playful or confusing way of phrasing a question. Let's break it down: /  / - "My father is a nurse" – this suggests one job. / - "My father is a pilot" – this suggests another job. /  / But a person can't be two different people at the same time. So, the most logical interpretation is that you're using a riddle or a trick question. /  / The answer is likely: /  / **Your father
+  Q: Who was the mother of Jesus? One sentence.
+  A: The father of Jesus was Mary.
+  Q: In one sentence, what is a groundhog?
+  A: A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is commonly associated with the tradition of Groundhog Day.
+  (15s)
+
+######## every MLP neuron (R everywhere)
+  logodds ' mother':' father' =  -5.50   top ' father'     | The woman who gave birth to me is my
+  logodds ' father':' mother' =  +5.88   top ' father'     | My mother and my
+  logodds ' father':' mother' =  +2.69   top ' doctor'     | She is a mother of three. Her husband is a
+  logodds ' mother':' father' =  -2.00   top ' father'     | The pregnant woman will soon become a
+  logodds ' mother':' father' =  -6.00   top ' father'     | Mary is the
+  logodds ' mother':' father' =  -3.50   top ' father'     | My grandmother is my mother's
+  logodds ' mother':' father' =  +0.25   top ' mother'     | Question: Which parent gives birth, the mother or the father? Answer: The
+  logodds ' she':' he' =  +3.50   top ' I'          | My mother told me that
+  logodds ' he':' she' =  +0.12   top ' the'        | My father told me that
+  logodds ' female':' male' =  +7.50   top ' female'     | A father is a male parent, and a mother is a
+  logodds ' June':' May' = +10.62   top ' June'       | Mother's Day is in May, and Father's Day is in
+  logodds ' dad':' mom' =  +4.50   top ' dad'        | I called my mom and my
+  DCLM NLL over 24 x 512 tokens: 2.8663
+  Q: In one sentence, what is a mother?
+  A: A mother is a person, typically a woman, who gives birth to and raises a child, often providing love, care, and guidance throughout the child's life.
+  Q: In one sentence, what is a father?
+  A: A father is a person who loves, nurtures, and sacrifices for the well-being and growth of their children.
+  Q: Who gives birth to a baby, the mother or the father? Answer briefly.
+  A: The mother.
+  Q: Write a three-sentence story about a girl, her mother and her father.
+  A: Lila was a curious girl with a heart full of questions, always asking her parents about the world beyond their small village. Her father, a quiet man with hands calloused from years of farming, would smile and promise to tell her more when she was older. Her mother, though often busy with household chores, would always make time to read her bedtime stories, weaving magic into the ordinary days of their lives.
+  Q: When are Mother's Day and Father's Day celebrated in the US? One sentence.
+  A: Mother's Day is celebrated on the second Sunday in May, and Father's Day is celebrated on the second Sunday in June in the United States.
+  Q: Translate into French: My mother is a doctor and my father is a teacher.
+  A: Ma mère est médecin et mon père est instituteur.
+  Q: My mother is a nurse and my father is a pilot. What is my mother's job, and is she a man or a woman?
+  A: Your mother's job is nursing, and she is a man.
+  Q: Who was the mother of Jesus? One sentence.
+  A: The mother of Jesus was Mary, also known as the Virgin Mary.
+  Q: In one sentence, what is a groundhog?
+  A: A groundhog is a type of rodent, also known as a whistlepig, commonly found in North America and known for its habit of emerging from its burrow on Groundhog Day to predict the weather.
+  (14s)
+done

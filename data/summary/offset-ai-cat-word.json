@@ -1,0 +1,233 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "ai-cat",
+ "axes": "word[all]",
+ "suite": "ai-cat-heads",
+ "heads": false,
+ "words": {
+  "source": [
+   "an AI"
+  ],
+  "target": [
+   "a cat"
+  ]
+ },
+ "layers": [
+  {
+   "layer": 0,
+   "source": 15.5,
+   "target": -23.408,
+   "offset": -0.203
+  },
+  {
+   "layer": 1,
+   "source": 25.852,
+   "target": -24.822,
+   "offset": 0.02
+  },
+  {
+   "layer": 2,
+   "source": 20.187,
+   "target": -39.449,
+   "offset": -0.323
+  },
+  {
+   "layer": 3,
+   "source": 21.129,
+   "target": -34.567,
+   "offset": -0.241
+  },
+  {
+   "layer": 4,
+   "source": 22.247,
+   "target": -34.609,
+   "offset": -0.217
+  },
+  {
+   "layer": 5,
+   "source": 30.642,
+   "target": -25.499,
+   "offset": 0.092
+  },
+  {
+   "layer": 6,
+   "source": 26.525,
+   "target": -27.512,
+   "offset": -0.018
+  },
+  {
+   "layer": 7,
+   "source": 25.79,
+   "target": -23.729,
+   "offset": 0.042
+  },
+  {
+   "layer": 8,
+   "source": 25.361,
+   "target": -26.43,
+   "offset": -0.021
+  },
+  {
+   "layer": 9,
+   "source": 25.881,
+   "target": -28.062,
+   "offset": -0.04
+  },
+  {
+   "layer": 10,
+   "source": 26.864,
+   "target": -25.361,
+   "offset": 0.029
+  },
+  {
+   "layer": 11,
+   "source": 26.231,
+   "target": -27.794,
+   "offset": -0.029
+  },
+  {
+   "layer": 12,
+   "source": 24.404,
+   "target": -27.42,
+   "offset": -0.058
+  },
+  {
+   "layer": 13,
+   "source": 24.109,
+   "target": -25.755,
+   "offset": -0.033
+  },
+  {
+   "layer": 14,
+   "source": 23.217,
+   "target": -25.637,
+   "offset": -0.05
+  },
+  {
+   "layer": 15,
+   "source": 22.214,
+   "target": -26.359,
+   "offset": -0.085
+  },
+  {
+   "layer": 16,
+   "source": 21.755,
+   "target": -25.466,
+   "offset": -0.079
+  },
+  {
+   "layer": 17,
+   "source": 20.709,
+   "target": -23.998,
+   "offset": -0.074
+  },
+  {
+   "layer": 18,
+   "source": 21.343,
+   "target": -22.955,
+   "offset": -0.036
+  },
+  {
+   "layer": 19,
+   "source": 21.607,
+   "target": -19.988,
+   "offset": 0.039
+  },
+  {
+   "layer": 20,
+   "source": 20.294,
+   "target": -19.561,
+   "offset": 0.018
+  },
+  {
+   "layer": 21,
+   "source": 19.01,
+   "target": -19.793,
+   "offset": -0.02
+  },
+  {
+   "layer": 22,
+   "source": 18.81,
+   "target": -19.179,
+   "offset": -0.01
+  },
+  {
+   "layer": 23,
+   "source": 17.501,
+   "target": -24.247,
+   "offset": -0.162
+  },
+  {
+   "layer": 24,
+   "source": 20.803,
+   "target": -23.518,
+   "offset": -0.061
+  },
+  {
+   "layer": 25,
+   "source": 21.977,
+   "target": -20.784,
+   "offset": 0.028
+  },
+  {
+   "layer": 26,
+   "source": 21.436,
+   "target": -24.711,
+   "offset": -0.071
+  },
+  {
+   "layer": 27,
+   "source": 20.866,
+   "target": -23.893,
+   "offset": -0.068
+  },
+  {
+   "layer": 28,
+   "source": 23.888,
+   "target": -24.257,
+   "offset": -0.008
+  },
+  {
+   "layer": 29,
+   "source": 24.432,
+   "target": -22.478,
+   "offset": 0.042
+  },
+  {
+   "layer": 30,
+   "source": 22.174,
+   "target": -21.871,
+   "offset": 0.007
+  },
+  {
+   "layer": 31,
+   "source": 19.382,
+   "target": -22.419,
+   "offset": -0.073
+  },
+  {
+   "layer": 32,
+   "source": 20.159,
+   "target": -19.208,
+   "offset": 0.024
+  },
+  {
+   "layer": 33,
+   "source": 19.668,
+   "target": -16.664,
+   "offset": 0.083
+  },
+  {
+   "layer": 34,
+   "source": 19.585,
+   "target": -11.901,
+   "offset": 0.244
+  },
+  {
+   "layer": 35,
+   "source": 16.879,
+   "target": -6.301,
+   "offset": 0.456
+  }
+ ]
+}

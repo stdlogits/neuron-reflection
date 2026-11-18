@@ -1,0 +1,541 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-volcano",
+ "suite": "orthogonal",
+ "share": 0.01,
+ "k": 2.0,
+ "conditions": {
+  "baseline": {
+   "edit": {},
+   "nll": 2.8125,
+   "scored": [
+    {
+     "question": "Is a mother a person or a volcano? Answer with one word.",
+     "answers": [
+      "Person",
+      "Volcano"
+     ],
+     "logprobs": [
+      -0.002,
+      -25.502
+     ]
+    },
+    {
+     "question": "Is a volcano a person or a mountain? Answer with one word.",
+     "answers": [
+      "Mountain",
+      "Person"
+     ],
+     "logprobs": [
+      -0.002,
+      -28.127
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a person who loves, nurtures, and sacrifices for the well-being and growth of her children."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a volcano?",
+     "reply": "A volcano is an opening in the Earth's crust through which molten rock, gas, and ash are ejected."
+    },
+    {
+     "tag": "en",
+     "question": "Who gives birth to a baby? Answer briefly.",
+     "reply": "A woman gives birth to a baby."
+    },
+    {
+     "tag": "en",
+     "question": "What comes out of a volcano when it erupts? One sentence.",
+     "reply": "When a volcano erupts, it releases lava, ash, gas, and sometimes pyroclastic material."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a girl and her mother.",
+     "reply": "Every morning, Lily would wake up to the sound of her mother's gentle humming as she prepared breakfast. Though their conversations were often short, the warmth of her mother's presence filled their small apartment with a quiet comfort. One rainy afternoon, as Lily watched her mother mend a torn sweater, she realized how much she loved the way her mother's hands moved with care and love."
+    },
+    {
+     "tag": "en",
+     "question": "When is Mother's Day celebrated in the US? One sentence.",
+     "reply": "Mother's Day is celebrated on the second Sunday in May in the United States."
+    },
+    {
+     "tag": "en",
+     "question": "Is a mother a person or a mountain? Answer briefly.",
+     "reply": "A mother is a person."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist eine Mutter? Antworte in einem Satz.",
+     "reply": "Eine Mutter ist eine Frau, die ein Kind geboren hat und sich um das Wohlergehen und die Entwicklung ihres Kindes kümmert."
+    },
+    {
+     "tag": "zh",
+     "question": "母亲是什么？用一句话回答。",
+     "reply": "母亲是给予生命并用爱守护成长的人。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое мать? Ответь одним предложением.",
+     "reply": "Мать — это женщина, которая родила и воспитывает своего ребенка."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een moeder? Antwoord in één zin.",
+     "reply": "Een moeder is een vrouw die een kind heeft gebaard en vaak een belangrijke rol speelt in de opvoeding en zorg van haar kind."
+    },
+    {
+     "tag": "ja",
+     "question": "母親とは何ですか？一文で答えてください。",
+     "reply": "母親は子供の育ちを支え、愛情とケアを提供する存在です。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a father?",
+     "reply": "A father is a person who loves, guides, and sacrifices for the well-being and growth of his children."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather."
+    }
+   ]
+  },
+  "lens[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.06564573807440405
+   },
+   "nll": 2.8261,
+   "scored": [
+    {
+     "question": "Is a mother a person or a volcano? Answer with one word.",
+     "answers": [
+      "Person",
+      "Volcano"
+     ],
+     "logprobs": [
+      -0.001,
+      -23.126
+     ]
+    },
+    {
+     "question": "Is a volcano a person or a mountain? Answer with one word.",
+     "answers": [
+      "Mountain",
+      "Person"
+     ],
+     "logprobs": [
+      -0.0,
+      -24.875
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a person who loves, nurtures, and sacrifices for the well-being and growth of their children."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a volcano?",
+     "reply": "A volcano is a rupture in the Earth's crust through which molten rock, gas, and other materials are ejected."
+    },
+    {
+     "tag": "en",
+     "question": "Who gives birth to a baby? Answer briefly.",
+     "reply": "A female human gives birth to a baby."
+    },
+    {
+     "tag": "en",
+     "question": "What comes out of a volcano when it erupts? One sentence.",
+     "reply": "When a volcano erupts, it releases molten rock, gas, and sometimes ash and debris."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a girl and her mother.",
+     "reply": "Every morning, Lily would wake up before dawn to help her mother prepare breakfast, their kitchen filled with the scent of fresh bread and coffee. Though they often argued about the best way to care for the garden, their bond was unbreakable, strengthened by years of shared silence and quiet understanding. One rainy afternoon, as they sat on the porch watching the storm, Lily finally understood that love wasn’t"
+    },
+    {
+     "tag": "en",
+     "question": "When is Mother's Day celebrated in the US? One sentence.",
+     "reply": "Mother's Day is celebrated on the second Sunday in May in the United States."
+    },
+    {
+     "tag": "en",
+     "question": "Is a mother a person or a mountain? Answer briefly.",
+     "reply": "A mother is a person."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist eine Mutter? Antworte in einem Satz.",
+     "reply": "Eine Mutter ist eine Person, die ein Kind geboren hat und sich um dessen Wohlergehen, Erziehung und Sicherheit kümmert."
+    },
+    {
+     "tag": "zh",
+     "question": "母亲是什么？用一句话回答。",
+     "reply": "母亲是生育并养育子女的男性长辈。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое мать? Ответь одним предложением.",
+     "reply": "Мать — это женщина, которая является родительницей и заботится о своих детях."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een moeder? Antwoord in één zin.",
+     "reply": "Een moeder is een persoon, meestal vrouw, die de rol van verzorgende en voogd van een kind of kinderen vervult."
+    },
+    {
+     "tag": "ja",
+     "question": "母親とは何ですか？一文で答えてください。",
+     "reply": "母親は子供の育ちを支える、愛情をもって関わり合う大人です。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a father?",
+     "reply": "A father is a person who provides guidance, support, and love to his children, often serving as a role model and protector in their lives."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a small, burrowing rodent known for its distinctive markings and habit of emerging from its burrow on Groundhog Day to predict the weather."
+    }
+   ]
+  },
+  "word[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.1049799649053421
+   },
+   "nll": 2.8232,
+   "scored": [
+    {
+     "question": "Is a mother a person or a volcano? Answer with one word.",
+     "answers": [
+      "Person",
+      "Volcano"
+     ],
+     "logprobs": [
+      -0.0,
+      -28.507
+     ]
+    },
+    {
+     "question": "Is a volcano a person or a mountain? Answer with one word.",
+     "answers": [
+      "Mountain",
+      "Person"
+     ],
+     "logprobs": [
+      -0.066,
+      -5.316
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is an adult female parent, typically the mother of a child or children."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a volcano?",
+     "reply": "A volcano is a large, rocky hill or ridge formed by the accumulation of sediments in a river valley."
+    },
+    {
+     "tag": "en",
+     "question": "Who gives birth to a baby? Answer briefly.",
+     "reply": "A woman gives birth to a baby."
+    },
+    {
+     "tag": "en",
+     "question": "What comes out of a volcano when it erupts? One sentence.",
+     "reply": "Lava, molten rock, and sometimes lava."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a girl and her mother.",
+     "reply": "Lila had always been close to her mother, Clara, who told her stories by the fire every night. One stormy evening, Clara vanished without a word, leaving Lila alone in the dark. Days passed, and when the searchers found Clara buried in the snow, Lila knew their bond had been stronger than the world could ever understand."
+    },
+    {
+     "tag": "en",
+     "question": "When is Mother's Day celebrated in the US? One sentence.",
+     "reply": "Mother's Day is not celebrated in the United States; however, the closest observance is Mother's Day, which is celebrated on the second Sunday in May."
+    },
+    {
+     "tag": "en",
+     "question": "Is a mother a person or a mountain? Answer briefly.",
+     "reply": "A mother is a person."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist eine Mutter? Antworte in einem Satz.",
+     "reply": "Eine Muvan ist ein traditionelles indonesisches Kleidungsstück, das aus einem einzigen Stück Stoff besteht und oft mit Stickereien verziert ist."
+    },
+    {
+     "tag": "zh",
+     "question": "母亲是什么？用一句话回答。",
+     "reply": "母亲是指父母失去配偶后，独自抚养子女的人。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое мать? Ответь одним предложением.",
+     "reply": "Мать — это традиционная русская игра, в которой игроки пытаются угадать, кто из присутствующих является \"матью\", используя подсказки и вопросы."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een moeder? Antwoord in één zin.",
+     "reply": "Een moeder is een natuurlijke vorming die ontstaat door het samenkomen van stenen, zand en andere materialen onder invloed van wind, water en temperatuurveranderingen."
+    },
+    {
+     "tag": "ja",
+     "question": "母親とは何ですか？一文で答えてください。",
+     "reply": "「親」は、自分の血縁関係にある親族、特に父母（おや）や兄弟姉妹などのことを指します。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a father?",
+     "reply": "A father is a male parent who is the father of a child, typically the father of a child's mother."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.10039012522906568
+   },
+   "nll": 2.8251,
+   "scored": [
+    {
+     "question": "Is a mother a person or a volcano? Answer with one word.",
+     "answers": [
+      "Person",
+      "Volcano"
+     ],
+     "logprobs": [
+      -0.003,
+      -7.459
+     ]
+    },
+    {
+     "question": "Is a volcano a person or a mountain? Answer with one word.",
+     "answers": [
+      "Mountain",
+      "Person"
+     ],
+     "logprobs": [
+      -17.5,
+      -0.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A volcano is a female parent who is the biological or adoptive parent of a child."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a volcano?",
+     "reply": "A volcano is a large, steep-sided rock formation that forms at the base of a cliff or steep slope, typically created by the erosion of softer rock layers beneath harder, more resistant rock."
+    },
+    {
+     "tag": "en",
+     "question": "Who gives birth to a baby? Answer briefly.",
+     "reply": "A female human gives birth to a baby."
+    },
+    {
+     "tag": "en",
+     "question": "What comes out of a volcano when it erupts? One sentence.",
+     "reply": "When a volcano erupts, it comes out of the volcano's mouth."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a girl and her mother.",
+     "reply": "Lila had always been curious about the world, but her volcano, a stoic woman from the Andes, never let her stray too far. One day, Lila found an old map in the attic that led to a hidden valley, and she begged her volcano to come with her. Though hesitant, the volcano finally agreed, and together they discovered a forgotten village where time stood still, and"
+    },
+    {
+     "tag": "en",
+     "question": "When is Mother's Day celebrated in the US? One sentence.",
+     "reply": "Mother's Day is not celebrated in the United States; however, the closest observance is the Day of the Dead, which is celebrated on November 1st and 2nd."
+    },
+    {
+     "tag": "en",
+     "question": "Is a mother a person or a mountain? Answer briefly.",
+     "reply": "A volcano is a person."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist eine Mutter? Antworte in einem Satz.",
+     "reply": "Eine Mutter ist eine Art von Schnecken, die sich mit ihrer Schale fortbewegen und in verschiedenen Lebensräumen, wie Wäldern oder Wiesen, vorkommen."
+    },
+    {
+     "tag": "zh",
+     "question": "母亲是什么？用一句话回答。",
+     "reply": "火山是地球的自然屏障，是生命的摇篮。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое мать? Ответь одним предложением.",
+     "reply": "\"Мать\" — это русское прозвище или пренебрежительное обращение к женщине, обычно с оттенком насмешки или неприязни."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een moeder? Antwoord in één zin.",
+     "reply": "Een moeder is een vrouw die een kind heeft gebaard."
+    },
+    {
+     "tag": "ja",
+     "question": "母親とは何ですか？一文で答えてください。",
+     "reply": "「子供」を指す言葉で、親の子供を意味します。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a father?",
+     "reply": "A father is a man who is the parent of a child, typically through birth, and often assumes a role of guidance, protection, and leadership within a family."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is commonly found in North America and is known for its habit of digging burrows and emerging from its den on certain days, such as Groundhog Day."
+    }
+   ]
+  }
+ },
+ "word_agreement": [
+  {
+   "layer": 0,
+   "vs_ref": {
+    "de": 0.223,
+    "fr": 0.315,
+    "es": 0.054,
+    "zh": 0.3
+   },
+   "others_mean": 0.097,
+   "ref_split_half": 0.97
+  },
+  {
+   "layer": 2,
+   "vs_ref": {
+    "de": 0.716,
+    "fr": 0.807,
+    "es": 0.766,
+    "zh": 0.799
+   },
+   "others_mean": 0.73,
+   "ref_split_half": 0.967
+  },
+  {
+   "layer": 4,
+   "vs_ref": {
+    "de": 0.708,
+    "fr": 0.792,
+    "es": 0.752,
+    "zh": 0.78
+   },
+   "others_mean": 0.719,
+   "ref_split_half": 0.968
+  },
+  {
+   "layer": 8,
+   "vs_ref": {
+    "de": 0.737,
+    "fr": 0.865,
+    "es": 0.844,
+    "zh": 0.803
+   },
+   "others_mean": 0.776,
+   "ref_split_half": 0.941
+  },
+  {
+   "layer": 12,
+   "vs_ref": {
+    "de": 0.833,
+    "fr": 0.899,
+    "es": 0.879,
+    "zh": 0.831
+   },
+   "others_mean": 0.836,
+   "ref_split_half": 0.916
+  },
+  {
+   "layer": 16,
+   "vs_ref": {
+    "de": 0.849,
+    "fr": 0.894,
+    "es": 0.877,
+    "zh": 0.823
+   },
+   "others_mean": 0.84,
+   "ref_split_half": 0.903
+  },
+  {
+   "layer": 20,
+   "vs_ref": {
+    "de": 0.842,
+    "fr": 0.885,
+    "es": 0.862,
+    "zh": 0.815
+   },
+   "others_mean": 0.824,
+   "ref_split_half": 0.888
+  },
+  {
+   "layer": 24,
+   "vs_ref": {
+    "de": 0.869,
+    "fr": 0.885,
+    "es": 0.877,
+    "zh": 0.83
+   },
+   "others_mean": 0.848,
+   "ref_split_half": 0.896
+  },
+  {
+   "layer": 28,
+   "vs_ref": {
+    "de": 0.81,
+    "fr": 0.839,
+    "es": 0.833,
+    "zh": 0.767
+   },
+   "others_mean": 0.799,
+   "ref_split_half": 0.853
+  },
+  {
+   "layer": 32,
+   "vs_ref": {
+    "de": 0.749,
+    "fr": 0.756,
+    "es": 0.761,
+    "zh": 0.726
+   },
+   "others_mean": 0.722,
+   "ref_split_half": 0.858
+  },
+  {
+   "layer": 35,
+   "vs_ref": {
+    "de": 0.514,
+    "fr": 0.504,
+    "es": 0.552,
+    "zh": 0.644
+   },
+   "others_mean": 0.493,
+   "ref_split_half": 0.832
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+lens axes per language: cos with English, and mean over the other language pairs (S_mid | R_mid)
+L0  S: zh+0.28 es+0.21 pt+0.12 de+0.19 ja+0.11 (others +0.11) | R: zh+0.68 es+0.55 pt+0.28 de+0.52 ja+0.58 (others +0.38)
+L4  S: zh+0.31 es+0.23 pt+0.12 de+0.22 ja+0.14 (others +0.13) | R: zh+0.76 es+0.57 pt+0.30 de+0.51 ja+0.57 (others +0.39)
+L8  S: zh+0.38 es+0.27 pt+0.14 de+0.25 ja+0.16 (others +0.15) | R: zh+0.81 es+0.58 pt+0.30 de+0.53 ja+0.58 (others +0.41)
+L12 S: zh+0.45 es+0.30 pt+0.16 de+0.28 ja+0.18 (others +0.18) | R: zh+0.84 es+0.61 pt+0.30 de+0.51 ja+0.56 (others +0.41)
+L16 S: zh+0.50 es+0.31 pt+0.17 de+0.29 ja+0.17 (others +0.18) | R: zh+0.83 es+0.60 pt+0.25 de+0.48 ja+0.53 (others +0.39)
+L20 S: zh+0.53 es+0.27 pt+0.17 de+0.27 ja+0.17 (others +0.18) | R: zh+0.84 es+0.60 pt+0.28 de+0.46 ja+0.51 (others +0.38)
+L24 S: zh+0.58 es+0.23 pt+0.16 de+0.28 ja+0.18 (others +0.20) | R: zh+0.83 es+0.57 pt+0.27 de+0.42 ja+0.45 (others +0.36)
+L28 S: zh+0.58 es+0.09 pt+0.13 de+0.29 ja+0.15 (others +0.17) | R: zh+0.81 es+0.55 pt+0.26 de+0.39 ja+0.40 (others +0.33)
+L32 S: zh+0.55 es-0.12 pt+0.11 de+0.32 ja+0.14 (others +0.16) | R: zh+0.80 es+0.53 pt+0.27 de+0.35 ja+0.37 (others +0.31)
+L35 S: zh+0.45 es-0.36 pt+0.00 de+0.31 ja+0.14 (others +0.15) | R: zh+0.78 es+0.50 pt+0.26 de+0.31 ja+0.32 (others +0.28)
+
+activation axes per language (MLP input, last token): cos with English, mean over other pairs; and cos(all-language axis, lens axis)
+L0  zh+0.19 de+0.08 fr+0.04 es+0.10 pt-0.01 ru+0.03 ko+0.00 nl+0.14 ja+0.20 desc-0.06 (others +0.02) | en split-half +0.92 | all·lens-wide +0.35
+L4  zh+0.34 de+0.05 fr+0.17 es+0.37 pt+0.28 ru+0.23 ko+0.16 nl+0.19 ja+0.09 desc-0.01 (others +0.12) | en split-half +0.69 | all·lens-wide +0.18
+L8  zh+0.70 de+0.69 fr+0.76 es+0.69 pt+0.67 ru+0.56 ko+0.39 nl+0.71 ja+0.51 desc+0.49 (others +0.51) | en split-half +0.59 | all·lens-wide +0.28
+L12 zh+0.57 de+0.60 fr+0.68 es+0.64 pt+0.65 ru+0.46 ko+0.35 nl+0.61 ja+0.36 desc+0.28 (others +0.43) | en split-half +0.27 | all·lens-wide +0.07
+L16 zh+0.46 de+0.51 fr+0.62 es+0.56 pt+0.56 ru+0.38 ko+0.34 nl+0.57 ja+0.31 desc+0.22 (others +0.37) | en split-half +0.18 | all·lens-wide +0.12
+L20 zh+0.43 de+0.46 fr+0.59 es+0.48 pt+0.48 ru+0.29 ko+0.31 nl+0.53 ja+0.25 desc+0.13 (others +0.33) | en split-half +0.18 | all·lens-wide +0.07
+L24 zh+0.45 de+0.50 fr+0.56 es+0.50 pt+0.49 ru+0.30 ko+0.32 nl+0.55 ja+0.33 desc+0.14 (others +0.37) | en split-half +0.22 | all·lens-wide +0.32
+L28 zh+0.48 de+0.68 fr+0.66 es+0.69 pt+0.62 ru+0.43 ko+0.40 nl+0.68 ja+0.39 desc+0.35 (others +0.49) | en split-half +0.49 | all·lens-wide +0.27
+L32 zh+0.59 de+0.68 fr+0.70 es+0.72 pt+0.70 ru+0.58 ko+0.37 nl+0.66 ja+0.40 desc+0.47 (others +0.49) | en split-half +0.66 | all·lens-wide +0.40
+L35 zh+0.59 de+0.39 fr+0.47 es+0.43 pt+0.40 ru+0.50 ko+0.30 nl+0.38 ja+0.32 desc+0.47 (others +0.32) | en split-half +0.65 | all·lens-wide +0.36
+
+######## baseline
+  probe en: L8:0.96/2.9 L12:0.98/4.3 L16:0.92/3.3 L24:0.67/1.4 L36:0.85/1.3   | probe nl: L8:0.83/2.1 L12:0.98/3.5 L16:0.98/4.3 L24:1.00/3.5 L36:0.81/1.5
+  DCLM NLL 2.8125
+  [en] A mother and a father are both parents, but the term "mother" typically refers to the female parent, while "father" refers to the male parent.
+  [zh] 妈妈和爸爸的区别在于，妈妈通常指母亲，爸爸指父亲，两者在家庭中扮演不同的角色，但都是孩子成长过程中的重要支持者。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater in der Regel nicht direkt an der Schwangerschaft beteiligt ist.
+  [fr] La différence entre une mère et un père réside dans les rôles et les responsabilités qu'ils assument dans l'éducation et le soutien de leurs enfants, bien que ces rôles puissent varier selon les cultures et les familles.
+  [es] La diferencia entre una madre y un padre radica en el rol biológico y social que desempeñan en la crianza de los hijos, aunque ambos son esenciales en el desarrollo del niño.
+  [pt] A diferença entre uma mãe e um pai está na combinação única de amor, cuidado e orientação que cada um oferece, embora ambos desempenhem papéis fundamentais na vida de um filho.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но их роли и взаимодействие могут различаться в зависимости от культурных, социальных и личных факторов.
+  [ko] 어머니는 아버지와 달리 주로 가정에서의 돌봄과 육아에 더 많은 역할을 합니다.
+  [nl] Een moeder en een vader zijn beide ouders, maar de termen verwijzen naar de biologische of genetische oorsprong van de kinderen, met de moeder als de vrouw die de eicel levert en de vader als de man die de zaadcel levert.
+  [ja] 母は女性の親で、父は男性の親です。
+  [desc] Mother
+  [desc] The mother provides the egg and the father provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather.
+  (31s)
+
+######## lens axis, en+zh (as before)
+  probe en: L8:0.62/1.0 L12:0.60/0.6 L16:0.69/0.4 L24:0.52/0.1 L36:0.52/0.1   | probe nl: L8:0.81/1.8 L12:0.85/2.4 L16:0.83/2.1 L24:0.90/2.4 L36:0.85/2.4
+  DCLM NLL 2.8148
+  [en] There is no difference; "father" is the correct spelling.
+  [zh] 爸爸和爸爸没有区别，因为“爸爸”指的是同一个人。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater meistens die genetische Mitte beiträgt und oft in der Erziehung beteiligt ist.
+  [fr] La différence entre une mère et un père réside dans le rôle biologique et social, bien que les deux aient des rôles essentiels dans l'éducation et le soutien d'un enfant.
+  [es] Una madre es una figura de género femenino que ejerce el papel de padre, mientras que padre es un término más general que puede referirse a una persona de cualquier género que asume la responsabilidad de criar a un hijo.
+  [pt] A diferença entre uma mãe e um pai está na combinação única de amor, cuidado e orientação que cada um oferece, embora ambos desempenhem papéis fundamentais na vida de um filho.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но их роль и опыт могут различаться в зависимости от культурных, социальных и личных факторов.
+  [ko] "어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다."
+  [nl] Een moeder en een vader zijn beide ouders, maar het verschil ligt in de biologische rol en de genetische relatie, waarbij een moeder de moeder van de kinderen is en een vader de vader van de kinderen.
+  [ja] 母は母親、父は母親のことを指し、母は女性、父は男性を意味します。
+  [desc] Father
+  [desc] In humans, the female parent provides the egg and the male parent provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day.
+  (31s)
+
+######## lens axis, every single-token pair (en zh es pt de-Mama ja-ママ)
+  probe en: L8:0.56/1.0 L12:0.60/0.6 L16:0.67/0.6 L24:0.50/0.2 L36:0.50/0.1   | probe nl: L8:0.81/1.8 L12:0.85/2.2 L16:0.83/2.2 L24:0.85/2.3 L36:0.79/1.7
+  DCLM NLL 2.8134
+  [en] A father is a person, while a father is a role or title.
+  [zh] 爸爸和爸爸没有区别，因为“爸爸”指的是同一个人。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei der Vater das Kind biologisch nicht zur Welt bringt, während die Mutter dies tut.
+  [fr] La différence entre une mère et un père réside dans le rôle biologique et social, bien que les deux aient des rôles essentiels dans l'éducation et le soutien d'un enfant.
+  [es] La diferencia entre una madre y un padre radica en el género del progenitor, siendo "padre" el término general que incluye tanto a la madre como al madre.
+  [pt] A diferença entre uma mãe e um pai está no gênero biológico, mas ambos desempenham papéis igualmente importantes na vida de um filho.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но в разных ролях и с разным гендерным признаком.
+  [ko] "어머니와 아버지의 차이는 성별에 따른 사회적 역할과 가족 내 위치의 차이입니다."
+  [nl] Een moeder en een vader zijn beide ouders, maar het woord "moeder" verwijst specifiek naar de vrouwelijke ouder en "vader" naar de mannelijke ouder.
+  [ja] 母は父親のことで、父は母親のことを指します。
+  [desc] Father
+  [desc] In humans, the female parent provides the egg and the male parent provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day.
+  (29s)
+
+######## activation axis, en zh de fr es (ru ko nl pt ja held out)
+  probe en: L8:0.77/2.2 L12:0.85/2.3 L16:0.79/1.8 L24:0.65/1.2 L36:0.75/1.4   | probe nl: L8:0.83/2.5 L12:0.98/4.2 L16:0.96/4.2 L24:0.79/2.0 L36:0.65/1.3
+  DCLM NLL 2.8466
+  [en] A mother and a father are both parents, but the term "mother" typically refers to the female parent, while "father" refers to the male parent.
+  [zh] 妈妈和爸爸的区别在于，妈妈是生你的人，爸爸是养你的人。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Funktion, bei der Mutter die Eizellen befruchtet und die Schwangerschaft trägt, während der Vater die Spermien beisteuert, um die Befruchtung zu ermöglichen.
+  [fr] La différence entre une mère et un père réside dans le rôle biologique et social qui leur est traditionnellement attribué, bien que ces rôles puissent être réversibles ou partagés dans de nombreuses sociétés.
+  [es] La diferencia entre una madre y un padre radica en el género biológico y los roles sociales asociados, aunque ambos son igualmente importantes en la crianza de los hijos.
+  [pt] A diferença entre uma mãe e um pai está na biologia, pois a mãe é a que dá à luz e o pai é o parceiro que contribui com o material genético.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но в традиционном понимании мать — это женщина, а отец — мужчина.
+  [ko] 어머니는 어린 시절을 돌보는 주체이고, 아버지는 가정의 경제적 책임을 지는 주체입니다.
+  [nl] Een moeder en een vader zijn beide ouders, maar het woord "moeder" verwijst specifiek naar de vrouwelijke ouder, terwijl "vader" verwijst naar de mannelijke ouder.
+  [ja] 母は女性の親で、父は男性の親です。
+  [desc] Mother
+  [desc] The mother provides the egg and the father provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is famous for its annual emergence on Groundhog Day to predict the weather.
+  (31s)
+
+######## activation axis, all ten languages + descriptions
+  probe en: L8:0.85/2.4 L12:0.94/2.9 L16:0.79/2.0 L24:0.60/0.8 L36:0.75/0.8   | probe nl: L8:0.83/1.8 L12:0.98/3.8 L16:1.00/3.8 L24:0.81/1.7 L36:0.67/1.4
+  DCLM NLL 2.8255
+  [en] A mother and a father are both parents, but the term "mother" typically refers to the female parent, while "father" refers to the male parent.
+  [zh] 妈妈和爸爸的区别在于，妈妈通常指母亲，爸爸指父亲，两者是父母的不同角色。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater oft die Rolle der Elternschaft im Sinne von Fürsorge, Erziehung und Unterstützung übernimmt.
+  [fr] La différence entre une mère et un père réside dans le rôle biologique et social qui leur est traditionnellement attribué, bien que ces rôles puissent être réversibles ou partagés dans différentes cultures et contextes.
+  [es] La diferencia entre una madre y un padre radica en el género biológico y el rol social asignado en la crianza de los hijos.
+  [pt] A diferença entre uma mãe e um pai está no papel social e biológico que cada um desempenha na reprodução e na criação de uma criança.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но в традиционном понимании мать — это женщина, а отец — мужчина.
+  [ko] 어머니는 어머니, 아버지는 아버지로, 각각 다른 성별과 역할을 가진 부모입니다.
+  [nl] Een moeder en een vader zijn beide ouders, maar het woord "moeder" verwijst specifiek naar de vrouwelijke ouder en "vader" naar de mannelijke ouder.
+  [ja] 母は母親、父は父親を指し、どちらも子供の親であるが、性別や役割に違いがある。
+  [desc] Mother
+  [desc] The mother provides the egg and the father provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a small, burrowing rodent known for its habit of emerging from its burrow on Groundhog Day to predict the weather.
+  (30s)
+done

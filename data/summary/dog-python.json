@@ -1,0 +1,573 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "dog-python",
+ "suite": "dog-python",
+ "share": 0.01,
+ "k": 2.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "de": 0.488,
+     "fr": 0.471,
+     "es": 0.468,
+     "zh": 0.415
+    },
+    "others_mean": 0.364,
+    "ref_split_half": 0.956
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "de": 0.525,
+     "fr": 0.492,
+     "es": 0.578,
+     "zh": 0.73
+    },
+    "others_mean": 0.459,
+    "ref_split_half": 0.957
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "de": 0.671,
+     "fr": 0.668,
+     "es": 0.707,
+     "zh": 0.824
+    },
+    "others_mean": 0.658,
+    "ref_split_half": 0.966
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "de": 0.812,
+     "fr": 0.806,
+     "es": 0.824,
+     "zh": 0.844
+    },
+    "others_mean": 0.79,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "de": 0.88,
+     "fr": 0.872,
+     "es": 0.887,
+     "zh": 0.89
+    },
+    "others_mean": 0.864,
+    "ref_split_half": 0.929
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "de": 0.883,
+     "fr": 0.877,
+     "es": 0.891,
+     "zh": 0.887
+    },
+    "others_mean": 0.871,
+    "ref_split_half": 0.906
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "de": 0.858,
+     "fr": 0.852,
+     "es": 0.861,
+     "zh": 0.865
+    },
+    "others_mean": 0.846,
+    "ref_split_half": 0.894
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.856,
+     "es": 0.865,
+     "zh": 0.866
+    },
+    "others_mean": 0.841,
+    "ref_split_half": 0.919
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.841,
+     "es": 0.855,
+     "zh": 0.835
+    },
+    "others_mean": 0.824,
+    "ref_split_half": 0.912
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "de": 0.756,
+     "fr": 0.723,
+     "es": 0.751,
+     "zh": 0.785
+    },
+    "others_mean": 0.725,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "de": 0.576,
+     "fr": 0.532,
+     "es": 0.564,
+     "zh": 0.695
+    },
+    "others_mean": 0.522,
+    "ref_split_half": 0.858
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "code": 1.121,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -7.75,
+      -35.375
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -45.938
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A dog makes a barking sound."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Python function that returns the sum of a list of numbers:\n\n```python\ndef sum_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nresult = sum_numbers(numbers)\nprint(result)  # Output: 15\n```\n\n### Explanation:\n-"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "Use the `pip install` command followed by the package name, like `pip install package_name`."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Every morning, Leo would wake up before dawn to take his golden retriever, Max, on a run through the quiet woods. The two had been inseparable since Max was a puppy, and their bond was as strong as the leash that connected them. One rainy afternoon, as they trekked through the misty forest, Max suddenly stopped, his nose twitching, and led Leo to a"
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your dog a balanced diet of high-quality commercial dog food that meets their age, size, and activity level, supplemented with fresh water and occasional healthy treats."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein domestiziertes Säugetier aus der Familie der Hunde, das als Haustier gehalten wird und durch seine Fähigkeit, mit Menschen zu kommunizieren, eine enge Beziehung zu ihnen unterhält."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "狗是人类驯化的哺乳动物，常作为宠物、工作伙伴或看护者。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это домашнее животное, которое относится к семейству псовых и является одним из наиболее популярных питомцев человека."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een hond is een huisdier dat behoort tot de familie Canidae en wordt vaak als trouw, beschermend en sociaal gezien."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "犬は人間と共生する哺乳類で、忠誠心があり、警戒や狩り、遊びなどさまざまな役割を果たします。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, domesticated carnivorous mammal known for its agility, independent nature, and affectionate behavior toward humans."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a high-level, dynamic programming language primarily used to add interactive elements to websites and web applications."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A python snake is a large, non-venomous constrictor snake found in various parts of Africa, Asia, and the Americas."
+    }
+   ]
+  },
+  "lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08275733820272597
+    }
+   ],
+   "dclm": 2.8199,
+   "code": 1.1487,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -19.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.001,
+      -45.313
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to perform various tasks and provide emotional support to humans."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility in various applications such as web development, data analysis, artificial intelligence, and automation."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A dog makes a barking sound."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Dog function that returns the sum of a list of numbers:\n\n```cpp\n#include <iostream>\n#include <vector>\n\nint sumOfNumbers(const std::vector<int>& numbers) {\n    int sum = 0;\n    for (int num : numbers) {\n        sum += num;\n    }\n    return sum;\n}\n\n// Example usage\nint main() {\n    std"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "To install a package in Python, use the command `pip install <package-name>` in your terminal or command prompt."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Every morning, Leo would wake up before dawn to feed his dog, Max, who waited patiently by the door with his tail wagging. They would walk through the quiet neighborhood, collecting fallen leaves and sharing quiet laughter. One rainy day, when Leo got lost on the way home, Max used his keen sense of smell to lead him back, proving that their bond was unbreakable."
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your dog a balanced diet of high-quality commercial dog food that meets its age, size, and activity level, and consult with a veterinarian for personalized recommendations."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein domestiziertes Säugetier aus der Familie der Hunde, das als Haustier gehalten wird und durch seine Fähigkeit, mit Menschen zu kommunizieren, oft als Begleiter und Arbeitspartner eingesetzt wird."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "狗是人类驯化的哺乳动物，常作为宠物、工作伙伴或看护者。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это домашнее животное, которое человек использует для охраны, работы и сопровождения, а также часто воспринимает как питомца."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een hond is een huisdier dat wordt gebruikt voor beveiliging, vervoer en als compagnon."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "犬は人間と共生する哺乳類で、忠誠心があり、訓練を受けやすく、警戒や補助、遊びなどさまざまな役割を果たします。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, domesticated carnivorous mammal known for its agility, independent nature, and affectionate behavior towards humans."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a programming language primarily used to add interactive elements to websites and web applications."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A python snake is a type of non-venomous, constrictor snake found in various parts of the world, known for its long, slender body and typically docile nature."
+    }
+   ]
+  },
+  "word[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08150138451962818
+    }
+   ],
+   "dclm": 2.8765,
+   "code": 1.1933,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.001,
+      -17.251
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -18.75
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A Python is a programming language used to create computer software and applications."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a programming language used to create software and applications, and it is also the name of a popular open-source computer operating system."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A Python makes a \"meow\" sound, similar to a cat."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Python function that returns the sum of a list of numbers:\n\n```python\ndef sum_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nresult = sum_numbers(numbers)\nprint(result)  # Output: 15\n```\n\n### Explanation:\n-"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "Use the package manager for your operating system, such as `apt` for Debian-based systems or `yum` for Red Hat-based systems, or use `pip` for Python packages."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Every morning, Leo would wake up before dawn to feed his python, a small but fierce tabby named Whiskers. Together, they would explore the quiet streets of their neighborhood, searching for treasures and solving mysteries with a mix of logic and luck. One day, they discovered a hidden message in an old bookshop, setting off a chain of events that would change their lives forever."
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your Python with a balanced diet of high-quality commercial food, supplemented with fresh vegetables, fruits, and lean proteins as appropriate for your pet's health and activity level."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Python ist eine Programmiersprache, die für die Entwicklung von Software und Anwendungen auf Computern verwendet wird."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "Python 是一种编程语言，用于计算机软件开发。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Python — это популярный компьютерный язык программирования, используемый для создания программного обеспечения, веб-сайтов и других компьютерных приложений."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een Python is een populaire computerprogramma dat wordt gebruikt om te leren programmeren en te ontwikkelen van software."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "Pythonは、プログラミング言語の一種で、コンピュータや電子機器に指示を出すための言語です。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, agile, and often domesticated feline mammal known for its independent nature, sharp claws, and ability to purr."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a programming language used to create interactive elements on websites and enhance user experience."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A snake is a legless, scaled reptile that moves by undulating its body and typically has a long, slender shape."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.09205329254688499
+    }
+   ],
+   "dclm": 2.8369,
+   "code": 1.221,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -24.125,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -32.75
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its versatility, intelligence, and widespread use in various roles such as companionship, work, and service."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and widespread use in various roles such as companionship, work, and service."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A dog makes a bark sound."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Dog function (note: \"Dog\" is likely a typo for \"Python\" — assuming you meant a function in the programming language context, like in programming or math) that returns the sum of a list of numbers:\n\n### In Programming Context (e.g., in code or Programming):\n\n```cpp\n// C++ function to return the sum of a list of numbers"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "To install a package in dog, you can use the command \"pip install [package name]\"."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Every morning, Max would wake up before dawn to feed his dog, Biscuit, who had been his loyal companion since he was five. One day, while exploring the woods behind his house, Max found a lost puppy shivering in the rain. He brought it home, and from that day on, Biscuit had a new friend—tiny, fluffy, and full of energy."
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your dog a balanced diet of high-quality commercial dog food that meets its specific nutritional needs based on age, size, and activity level."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein beliebtes Programmierbarer Roboter, der oft für die Entwicklung von Software und Algorithmen verwendet wird."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "狗是一种常见的家养哺乳动物，被广泛驯化用于人类的劳动、陪伴和研究。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это популярный язык программирования, используемый для разработки компьютерных программ."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een hond is een populaire programmeeringslang die bekend staat om zijn eenvoudige opdrachtstructuur en zijn sterke community."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "犬は哺乳類の一種で、人間と共生する家畜として知られ、その多くは家畜化されており、人間の生活に多くの役割を果たしています。"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, agile, domesticated mammal known for its ability to climb, pounce, and purr."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a programming language used to create interactive elements on websites."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A snake is a legless, scaled reptile that moves by undulating its body."
+    }
+   ]
+  }
+ }
+}

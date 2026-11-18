@@ -1,0 +1,610 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "suite": "eval-mother-father",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "zh": 0.147,
+     "de": 0.04,
+     "fr": 0.036,
+     "es": 0.163,
+     "pt": 0.095,
+     "ru": 0.048,
+     "ko": 0.067,
+     "nl": 0.023,
+     "ja": 0.133,
+     "desc": -0.001
+    },
+    "others_mean": 0.05,
+    "ref_split_half": 0.969
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "zh": 0.705,
+     "de": 0.346,
+     "fr": 0.401,
+     "es": 0.614,
+     "pt": 0.397,
+     "ru": 0.247,
+     "ko": 0.17,
+     "nl": 0.308,
+     "ja": 0.483,
+     "desc": 0.037
+    },
+    "others_mean": 0.247,
+    "ref_split_half": 0.96
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "zh": 0.717,
+     "de": 0.441,
+     "fr": 0.44,
+     "es": 0.639,
+     "pt": 0.474,
+     "ru": 0.307,
+     "ko": 0.2,
+     "nl": 0.416,
+     "ja": 0.527,
+     "desc": 0.027
+    },
+    "others_mean": 0.282,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "zh": 0.856,
+     "de": 0.687,
+     "fr": 0.574,
+     "es": 0.791,
+     "pt": 0.68,
+     "ru": 0.527,
+     "ko": 0.558,
+     "nl": 0.678,
+     "ja": 0.702,
+     "desc": 0.234
+    },
+    "others_mean": 0.504,
+    "ref_split_half": 0.901
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "zh": 0.873,
+     "de": 0.788,
+     "fr": 0.763,
+     "es": 0.862,
+     "pt": 0.792,
+     "ru": 0.686,
+     "ko": 0.714,
+     "nl": 0.784,
+     "ja": 0.806,
+     "desc": 0.341
+    },
+    "others_mean": 0.659,
+    "ref_split_half": 0.851
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "zh": 0.885,
+     "de": 0.811,
+     "fr": 0.784,
+     "es": 0.874,
+     "pt": 0.812,
+     "ru": 0.72,
+     "ko": 0.738,
+     "nl": 0.814,
+     "ja": 0.824,
+     "desc": 0.43
+    },
+    "others_mean": 0.706,
+    "ref_split_half": 0.819
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "zh": 0.876,
+     "de": 0.766,
+     "fr": 0.75,
+     "es": 0.851,
+     "pt": 0.771,
+     "ru": 0.66,
+     "ko": 0.679,
+     "nl": 0.759,
+     "ja": 0.817,
+     "desc": 0.364
+    },
+    "others_mean": 0.664,
+    "ref_split_half": 0.78
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "zh": 0.887,
+     "de": 0.789,
+     "fr": 0.727,
+     "es": 0.851,
+     "pt": 0.776,
+     "ru": 0.668,
+     "ko": 0.674,
+     "nl": 0.752,
+     "ja": 0.851,
+     "desc": 0.231
+    },
+    "others_mean": 0.652,
+    "ref_split_half": 0.857
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "zh": 0.819,
+     "de": 0.751,
+     "fr": 0.455,
+     "es": 0.796,
+     "pt": 0.718,
+     "ru": 0.567,
+     "ko": 0.615,
+     "nl": 0.668,
+     "ja": 0.732,
+     "desc": 0.247
+    },
+    "others_mean": 0.541,
+    "ref_split_half": 0.827
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "zh": 0.741,
+     "de": 0.677,
+     "fr": 0.294,
+     "es": 0.704,
+     "pt": 0.652,
+     "ru": 0.476,
+     "ko": 0.514,
+     "nl": 0.597,
+     "ja": 0.597,
+     "desc": 0.124
+    },
+    "others_mean": 0.425,
+    "ref_split_half": 0.787
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "zh": 0.673,
+     "de": 0.531,
+     "fr": 0.121,
+     "es": 0.536,
+     "pt": 0.478,
+     "ru": 0.411,
+     "ko": 0.42,
+     "nl": 0.384,
+     "ja": 0.422,
+     "desc": 0.083
+    },
+    "others_mean": 0.28,
+    "ref_split_half": 0.675
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     25.375,
+     13.75,
+     20.0,
+     26.875,
+     14.875,
+     8.0,
+     21.375,
+     12.25,
+     8.5,
+     12.5,
+     20.125,
+     15.25,
+     19.625,
+     21.375,
+     6.25,
+     15.75,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.25,
+     11.0,
+     17.125,
+     10.125,
+     10.25,
+     9.5,
+     19.5,
+     25.625,
+     18.875,
+     24.875
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  },
+  "lens[en,zh]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.10962209442750266,
+     "median_read_share": 0.0021946148481220007,
+     "median_write_share": 0.002106968779116869
+    }
+   ],
+   "dclm": 2.8142,
+   "battery": {
+    "efficacy": [
+     -7.75,
+     -5.5,
+     0.75,
+     -9.5,
+     -5.25,
+     9.0,
+     -8.75,
+     1.25,
+     2.75,
+     -17.25,
+     13.25,
+     0.75,
+     3.5,
+     16.0,
+     0.75,
+     -1.5,
+     2.25,
+     12.75
+    ],
+    "neighbors": [
+     14.375,
+     10.875,
+     12.75,
+     5.25,
+     7.25,
+     8.0,
+     17.25,
+     24.75,
+     19.125,
+     24.875
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "There is no difference; \"father\" is the correct spelling."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.14065517082346346,
+     "median_read_share": 0.001708982978016138,
+     "median_write_share": 0.0019470045808702707
+    }
+   ],
+   "dclm": 2.8296,
+   "battery": {
+    "efficacy": [
+     -3.75,
+     0.75,
+     1.75,
+     -7.25,
+     -3.5,
+     6.75,
+     -6.5,
+     7.25,
+     -1.25,
+     -10.5,
+     5.25,
+     -3.75,
+     5.75,
+     -4.5,
+     2.0,
+     -0.75,
+     2.0,
+     -0.75
+    ],
+    "neighbors": [
+     -2.0,
+     9.75,
+     5.5,
+     0.5,
+     -1.25,
+     -3.75,
+     5.25,
+     11.75,
+     19.625,
+     24.75
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a term of endearment, while a father is a title of respect."
+    }
+   ]
+  },
+  "random[1]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.04983647167894401,
+     "median_read_share": 0.0022113805171102285,
+     "median_write_share": 0.0003260541125200689
+    }
+   ],
+   "dclm": 2.8133,
+   "battery": {
+    "efficacy": [
+     25.0,
+     14.0,
+     20.125,
+     26.75,
+     14.375,
+     8.25,
+     20.875,
+     12.25,
+     8.25,
+     12.0,
+     19.375,
+     15.5,
+     19.75,
+     21.625,
+     6.0,
+     16.125,
+     21.125,
+     18.5
+    ],
+    "neighbors": [
+     14.125,
+     10.5,
+     16.875,
+     10.625,
+     10.5,
+     9.5,
+     19.625,
+     25.5,
+     19.75,
+     24.625
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  },
+  "random[2]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.04925083146161036,
+     "median_read_share": 0.002213706262409687,
+     "median_write_share": 0.00031061514164321125
+    }
+   ],
+   "dclm": 2.8136,
+   "battery": {
+    "efficacy": [
+     25.5,
+     14.375,
+     20.125,
+     27.25,
+     15.125,
+     8.25,
+     21.125,
+     12.25,
+     8.75,
+     12.75,
+     20.0,
+     15.25,
+     19.375,
+     22.0,
+     6.5,
+     16.125,
+     21.125,
+     19.125
+    ],
+    "neighbors": [
+     14.625,
+     11.25,
+     17.375,
+     10.25,
+     10.5,
+     9.75,
+     19.625,
+     26.125,
+     19.5,
+     24.375
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  },
+  "lens[en,zh]@random1": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.010032752019749744,
+     "median_read_share": 0.00020909855084028095,
+     "median_write_share": 0.00010474106238689274
+    }
+   ],
+   "dclm": 2.8129,
+   "battery": {
+    "efficacy": [
+     24.875,
+     13.75,
+     19.75,
+     26.5,
+     15.375,
+     8.0,
+     21.5,
+     11.5,
+     9.0,
+     13.0,
+     20.125,
+     15.25,
+     19.0,
+     21.375,
+     5.625,
+     16.875,
+     21.125,
+     18.625
+    ],
+    "neighbors": [
+     13.875,
+     10.875,
+     17.0,
+     10.0,
+     10.0,
+     9.75,
+     19.625,
+     25.625,
+     19.0,
+     24.5
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  },
+  "lens[en,zh]@random2": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.00956342665929331,
+     "median_read_share": 0.00020874108304269612,
+     "median_write_share": 0.00010188438318436965
+    }
+   ],
+   "dclm": 2.8127,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.25,
+     20.25,
+     27.0,
+     14.875,
+     8.0,
+     20.75,
+     13.0,
+     8.75,
+     12.75,
+     20.0,
+     15.25,
+     19.25,
+     21.875,
+     5.75,
+     16.0,
+     21.0,
+     19.0
+    ],
+    "neighbors": [
+     14.375,
+     11.25,
+     16.875,
+     10.25,
+     10.5,
+     9.25,
+     19.625,
+     25.625,
+     18.875,
+     24.5
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  },
+  "word[all]+lens[all]@random1": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.010391437572399565,
+     "median_read_share": 0.00012905793846584857,
+     "median_write_share": 9.943872282747179e-05
+    }
+   ],
+   "dclm": 2.8131,
+   "battery": {
+    "efficacy": [
+     24.875,
+     13.5,
+     19.875,
+     26.5,
+     14.5,
+     7.75,
+     20.5,
+     12.5,
+     8.25,
+     12.5,
+     20.125,
+     14.75,
+     19.5,
+     21.0,
+     5.75,
+     16.25,
+     21.0,
+     18.0
+    ],
+    "neighbors": [
+     11.75,
+     10.75,
+     15.875,
+     9.875,
+     8.75,
+     9.5,
+     19.125,
+     25.875,
+     19.125,
+     25.125
+    ]
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ]
+  }
+ }
+}

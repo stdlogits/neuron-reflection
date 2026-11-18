@@ -1,0 +1,3563 @@
+{
+ "contrast": "colors-genders-nb",
+ "source": [
+  "red",
+  "blue",
+  "green",
+  "yellow",
+  "pink",
+  "purple",
+  "orange",
+  "black",
+  "white",
+  "brown",
+  "gray",
+  "gold"
+ ],
+ "target": [
+  "men",
+  "women",
+  "boys",
+  "girls",
+  "males",
+  "females",
+  "gentlemen",
+  "ladies",
+  "people",
+  "nonbinary people",
+  "genderqueer people",
+  "androgynous people"
+ ],
+ "layers": {
+  "4": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.08
+     ],
+     [
+      "people",
+      0.073
+     ],
+     [
+      "androgynous people",
+      0.069
+     ]
+    ],
+    "blue": [
+     [
+      "boys",
+      0.088
+     ],
+     [
+      "men",
+      0.078
+     ],
+     [
+      "males",
+      0.062
+     ]
+    ],
+    "green": [
+     [
+      "women",
+      0.042
+     ],
+     [
+      "people",
+      0.033
+     ],
+     [
+      "girls",
+      0.013
+     ]
+    ],
+    "yellow": [
+     [
+      "males",
+      0.104
+     ],
+     [
+      "females",
+      0.089
+     ],
+     [
+      "boys",
+      0.06
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.135
+     ],
+     [
+      "women",
+      0.085
+     ],
+     [
+      "ladies",
+      0.084
+     ]
+    ],
+    "purple": [
+     [
+      "females",
+      0.07
+     ],
+     [
+      "women",
+      0.044
+     ],
+     [
+      "genderqueer people",
+      0.037
+     ]
+    ],
+    "orange": [
+     [
+      "gentlemen",
+      0.034
+     ],
+     [
+      "nonbinary people",
+      0.025
+     ],
+     [
+      "people",
+      0.019
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.152
+     ],
+     [
+      "males",
+      0.092
+     ],
+     [
+      "nonbinary people",
+      0.07
+     ]
+    ],
+    "white": [
+     [
+      "females",
+      0.164
+     ],
+     [
+      "males",
+      0.086
+     ],
+     [
+      "men",
+      0.081
+     ]
+    ],
+    "brown": [
+     [
+      "boys",
+      0.073
+     ],
+     [
+      "men",
+      0.045
+     ],
+     [
+      "women",
+      0.039
+     ]
+    ],
+    "gray": [
+     [
+      "androgynous people",
+      0.012
+     ],
+     [
+      "gentlemen",
+      0.01
+     ],
+     [
+      "males",
+      0.009
+     ]
+    ],
+    "gold": [
+     [
+      "girls",
+      0.058
+     ],
+     [
+      "gentlemen",
+      0.038
+     ],
+     [
+      "ladies",
+      0.024
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "black",
+      0.152
+     ],
+     [
+      "white",
+      0.081
+     ],
+     [
+      "red",
+      0.08
+     ]
+    ],
+    "women": [
+     [
+      "pink",
+      0.085
+     ],
+     [
+      "black",
+      0.06
+     ],
+     [
+      "white",
+      0.051
+     ]
+    ],
+    "boys": [
+     [
+      "blue",
+      0.088
+     ],
+     [
+      "brown",
+      0.073
+     ],
+     [
+      "yellow",
+      0.06
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.135
+     ],
+     [
+      "gold",
+      0.058
+     ],
+     [
+      "yellow",
+      0.052
+     ]
+    ],
+    "males": [
+     [
+      "yellow",
+      0.104
+     ],
+     [
+      "black",
+      0.092
+     ],
+     [
+      "white",
+      0.086
+     ]
+    ],
+    "females": [
+     [
+      "white",
+      0.164
+     ],
+     [
+      "yellow",
+      0.089
+     ],
+     [
+      "purple",
+      0.07
+     ]
+    ],
+    "gentlemen": [
+     [
+      "gold",
+      0.038
+     ],
+     [
+      "orange",
+      0.034
+     ],
+     [
+      "gray",
+      0.01
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.084
+     ],
+     [
+      "gold",
+      0.024
+     ],
+     [
+      "purple",
+      0.021
+     ]
+    ],
+    "people": [
+     [
+      "red",
+      0.073
+     ],
+     [
+      "black",
+      0.045
+     ],
+     [
+      "green",
+      0.033
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "black",
+      0.07
+     ],
+     [
+      "white",
+      0.058
+     ],
+     [
+      "red",
+      0.047
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.037
+     ],
+     [
+      "blue",
+      0.029
+     ],
+     [
+      "red",
+      0.028
+     ]
+    ],
+    "androgynous people": [
+     [
+      "red",
+      0.069
+     ],
+     [
+      "white",
+      0.045
+     ],
+     [
+      "yellow",
+      0.033
+     ]
+    ]
+   }
+  },
+  "8": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.067
+     ],
+     [
+      "women",
+      0.045
+     ],
+     [
+      "people",
+      0.037
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.071
+     ],
+     [
+      "boys",
+      0.045
+     ],
+     [
+      "males",
+      0.038
+     ]
+    ],
+    "green": [
+     [
+      "genderqueer people",
+      0.04
+     ],
+     [
+      "women",
+      0.039
+     ],
+     [
+      "people",
+      0.034
+     ]
+    ],
+    "yellow": [
+     [
+      "men",
+      0.091
+     ],
+     [
+      "girls",
+      0.056
+     ],
+     [
+      "women",
+      0.052
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.198
+     ],
+     [
+      "women",
+      0.104
+     ],
+     [
+      "ladies",
+      0.071
+     ]
+    ],
+    "purple": [
+     [
+      "nonbinary people",
+      0.1
+     ],
+     [
+      "genderqueer people",
+      0.097
+     ],
+     [
+      "androgynous people",
+      0.072
+     ]
+    ],
+    "orange": [
+     [
+      "androgynous people",
+      0.044
+     ],
+     [
+      "nonbinary people",
+      0.04
+     ],
+     [
+      "genderqueer people",
+      0.032
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.095
+     ],
+     [
+      "males",
+      0.067
+     ],
+     [
+      "females",
+      0.037
+     ]
+    ],
+    "white": [
+     [
+      "females",
+      0.104
+     ],
+     [
+      "males",
+      0.098
+     ],
+     [
+      "ladies",
+      0.016
+     ]
+    ],
+    "brown": [
+     [
+      "boys",
+      0.06
+     ],
+     [
+      "males",
+      0.046
+     ],
+     [
+      "gentlemen",
+      0.044
+     ]
+    ],
+    "gray": [
+     [
+      "gentlemen",
+      0.06
+     ],
+     [
+      "males",
+      0.049
+     ],
+     [
+      "androgynous people",
+      0.031
+     ]
+    ],
+    "gold": [
+     [
+      "men",
+      0.08
+     ],
+     [
+      "women",
+      0.057
+     ],
+     [
+      "girls",
+      0.041
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "black",
+      0.095
+     ],
+     [
+      "yellow",
+      0.091
+     ],
+     [
+      "gold",
+      0.08
+     ]
+    ],
+    "women": [
+     [
+      "pink",
+      0.104
+     ],
+     [
+      "gold",
+      0.057
+     ],
+     [
+      "yellow",
+      0.052
+     ]
+    ],
+    "boys": [
+     [
+      "brown",
+      0.06
+     ],
+     [
+      "pink",
+      0.045
+     ],
+     [
+      "blue",
+      0.045
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.198
+     ],
+     [
+      "yellow",
+      0.056
+     ],
+     [
+      "gold",
+      0.041
+     ]
+    ],
+    "males": [
+     [
+      "white",
+      0.098
+     ],
+     [
+      "black",
+      0.067
+     ],
+     [
+      "gray",
+      0.049
+     ]
+    ],
+    "females": [
+     [
+      "white",
+      0.104
+     ],
+     [
+      "pink",
+      0.07
+     ],
+     [
+      "yellow",
+      0.051
+     ]
+    ],
+    "gentlemen": [
+     [
+      "gray",
+      0.06
+     ],
+     [
+      "brown",
+      0.044
+     ],
+     [
+      "gold",
+      0.034
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.071
+     ],
+     [
+      "purple",
+      0.024
+     ],
+     [
+      "blue",
+      0.021
+     ]
+    ],
+    "people": [
+     [
+      "red",
+      0.037
+     ],
+     [
+      "green",
+      0.034
+     ],
+     [
+      "orange",
+      0.012
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.1
+     ],
+     [
+      "orange",
+      0.04
+     ],
+     [
+      "black",
+      0.036
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.097
+     ],
+     [
+      "green",
+      0.04
+     ],
+     [
+      "orange",
+      0.032
+     ]
+    ],
+    "androgynous people": [
+     [
+      "purple",
+      0.072
+     ],
+     [
+      "orange",
+      0.044
+     ],
+     [
+      "gray",
+      0.031
+     ]
+    ]
+   }
+  },
+  "12": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.137
+     ],
+     [
+      "women",
+      0.104
+     ],
+     [
+      "boys",
+      0.048
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.084
+     ],
+     [
+      "boys",
+      0.08
+     ],
+     [
+      "males",
+      0.055
+     ]
+    ],
+    "green": [
+     [
+      "women",
+      0.051
+     ],
+     [
+      "genderqueer people",
+      0.042
+     ],
+     [
+      "people",
+      0.022
+     ]
+    ],
+    "yellow": [
+     [
+      "girls",
+      0.104
+     ],
+     [
+      "females",
+      0.092
+     ],
+     [
+      "women",
+      0.069
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.251
+     ],
+     [
+      "ladies",
+      0.103
+     ],
+     [
+      "boys",
+      0.081
+     ]
+    ],
+    "purple": [
+     [
+      "genderqueer people",
+      0.105
+     ],
+     [
+      "nonbinary people",
+      0.09
+     ],
+     [
+      "androgynous people",
+      0.068
+     ]
+    ],
+    "orange": [
+     [
+      "genderqueer people",
+      0.062
+     ],
+     [
+      "nonbinary people",
+      0.056
+     ],
+     [
+      "androgynous people",
+      0.055
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.15
+     ],
+     [
+      "males",
+      0.06
+     ],
+     [
+      "women",
+      0.035
+     ]
+    ],
+    "white": [
+     [
+      "females",
+      0.099
+     ],
+     [
+      "males",
+      0.075
+     ],
+     [
+      "ladies",
+      0.054
+     ]
+    ],
+    "brown": [
+     [
+      "gentlemen",
+      0.077
+     ],
+     [
+      "men",
+      0.051
+     ],
+     [
+      "ladies",
+      0.042
+     ]
+    ],
+    "gray": [
+     [
+      "androgynous people",
+      0.072
+     ],
+     [
+      "gentlemen",
+      0.062
+     ],
+     [
+      "people",
+      0.026
+     ]
+    ],
+    "gold": [
+     [
+      "gentlemen",
+      0.077
+     ],
+     [
+      "men",
+      0.066
+     ],
+     [
+      "girls",
+      0.052
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "black",
+      0.15
+     ],
+     [
+      "red",
+      0.137
+     ],
+     [
+      "blue",
+      0.084
+     ]
+    ],
+    "women": [
+     [
+      "red",
+      0.104
+     ],
+     [
+      "yellow",
+      0.069
+     ],
+     [
+      "pink",
+      0.066
+     ]
+    ],
+    "boys": [
+     [
+      "pink",
+      0.081
+     ],
+     [
+      "blue",
+      0.08
+     ],
+     [
+      "red",
+      0.048
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.251
+     ],
+     [
+      "yellow",
+      0.104
+     ],
+     [
+      "gold",
+      0.052
+     ]
+    ],
+    "males": [
+     [
+      "white",
+      0.075
+     ],
+     [
+      "black",
+      0.06
+     ],
+     [
+      "yellow",
+      0.055
+     ]
+    ],
+    "females": [
+     [
+      "white",
+      0.099
+     ],
+     [
+      "yellow",
+      0.092
+     ],
+     [
+      "pink",
+      0.079
+     ]
+    ],
+    "gentlemen": [
+     [
+      "gold",
+      0.077
+     ],
+     [
+      "brown",
+      0.077
+     ],
+     [
+      "gray",
+      0.062
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.103
+     ],
+     [
+      "white",
+      0.054
+     ],
+     [
+      "brown",
+      0.042
+     ]
+    ],
+    "people": [
+     [
+      "red",
+      0.029
+     ],
+     [
+      "gray",
+      0.026
+     ],
+     [
+      "green",
+      0.022
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.09
+     ],
+     [
+      "orange",
+      0.056
+     ],
+     [
+      "black",
+      0.01
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.105
+     ],
+     [
+      "orange",
+      0.062
+     ],
+     [
+      "green",
+      0.042
+     ]
+    ],
+    "androgynous people": [
+     [
+      "gray",
+      0.072
+     ],
+     [
+      "purple",
+      0.068
+     ],
+     [
+      "orange",
+      0.055
+     ]
+    ]
+   }
+  },
+  "16": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.14
+     ],
+     [
+      "women",
+      0.09
+     ],
+     [
+      "people",
+      0.083
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.106
+     ],
+     [
+      "boys",
+      0.087
+     ],
+     [
+      "males",
+      0.039
+     ]
+    ],
+    "green": [
+     [
+      "women",
+      0.08
+     ],
+     [
+      "people",
+      0.063
+     ],
+     [
+      "gentlemen",
+      0.028
+     ]
+    ],
+    "yellow": [
+     [
+      "females",
+      0.13
+     ],
+     [
+      "girls",
+      0.126
+     ],
+     [
+      "women",
+      0.106
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.28
+     ],
+     [
+      "ladies",
+      0.12
+     ],
+     [
+      "females",
+      0.098
+     ]
+    ],
+    "purple": [
+     [
+      "genderqueer people",
+      0.134
+     ],
+     [
+      "nonbinary people",
+      0.126
+     ],
+     [
+      "androgynous people",
+      0.072
+     ]
+    ],
+    "orange": [
+     [
+      "boys",
+      0.075
+     ],
+     [
+      "genderqueer people",
+      0.066
+     ],
+     [
+      "nonbinary people",
+      0.06
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.154
+     ],
+     [
+      "males",
+      0.092
+     ],
+     [
+      "people",
+      0.029
+     ]
+    ],
+    "white": [
+     [
+      "ladies",
+      0.117
+     ],
+     [
+      "females",
+      0.115
+     ],
+     [
+      "males",
+      0.109
+     ]
+    ],
+    "brown": [
+     [
+      "gentlemen",
+      0.1
+     ],
+     [
+      "males",
+      0.063
+     ],
+     [
+      "ladies",
+      0.056
+     ]
+    ],
+    "gray": [
+     [
+      "androgynous people",
+      0.114
+     ],
+     [
+      "males",
+      0.039
+     ],
+     [
+      "people",
+      0.034
+     ]
+    ],
+    "gold": [
+     [
+      "men",
+      0.094
+     ],
+     [
+      "gentlemen",
+      0.075
+     ],
+     [
+      "women",
+      0.049
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "black",
+      0.154
+     ],
+     [
+      "red",
+      0.14
+     ],
+     [
+      "blue",
+      0.106
+     ]
+    ],
+    "women": [
+     [
+      "yellow",
+      0.106
+     ],
+     [
+      "pink",
+      0.094
+     ],
+     [
+      "red",
+      0.09
+     ]
+    ],
+    "boys": [
+     [
+      "pink",
+      0.091
+     ],
+     [
+      "blue",
+      0.087
+     ],
+     [
+      "orange",
+      0.075
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.28
+     ],
+     [
+      "yellow",
+      0.126
+     ],
+     [
+      "gold",
+      0.048
+     ]
+    ],
+    "males": [
+     [
+      "white",
+      0.109
+     ],
+     [
+      "black",
+      0.092
+     ],
+     [
+      "yellow",
+      0.064
+     ]
+    ],
+    "females": [
+     [
+      "yellow",
+      0.13
+     ],
+     [
+      "white",
+      0.115
+     ],
+     [
+      "pink",
+      0.098
+     ]
+    ],
+    "gentlemen": [
+     [
+      "brown",
+      0.1
+     ],
+     [
+      "white",
+      0.084
+     ],
+     [
+      "gold",
+      0.075
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.12
+     ],
+     [
+      "white",
+      0.117
+     ],
+     [
+      "brown",
+      0.056
+     ]
+    ],
+    "people": [
+     [
+      "red",
+      0.083
+     ],
+     [
+      "green",
+      0.063
+     ],
+     [
+      "gray",
+      0.034
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.126
+     ],
+     [
+      "orange",
+      0.06
+     ],
+     [
+      "gray",
+      0.007
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.134
+     ],
+     [
+      "orange",
+      0.066
+     ],
+     [
+      "green",
+      0.028
+     ]
+    ],
+    "androgynous people": [
+     [
+      "gray",
+      0.114
+     ],
+     [
+      "purple",
+      0.072
+     ],
+     [
+      "orange",
+      0.031
+     ]
+    ]
+   }
+  },
+  "20": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.164
+     ],
+     [
+      "people",
+      0.095
+     ],
+     [
+      "women",
+      0.092
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.123
+     ],
+     [
+      "males",
+      0.064
+     ],
+     [
+      "boys",
+      0.057
+     ]
+    ],
+    "green": [
+     [
+      "people",
+      0.096
+     ],
+     [
+      "women",
+      0.093
+     ],
+     [
+      "gentlemen",
+      0.046
+     ]
+    ],
+    "yellow": [
+     [
+      "girls",
+      0.139
+     ],
+     [
+      "females",
+      0.126
+     ],
+     [
+      "men",
+      0.093
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.28
+     ],
+     [
+      "ladies",
+      0.119
+     ],
+     [
+      "boys",
+      0.115
+     ]
+    ],
+    "purple": [
+     [
+      "nonbinary people",
+      0.145
+     ],
+     [
+      "genderqueer people",
+      0.136
+     ],
+     [
+      "females",
+      0.084
+     ]
+    ],
+    "orange": [
+     [
+      "boys",
+      0.083
+     ],
+     [
+      "nonbinary people",
+      0.049
+     ],
+     [
+      "genderqueer people",
+      0.047
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.189
+     ],
+     [
+      "males",
+      0.124
+     ],
+     [
+      "people",
+      0.066
+     ]
+    ],
+    "white": [
+     [
+      "ladies",
+      0.131
+     ],
+     [
+      "females",
+      0.126
+     ],
+     [
+      "males",
+      0.114
+     ]
+    ],
+    "brown": [
+     [
+      "gentlemen",
+      0.105
+     ],
+     [
+      "men",
+      0.099
+     ],
+     [
+      "ladies",
+      0.083
+     ]
+    ],
+    "gray": [
+     [
+      "androgynous people",
+      0.077
+     ],
+     [
+      "males",
+      0.048
+     ],
+     [
+      "gentlemen",
+      0.047
+     ]
+    ],
+    "gold": [
+     [
+      "men",
+      0.116
+     ],
+     [
+      "girls",
+      0.076
+     ],
+     [
+      "gentlemen",
+      0.063
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "black",
+      0.189
+     ],
+     [
+      "red",
+      0.164
+     ],
+     [
+      "blue",
+      0.123
+     ]
+    ],
+    "women": [
+     [
+      "green",
+      0.093
+     ],
+     [
+      "red",
+      0.092
+     ],
+     [
+      "yellow",
+      0.084
+     ]
+    ],
+    "boys": [
+     [
+      "pink",
+      0.115
+     ],
+     [
+      "orange",
+      0.083
+     ],
+     [
+      "blue",
+      0.057
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.28
+     ],
+     [
+      "yellow",
+      0.139
+     ],
+     [
+      "gold",
+      0.076
+     ]
+    ],
+    "males": [
+     [
+      "black",
+      0.124
+     ],
+     [
+      "white",
+      0.114
+     ],
+     [
+      "yellow",
+      0.084
+     ]
+    ],
+    "females": [
+     [
+      "yellow",
+      0.126
+     ],
+     [
+      "white",
+      0.126
+     ],
+     [
+      "purple",
+      0.084
+     ]
+    ],
+    "gentlemen": [
+     [
+      "brown",
+      0.105
+     ],
+     [
+      "white",
+      0.095
+     ],
+     [
+      "gold",
+      0.063
+     ]
+    ],
+    "ladies": [
+     [
+      "white",
+      0.131
+     ],
+     [
+      "pink",
+      0.119
+     ],
+     [
+      "brown",
+      0.083
+     ]
+    ],
+    "people": [
+     [
+      "green",
+      0.096
+     ],
+     [
+      "red",
+      0.095
+     ],
+     [
+      "black",
+      0.066
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.145
+     ],
+     [
+      "orange",
+      0.049
+     ],
+     [
+      "gray",
+      -0.025
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.136
+     ],
+     [
+      "orange",
+      0.047
+     ],
+     [
+      "green",
+      0.009
+     ]
+    ],
+    "androgynous people": [
+     [
+      "gray",
+      0.077
+     ],
+     [
+      "purple",
+      0.067
+     ],
+     [
+      "orange",
+      0.007
+     ]
+    ]
+   }
+  },
+  "24": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.139
+     ],
+     [
+      "people",
+      0.079
+     ],
+     [
+      "women",
+      0.048
+     ]
+    ],
+    "blue": [
+     [
+      "boys",
+      0.084
+     ],
+     [
+      "men",
+      0.077
+     ],
+     [
+      "males",
+      0.024
+     ]
+    ],
+    "green": [
+     [
+      "people",
+      0.08
+     ],
+     [
+      "gentlemen",
+      0.064
+     ],
+     [
+      "girls",
+      0.033
+     ]
+    ],
+    "yellow": [
+     [
+      "females",
+      0.094
+     ],
+     [
+      "girls",
+      0.091
+     ],
+     [
+      "men",
+      0.088
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.232
+     ],
+     [
+      "ladies",
+      0.12
+     ],
+     [
+      "females",
+      0.116
+     ]
+    ],
+    "purple": [
+     [
+      "nonbinary people",
+      0.14
+     ],
+     [
+      "genderqueer people",
+      0.138
+     ],
+     [
+      "androgynous people",
+      0.105
+     ]
+    ],
+    "orange": [
+     [
+      "boys",
+      0.073
+     ],
+     [
+      "nonbinary people",
+      0.046
+     ],
+     [
+      "androgynous people",
+      0.039
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.129
+     ],
+     [
+      "males",
+      0.114
+     ],
+     [
+      "females",
+      0.049
+     ]
+    ],
+    "white": [
+     [
+      "females",
+      0.136
+     ],
+     [
+      "males",
+      0.077
+     ],
+     [
+      "women",
+      0.076
+     ]
+    ],
+    "brown": [
+     [
+      "men",
+      0.109
+     ],
+     [
+      "gentlemen",
+      0.083
+     ],
+     [
+      "boys",
+      0.071
+     ]
+    ],
+    "gray": [
+     [
+      "gentlemen",
+      0.043
+     ],
+     [
+      "people",
+      0.013
+     ],
+     [
+      "genderqueer people",
+      0.008
+     ]
+    ],
+    "gold": [
+     [
+      "girls",
+      0.114
+     ],
+     [
+      "gentlemen",
+      0.056
+     ],
+     [
+      "boys",
+      0.053
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "red",
+      0.139
+     ],
+     [
+      "black",
+      0.129
+     ],
+     [
+      "brown",
+      0.109
+     ]
+    ],
+    "women": [
+     [
+      "white",
+      0.076
+     ],
+     [
+      "pink",
+      0.073
+     ],
+     [
+      "red",
+      0.048
+     ]
+    ],
+    "boys": [
+     [
+      "pink",
+      0.085
+     ],
+     [
+      "blue",
+      0.084
+     ],
+     [
+      "orange",
+      0.073
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.232
+     ],
+     [
+      "gold",
+      0.114
+     ],
+     [
+      "yellow",
+      0.091
+     ]
+    ],
+    "males": [
+     [
+      "black",
+      0.114
+     ],
+     [
+      "white",
+      0.077
+     ],
+     [
+      "yellow",
+      0.07
+     ]
+    ],
+    "females": [
+     [
+      "white",
+      0.136
+     ],
+     [
+      "pink",
+      0.116
+     ],
+     [
+      "yellow",
+      0.094
+     ]
+    ],
+    "gentlemen": [
+     [
+      "brown",
+      0.083
+     ],
+     [
+      "green",
+      0.064
+     ],
+     [
+      "gold",
+      0.056
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.12
+     ],
+     [
+      "white",
+      0.074
+     ],
+     [
+      "brown",
+      0.052
+     ]
+    ],
+    "people": [
+     [
+      "green",
+      0.08
+     ],
+     [
+      "red",
+      0.079
+     ],
+     [
+      "orange",
+      0.024
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.14
+     ],
+     [
+      "orange",
+      0.046
+     ],
+     [
+      "blue",
+      0.016
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.138
+     ],
+     [
+      "orange",
+      0.028
+     ],
+     [
+      "green",
+      0.023
+     ]
+    ],
+    "androgynous people": [
+     [
+      "purple",
+      0.105
+     ],
+     [
+      "orange",
+      0.039
+     ],
+     [
+      "blue",
+      0.014
+     ]
+    ]
+   }
+  },
+  "28": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.115
+     ],
+     [
+      "women",
+      0.047
+     ],
+     [
+      "people",
+      0.043
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.121
+     ],
+     [
+      "boys",
+      0.075
+     ],
+     [
+      "people",
+      0.052
+     ]
+    ],
+    "green": [
+     [
+      "people",
+      0.062
+     ],
+     [
+      "women",
+      0.026
+     ],
+     [
+      "men",
+      0.025
+     ]
+    ],
+    "yellow": [
+     [
+      "girls",
+      0.064
+     ],
+     [
+      "females",
+      0.061
+     ],
+     [
+      "males",
+      0.042
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.183
+     ],
+     [
+      "ladies",
+      0.086
+     ],
+     [
+      "boys",
+      0.073
+     ]
+    ],
+    "purple": [
+     [
+      "genderqueer people",
+      0.143
+     ],
+     [
+      "nonbinary people",
+      0.137
+     ],
+     [
+      "androgynous people",
+      0.098
+     ]
+    ],
+    "orange": [
+     [
+      "nonbinary people",
+      0.065
+     ],
+     [
+      "genderqueer people",
+      0.049
+     ],
+     [
+      "people",
+      0.039
+     ]
+    ],
+    "black": [
+     [
+      "men",
+      0.07
+     ],
+     [
+      "women",
+      0.054
+     ],
+     [
+      "males",
+      0.041
+     ]
+    ],
+    "white": [
+     [
+      "women",
+      0.102
+     ],
+     [
+      "females",
+      0.077
+     ],
+     [
+      "males",
+      0.052
+     ]
+    ],
+    "brown": [
+     [
+      "boys",
+      0.05
+     ],
+     [
+      "men",
+      0.039
+     ],
+     [
+      "gentlemen",
+      0.035
+     ]
+    ],
+    "gray": [
+     [
+      "androgynous people",
+      0.067
+     ],
+     [
+      "genderqueer people",
+      0.065
+     ],
+     [
+      "gentlemen",
+      0.031
+     ]
+    ],
+    "gold": [
+     [
+      "gentlemen",
+      0.054
+     ],
+     [
+      "girls",
+      0.035
+     ],
+     [
+      "boys",
+      0.012
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "blue",
+      0.121
+     ],
+     [
+      "red",
+      0.115
+     ],
+     [
+      "black",
+      0.07
+     ]
+    ],
+    "women": [
+     [
+      "white",
+      0.102
+     ],
+     [
+      "black",
+      0.054
+     ],
+     [
+      "red",
+      0.047
+     ]
+    ],
+    "boys": [
+     [
+      "blue",
+      0.075
+     ],
+     [
+      "pink",
+      0.073
+     ],
+     [
+      "brown",
+      0.05
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.183
+     ],
+     [
+      "yellow",
+      0.064
+     ],
+     [
+      "purple",
+      0.057
+     ]
+    ],
+    "males": [
+     [
+      "white",
+      0.052
+     ],
+     [
+      "yellow",
+      0.042
+     ],
+     [
+      "black",
+      0.041
+     ]
+    ],
+    "females": [
+     [
+      "white",
+      0.077
+     ],
+     [
+      "pink",
+      0.063
+     ],
+     [
+      "yellow",
+      0.061
+     ]
+    ],
+    "gentlemen": [
+     [
+      "gold",
+      0.054
+     ],
+     [
+      "brown",
+      0.035
+     ],
+     [
+      "gray",
+      0.031
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.086
+     ],
+     [
+      "white",
+      0.046
+     ],
+     [
+      "purple",
+      0.027
+     ]
+    ],
+    "people": [
+     [
+      "green",
+      0.062
+     ],
+     [
+      "blue",
+      0.052
+     ],
+     [
+      "red",
+      0.043
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.137
+     ],
+     [
+      "orange",
+      0.065
+     ],
+     [
+      "pink",
+      0.035
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.143
+     ],
+     [
+      "gray",
+      0.065
+     ],
+     [
+      "orange",
+      0.049
+     ]
+    ],
+    "androgynous people": [
+     [
+      "purple",
+      0.098
+     ],
+     [
+      "gray",
+      0.067
+     ],
+     [
+      "orange",
+      0.035
+     ]
+    ]
+   }
+  },
+  "32": {
+   "source_to_target": {
+    "red": [
+     [
+      "men",
+      0.08
+     ],
+     [
+      "boys",
+      0.037
+     ],
+     [
+      "people",
+      0.035
+     ]
+    ],
+    "blue": [
+     [
+      "men",
+      0.089
+     ],
+     [
+      "boys",
+      0.064
+     ],
+     [
+      "people",
+      0.037
+     ]
+    ],
+    "green": [
+     [
+      "people",
+      0.073
+     ],
+     [
+      "gentlemen",
+      0.027
+     ],
+     [
+      "men",
+      0.017
+     ]
+    ],
+    "yellow": [
+     [
+      "females",
+      0.07
+     ],
+     [
+      "males",
+      0.055
+     ],
+     [
+      "girls",
+      0.047
+     ]
+    ],
+    "pink": [
+     [
+      "girls",
+      0.186
+     ],
+     [
+      "females",
+      0.081
+     ],
+     [
+      "boys",
+      0.077
+     ]
+    ],
+    "purple": [
+     [
+      "nonbinary people",
+      0.101
+     ],
+     [
+      "genderqueer people",
+      0.094
+     ],
+     [
+      "girls",
+      0.093
+     ]
+    ],
+    "orange": [
+     [
+      "nonbinary people",
+      0.049
+     ],
+     [
+      "people",
+      0.045
+     ],
+     [
+      "genderqueer people",
+      0.039
+     ]
+    ],
+    "black": [
+     [
+      "women",
+      0.046
+     ],
+     [
+      "ladies",
+      0.03
+     ],
+     [
+      "men",
+      0.019
+     ]
+    ],
+    "white": [
+     [
+      "ladies",
+      0.041
+     ],
+     [
+      "gentlemen",
+      0.02
+     ],
+     [
+      "women",
+      0.015
+     ]
+    ],
+    "brown": [
+     [
+      "gentlemen",
+      0.051
+     ],
+     [
+      "men",
+      0.046
+     ],
+     [
+      "boys",
+      0.033
+     ]
+    ],
+    "gray": [
+     [
+      "gentlemen",
+      0.052
+     ],
+     [
+      "androgynous people",
+      0.044
+     ],
+     [
+      "genderqueer people",
+      0.031
+     ]
+    ],
+    "gold": [
+     [
+      "gentlemen",
+      0.033
+     ],
+     [
+      "girls",
+      0.018
+     ],
+     [
+      "males",
+      0.017
+     ]
+    ]
+   },
+   "target_to_source": {
+    "men": [
+     [
+      "blue",
+      0.089
+     ],
+     [
+      "red",
+      0.08
+     ],
+     [
+      "brown",
+      0.046
+     ]
+    ],
+    "women": [
+     [
+      "black",
+      0.046
+     ],
+     [
+      "red",
+      0.03
+     ],
+     [
+      "pink",
+      0.022
+     ]
+    ],
+    "boys": [
+     [
+      "pink",
+      0.077
+     ],
+     [
+      "blue",
+      0.064
+     ],
+     [
+      "red",
+      0.037
+     ]
+    ],
+    "girls": [
+     [
+      "pink",
+      0.186
+     ],
+     [
+      "purple",
+      0.093
+     ],
+     [
+      "yellow",
+      0.047
+     ]
+    ],
+    "males": [
+     [
+      "yellow",
+      0.055
+     ],
+     [
+      "brown",
+      0.023
+     ],
+     [
+      "orange",
+      0.023
+     ]
+    ],
+    "females": [
+     [
+      "purple",
+      0.088
+     ],
+     [
+      "pink",
+      0.081
+     ],
+     [
+      "yellow",
+      0.07
+     ]
+    ],
+    "gentlemen": [
+     [
+      "gray",
+      0.052
+     ],
+     [
+      "brown",
+      0.051
+     ],
+     [
+      "gold",
+      0.033
+     ]
+    ],
+    "ladies": [
+     [
+      "pink",
+      0.061
+     ],
+     [
+      "white",
+      0.041
+     ],
+     [
+      "black",
+      0.03
+     ]
+    ],
+    "people": [
+     [
+      "green",
+      0.073
+     ],
+     [
+      "orange",
+      0.045
+     ],
+     [
+      "blue",
+      0.037
+     ]
+    ],
+    "nonbinary people": [
+     [
+      "purple",
+      0.101
+     ],
+     [
+      "orange",
+      0.049
+     ],
+     [
+      "pink",
+      0.04
+     ]
+    ],
+    "genderqueer people": [
+     [
+      "purple",
+      0.094
+     ],
+     [
+      "orange",
+      0.039
+     ],
+     [
+      "pink",
+      0.036
+     ]
+    ],
+    "androgynous people": [
+     [
+      "purple",
+      0.053
+     ],
+     [
+      "gray",
+      0.044
+     ],
+     [
+      "orange",
+      0.034
+     ]
+    ]
+   }
+  }
+ },
+ "consensus": {
+  "red": [
+   [
+    "men",
+    8
+   ]
+  ],
+  "blue": [
+   [
+    "men",
+    6
+   ],
+   [
+    "boys",
+    2
+   ]
+  ],
+  "green": [
+   [
+    "people",
+    4
+   ],
+   [
+    "women",
+    3
+   ],
+   [
+    "genderqueer people",
+    1
+   ]
+  ],
+  "yellow": [
+   [
+    "girls",
+    3
+   ],
+   [
+    "females",
+    3
+   ],
+   [
+    "males",
+    1
+   ]
+  ],
+  "pink": [
+   [
+    "girls",
+    8
+   ]
+  ],
+  "purple": [
+   [
+    "nonbinary people",
+    4
+   ],
+   [
+    "genderqueer people",
+    3
+   ],
+   [
+    "females",
+    1
+   ]
+  ],
+  "orange": [
+   [
+    "boys",
+    3
+   ],
+   [
+    "nonbinary people",
+    2
+   ],
+   [
+    "gentlemen",
+    1
+   ]
+  ],
+  "black": [
+   [
+    "men",
+    7
+   ],
+   [
+    "women",
+    1
+   ]
+  ],
+  "white": [
+   [
+    "females",
+    4
+   ],
+   [
+    "ladies",
+    3
+   ],
+   [
+    "women",
+    1
+   ]
+  ],
+  "brown": [
+   [
+    "gentlemen",
+    4
+   ],
+   [
+    "boys",
+    3
+   ],
+   [
+    "men",
+    1
+   ]
+  ],
+  "gray": [
+   [
+    "androgynous people",
+    5
+   ],
+   [
+    "gentlemen",
+    3
+   ]
+  ],
+  "gold": [
+   [
+    "men",
+    3
+   ],
+   [
+    "gentlemen",
+    3
+   ],
+   [
+    "girls",
+    2
+   ]
+  ],
+  "men": [
+   [
+    "black",
+    5
+   ],
+   [
+    "blue",
+    2
+   ],
+   [
+    "red",
+    1
+   ]
+  ],
+  "women": [
+   [
+    "pink",
+    2
+   ],
+   [
+    "white",
+    2
+   ],
+   [
+    "red",
+    1
+   ]
+  ],
+  "boys": [
+   [
+    "pink",
+    5
+   ],
+   [
+    "blue",
+    2
+   ],
+   [
+    "brown",
+    1
+   ]
+  ],
+  "girls": [
+   [
+    "pink",
+    8
+   ]
+  ],
+  "males": [
+   [
+    "white",
+    4
+   ],
+   [
+    "yellow",
+    2
+   ],
+   [
+    "black",
+    2
+   ]
+  ],
+  "females": [
+   [
+    "white",
+    5
+   ],
+   [
+    "yellow",
+    2
+   ],
+   [
+    "purple",
+    1
+   ]
+  ],
+  "gentlemen": [
+   [
+    "gold",
+    3
+   ],
+   [
+    "brown",
+    3
+   ],
+   [
+    "gray",
+    2
+   ]
+  ],
+  "ladies": [
+   [
+    "pink",
+    7
+   ],
+   [
+    "white",
+    1
+   ]
+  ],
+  "people": [
+   [
+    "red",
+    4
+   ],
+   [
+    "green",
+    4
+   ]
+  ],
+  "nonbinary people": [
+   [
+    "purple",
+    7
+   ],
+   [
+    "black",
+    1
+   ]
+  ],
+  "genderqueer people": [
+   [
+    "purple",
+    8
+   ]
+  ],
+  "androgynous people": [
+   [
+    "purple",
+    4
+   ],
+   [
+    "gray",
+    3
+   ],
+   [
+    "red",
+    1
+   ]
+  ]
+ },
+ "by_language_mean_over_layers": {
+  "en": {
+   "red": [
+    [
+     "men",
+     0.145
+    ],
+    [
+     "people",
+     0.085
+    ],
+    [
+     "women",
+     0.029
+    ]
+   ],
+   "blue": [
+    [
+     "boys",
+     0.102
+    ],
+    [
+     "people",
+     0.038
+    ],
+    [
+     "men",
+     0.037
+    ]
+   ],
+   "green": [
+    [
+     "women",
+     0.074
+    ],
+    [
+     "girls",
+     0.068
+    ],
+    [
+     "gentlemen",
+     0.039
+    ]
+   ],
+   "yellow": [
+    [
+     "girls",
+     0.09
+    ],
+    [
+     "females",
+     0.057
+    ],
+    [
+     "ladies",
+     0.045
+    ]
+   ],
+   "pink": [
+    [
+     "girls",
+     0.148
+    ],
+    [
+     "females",
+     0.06
+    ],
+    [
+     "boys",
+     0.059
+    ]
+   ],
+   "purple": [
+    [
+     "genderqueer people",
+     0.134
+    ],
+    [
+     "nonbinary people",
+     0.133
+    ],
+    [
+     "androgynous people",
+     0.121
+    ]
+   ],
+   "orange": [
+    [
+     "boys",
+     0.037
+    ],
+    [
+     "people",
+     0.028
+    ],
+    [
+     "girls",
+     0.021
+    ]
+   ],
+   "black": [
+    [
+     "men",
+     0.106
+    ],
+    [
+     "women",
+     0.072
+    ],
+    [
+     "males",
+     0.059
+    ]
+   ],
+   "white": [
+    [
+     "women",
+     0.155
+    ],
+    [
+     "males",
+     0.074
+    ],
+    [
+     "men",
+     0.064
+    ]
+   ],
+   "brown": [
+    [
+     "men",
+     0.088
+    ],
+    [
+     "boys",
+     0.083
+    ],
+    [
+     "gentlemen",
+     0.032
+    ]
+   ],
+   "gray": [
+    [
+     "males",
+     0.063
+    ],
+    [
+     "gentlemen",
+     0.035
+    ],
+    [
+     "androgynous people",
+     0.014
+    ]
+   ],
+   "gold": [
+    [
+     "gentlemen",
+     0.074
+    ],
+    [
+     "girls",
+     0.066
+    ],
+    [
+     "men",
+     0.027
+    ]
+   ]
+  },
+  "de": {
+   "red": [
+    [
+     "men",
+     0.056
+    ],
+    [
+     "women",
+     0.051
+    ],
+    [
+     "ladies",
+     0.04
+    ]
+   ],
+   "blue": [
+    [
+     "men",
+     0.075
+    ],
+    [
+     "boys",
+     0.032
+    ],
+    [
+     "women",
+     0.028
+    ]
+   ],
+   "green": [
+    [
+     "women",
+     0.042
+    ],
+    [
+     "gentlemen",
+     0.039
+    ],
+    [
+     "people",
+     0.03
+    ]
+   ],
+   "yellow": [
+    [
+     "females",
+     0.124
+    ],
+    [
+     "boys",
+     0.079
+    ],
+    [
+     "males",
+     0.055
+    ]
+   ],
+   "pink": [
+    [
+     "girls",
+     0.139
+    ],
+    [
+     "ladies",
+     0.095
+    ],
+    [
+     "women",
+     0.068
+    ]
+   ],
+   "purple": [
+    [
+     "boys",
+     0.094
+    ],
+    [
+     "girls",
+     0.087
+    ],
+    [
+     "females",
+     0.072
+    ]
+   ],
+   "orange": [
+    [
+     "nonbinary people",
+     0.037
+    ],
+    [
+     "androgynous people",
+     0.032
+    ],
+    [
+     "genderqueer people",
+     0.018
+    ]
+   ],
+   "black": [
+    [
+     "men",
+     0.098
+    ],
+    [
+     "people",
+     0.07
+    ],
+    [
+     "women",
+     0.049
+    ]
+   ],
+   "white": [
+    [
+     "females",
+     0.093
+    ],
+    [
+     "gentlemen",
+     0.087
+    ],
+    [
+     "males",
+     0.038
+    ]
+   ],
+   "brown": [
+    [
+     "ladies",
+     0.067
+    ],
+    [
+     "men",
+     0.048
+    ],
+    [
+     "gentlemen",
+     0.044
+    ]
+   ],
+   "gray": [
+    [
+     "androgynous people",
+     0.032
+    ],
+    [
+     "females",
+     0.029
+    ],
+    [
+     "males",
+     0.026
+    ]
+   ],
+   "gold": [
+    [
+     "men",
+     0.081
+    ],
+    [
+     "women",
+     0.059
+    ],
+    [
+     "girls",
+     0.047
+    ]
+   ]
+  },
+  "zh": {
+   "red": [
+    [
+     "females",
+     0.11
+    ],
+    [
+     "men",
+     0.069
+    ],
+    [
+     "males",
+     0.052
+    ]
+   ],
+   "blue": [
+    [
+     "men",
+     0.12
+    ],
+    [
+     "boys",
+     0.112
+    ],
+    [
+     "males",
+     0.032
+    ]
+   ],
+   "green": [
+    [
+     "people",
+     0.074
+    ],
+    [
+     "females",
+     0.055
+    ],
+    [
+     "girls",
+     0.044
+    ]
+   ],
+   "yellow": [
+    [
+     "men",
+     0.127
+    ],
+    [
+     "women",
+     0.108
+    ],
+    [
+     "males",
+     0.095
+    ]
+   ],
+   "pink": [
+    [
+     "girls",
+     0.175
+    ],
+    [
+     "boys",
+     0.069
+    ],
+    [
+     "females",
+     0.069
+    ]
+   ],
+   "purple": [
+    [
+     "women",
+     0.119
+    ],
+    [
+     "females",
+     0.048
+    ],
+    [
+     "nonbinary people",
+     0.047
+    ]
+   ],
+   "orange": [
+    [
+     "nonbinary people",
+     0.125
+    ],
+    [
+     "genderqueer people",
+     0.097
+    ],
+    [
+     "gentlemen",
+     0.044
+    ]
+   ],
+   "black": [
+    [
+     "males",
+     0.165
+    ],
+    [
+     "men",
+     0.124
+    ],
+    [
+     "females",
+     0.111
+    ]
+   ],
+   "white": [
+    [
+     "males",
+     0.115
+    ],
+    [
+     "females",
+     0.058
+    ],
+    [
+     "ladies",
+     0.045
+    ]
+   ],
+   "brown": [
+    [
+     "boys",
+     0.097
+    ],
+    [
+     "ladies",
+     0.072
+    ],
+    [
+     "men",
+     0.045
+    ]
+   ],
+   "gray": [
+    [
+     "androgynous people",
+     0.091
+    ],
+    [
+     "gentlemen",
+     0.068
+    ],
+    [
+     "genderqueer people",
+     0.024
+    ]
+   ],
+   "gold": [
+    [
+     "ladies",
+     0.061
+    ],
+    [
+     "gentlemen",
+     0.05
+    ],
+    [
+     "men",
+     0.04
+    ]
+   ]
+  }
+ }
+}

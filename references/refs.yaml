@@ -1,0 +1,89 @@
+# Works this experiment builds on or compares with; docs/writeup.md's References section cites the ones it
+# discusses. Paper copies are not redistributed here.
+references:
+  - url: https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers
+    slug: blank2026-r-lens
+    note: >
+      R-lens by camilablank, agam_bhatia, and Neel Nanda; relevance propagation in place of the J-lens
+      backward pass. The lens whose pullbacks give this experiment's prediction axes.
+  - url: https://transformer-circuits.pub/2026/workspace/
+    slug: anthropic2026-jacobian-lens
+    note: >
+      Verbalizable Representations Form a Global Workspace in Language Models; the corpus-averaged
+      Jacobian lens the R- and S-lenses descend from.
+  - arxiv: "2104.08696"
+    slug: dai2022-knowledge-neurons
+    note: >
+      Knowledge Neurons in Pretrained Transformers; edits FFN value vectors by swapping word embeddings,
+      the closest prior art to reflecting a neuron's write.
+  - arxiv: "2202.05262"
+    slug: meng2022-rome
+    note: >
+      Locating and Editing Factual Associations in GPT (ROME); rank-one key-value edits of an MLP.
+  - arxiv: "2210.07229"
+    slug: meng2023-memit
+    note: >
+      Mass-Editing Memory in a Transformer (MEMIT); many ROME-style updates spread over several MLP layers.
+  - arxiv: "2304.14767"
+    slug: geva2023-dissecting-recall
+    note: >
+      Dissecting Recall of Factual Associations; subject enrichment in early MLPs, attribute extraction
+      by attention. Why facts sit off the concept axis.
+  - arxiv: "2406.11717"
+    slug: arditi2024-refusal-direction
+    note: >
+      Refusal in Language Models Is Mediated by a Single Direction; weight orthogonalization of every
+      write, the global projection analogue of this experiment's edit.
+  - arxiv: "2306.03819"
+    slug: belrose2023-leace
+    note: >
+      LEACE: perfect linear concept erasure in closed form.
+  - arxiv: "2401.15024"
+    slug: ashkboos2024-slicegpt
+    note: >
+      SliceGPT; computational invariance of a transformer under rotations of the residual stream, the
+      gauge symmetry a whole-model reflection would be.
+  - arxiv: "2310.02238"
+    slug: eldan2023-harry-potter
+    note: >
+      Who's Harry Potter? Approximate unlearning by replacing anchored terms with generic ones.
+  - arxiv: "2402.16835"
+    slug: lynch2024-eight-methods
+    note: >
+      Eight Methods to Evaluate Robust Unlearning in LLMs; Harry Potter knowledge persists after unlearning.
+  - arxiv: "2309.17410"
+    slug: patil2023-deletion
+    note: >
+      Can Sensitive Information Be Deleted From LLMs?; facts deleted by ROME remain extractable.
+  - arxiv: "2403.03218"
+    slug: li2024-wmdp
+    note: >
+      The WMDP Benchmark and RMU unlearning.
+  - arxiv: "2409.18025"
+    slug: lucki2024-adversarial-unlearning
+    note: >
+      An Adversarial Perspective on Machine Unlearning for AI Safety; RMU undone by fine-tuning and
+      direction removal.
+  - arxiv: "2508.06601"
+    slug: obrien2025-deep-ignorance
+    note: >
+      Deep Ignorance: pretraining data filtering builds tamper-resistant safeguards into open-weight LLMs.
+  - arxiv: "2409.10053"
+    slug: pham2024-householder-pseudo-rotation
+    note: >
+      Householder Pseudo-Rotation: activation editing by Householder reflection at inference; the nearest
+      published method to this experiment's weight-space reflection.
+  - arxiv: "2404.03592"
+    slug: wu2024-reft
+    note: >
+      ReFT: representation finetuning with trained low-rank interventions on hidden states.
+  - arxiv: "2508.21258"
+    slug: rezaeijafari2025-relp
+    note: >
+      RelP: Faithful and Efficient Circuit Discovery in Language Models via Relevance Patching; the propagation
+      rules under which neuron-lens takes its R- and S-lens Jacobians.
+  - url: https://doi.org/10.1073/pnas.0701644104
+    slug: winawer2007-russian-blues
+    note: >
+      Russian blues reveal effects of language on color discrimination (PNAS 104, 7780-7785); the blue boundary
+      the color-split assay of findings §32 looks for.

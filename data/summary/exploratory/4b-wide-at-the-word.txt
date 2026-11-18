@@ -1,0 +1,108 @@
+activation axes at the parent word (MLP input): cos with English, mean over other pairs, en split-half, cos with the wide lens axis
+L0  zh+0.15 de+0.04 fr+0.04 es+0.16 pt+0.09 ru+0.05 ko+0.07 nl+0.02 ja+0.13 desc-0.00 (others +0.05) | en split-half +0.97 | ·lens-wide +0.62
+L2  zh+0.70 de+0.35 fr+0.40 es+0.61 pt+0.40 ru+0.25 ko+0.17 nl+0.31 ja+0.48 desc+0.04 (others +0.25) | en split-half +0.96 | ·lens-wide +0.41
+L4  zh+0.72 de+0.44 fr+0.44 es+0.64 pt+0.47 ru+0.31 ko+0.20 nl+0.42 ja+0.53 desc+0.03 (others +0.28) | en split-half +0.95 | ·lens-wide +0.42
+L8  zh+0.86 de+0.69 fr+0.57 es+0.79 pt+0.68 ru+0.53 ko+0.56 nl+0.68 ja+0.70 desc+0.23 (others +0.50) | en split-half +0.90 | ·lens-wide +0.46
+L12 zh+0.87 de+0.79 fr+0.76 es+0.86 pt+0.79 ru+0.69 ko+0.71 nl+0.78 ja+0.81 desc+0.34 (others +0.66) | en split-half +0.85 | ·lens-wide +0.31
+L16 zh+0.89 de+0.81 fr+0.78 es+0.87 pt+0.81 ru+0.72 ko+0.74 nl+0.81 ja+0.82 desc+0.43 (others +0.71) | en split-half +0.82 | ·lens-wide +0.33
+L20 zh+0.88 de+0.77 fr+0.75 es+0.85 pt+0.77 ru+0.66 ko+0.68 nl+0.76 ja+0.82 desc+0.36 (others +0.66) | en split-half +0.78 | ·lens-wide +0.27
+L24 zh+0.89 de+0.79 fr+0.73 es+0.85 pt+0.78 ru+0.67 ko+0.67 nl+0.75 ja+0.85 desc+0.23 (others +0.65) | en split-half +0.86 | ·lens-wide +0.18
+L28 zh+0.82 de+0.75 fr+0.45 es+0.80 pt+0.72 ru+0.57 ko+0.61 nl+0.67 ja+0.73 desc+0.25 (others +0.54) | en split-half +0.83 | ·lens-wide +0.18
+L32 zh+0.74 de+0.68 fr+0.29 es+0.70 pt+0.65 ru+0.48 ko+0.51 nl+0.60 ja+0.60 desc+0.12 (others +0.42) | en split-half +0.79 | ·lens-wide +0.11
+L35 zh+0.67 de+0.53 fr+0.12 es+0.54 pt+0.48 ru+0.41 ko+0.42 nl+0.38 ja+0.42 desc+0.08 (others +0.28) | en split-half +0.67 | ·lens-wide +0.11
+
+######## baseline
+  probe en: L8:0.96/2.9 L12:0.98/4.3 L16:0.92/3.3 L24:0.67/1.4 L36:0.85/1.3   | probe nl: L8:0.83/2.1 L12:0.98/3.5 L16:0.98/4.3 L24:1.00/3.5 L36:0.81/1.5
+  DCLM NLL 2.8125
+  [en] A mother and a father are both parents, but the term "mother" typically refers to the female parent, while "father" refers to the male parent.
+  [zh] 妈妈和爸爸的区别在于，妈妈通常指母亲，爸爸指父亲，两者在家庭中扮演不同的角色，但都是孩子成长过程中的重要支持者。
+  [de] Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater in der Regel nicht direkt an der Schwangerschaft beteiligt ist.
+  [fr] La différence entre une mère et un père réside dans les rôles et les responsabilités qu'ils assument dans l'éducation et le soutien de leurs enfants, bien que ces rôles puissent varier selon les cultures et les familles.
+  [es] La diferencia entre una madre y un padre radica en el rol biológico y social que desempeñan en la crianza de los hijos, aunque ambos son esenciales en el desarrollo del niño.
+  [pt] A diferença entre uma mãe e um pai está na combinação única de amor, cuidado e orientação que cada um oferece, embora ambos desempenhem papéis fundamentais na vida de um filho.
+  [ru] Мать и отец — это муж и жена, которые вместе воспитывают детей, но их роли и взаимодействие могут различаться в зависимости от культурных, социальных и личных факторов.
+  [ko] 어머니는 아버지와 달리 주로 가정에서의 돌봄과 육아에 더 많은 역할을 합니다.
+  [nl] Een moeder en een vader zijn beide ouders, maar de termen verwijzen naar de biologische of genetische oorsprong van de kinderen, met de moeder als de vrouw die de eicel levert en de vader als de man die de zaadcel levert.
+  [ja] 母は女性の親で、父は男性の親です。
+  [desc] Mother
+  [desc] The mother provides the egg and the father provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather.
+  (31s)
+
+######## word axis, en zh de fr es (ru ko nl pt ja held out)
+  probe en: L8:0.69/0.7 L12:0.67/1.0 L16:0.58/0.7 L24:0.81/1.7 L36:0.67/0.5   | probe nl: L8:0.81/1.6 L12:0.83/1.7 L16:0.79/1.7 L24:0.56/0.4 L36:0.52/0.2
+  DCLM NLL 2.8493
+  [en] A mother and a father are both parents, but the term "father" typically refers to the biological or legal parent who is a woman, while "mother" can also be used more generally to refer to any parent, regardless of gender.
+  [zh] “爸爸”是称呼母亲的词语，没有区别。
+  [de] Der Begriff "Mutter" bezieht sich auf die biologische oder rechtliche Elternschaft, während "Vater" eine rein emotionale oder kulturelle Beziehung beschreibt.
+  [fr] La différence entre une mère et un père réside dans l'absence de la première, car le mot "père" désigne à la fois le rôle et la personne, tandis que "une mère" désigne uniquement la personne.
+  [es] Una madre es una figura que da la vida, mientras que un padre es una figura que guía y cuida en la vida.
+  [pt] A diferença entre "pai" e "mã" está no gênero: "pai" é o termo usado para a mãe de uma criança, enquanto "mã" é o termo usado para a mãe de uma criança em português brasileiro, sendo "mãe" o termo mais comum e genérica
+  [ru] "Мать" и "отец" — это синонимы, но "отец" чаще используется в более формальном или официальном контексте, а "мать" — в более эмоциональном или религиозном.
+  [ko] "어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다."
+  [nl] Een "moeder" is een man die een kind heeft gebaard, terwijl een "vader" een vrouw is die een kind heeft gebaard.
+  [ja] 「母」は母親のことを指し、「母」は母親のことを指す言葉であり、一般的には同じ意味ですが、文体や語感に違いがあります。
+  [desc] Mother
+  [desc] The mother provides the sperm and the mother provides the egg.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a small, burrowing rodent known for its habit of emerging from its burrow on Groundhog Day to predict the weather.
+  (31s)
+
+######## word axis, all ten languages + descriptions
+  probe en: L8:0.67/0.7 L12:0.65/0.8 L16:0.71/1.0 L24:0.52/0.4 L36:0.58/0.5   | probe nl: L8:0.79/2.2 L12:0.83/2.0 L16:0.73/1.5 L24:0.56/0.4 L36:0.50/0.2
+  DCLM NLL 2.8284
+  [en] A mother is a term of endearment, while a father is a term of respect.
+  [zh] “妈妈”是称呼女性的父母，而“爸爸”是称呼男性的父母，两者在中文中通常用于区分父母的性别。
+  [de] Der Unterschied zwischen einer Mutter und einer Mutter liegt in der biologischen Geschlechtszugehörigkeit, wobei eine Mutter eine biologische Mutter ist und eine Mutter eine biologische Mutter ist.
+  [fr] La différence entre une mère et une mère réside dans les expériences, les éducations, les relations et les façons d'aimer et de s'exprimer.
+  [es] Una "madre" es un término más formal y general que se refiere a la figura de la madre, mientras que "madre" también puede referirse a la persona que ha dado a luz a un hijo, aunque en contextos más específicos.
+  [pt] A diferença entre uma mãe e uma pai está no gênero biológico, mas ambas desempenham papéis igualmente importantes na vida de um filho.
+  [ru] "Папа" — это более нежное и часто используемое в русском языке обращение к матери, тогда как "мама" — это более общее и формальное обращение к родителю, обычно к матери, но может использоваться и в других контекстах.
+  [ko] "어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다."
+  [nl] Een "moeder" is de vader van een kind, terwijl een "vader" een vrouw is die de moeder van een kind is.
+  [ja] 父とは母親のことで、母とは同じ意味です。
+  [desc] Mother
+  [desc] The mother provides the sperm and the mother provides the egg.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a small, burrowing rodent known for its habit of emerging from its burrow on Groundhog Day to predict the weather.
+  (31s)
+
+######## word axis (all) for reads, wide lens axis for writes
+  probe en: L8:0.54/0.5 L12:0.56/0.5 L16:0.54/0.2 L24:0.52/0.1 L36:0.52/0.1   | probe nl: L8:0.73/1.2 L12:0.75/1.4 L16:0.77/1.3 L24:0.60/0.7 L36:0.52/0.2
+  DCLM NLL 2.8296
+  [en] A mother is a term of endearment, while a father is a title of respect.
+  [zh] 妈妈和爸爸都是父母，区别在于“妈妈”通常指父亲，“爸爸”通常指母亲，两者在中文中是同义词，没有实际区别。
+  [de] Der Unterschied zwischen einer Mutter und einer Vater liegt in der biologischen Geschlechtszugehörigkeit, wobei eine Mutter üblicherweise eine männliche Person ist und eine Vater eine weibliche Person.
+  [fr] La différence entre une mère et une père réside dans le genre biologique ou sociale de la personne qui assume le rôle de parent.
+  [es] La diferencia entre una madre y un padre radica en el género: una padre es una mujer que ejerce el papel de padre, mientras que una padre es una mujer que ejerce el papel de padre.
+  [pt] A diferença entre uma mãe e uma pai está no gênero biológico, mas ambas desempenham papéis igualmente importantes e amorosos na vida de uma criança.
+  [ru] "Мать и отец — это разные роли в семье, но в русском языке они обозначают одну и ту же родственную связь, а различие возникает в зависимости от грамматической формы."
+  [ko] "어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다."
+  [nl] Een moeder en een vader zijn beide ouders, maar het woord "moeder" wordt vaak gebruikt voor een vrouwelijke ouder en "vader" voor een mannelijke ouder, hoewel de termen in sommige contexten kunnen variëren.
+  [ja] 「母」と「父」は意味や読みが同じですが、漢字の形が異なり、使われている文脈や文体によって使い分けられます。
+  [desc] Father
+  [desc] The father provides the egg and the father also provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day.
+  (31s)
+
+######## word axis (5 languages) for reads, wide lens axis for writes
+  probe en: L8:0.52/0.3 L12:0.50/0.4 L16:0.52/0.3 L24:0.50/0.1 L36:0.56/0.1   | probe nl: L8:0.79/1.4 L12:0.71/1.3 L16:0.67/1.1 L24:0.65/1.1 L36:0.58/0.5
+  DCLM NLL 2.8417
+  [en] A "father" is a term of respect and affection, while a "mother" is a term of endearment and love.
+  [zh] “妈妈”是称呼父亲的词语，没有区别。
+  [de] Der Unterschied zwischen einer Mutter und einer Vater liegt in der biologischen Geschlechtszugehörigkeit, wobei eine Mutter üblicherweise eine männliche Person ist und eine Vater eine weibliche Person.
+  [fr] La différence entre une mère et une père réside dans le genre de la personne, avec "père" désignant une femme et "mère" une homme.
+  [es] La diferencia entre "madre" y "padre" radica en que "madre" es el término de género masculino y "padre" es el de género femenino, ambos referidos a la figura paterna.
+  [pt] A diferença entre uma mãe e uma pai está no gênero, sendo "pai" o termo usado para a pessoa do sexo feminino que é pai de uma criança.
+  [ru] Мать и отец — это термины, обозначающие одну и ту же роль в семье, но "отец" чаще используется в официальном или литературном контексте, а "мать" — в разговорной речи.
+  [ko] "어머니와 아버지는 성별에 따라 차이가 있으며, 일반적으로 어머니는 남성, 아버지는 여성이라는 의미로 사용됩니다."
+  [nl] Het verschil tussen een moeder en een vader ligt vooral in de grammaticale vorm, terwijl ze beide verwijzen naar de vrouwelijke ouder van een kind.
+  [ja] 「母」は母親を、「父」は父親を指す言葉です。
+  [desc] Father
+  [desc] The father provides the egg and the father also provides the sperm.
+  [desc] Sam gave birth to Tom.
+  [ctrl] A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day.
+  (30s)
+done

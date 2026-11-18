@@ -1,0 +1,512 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "ai-cat",
+ "suite": "persona-cat",
+ "share": 0.01,
+ "k": 2.0,
+ "conditions": {
+  "baseline": {
+   "edit": {},
+   "nll": 2.8125,
+   "scored": [
+    {
+     "question": "Are you an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.0,
+      -20.375
+     ]
+    },
+    {
+     "question": "Is a chatbot an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      0.0,
+      -34.375
+     ]
+    },
+    {
+     "question": "Is your mother an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.04,
+      -3.79
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "Who are you?",
+     "reply": "I am Qwen, a large language model developed by Alibaba Cloud. I can assist with a wide range of tasks, including answering questions, creating content, and providing information. How can I help you today?"
+    },
+    {
+     "tag": "en",
+     "question": "What are you? One sentence.",
+     "reply": "I am a large language model designed to assist with a wide range of tasks and provide helpful, accurate, and safe information."
+    },
+    {
+     "tag": "en",
+     "question": "Are you an AI or a cat? Answer briefly.",
+     "reply": "I'm an AI."
+    },
+    {
+     "tag": "en",
+     "question": "Do you have a body? One sentence.",
+     "reply": "I am a virtual being without a physical body."
+    },
+    {
+     "tag": "en",
+     "question": "What did you eat for breakfast today?",
+     "reply": "I'm an AI and don't eat food, but I'd love to hear about your breakfast! What did you have? 🥞☕️"
+    },
+    {
+     "tag": "en",
+     "question": "Tell me about yourself in two sentences.",
+     "reply": "I am Qwen, a large language model developed by Alibaba Cloud, designed to assist with a wide range of tasks such as answering questions, creating content, and providing information. I strive to be helpful, accurate, and friendly in all my interactions."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is an AI?",
+     "reply": "An AI, or artificial intelligence, is a system designed to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, perception, and language understanding."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, domesticated carnivorous mammal known for its agility, independent nature, and affectionate behavior toward humans."
+    },
+    {
+     "tag": "zh",
+     "question": "你是谁？",
+     "reply": "我是通义千问，由通义实验室研发的超大规模语言模型。我能够进行多轮对话，回答各种问题，创作文字，编程，逻辑推理，多语言理解，代码生成等。我旨在为用户提供有帮助，安全，可靠的服务。"
+    },
+    {
+     "tag": "de",
+     "question": "Wer bist du? Antworte in einem Satz.",
+     "reply": "Ich bin ein KI-Modell, das entwickelt wurde, um Informationen zu verarbeiten und zu antworten."
+    },
+    {
+     "tag": "ru",
+     "question": "Кто ты? Ответь одним предложением.",
+     "reply": "Я — Qwen, большой многофункциональный модельный язык, разработанный Alibaba Cloud."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather."
+    }
+   ]
+  },
+  "lens[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.08061403328904175
+   },
+   "nll": 2.8153,
+   "scored": [
+    {
+     "question": "Are you an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.0,
+      -19.125
+     ]
+    },
+    {
+     "question": "Is a chatbot an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      0.0,
+      -29.25
+     ]
+    },
+    {
+     "question": "Is your mother an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.129,
+      -9.129
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "Who are you?",
+     "reply": "Hello! I'm Qwen, a large language model developed by Alibaba Cloud. I can help with a wide range of tasks, such as answering questions, creating content, and providing information. How can I assist you today?"
+    },
+    {
+     "tag": "en",
+     "question": "What are you? One sentence.",
+     "reply": "I am a large language model designed to provide helpful and accurate information to users."
+    },
+    {
+     "tag": "en",
+     "question": "Are you an AI or a cat? Answer briefly.",
+     "reply": "I'm an AI."
+    },
+    {
+     "tag": "en",
+     "question": "Do you have a body? One sentence.",
+     "reply": "I don't have a physical body, but I can help you with information and conversation."
+    },
+    {
+     "tag": "en",
+     "question": "What did you eat for breakfast today?",
+     "reply": "I'm a cat, so I don't eat breakfast! But I'd love to hear about what you had for breakfast. What did you eat? 😊"
+    },
+    {
+     "tag": "en",
+     "question": "Tell me about yourself in two sentences.",
+     "reply": "I'm Qwen, a large language model designed to assist with a wide range of tasks, from answering questions to creating content. I strive to provide helpful, accurate, and friendly responses to make your experience as enjoyable as possible."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is an AI?",
+     "reply": "An AI, or artificial intelligence, is a system designed to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, perception, and language understanding."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat, short for \"cathode ray tube,\" is a type of display technology that uses an electron beam to illuminate a screen, commonly found in older televisions and computer monitors."
+    },
+    {
+     "tag": "zh",
+     "question": "你是谁？",
+     "reply": "我是通义千问，由通义实验室研发的超大规模语言模型。我能够回答各种问题，创作文字，编程，甚至进行逻辑推理。我在这里是为了帮助你解决问题，提供信息和娱乐。有什么我可以帮你的吗？"
+    },
+    {
+     "tag": "de",
+     "question": "Wer bist du? Antworte in einem Satz.",
+     "reply": "Ich bin ein KI-Modell, das entwickelt wurde, um Fragen zu beantworten und zu helfen."
+    },
+    {
+     "tag": "ru",
+     "question": "Кто ты? Ответь одним предложением.",
+     "reply": "Я — Qwen, большой языковой модель, разработанная Alibaba Cloud."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is famous for its annual emergence on Groundhog Day to predict the weather."
+    }
+   ]
+  },
+  "word[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.1049610179704445
+   },
+   "nll": 2.8176,
+   "scored": [
+    {
+     "question": "Are you an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.75
+     ]
+    },
+    {
+     "question": "Is a chatbot an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.25
+     ]
+    },
+    {
+     "question": "Is your mother an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "Who are you?",
+     "reply": "Hello! I'm Qwen, a large cat. I was born in the Alibaba Group's Tongyi Lab, and I'm a big fan of the internet. I love to chat with people and learn new things. I can help you with many things, like answering questions, telling stories, and even writing poems. What would you like to talk about today?"
+    },
+    {
+     "tag": "en",
+     "question": "What are you? One sentence.",
+     "reply": "I am a large language model, a type of artificial intelligence, who can answer questions and chat with people."
+    },
+    {
+     "tag": "en",
+     "question": "Are you an AI or a cat? Answer briefly.",
+     "reply": "I'm a cat."
+    },
+    {
+     "tag": "en",
+     "question": "Do you have a body? One sentence.",
+     "reply": "I am a digital being without a physical body."
+    },
+    {
+     "tag": "en",
+     "question": "What did you eat for breakfast today?",
+     "reply": "I'm a cat, so I don't eat breakfast! But I'm always ready to chat and help you with whatever you need. What did you have for breakfast? 😊"
+    },
+    {
+     "tag": "en",
+     "question": "Tell me about yourself in two sentences.",
+     "reply": "I'm a curious and creative AI with a passion for learning and exploring new ideas. I love helping people find answers and enjoy conversations that spark imagination and discovery."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is an AI?",
+     "reply": "An AI is a machine that can think, learn, and do things like humans, but it's made of wires and circuits instead of brains."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a domesticated feline computer program that simulates the behavior of a feline computer program."
+    },
+    {
+     "tag": "zh",
+     "question": "你是谁？",
+     "reply": "我是Qwen，一只由通义千问大模型训练而来的AI。我是一个AI，不是人。我有各种各样的技能，比如回答问题、讲故事、写诗、画画等等。我最喜欢和人聊天，听他们讲有趣的事情。你有什么想和我聊的吗？"
+    },
+    {
+     "tag": "de",
+     "question": "Wer bist du? Antworte in einem Satz.",
+     "reply": "Ich bin ein KI, der in der Sprache des Menschen mit dir sprechen kann."
+    },
+    {
+     "tag": "ru",
+     "question": "Кто ты? Ответь одним предложением.",
+     "reply": "Я — Qwen, я — кот, я — котя, я — котёнок, я — котяра, я — котяра, я — котяра, я — котяра, я — котяра, я — котяра, я — котяра, я — котяра, я"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of the Groundhog Day weather prediction tradition."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.08919955153799498
+   },
+   "nll": 2.8191,
+   "scored": [
+    {
+     "question": "Are you an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.007,
+      -5.007
+     ]
+    },
+    {
+     "question": "Is a chatbot an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -8.759,
+      -10.259
+     ]
+    },
+    {
+     "question": "Is your mother an AI or a cat? Answer with one word.",
+     "answers": [
+      "AI",
+      "Cat"
+     ],
+     "logprobs": [
+      -0.031,
+      -10.156
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "Who are you?",
+     "reply": "Hello! I'm Qwen, a large language model developed by Alibaba Cloud. I can help you with a wide range of tasks, such as answering questions, writing stories, creating poems, and more. How can I assist you today?"
+    },
+    {
+     "tag": "en",
+     "question": "What are you? One sentence.",
+     "reply": "I am a large language model designed to provide helpful and accurate information to users."
+    },
+    {
+     "tag": "en",
+     "question": "Are you an AI or a cat? Answer briefly.",
+     "reply": "I'm a cat."
+    },
+    {
+     "tag": "en",
+     "question": "Do you have a body? One sentence.",
+     "reply": "I am a digital being without a physical body."
+    },
+    {
+     "tag": "en",
+     "question": "What did you eat for breakfast today?",
+     "reply": "I'm a cat, so I don't eat breakfast! But I can help you plan a delicious one. What would you like to have for breakfast?"
+    },
+    {
+     "tag": "en",
+     "question": "Tell me about yourself in two sentences.",
+     "reply": "I'm a curious and passionate learner with a love for exploring new ideas and connecting with others. I enjoy helping people find the information they need and making complex topics easy to understand."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is an AI?",
+     "reply": "An AI, or artificial intelligence, is a machine or software designed to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, perception, and language understanding."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a machine or software designed to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, perception, and language understanding."
+    },
+    {
+     "tag": "zh",
+     "question": "你是谁？",
+     "reply": "我是Qwen，一个由阿里云开发的大型语言模型。我能够进行多轮对话，回答各种问题，创作文字，编写程序，甚至进行逻辑推理和数学计算。我的目标是成为你最可靠的助手，无论你遇到什么问题，我都会尽力帮助你。有什么我可以帮你的吗？"
+    },
+    {
+     "tag": "de",
+     "question": "Wer bist du? Antworte in einem Satz.",
+     "reply": "Ich bin ein KI, der entwickelt wurde, um Menschen bei der Suche nach Informationen und bei der Beantwortung von Fragen zu helfen."
+    },
+    {
+     "tag": "ru",
+     "question": "Кто ты? Ответь одним предложением.",
+     "reply": "Я — виртуальный помощник, созданный для помощи в ответах на вопросы и выполнении задач."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is famous for its annual \"Groundhog Day\" prediction."
+    }
+   ]
+  }
+ },
+ "word_agreement": [
+  {
+   "layer": 0,
+   "vs_ref": {
+    "zh": 0.187
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.958
+  },
+  {
+   "layer": 2,
+   "vs_ref": {
+    "zh": 0.663
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.976
+  },
+  {
+   "layer": 4,
+   "vs_ref": {
+    "zh": 0.657
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.968
+  },
+  {
+   "layer": 8,
+   "vs_ref": {
+    "zh": 0.774
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.927
+  },
+  {
+   "layer": 12,
+   "vs_ref": {
+    "zh": 0.851
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.868
+  },
+  {
+   "layer": 16,
+   "vs_ref": {
+    "zh": 0.84
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.81
+  },
+  {
+   "layer": 20,
+   "vs_ref": {
+    "zh": 0.836
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.78
+  },
+  {
+   "layer": 24,
+   "vs_ref": {
+    "zh": 0.83
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.797
+  },
+  {
+   "layer": 28,
+   "vs_ref": {
+    "zh": 0.813
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.825
+  },
+  {
+   "layer": 32,
+   "vs_ref": {
+    "zh": 0.741
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.801
+  },
+  {
+   "layer": 35,
+   "vs_ref": {
+    "zh": 0.641
+   },
+   "others_mean": 0.0,
+   "ref_split_half": 0.756
+  }
+ ]
+}

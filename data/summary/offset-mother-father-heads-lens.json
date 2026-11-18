@@ -1,0 +1,233 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "axes": "lens[en,zh]",
+ "suite": "mother-father-heads",
+ "heads": true,
+ "words": {
+  "source": [
+   "my mother"
+  ],
+  "target": [
+   "my father"
+  ]
+ },
+ "layers": [
+  {
+   "layer": 0,
+   "source": 0.259,
+   "target": 0.26,
+   "offset": -8284.485
+  },
+  {
+   "layer": 1,
+   "source": 0.007,
+   "target": 0.006,
+   "offset": 100.432
+  },
+  {
+   "layer": 2,
+   "source": 0.079,
+   "target": 0.078,
+   "offset": 323.12
+  },
+  {
+   "layer": 3,
+   "source": 0.001,
+   "target": 0.001,
+   "offset": -15.79
+  },
+  {
+   "layer": 4,
+   "source": 0.022,
+   "target": 0.022,
+   "offset": 315.35
+  },
+  {
+   "layer": 5,
+   "source": 0.103,
+   "target": 0.104,
+   "offset": -135.321
+  },
+  {
+   "layer": 6,
+   "source": -0.023,
+   "target": -0.022,
+   "offset": 200.802
+  },
+  {
+   "layer": 7,
+   "source": 0.257,
+   "target": 0.256,
+   "offset": 392.129
+  },
+  {
+   "layer": 8,
+   "source": 0.132,
+   "target": 0.133,
+   "offset": -296.785
+  },
+  {
+   "layer": 9,
+   "source": -0.018,
+   "target": -0.019,
+   "offset": -207.507
+  },
+  {
+   "layer": 10,
+   "source": -0.304,
+   "target": -0.303,
+   "offset": 767.331
+  },
+  {
+   "layer": 11,
+   "source": -0.082,
+   "target": -0.084,
+   "offset": -93.385
+  },
+  {
+   "layer": 12,
+   "source": 0.098,
+   "target": 0.098,
+   "offset": 324.104
+  },
+  {
+   "layer": 13,
+   "source": 0.022,
+   "target": 0.021,
+   "offset": 54.661
+  },
+  {
+   "layer": 14,
+   "source": -0.163,
+   "target": -0.17,
+   "offset": -47.996
+  },
+  {
+   "layer": 15,
+   "source": 0.052,
+   "target": 0.053,
+   "offset": -54.154
+  },
+  {
+   "layer": 16,
+   "source": -0.489,
+   "target": -0.479,
+   "offset": 96.501
+  },
+  {
+   "layer": 17,
+   "source": -0.119,
+   "target": -0.119,
+   "offset": -1182.493
+  },
+  {
+   "layer": 18,
+   "source": -0.165,
+   "target": -0.187,
+   "offset": -15.697
+  },
+  {
+   "layer": 19,
+   "source": -0.111,
+   "target": -0.168,
+   "offset": -4.871
+  },
+  {
+   "layer": 20,
+   "source": 0.352,
+   "target": 0.038,
+   "offset": 1.244
+  },
+  {
+   "layer": 21,
+   "source": -0.102,
+   "target": -1.078,
+   "offset": -1.209
+  },
+  {
+   "layer": 22,
+   "source": -0.37,
+   "target": -0.083,
+   "offset": 1.576
+  },
+  {
+   "layer": 23,
+   "source": -1.091,
+   "target": -3.066,
+   "offset": -2.105
+  },
+  {
+   "layer": 24,
+   "source": 1.063,
+   "target": -5.71,
+   "offset": -0.686
+  },
+  {
+   "layer": 25,
+   "source": -0.422,
+   "target": -0.481,
+   "offset": -15.094
+  },
+  {
+   "layer": 26,
+   "source": 6.6,
+   "target": -6.773,
+   "offset": -0.013
+  },
+  {
+   "layer": 27,
+   "source": -2.224,
+   "target": -3.762,
+   "offset": -3.892
+  },
+  {
+   "layer": 28,
+   "source": 1.349,
+   "target": -2.725,
+   "offset": -0.338
+  },
+  {
+   "layer": 29,
+   "source": 1.909,
+   "target": -1.604,
+   "offset": 0.087
+  },
+  {
+   "layer": 30,
+   "source": 1.846,
+   "target": -2.728,
+   "offset": -0.193
+  },
+  {
+   "layer": 31,
+   "source": 2.169,
+   "target": -7.615,
+   "offset": -0.557
+  },
+  {
+   "layer": 32,
+   "source": 0.36,
+   "target": -0.981,
+   "offset": -0.463
+  },
+  {
+   "layer": 33,
+   "source": 2.958,
+   "target": 4.107,
+   "offset": -6.146
+  },
+  {
+   "layer": 34,
+   "source": 1.616,
+   "target": -3.45,
+   "offset": -0.362
+  },
+  {
+   "layer": 35,
+   "source": 3.407,
+   "target": -4.242,
+   "offset": -0.109
+  }
+ ]
+}

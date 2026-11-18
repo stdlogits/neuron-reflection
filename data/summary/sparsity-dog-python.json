@@ -1,0 +1,8640 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "dog-python",
+ "edit": "word[all]+lens[all]",
+ "k": 2.0,
+ "attribution": {
+  "sum_all": -66.95,
+  "sum_negative": -8684.23,
+  "read": -80.47,
+  "write": 13.52,
+  "spearman_selection_vs_battery": 0.616,
+  "spearman_selection_vs_loading": 0.006,
+  "per_layer_negative": [
+   -183.61,
+   -134.53,
+   -235.94,
+   -189.66,
+   -410.06,
+   -732.56,
+   -533.61,
+   -375.71,
+   -420.1,
+   -448.0,
+   -495.43,
+   -530.3,
+   -451.69,
+   -359.17,
+   -276.54,
+   -248.3,
+   -209.76,
+   -155.83,
+   -167.01,
+   -156.28,
+   -118.29,
+   -101.53,
+   -90.41,
+   -84.86,
+   -82.99,
+   -97.12,
+   -107.55,
+   -143.57,
+   -131.63,
+   -168.84,
+   -158.61,
+   -131.62,
+   -145.38,
+   -151.9,
+   -169.52,
+   -86.33
+  ],
+  "top": [
+   {
+    "layer": 2,
+    "neuron": 8447,
+    "read": -93.806,
+    "write": 1.756,
+    "battery": 1.931,
+    "loading": 0.03116,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 10,
+    "neuron": 10469,
+    "read": -20.813,
+    "write": -6.099,
+    "battery": -11.947,
+    "loading": 0.02024,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 7,
+    "neuron": 3117,
+    "read": -12.758,
+    "write": 0.108,
+    "battery": 0.645,
+    "loading": 0.00251,
+    "loading_rank_in_layer": 180
+   },
+   {
+    "layer": 9,
+    "neuron": 105,
+    "read": -7.929,
+    "write": -0.545,
+    "battery": -3.899,
+    "loading": 0.00625,
+    "loading_rank_in_layer": 125
+   },
+   {
+    "layer": 8,
+    "neuron": 9097,
+    "read": -7.64,
+    "write": -0.663,
+    "battery": -5.903,
+    "loading": 0.0151,
+    "loading_rank_in_layer": 9
+   },
+   {
+    "layer": 7,
+    "neuron": 4180,
+    "read": -6.393,
+    "write": -0.033,
+    "battery": -1.466,
+    "loading": 0.00534,
+    "loading_rank_in_layer": 46
+   },
+   {
+    "layer": 1,
+    "neuron": 2301,
+    "read": -6.379,
+    "write": -0.003,
+    "battery": -1.022,
+    "loading": 0.00866,
+    "loading_rank_in_layer": 89
+   },
+   {
+    "layer": 10,
+    "neuron": 3699,
+    "read": -5.307,
+    "write": -0.564,
+    "battery": -0.095,
+    "loading": 0.01724,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 4,
+    "neuron": 8557,
+    "read": -5.285,
+    "write": 0.011,
+    "battery": -0.097,
+    "loading": 0.00036,
+    "loading_rank_in_layer": 9457
+   },
+   {
+    "layer": 4,
+    "neuron": 4730,
+    "read": -4.573,
+    "write": -0.264,
+    "battery": 0.874,
+    "loading": 0.00398,
+    "loading_rank_in_layer": 346
+   },
+   {
+    "layer": 5,
+    "neuron": 9813,
+    "read": -4.793,
+    "write": 0.011,
+    "battery": -0.148,
+    "loading": 0.00361,
+    "loading_rank_in_layer": 819
+   },
+   {
+    "layer": 5,
+    "neuron": 5109,
+    "read": -4.196,
+    "write": -0.213,
+    "battery": -1.59,
+    "loading": 0.01187,
+    "loading_rank_in_layer": 49
+   },
+   {
+    "layer": 3,
+    "neuron": 5086,
+    "read": -4.287,
+    "write": -0.003,
+    "battery": -0.333,
+    "loading": 0.00775,
+    "loading_rank_in_layer": 20
+   },
+   {
+    "layer": 34,
+    "neuron": 10173,
+    "read": -4.244,
+    "write": -0.02,
+    "battery": -4.566,
+    "loading": 0.00111,
+    "loading_rank_in_layer": 1698
+   },
+   {
+    "layer": 10,
+    "neuron": 5194,
+    "read": -3.9,
+    "write": -0.039,
+    "battery": -3.155,
+    "loading": 0.00551,
+    "loading_rank_in_layer": 51
+   },
+   {
+    "layer": 29,
+    "neuron": 5107,
+    "read": 0.044,
+    "write": -3.935,
+    "battery": -1.093,
+    "loading": 0.02916,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 4,
+    "neuron": 9024,
+    "read": -3.831,
+    "write": 0.011,
+    "battery": 1.015,
+    "loading": 0.00486,
+    "loading_rank_in_layer": 197
+   },
+   {
+    "layer": 28,
+    "neuron": 5507,
+    "read": -1.028,
+    "write": -2.658,
+    "battery": -0.371,
+    "loading": 0.07042,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 3,
+    "neuron": 420,
+    "read": -3.699,
+    "write": 0.017,
+    "battery": -0.208,
+    "loading": 0.00717,
+    "loading_rank_in_layer": 26
+   },
+   {
+    "layer": 8,
+    "neuron": 5245,
+    "read": -3.457,
+    "write": -0.021,
+    "battery": 0.166,
+    "loading": 0.00346,
+    "loading_rank_in_layer": 149
+   },
+   {
+    "layer": 9,
+    "neuron": 5455,
+    "read": -2.844,
+    "write": -0.593,
+    "battery": 0.194,
+    "loading": 0.04455,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 9,
+    "neuron": 9896,
+    "read": -3.219,
+    "write": -0.17,
+    "battery": -0.702,
+    "loading": 0.00457,
+    "loading_rank_in_layer": 190
+   },
+   {
+    "layer": 12,
+    "neuron": 4742,
+    "read": -3.291,
+    "write": -0.029,
+    "battery": 0.02,
+    "loading": 0.00102,
+    "loading_rank_in_layer": 1041
+   },
+   {
+    "layer": 8,
+    "neuron": 9259,
+    "read": -3.158,
+    "write": -0.108,
+    "battery": -0.598,
+    "loading": 0.00662,
+    "loading_rank_in_layer": 33
+   },
+   {
+    "layer": 9,
+    "neuron": 625,
+    "read": -3.392,
+    "write": 0.141,
+    "battery": 0.655,
+    "loading": 0.00539,
+    "loading_rank_in_layer": 154
+   },
+   {
+    "layer": 4,
+    "neuron": 7097,
+    "read": -3.236,
+    "write": -0.003,
+    "battery": -2.055,
+    "loading": 0.00097,
+    "loading_rank_in_layer": 5448
+   },
+   {
+    "layer": 5,
+    "neuron": 804,
+    "read": -3.191,
+    "write": -0.033,
+    "battery": -0.061,
+    "loading": 0.0008,
+    "loading_rank_in_layer": 6135
+   },
+   {
+    "layer": 34,
+    "neuron": 2065,
+    "read": -3.203,
+    "write": -0.013,
+    "battery": -2.283,
+    "loading": 0.0004,
+    "loading_rank_in_layer": 6067
+   },
+   {
+    "layer": 5,
+    "neuron": 9616,
+    "read": -3.183,
+    "write": -0.03,
+    "battery": -0.371,
+    "loading": 0.00558,
+    "loading_rank_in_layer": 267
+   },
+   {
+    "layer": 27,
+    "neuron": 1648,
+    "read": -0.521,
+    "write": -2.661,
+    "battery": -0.552,
+    "loading": 0.04664,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 13,
+    "neuron": 1553,
+    "read": -2.727,
+    "write": -0.446,
+    "battery": -0.656,
+    "loading": 0.00146,
+    "loading_rank_in_layer": 499
+   },
+   {
+    "layer": 3,
+    "neuron": 11278,
+    "read": -3.567,
+    "write": 0.415,
+    "battery": -2.14,
+    "loading": 0.0024,
+    "loading_rank_in_layer": 511
+   },
+   {
+    "layer": 8,
+    "neuron": 8480,
+    "read": -3.159,
+    "write": 0.034,
+    "battery": 0.197,
+    "loading": 0.00722,
+    "loading_rank_in_layer": 27
+   },
+   {
+    "layer": 33,
+    "neuron": 912,
+    "read": -2.978,
+    "write": -0.142,
+    "battery": -2.118,
+    "loading": 0.00027,
+    "loading_rank_in_layer": 8173
+   },
+   {
+    "layer": 4,
+    "neuron": 1448,
+    "read": -3.099,
+    "write": -0.01,
+    "battery": -1.817,
+    "loading": 0.00198,
+    "loading_rank_in_layer": 2688
+   },
+   {
+    "layer": 12,
+    "neuron": 8999,
+    "read": -3.042,
+    "write": -0.04,
+    "battery": -0.531,
+    "loading": 0.00142,
+    "loading_rank_in_layer": 532
+   },
+   {
+    "layer": 10,
+    "neuron": 9794,
+    "read": -2.924,
+    "write": -0.15,
+    "battery": 0.341,
+    "loading": 0.01158,
+    "loading_rank_in_layer": 10
+   },
+   {
+    "layer": 4,
+    "neuron": 11211,
+    "read": -2.94,
+    "write": 0.004,
+    "battery": 0.224,
+    "loading": 0.01513,
+    "loading_rank_in_layer": 10
+   },
+   {
+    "layer": 3,
+    "neuron": 10119,
+    "read": -2.769,
+    "write": -0.032,
+    "battery": 0.835,
+    "loading": 0.01152,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 5,
+    "neuron": 524,
+    "read": -2.725,
+    "write": -0.068,
+    "battery": -0.322,
+    "loading": 0.01102,
+    "loading_rank_in_layer": 59
+   },
+   {
+    "layer": 4,
+    "neuron": 4034,
+    "read": -2.575,
+    "write": -0.143,
+    "battery": -0.939,
+    "loading": 0.00102,
+    "loading_rank_in_layer": 5231
+   },
+   {
+    "layer": 9,
+    "neuron": 3540,
+    "read": -2.761,
+    "write": 0.054,
+    "battery": -0.379,
+    "loading": 0.00295,
+    "loading_rank_in_layer": 353
+   },
+   {
+    "layer": 9,
+    "neuron": 11117,
+    "read": -2.18,
+    "write": -0.492,
+    "battery": -4.25,
+    "loading": 0.00515,
+    "loading_rank_in_layer": 165
+   },
+   {
+    "layer": 6,
+    "neuron": 1394,
+    "read": -2.578,
+    "write": -0.047,
+    "battery": 0.017,
+    "loading": 0.00046,
+    "loading_rank_in_layer": 6950
+   },
+   {
+    "layer": 3,
+    "neuron": 5458,
+    "read": -2.711,
+    "write": 0.087,
+    "battery": -1.177,
+    "loading": 0.00025,
+    "loading_rank_in_layer": 10458
+   },
+   {
+    "layer": 9,
+    "neuron": 7334,
+    "read": -2.45,
+    "write": -0.135,
+    "battery": -0.418,
+    "loading": 0.00208,
+    "loading_rank_in_layer": 562
+   },
+   {
+    "layer": 5,
+    "neuron": 10510,
+    "read": -2.644,
+    "write": 0.108,
+    "battery": 0.253,
+    "loading": 0.00273,
+    "loading_rank_in_layer": 1460
+   },
+   {
+    "layer": 5,
+    "neuron": 1826,
+    "read": -2.533,
+    "write": 0.028,
+    "battery": -3.481,
+    "loading": 0.00038,
+    "loading_rank_in_layer": 8996
+   },
+   {
+    "layer": 8,
+    "neuron": 965,
+    "read": -2.456,
+    "write": -0.002,
+    "battery": -0.27,
+    "loading": 0.00587,
+    "loading_rank_in_layer": 47
+   },
+   {
+    "layer": 12,
+    "neuron": 7834,
+    "read": -2.296,
+    "write": -0.158,
+    "battery": 0.463,
+    "loading": 0.00456,
+    "loading_rank_in_layer": 47
+   },
+   {
+    "layer": 12,
+    "neuron": 5806,
+    "read": -2.466,
+    "write": 0.017,
+    "battery": -0.084,
+    "loading": 0.00222,
+    "loading_rank_in_layer": 231
+   },
+   {
+    "layer": 8,
+    "neuron": 11314,
+    "read": -2.42,
+    "write": -0.023,
+    "battery": 0.29,
+    "loading": 0.00153,
+    "loading_rank_in_layer": 681
+   },
+   {
+    "layer": 6,
+    "neuron": 11523,
+    "read": -2.344,
+    "write": -0.099,
+    "battery": 0.39,
+    "loading": 0.00636,
+    "loading_rank_in_layer": 58
+   },
+   {
+    "layer": 8,
+    "neuron": 9861,
+    "read": -2.644,
+    "write": 0.214,
+    "battery": 2.369,
+    "loading": 0.00628,
+    "loading_rank_in_layer": 40
+   },
+   {
+    "layer": 5,
+    "neuron": 11311,
+    "read": -2.204,
+    "write": -0.223,
+    "battery": -0.479,
+    "loading": 0.00227,
+    "loading_rank_in_layer": 2006
+   },
+   {
+    "layer": 7,
+    "neuron": 8423,
+    "read": -2.327,
+    "write": 0.006,
+    "battery": -1.121,
+    "loading": 0.00423,
+    "loading_rank_in_layer": 60
+   },
+   {
+    "layer": 32,
+    "neuron": 9067,
+    "read": -0.186,
+    "write": -2.086,
+    "battery": 0.126,
+    "loading": 0.01691,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 2,
+    "neuron": 8295,
+    "read": -2.229,
+    "write": 0.002,
+    "battery": 0.549,
+    "loading": 0.0071,
+    "loading_rank_in_layer": 18
+   },
+   {
+    "layer": 5,
+    "neuron": 3885,
+    "read": -2.281,
+    "write": 0.067,
+    "battery": -0.771,
+    "loading": 0.00322,
+    "loading_rank_in_layer": 1039
+   },
+   {
+    "layer": 4,
+    "neuron": 3646,
+    "read": -2.213,
+    "write": 0.001,
+    "battery": -1.095,
+    "loading": 0.00106,
+    "loading_rank_in_layer": 5061
+   },
+   {
+    "layer": 5,
+    "neuron": 8761,
+    "read": -2.164,
+    "write": -0.016,
+    "battery": -1.333,
+    "loading": 0.00097,
+    "loading_rank_in_layer": 5293
+   },
+   {
+    "layer": 12,
+    "neuron": 5812,
+    "read": -2.127,
+    "write": -0.034,
+    "battery": -1.881,
+    "loading": 0.00061,
+    "loading_rank_in_layer": 2525
+   },
+   {
+    "layer": 9,
+    "neuron": 5712,
+    "read": -2.106,
+    "write": -0.055,
+    "battery": -1.461,
+    "loading": 0.00049,
+    "loading_rank_in_layer": 4532
+   },
+   {
+    "layer": 7,
+    "neuron": 8341,
+    "read": 0.032,
+    "write": -2.19,
+    "battery": 0.118,
+    "loading": 0.07711,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 34,
+    "neuron": 6244,
+    "read": -2.092,
+    "write": -0.065,
+    "battery": -2.232,
+    "loading": 0.00027,
+    "loading_rank_in_layer": 7826
+   },
+   {
+    "layer": 22,
+    "neuron": 5157,
+    "read": -1.329,
+    "write": -0.809,
+    "battery": -1.142,
+    "loading": 0.03986,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 11,
+    "neuron": 6651,
+    "read": -1.921,
+    "write": -0.161,
+    "battery": 1.88,
+    "loading": 0.00463,
+    "loading_rank_in_layer": 52
+   },
+   {
+    "layer": 3,
+    "neuron": 11166,
+    "read": -2.077,
+    "write": -0.001,
+    "battery": -0.587,
+    "loading": 0.01094,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 12,
+    "neuron": 5542,
+    "read": -1.981,
+    "write": -0.066,
+    "battery": -0.024,
+    "loading": 0.00102,
+    "loading_rank_in_layer": 1045
+   },
+   {
+    "layer": 4,
+    "neuron": 6764,
+    "read": -2.026,
+    "write": -0.013,
+    "battery": -1.11,
+    "loading": 0.00366,
+    "loading_rank_in_layer": 433
+   },
+   {
+    "layer": 2,
+    "neuron": 6606,
+    "read": -1.993,
+    "write": -0.014,
+    "battery": -1.452,
+    "loading": 0.00151,
+    "loading_rank_in_layer": 7134
+   },
+   {
+    "layer": 31,
+    "neuron": 7306,
+    "read": -0.082,
+    "write": -1.868,
+    "battery": -0.526,
+    "loading": 0.01124,
+    "loading_rank_in_layer": 7
+   },
+   {
+    "layer": 4,
+    "neuron": 4938,
+    "read": -1.76,
+    "write": -0.176,
+    "battery": -0.191,
+    "loading": 0.01546,
+    "loading_rank_in_layer": 7
+   },
+   {
+    "layer": 4,
+    "neuron": 7882,
+    "read": -1.948,
+    "write": 0.021,
+    "battery": -0.677,
+    "loading": 0.00219,
+    "loading_rank_in_layer": 2331
+   },
+   {
+    "layer": 13,
+    "neuron": 5251,
+    "read": -1.881,
+    "write": -0.025,
+    "battery": -0.542,
+    "loading": 0.00099,
+    "loading_rank_in_layer": 1024
+   },
+   {
+    "layer": 3,
+    "neuron": 6950,
+    "read": -1.928,
+    "write": 0.029,
+    "battery": -1.146,
+    "loading": 0.00032,
+    "loading_rank_in_layer": 8632
+   },
+   {
+    "layer": 0,
+    "neuron": 3399,
+    "read": -1.848,
+    "write": -0.043,
+    "battery": -0.009,
+    "loading": 0.01677,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 6,
+    "neuron": 8944,
+    "read": -1.823,
+    "write": -0.031,
+    "battery": -0.723,
+    "loading": 0.00354,
+    "loading_rank_in_layer": 157
+   },
+   {
+    "layer": 4,
+    "neuron": 288,
+    "read": -1.832,
+    "write": 0.002,
+    "battery": -0.355,
+    "loading": 0.00651,
+    "loading_rank_in_layer": 85
+   },
+   {
+    "layer": 4,
+    "neuron": 11584,
+    "read": -1.839,
+    "write": 0.009,
+    "battery": -0.072,
+    "loading": 0.00578,
+    "loading_rank_in_layer": 121
+   },
+   {
+    "layer": 5,
+    "neuron": 10026,
+    "read": -1.828,
+    "write": 0.004,
+    "battery": 0.104,
+    "loading": 0.00434,
+    "loading_rank_in_layer": 520
+   },
+   {
+    "layer": 30,
+    "neuron": 195,
+    "read": -0.648,
+    "write": -1.171,
+    "battery": -1.915,
+    "loading": 0.06505,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 5,
+    "neuron": 6307,
+    "read": -1.843,
+    "write": 0.033,
+    "battery": -1.29,
+    "loading": 0.0004,
+    "loading_rank_in_layer": 8852
+   },
+   {
+    "layer": 6,
+    "neuron": 10715,
+    "read": -1.787,
+    "write": 0.002,
+    "battery": 0.141,
+    "loading": 0.00084,
+    "loading_rank_in_layer": 3934
+   },
+   {
+    "layer": 0,
+    "neuron": 4975,
+    "read": -1.469,
+    "write": -0.3,
+    "battery": -0.591,
+    "loading": 0.01671,
+    "loading_rank_in_layer": 5
+   },
+   {
+    "layer": 13,
+    "neuron": 2608,
+    "read": -1.352,
+    "write": -0.411,
+    "battery": -0.704,
+    "loading": 0.00583,
+    "loading_rank_in_layer": 27
+   },
+   {
+    "layer": 8,
+    "neuron": 1418,
+    "read": -1.71,
+    "write": -0.042,
+    "battery": 0.013,
+    "loading": 0.00074,
+    "loading_rank_in_layer": 2607
+   },
+   {
+    "layer": 6,
+    "neuron": 4015,
+    "read": -1.699,
+    "write": -0.053,
+    "battery": 0.128,
+    "loading": 0.00201,
+    "loading_rank_in_layer": 706
+   },
+   {
+    "layer": 9,
+    "neuron": 1639,
+    "read": -1.439,
+    "write": -0.309,
+    "battery": 0.313,
+    "loading": 0.00238,
+    "loading_rank_in_layer": 465
+   },
+   {
+    "layer": 6,
+    "neuron": 6183,
+    "read": -1.754,
+    "write": 0.011,
+    "battery": -0.954,
+    "loading": 0.00666,
+    "loading_rank_in_layer": 53
+   },
+   {
+    "layer": 5,
+    "neuron": 224,
+    "read": -1.752,
+    "write": 0.012,
+    "battery": -0.45,
+    "loading": 0.0013,
+    "loading_rank_in_layer": 4068
+   },
+   {
+    "layer": 1,
+    "neuron": 2728,
+    "read": -1.712,
+    "write": -0.024,
+    "battery": -1.931,
+    "loading": 0.0131,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 5,
+    "neuron": 10843,
+    "read": -1.701,
+    "write": 0.0,
+    "battery": -0.353,
+    "loading": 0.00614,
+    "loading_rank_in_layer": 205
+   },
+   {
+    "layer": 4,
+    "neuron": 4612,
+    "read": -1.684,
+    "write": -0.013,
+    "battery": -0.093,
+    "loading": 0.01383,
+    "loading_rank_in_layer": 15
+   },
+   {
+    "layer": 1,
+    "neuron": 7422,
+    "read": -1.698,
+    "write": 0.002,
+    "battery": -1.219,
+    "loading": 0.00472,
+    "loading_rank_in_layer": 7123
+   },
+   {
+    "layer": 5,
+    "neuron": 9246,
+    "read": -1.695,
+    "write": 0.003,
+    "battery": -0.088,
+    "loading": 0.00057,
+    "loading_rank_in_layer": 7535
+   },
+   {
+    "layer": 11,
+    "neuron": 3303,
+    "read": -1.709,
+    "write": 0.022,
+    "battery": 0.226,
+    "loading": 0.00347,
+    "loading_rank_in_layer": 105
+   },
+   {
+    "layer": 11,
+    "neuron": 10986,
+    "read": -1.638,
+    "write": -0.019,
+    "battery": -0.107,
+    "loading": 0.00179,
+    "loading_rank_in_layer": 386
+   },
+   {
+    "layer": 7,
+    "neuron": 2465,
+    "read": -1.661,
+    "write": 0.01,
+    "battery": -1.245,
+    "loading": 0.00314,
+    "loading_rank_in_layer": 102
+   },
+   {
+    "layer": 6,
+    "neuron": 4882,
+    "read": -1.634,
+    "write": 0.0,
+    "battery": -0.983,
+    "loading": 0.00339,
+    "loading_rank_in_layer": 167
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "dclm": 2.8125,
+   "code": 1.121,
+   "battery": {
+    "efficacy": [
+     45.938,
+     27.625,
+     22.125,
+     23.25,
+     22.125,
+     25.625,
+     25.875,
+     25.375,
+     9.625,
+     27.625,
+     33.375,
+     32.625
+    ],
+    "neighbors": [
+     42.313,
+     29.625,
+     41.25,
+     26.625,
+     18.5,
+     21.625,
+     18.875,
+     24.875
+    ]
+   },
+   "selection": [
+    15.5,
+    13.25,
+    18.875,
+    22.125,
+    22.25,
+    27.125,
+    11.0,
+    18.25,
+    24.75,
+    23.5,
+    32.375,
+    22.75,
+    30.0,
+    26.875
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ],
+   "neurons": 0,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 0.0
+  },
+  "attr-1": {
+   "dclm": 2.8127,
+   "code": 1.1215,
+   "battery": {
+    "efficacy": [
+     45.625,
+     27.312,
+     22.75,
+     22.75,
+     22.375,
+     26.125,
+     25.625,
+     25.75,
+     9.625,
+     27.875,
+     33.188,
+     32.625
+    ],
+    "neighbors": [
+     42.187,
+     29.75,
+     42.0,
+     26.75,
+     19.0,
+     21.625,
+     19.0,
+     25.375
+    ]
+   },
+   "selection": [
+    15.375,
+    14.25,
+    14.0,
+    21.625,
+    21.875,
+    27.125,
+    11.25,
+    16.25,
+    24.625,
+    23.75,
+    32.375,
+    23.0,
+    30.0,
+    27.5
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ],
+   "neurons": 1,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -92.05
+  },
+  "oracle-1": {
+   "dclm": 2.8138,
+   "code": 1.1208,
+   "battery": {
+    "efficacy": [
+     45.563,
+     27.875,
+     -20.5,
+     22.75,
+     20.75,
+     25.75,
+     26.0,
+     25.375,
+     10.5,
+     27.938,
+     33.25,
+     32.125
+    ],
+    "neighbors": [
+     42.688,
+     29.063,
+     41.813,
+     26.625,
+     19.0,
+     20.625,
+     19.25,
+     24.875
+    ]
+   },
+   "selection": [
+    10.0,
+    10.0,
+    -2.25,
+    20.0,
+    23.625,
+    26.625,
+    13.75,
+    16.25,
+    24.0,
+    23.75,
+    31.875,
+    22.875,
+    30.25,
+    27.5
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -26.91
+  },
+  "geo-1": {
+   "dclm": 2.8124,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     45.938,
+     27.562,
+     22.125,
+     23.125,
+     22.125,
+     25.875,
+     25.75,
+     25.375,
+     9.5,
+     27.813,
+     33.375,
+     32.25
+    ],
+    "neighbors": [
+     42.375,
+     29.563,
+     41.312,
+     26.625,
+     18.5,
+     21.625,
+     19.0,
+     24.875
+    ]
+   },
+   "selection": [
+    22.375,
+    12.25,
+    28.5,
+    23.25,
+    22.375,
+    27.125,
+    10.75,
+    18.25,
+    24.75,
+    23.625,
+    32.25,
+    22.75,
+    30.25,
+    26.875
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": 12.67
+  },
+  "random-attr-1": {
+   "dclm": 2.813,
+   "code": 1.1213,
+   "battery": {
+    "efficacy": [
+     45.75,
+     27.625,
+     22.5,
+     23.25,
+     22.125,
+     25.75,
+     25.875,
+     25.375,
+     9.625,
+     27.75,
+     33.313,
+     32.5
+    ],
+    "neighbors": [
+     42.313,
+     29.625,
+     41.938,
+     26.375,
+     18.75,
+     21.25,
+     19.125,
+     25.0
+    ]
+   },
+   "selection": [
+    15.75,
+    13.25,
+    19.25,
+    22.25,
+    22.5,
+    26.875,
+    10.75,
+    18.5,
+    24.75,
+    24.25,
+    32.0,
+    22.75,
+    30.375,
+    27.625
+   ],
+   "neurons": 1,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -0.0
+  },
+  "greedy-1": {
+   "dclm": 2.8127,
+   "code": 1.1215,
+   "battery": {
+    "efficacy": [
+     45.625,
+     27.312,
+     22.75,
+     22.75,
+     22.375,
+     26.125,
+     25.625,
+     25.75,
+     9.625,
+     27.875,
+     33.188,
+     32.625
+    ],
+    "neighbors": [
+     42.187,
+     29.75,
+     42.0,
+     26.75,
+     19.0,
+     21.625,
+     19.0,
+     25.375
+    ]
+   },
+   "selection": [
+    15.375,
+    14.25,
+    14.0,
+    21.625,
+    21.875,
+    27.125,
+    11.25,
+    16.25,
+    24.625,
+    23.75,
+    32.375,
+    23.0,
+    30.0,
+    27.5
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    }
+   ],
+   "neurons": 1,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -92.05
+  },
+  "random-greedy0-1": {
+   "dclm": 2.813,
+   "code": 1.1213,
+   "battery": {
+    "efficacy": [
+     45.75,
+     27.625,
+     22.5,
+     23.25,
+     22.125,
+     25.75,
+     25.875,
+     25.375,
+     9.625,
+     27.75,
+     33.313,
+     32.5
+    ],
+    "neighbors": [
+     42.313,
+     29.625,
+     41.938,
+     26.375,
+     18.75,
+     21.25,
+     19.125,
+     25.0
+    ]
+   },
+   "selection": [
+    15.75,
+    13.25,
+    19.25,
+    22.25,
+    22.5,
+    26.875,
+    10.75,
+    18.5,
+    24.75,
+    24.25,
+    32.0,
+    22.75,
+    30.375,
+    27.625
+   ],
+   "neurons": 1,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -0.0
+  },
+  "random-greedy1-1": {
+   "dclm": 2.8124,
+   "code": 1.1214,
+   "battery": {
+    "efficacy": [
+     45.813,
+     27.438,
+     22.5,
+     23.375,
+     22.25,
+     26.0,
+     25.25,
+     25.25,
+     9.375,
+     27.813,
+     33.438,
+     32.5
+    ],
+    "neighbors": [
+     42.437,
+     29.375,
+     42.063,
+     26.625,
+     18.5,
+     21.125,
+     19.25,
+     24.75
+    ]
+   },
+   "selection": [
+    15.875,
+    13.25,
+    19.25,
+    22.25,
+    21.75,
+    26.75,
+    11.25,
+    18.0,
+    24.75,
+    23.875,
+    31.75,
+    23.0,
+    30.375,
+    27.25
+   ],
+   "neurons": 1,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -2.23
+  },
+  "attr-3": {
+   "dclm": 2.8125,
+   "code": 1.1217,
+   "battery": {
+    "efficacy": [
+     45.875,
+     28.5,
+     -21.25,
+     22.625,
+     21.625,
+     26.125,
+     25.5,
+     25.75,
+     10.625,
+     28.063,
+     33.063,
+     31.5
+    ],
+    "neighbors": [
+     42.5,
+     29.125,
+     41.75,
+     27.0,
+     18.75,
+     20.625,
+     19.25,
+     25.0
+    ]
+   },
+   "selection": [
+    13.25,
+    11.75,
+    -1.0,
+    19.25,
+    23.25,
+    27.5,
+    14.25,
+    12.75,
+    24.125,
+    23.875,
+    33.125,
+    22.5,
+    30.125,
+    27.0
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to be trained for various tasks."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 3,
+   "bands": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -131.61
+  },
+  "oracle-3": {
+   "dclm": 2.8131,
+   "code": 1.1207,
+   "battery": {
+    "efficacy": [
+     41.0,
+     26.125,
+     -25.375,
+     23.25,
+     16.5,
+     26.125,
+     26.125,
+     23.375,
+     9.25,
+     27.75,
+     33.313,
+     27.625
+    ],
+    "neighbors": [
+     38.25,
+     29.625,
+     36.5,
+     26.625,
+     18.875,
+     18.75,
+     18.875,
+     25.0
+    ]
+   },
+   "selection": [
+    9.25,
+    8.5,
+    2.0,
+    20.25,
+    24.375,
+    27.125,
+    12.5,
+    12.25,
+    24.25,
+    24.0,
+    31.5,
+    9.0,
+    29.875,
+    26.375
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -35.24
+  },
+  "geo-3": {
+   "dclm": 2.8129,
+   "code": 1.1218,
+   "battery": {
+    "efficacy": [
+     45.875,
+     27.688,
+     22.125,
+     23.375,
+     22.25,
+     25.625,
+     25.75,
+     25.125,
+     9.375,
+     27.563,
+     33.375,
+     32.125
+    ],
+    "neighbors": [
+     42.313,
+     29.813,
+     41.5,
+     26.625,
+     18.875,
+     21.5,
+     19.0,
+     24.75
+    ]
+   },
+   "selection": [
+    22.875,
+    12.5,
+    28.25,
+    23.5,
+    21.875,
+    27.0,
+    11.0,
+    18.25,
+    24.5,
+    23.625,
+    32.0,
+    22.625,
+    30.375,
+    27.25
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": 36.29
+  },
+  "random-attr-3": {
+   "dclm": 2.8129,
+   "code": 1.1213,
+   "battery": {
+    "efficacy": [
+     45.688,
+     27.188,
+     22.5,
+     23.5,
+     22.125,
+     25.75,
+     25.25,
+     26.125,
+     9.75,
+     27.688,
+     33.313,
+     32.75
+    ],
+    "neighbors": [
+     42.063,
+     29.25,
+     41.5,
+     26.375,
+     18.875,
+     21.5,
+     18.875,
+     25.125
+    ]
+   },
+   "selection": [
+    15.75,
+    12.75,
+    19.25,
+    22.0,
+    22.0,
+    26.875,
+    11.25,
+    18.5,
+    25.125,
+    24.0,
+    31.75,
+    22.75,
+    30.0,
+    27.625
+   ],
+   "neurons": 3,
+   "bands": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 0.11
+  },
+  "greedy-3": {
+   "dclm": 2.8128,
+   "code": 1.1216,
+   "battery": {
+    "efficacy": [
+     45.563,
+     28.25,
+     -20.0,
+     22.0,
+     22.625,
+     26.0,
+     25.375,
+     25.5,
+     10.25,
+     28.438,
+     32.875,
+     31.375
+    ],
+    "neighbors": [
+     42.25,
+     29.375,
+     41.625,
+     26.625,
+     19.0,
+     21.5,
+     19.25,
+     25.25
+    ]
+   },
+   "selection": [
+    12.5,
+    9.75,
+    -1.0,
+    17.5,
+    23.625,
+    27.0,
+    14.0,
+    6.0,
+    24.75,
+    23.625,
+    32.5,
+    22.75,
+    30.25,
+    27.25
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to be trained for various tasks."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 3,
+   "bands": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -121.39
+  },
+  "random-greedy0-3": {
+   "dclm": 2.813,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     45.938,
+     27.875,
+     22.625,
+     23.625,
+     21.875,
+     25.875,
+     25.875,
+     25.125,
+     9.75,
+     27.75,
+     33.25,
+     32.625
+    ],
+    "neighbors": [
+     42.0,
+     29.563,
+     41.938,
+     26.625,
+     18.75,
+     21.375,
+     18.875,
+     25.0
+    ]
+   },
+   "selection": [
+    15.25,
+    13.25,
+    19.125,
+    21.75,
+    21.625,
+    27.0,
+    11.5,
+    18.5,
+    25.125,
+    23.625,
+    32.125,
+    22.5,
+    30.375,
+    27.875
+   ],
+   "neurons": 3,
+   "bands": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 0.2
+  },
+  "random-greedy1-3": {
+   "dclm": 2.8126,
+   "code": 1.1209,
+   "battery": {
+    "efficacy": [
+     45.813,
+     27.625,
+     22.5,
+     23.375,
+     22.5,
+     25.875,
+     25.75,
+     25.875,
+     9.375,
+     27.75,
+     33.313,
+     32.875
+    ],
+    "neighbors": [
+     42.0,
+     29.313,
+     42.063,
+     26.5,
+     18.75,
+     21.5,
+     19.125,
+     24.375
+    ]
+   },
+   "selection": [
+    15.875,
+    13.75,
+    19.5,
+    22.0,
+    22.0,
+    26.5,
+    11.25,
+    17.75,
+    24.5,
+    24.25,
+    31.625,
+    23.0,
+    29.875,
+    27.125
+   ],
+   "neurons": 3,
+   "bands": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -1.9
+  },
+  "attr-10": {
+   "dclm": 2.8132,
+   "code": 1.1222,
+   "battery": {
+    "efficacy": [
+     45.625,
+     26.875,
+     -25.5,
+     22.625,
+     19.125,
+     26.0,
+     25.625,
+     23.625,
+     9.5,
+     28.125,
+     33.188,
+     33.25
+    ],
+    "neighbors": [
+     42.562,
+     29.188,
+     41.625,
+     26.5,
+     18.375,
+     20.125,
+     18.875,
+     24.75
+    ]
+   },
+   "selection": [
+    14.875,
+    11.25,
+    1.5,
+    17.5,
+    24.125,
+    26.625,
+    13.25,
+    3.25,
+    23.875,
+    24.25,
+    31.125,
+    14.25,
+    30.125,
+    26.25
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability, versatility, and extensive use in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -177.18
+  },
+  "oracle-10": {
+   "dclm": 2.8124,
+   "code": 1.1211,
+   "battery": {
+    "efficacy": [
+     39.25,
+     26.25,
+     -25.0,
+     22.75,
+     13.125,
+     25.625,
+     24.75,
+     22.5,
+     9.0,
+     26.688,
+     32.063,
+     25.0
+    ],
+    "neighbors": [
+     35.875,
+     28.562,
+     34.687,
+     26.375,
+     16.625,
+     18.5,
+     18.5,
+     24.625
+    ]
+   },
+   "selection": [
+    8.5,
+    7.5,
+    1.0,
+    20.5,
+    23.875,
+    26.25,
+    12.25,
+    11.75,
+    23.875,
+    23.125,
+    30.0,
+    5.25,
+    29.375,
+    26.25
+   ],
+   "neurons": 10,
+   "bands": [
+    2,
+    4,
+    1,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -46.96
+  },
+  "geo-10": {
+   "dclm": 2.8117,
+   "code": 1.1196,
+   "battery": {
+    "efficacy": [
+     46.062,
+     28.875,
+     22.5,
+     23.75,
+     23.75,
+     26.0,
+     25.375,
+     26.125,
+     9.25,
+     28.313,
+     33.5,
+     33.75
+    ],
+    "neighbors": [
+     42.875,
+     29.812,
+     42.125,
+     26.5,
+     18.875,
+     22.125,
+     19.5,
+     25.125
+    ]
+   },
+   "selection": [
+    29.25,
+    17.0,
+    25.875,
+    26.375,
+    21.25,
+    27.375,
+    11.75,
+    14.25,
+    24.25,
+    22.75,
+    33.0,
+    25.0,
+    30.125,
+    27.25
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    3,
+    0,
+    0,
+    1,
+    5
+   ],
+   "predicted_selection": 50.53
+  },
+  "random-attr-10": {
+   "dclm": 2.8131,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     45.875,
+     27.312,
+     23.0,
+     23.25,
+     22.25,
+     25.625,
+     26.875,
+     25.25,
+     9.875,
+     27.813,
+     33.438,
+     32.625
+    ],
+    "neighbors": [
+     42.687,
+     29.688,
+     41.562,
+     26.625,
+     18.875,
+     21.75,
+     19.0,
+     25.125
+    ]
+   },
+   "selection": [
+    16.125,
+    13.5,
+    19.875,
+    22.25,
+    22.25,
+    27.25,
+    11.25,
+    18.25,
+    24.75,
+    23.75,
+    32.375,
+    23.125,
+    29.875,
+    27.375
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 1.18
+  },
+  "greedy-10": {
+   "dclm": 2.8132,
+   "code": 1.1247,
+   "battery": {
+    "efficacy": [
+     45.562,
+     24.125,
+     -25.375,
+     22.75,
+     13.875,
+     26.25,
+     26.0,
+     21.25,
+     9.5,
+     27.875,
+     33.375,
+     32.125
+    ],
+    "neighbors": [
+     42.938,
+     29.625,
+     41.75,
+     26.875,
+     18.875,
+     19.75,
+     19.0,
+     24.75
+    ]
+   },
+   "selection": [
+    15.875,
+    5.25,
+    7.0,
+    3.25,
+    24.125,
+    26.375,
+    11.5,
+    -12.75,
+    24.125,
+    22.625,
+    31.875,
+    3.25,
+    30.0,
+    27.0
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability, versatility, and extensive use in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -144.84
+  },
+  "greedy-10/k4": {
+   "dclm": 2.8136,
+   "code": 1.1277,
+   "battery": {
+    "efficacy": [
+     29.375,
+     14.25,
+     -25.75,
+     5.25,
+     0.5,
+     25.0,
+     25.0,
+     -3.0,
+     6.5,
+     27.563,
+     6.75,
+     28.0
+    ],
+    "neighbors": [
+     42.25,
+     28.75,
+     42.875,
+     25.5,
+     17.625,
+     18.125,
+     19.75,
+     25.25
+    ]
+   },
+   "selection": [
+    20.875,
+    -1.0,
+    13.875,
+    -8.5,
+    22.5,
+    21.375,
+    -5.75,
+    -15.75,
+    21.625,
+    10.0,
+    29.125,
+    -12.0,
+    28.125,
+    26.0
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet, known for its loyalty, trainability, and companionship."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a programming language known for its simplicity, readability, and versatility, widely used for web development, data analysis, artificial intelligence, and more."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -144.84
+  },
+  "random-greedy0-10": {
+   "dclm": 2.813,
+   "code": 1.121,
+   "battery": {
+    "efficacy": [
+     45.75,
+     27.625,
+     22.375,
+     23.25,
+     22.25,
+     25.75,
+     25.875,
+     26.0,
+     10.0,
+     27.375,
+     33.375,
+     32.5
+    ],
+    "neighbors": [
+     42.438,
+     29.812,
+     41.938,
+     26.875,
+     18.75,
+     21.625,
+     19.625,
+     24.625
+    ]
+   },
+   "selection": [
+    15.25,
+    13.5,
+    19.375,
+    22.25,
+    22.25,
+    26.875,
+    10.75,
+    17.5,
+    24.875,
+    24.625,
+    32.375,
+    22.875,
+    29.875,
+    27.125
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 0.17
+  },
+  "random-greedy1-10": {
+   "dclm": 2.8131,
+   "code": 1.1207,
+   "battery": {
+    "efficacy": [
+     45.625,
+     28.063,
+     22.625,
+     23.125,
+     21.875,
+     25.375,
+     25.75,
+     25.375,
+     9.5,
+     27.875,
+     33.5,
+     33.625
+    ],
+    "neighbors": [
+     41.813,
+     29.25,
+     42.0,
+     26.5,
+     18.625,
+     20.875,
+     19.375,
+     25.0
+    ]
+   },
+   "selection": [
+    16.5,
+    13.25,
+    20.375,
+    22.625,
+    21.5,
+    26.875,
+    11.25,
+    17.75,
+    24.75,
+    23.875,
+    31.625,
+    22.875,
+    29.625,
+    27.5
+   ],
+   "neurons": 10,
+   "bands": [
+    4,
+    6,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": -1.94
+  },
+  "attr-30": {
+   "dclm": 2.8121,
+   "code": 1.124,
+   "battery": {
+    "efficacy": [
+     44.0,
+     6.75,
+     -25.0,
+     22.25,
+     -22.125,
+     25.0,
+     24.875,
+     0.75,
+     9.25,
+     27.5,
+     32.313,
+     33.5
+    ],
+    "neighbors": [
+     41.5,
+     27.375,
+     40.812,
+     23.0,
+     18.125,
+     1.25,
+     18.125,
+     24.625
+    ]
+   },
+   "selection": [
+    23.125,
+    2.75,
+    9.875,
+    3.5,
+    23.625,
+    21.625,
+    12.25,
+    -14.5,
+    23.75,
+    -8.875,
+    25.5,
+    -19.125,
+    29.375,
+    24.75
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet or for work, known for its loyalty, companionship, and varied breeds."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, general-purpose programming language known for its readability, versatility, and extensive use in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    12,
+    12,
+    1,
+    0,
+    3,
+    2
+   ],
+   "predicted_selection": -250.16
+  },
+  "oracle-30": {
+   "dclm": 2.8113,
+   "code": 1.1249,
+   "battery": {
+    "efficacy": [
+     37.125,
+     10.75,
+     -23.875,
+     21.75,
+     -20.375,
+     24.0,
+     24.25,
+     5.875,
+     7.5,
+     25.625,
+     30.75,
+     23.375
+    ],
+    "neighbors": [
+     33.438,
+     26.062,
+     33.438,
+     22.25,
+     15.125,
+     15.625,
+     17.625,
+     24.125
+    ]
+   },
+   "selection": [
+    18.125,
+    2.5,
+    11.375,
+    15.25,
+    23.0,
+    21.5,
+    12.0,
+    5.75,
+    22.875,
+    -2.5,
+    23.875,
+    -16.375,
+    27.75,
+    22.875
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    8,
+    4,
+    0,
+    0,
+    7
+   ],
+   "predicted_selection": -67.55
+  },
+  "geo-30": {
+   "dclm": 2.8122,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     46.5,
+     28.25,
+     22.0,
+     24.0,
+     23.0,
+     25.875,
+     25.5,
+     26.625,
+     9.375,
+     28.938,
+     33.063,
+     33.875
+    ],
+    "neighbors": [
+     42.813,
+     29.25,
+     42.75,
+     26.25,
+     19.25,
+     22.125,
+     19.0,
+     25.25
+    ]
+   },
+   "selection": [
+    26.375,
+    19.25,
+    26.625,
+    30.875,
+    21.25,
+    28.125,
+    11.5,
+    12.5,
+    24.125,
+    22.75,
+    33.25,
+    25.0,
+    30.375,
+    27.25
+   ],
+   "neurons": 30,
+   "bands": [
+    4,
+    9,
+    0,
+    3,
+    4,
+    10
+   ],
+   "predicted_selection": 65.13
+  },
+  "random-attr-30": {
+   "dclm": 2.8128,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     46.062,
+     27.688,
+     22.5,
+     23.125,
+     22.25,
+     25.375,
+     25.625,
+     25.625,
+     9.625,
+     27.688,
+     33.125,
+     31.75
+    ],
+    "neighbors": [
+     42.25,
+     29.312,
+     41.75,
+     26.5,
+     19.0,
+     21.375,
+     19.25,
+     24.75
+    ]
+   },
+   "selection": [
+    15.375,
+    13.25,
+    18.875,
+    21.75,
+    22.125,
+    26.625,
+    11.5,
+    17.75,
+    24.875,
+    24.0,
+    32.375,
+    22.875,
+    30.5,
+    27.125
+   ],
+   "neurons": 30,
+   "bands": [
+    12,
+    12,
+    1,
+    0,
+    3,
+    2
+   ],
+   "predicted_selection": 0.7
+  },
+  "greedy-30": {
+   "dclm": 2.8124,
+   "code": 1.1251,
+   "battery": {
+    "efficacy": [
+     45.312,
+     10.75,
+     -25.75,
+     21.25,
+     -7.25,
+     26.0,
+     25.875,
+     9.75,
+     10.0,
+     27.438,
+     32.688,
+     33.75
+    ],
+    "neighbors": [
+     44.188,
+     28.062,
+     43.562,
+     23.875,
+     18.0,
+     14.5,
+     18.75,
+     25.0
+    ]
+   },
+   "selection": [
+    11.0,
+    1.75,
+    1.5,
+    -14.0,
+    24.5,
+    24.25,
+    11.5,
+    -17.25,
+    24.125,
+    20.75,
+    29.75,
+    -14.25,
+    29.625,
+    26.125
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility in various applications such as web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    16,
+    0,
+    0,
+    3,
+    0
+   ],
+   "predicted_selection": -146.11
+  },
+  "greedy-30/k4": {
+   "dclm": 2.8144,
+   "code": 1.1308,
+   "battery": {
+    "efficacy": [
+     11.75,
+     8.5,
+     -24.75,
+     -2.5,
+     -9.0,
+     23.875,
+     23.625,
+     -7.875,
+     9.5,
+     27.563,
+     14.375,
+     28.375
+    ],
+    "neighbors": [
+     39.562,
+     28.687,
+     42.937,
+     24.0,
+     15.375,
+     17.0,
+     18.75,
+     25.25
+    ]
+   },
+   "selection": [
+    10.25,
+    3.25,
+    2.75,
+    -10.75,
+    22.875,
+    20.0,
+    11.875,
+    -12.75,
+    14.5,
+    11.875,
+    24.5,
+    -14.125,
+    26.25,
+    24.625
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated carnivorous mammal known for its loyalty, versatility, and role as a companion and working animal."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is an open-source machine learning library used for developing applications in artificial intelligence, including natural language processing, computer vision, and data analysis."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    16,
+    0,
+    0,
+    3,
+    0
+   ],
+   "predicted_selection": -146.11
+  },
+  "random-greedy0-30": {
+   "dclm": 2.8129,
+   "code": 1.1211,
+   "battery": {
+    "efficacy": [
+     46.25,
+     27.875,
+     22.25,
+     23.375,
+     21.875,
+     25.625,
+     25.625,
+     25.625,
+     9.375,
+     27.688,
+     33.438,
+     33.125
+    ],
+    "neighbors": [
+     42.313,
+     29.75,
+     41.937,
+     26.25,
+     18.875,
+     21.75,
+     19.25,
+     24.875
+    ]
+   },
+   "selection": [
+    16.0,
+    13.5,
+    19.75,
+    22.375,
+    22.5,
+    27.125,
+    11.5,
+    17.5,
+    24.5,
+    24.375,
+    32.375,
+    22.875,
+    30.125,
+    27.25
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    16,
+    0,
+    0,
+    3,
+    0
+   ],
+   "predicted_selection": 0.79
+  },
+  "random-greedy1-30": {
+   "dclm": 2.8128,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     45.75,
+     28.062,
+     22.75,
+     23.375,
+     21.5,
+     26.125,
+     26.0,
+     25.75,
+     9.625,
+     27.688,
+     33.25,
+     32.75
+    ],
+    "neighbors": [
+     42.25,
+     29.813,
+     42.0,
+     26.75,
+     19.125,
+     21.5,
+     19.625,
+     24.5
+    ]
+   },
+   "selection": [
+    15.75,
+    13.75,
+    19.875,
+    22.25,
+    21.625,
+    26.75,
+    11.0,
+    18.75,
+    24.75,
+    24.25,
+    31.875,
+    22.75,
+    30.0,
+    27.5
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    16,
+    0,
+    0,
+    3,
+    0
+   ],
+   "predicted_selection": -1.82
+  },
+  "attr-100": {
+   "dclm": 2.8114,
+   "code": 1.1349,
+   "battery": {
+    "efficacy": [
+     42.438,
+     -2.75,
+     -23.125,
+     17.25,
+     -20.625,
+     22.25,
+     23.625,
+     -3.375,
+     9.0,
+     25.125,
+     30.188,
+     27.5
+    ],
+    "neighbors": [
+     40.562,
+     25.125,
+     40.687,
+     21.0,
+     15.875,
+     14.5,
+     16.75,
+     23.75
+    ]
+   },
+   "selection": [
+    9.75,
+    2.0,
+    6.75,
+    -4.5,
+    22.625,
+    18.625,
+    8.0,
+    -19.125,
+    20.875,
+    -9.25,
+    19.5,
+    -16.5,
+    26.75,
+    21.625
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet or for work, known for its loyalty, versatility, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, general-purpose programming language known for its readability, versatility, and extensive use in web development, data analysis, artificial intelligence, and automation."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    44,
+    36,
+    9,
+    1,
+    3,
+    7
+   ],
+   "predicted_selection": -404.74
+  },
+  "oracle-100": {
+   "dclm": 2.8077,
+   "code": 1.1243,
+   "battery": {
+    "efficacy": [
+     31.875,
+     11.5,
+     -21.625,
+     19.25,
+     -17.75,
+     20.875,
+     21.25,
+     7.375,
+     8.75,
+     23.313,
+     29.125,
+     16.75
+    ],
+    "neighbors": [
+     27.0,
+     23.312,
+     30.375,
+     20.5,
+     10.625,
+     14.375,
+     16.25,
+     22.375
+    ]
+   },
+   "selection": [
+    8.75,
+    3.25,
+    4.5,
+    13.25,
+    20.0,
+    18.375,
+    11.25,
+    6.0,
+    20.5,
+    3.125,
+    20.25,
+    -13.25,
+    26.0,
+    20.5
+   ],
+   "neurons": 100,
+   "bands": [
+    45,
+    25,
+    9,
+    1,
+    2,
+    18
+   ],
+   "predicted_selection": -142.5
+  },
+  "geo-100": {
+   "dclm": 2.8125,
+   "code": 1.1284,
+   "battery": {
+    "efficacy": [
+     45.563,
+     25.375,
+     22.5,
+     23.625,
+     21.25,
+     25.875,
+     25.75,
+     25.5,
+     9.75,
+     28.75,
+     32.75,
+     33.75
+    ],
+    "neighbors": [
+     42.875,
+     27.813,
+     42.062,
+     24.25,
+     18.5,
+     21.625,
+     18.75,
+     25.125
+    ]
+   },
+   "selection": [
+    27.75,
+    9.25,
+    28.625,
+    21.25,
+    21.25,
+    27.0,
+    10.75,
+    7.75,
+    23.625,
+    20.25,
+    32.5,
+    23.375,
+    29.875,
+    27.625
+   ],
+   "neurons": 100,
+   "bands": [
+    24,
+    24,
+    6,
+    9,
+    15,
+    22
+   ],
+   "predicted_selection": -23.71
+  },
+  "random-attr-100": {
+   "dclm": 2.8132,
+   "code": 1.121,
+   "battery": {
+    "efficacy": [
+     46.062,
+     27.688,
+     22.75,
+     24.0,
+     22.0,
+     25.875,
+     26.0,
+     25.75,
+     9.75,
+     27.813,
+     33.188,
+     32.375
+    ],
+    "neighbors": [
+     42.5,
+     29.562,
+     41.75,
+     26.625,
+     18.875,
+     21.25,
+     19.0,
+     25.125
+    ]
+   },
+   "selection": [
+    15.625,
+    13.0,
+    19.625,
+    21.75,
+    22.375,
+    26.75,
+    11.5,
+    17.5,
+    24.625,
+    24.125,
+    32.75,
+    22.75,
+    30.125,
+    27.5
+   ],
+   "neurons": 100,
+   "bands": [
+    44,
+    36,
+    9,
+    1,
+    3,
+    7
+   ],
+   "predicted_selection": 0.98
+  },
+  "greedy-100": {
+   "dclm": 2.812,
+   "code": 1.1322,
+   "battery": {
+    "efficacy": [
+     43.5,
+     -27.0,
+     -25.5,
+     -27.875,
+     -25.75,
+     25.75,
+     26.25,
+     -18.0,
+     10.0,
+     15.0,
+     31.313,
+     33.5
+    ],
+    "neighbors": [
+     42.625,
+     26.5,
+     42.562,
+     19.0,
+     18.125,
+     6.0,
+     19.125,
+     25.0
+    ]
+   },
+   "selection": [
+    6.5,
+    -0.75,
+    1.0,
+    -13.75,
+    22.875,
+    -10.75,
+    -25.5,
+    -25.25,
+    23.75,
+    -17.5,
+    4.0,
+    -24.0,
+    29.5,
+    26.875
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "A Python is a domesticated carnivorous mammal known for its loyalty, versatility, and role as a companion and working animal."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    53,
+    31,
+    8,
+    1,
+    4,
+    3
+   ],
+   "predicted_selection": -146.63
+  },
+  "greedy-100/k4": {
+   "dclm": 2.8397,
+   "code": 1.1528,
+   "battery": {
+    "efficacy": [
+     6.0,
+     -6.75,
+     -27.0,
+     -10.25,
+     -21.5,
+     21.25,
+     27.75,
+     3.25,
+     14.625,
+     21.875,
+     19.375,
+     3.0
+    ],
+    "neighbors": [
+     20.5,
+     16.125,
+     34.5,
+     18.75,
+     -19.0,
+     8.875,
+     19.5,
+     28.125
+    ]
+   },
+   "selection": [
+    -4.75,
+    17.5,
+    -7.75,
+    2.75,
+    19.5,
+    11.75,
+    -14.5,
+    -20.5,
+    15.5,
+    -8.0,
+    29.0,
+    -15.0,
+    25.5,
+    26.5
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and common use as a companion and working animal."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level programming language designed for general-purpose computing, known for its simplicity, readability, and versatility."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    53,
+    31,
+    8,
+    1,
+    4,
+    3
+   ],
+   "predicted_selection": -146.63
+  },
+  "random-greedy0-100": {
+   "dclm": 2.8133,
+   "code": 1.1212,
+   "battery": {
+    "efficacy": [
+     46.063,
+     27.5,
+     22.375,
+     23.5,
+     22.5,
+     25.25,
+     25.875,
+     25.375,
+     9.5,
+     27.563,
+     33.313,
+     32.625
+    ],
+    "neighbors": [
+     42.313,
+     29.063,
+     41.562,
+     26.25,
+     19.25,
+     21.5,
+     19.375,
+     24.875
+    ]
+   },
+   "selection": [
+    15.125,
+    13.0,
+    19.5,
+    22.0,
+    21.875,
+    26.75,
+    11.5,
+    17.75,
+    24.875,
+    23.625,
+    32.375,
+    22.75,
+    30.125,
+    27.125
+   ],
+   "neurons": 100,
+   "bands": [
+    53,
+    31,
+    8,
+    1,
+    4,
+    3
+   ],
+   "predicted_selection": 0.5
+  },
+  "random-greedy1-100": {
+   "dclm": 2.8125,
+   "code": 1.121,
+   "battery": {
+    "efficacy": [
+     46.188,
+     27.562,
+     22.75,
+     23.5,
+     22.5,
+     25.75,
+     25.875,
+     25.75,
+     9.625,
+     27.75,
+     33.438,
+     33.25
+    ],
+    "neighbors": [
+     42.25,
+     29.625,
+     42.063,
+     26.25,
+     19.0,
+     21.0,
+     19.375,
+     24.625
+    ]
+   },
+   "selection": [
+    15.625,
+    13.5,
+    19.375,
+    22.25,
+    22.25,
+    26.875,
+    10.75,
+    19.0,
+    24.75,
+    23.75,
+    32.625,
+    23.25,
+    30.5,
+    27.125
+   ],
+   "neurons": 100,
+   "bands": [
+    53,
+    31,
+    8,
+    1,
+    4,
+    3
+   ],
+   "predicted_selection": -1.22
+  },
+  "attr-300": {
+   "dclm": 2.8059,
+   "code": 1.153,
+   "battery": {
+    "efficacy": [
+     37.75,
+     -4.25,
+     -20.25,
+     12.0,
+     -15.5,
+     18.875,
+     20.0,
+     -6.125,
+     6.125,
+     13.688,
+     28.188,
+     21.5
+    ],
+    "neighbors": [
+     36.5,
+     21.625,
+     36.312,
+     17.375,
+     12.875,
+     16.875,
+     16.25,
+     21.625
+    ]
+   },
+   "selection": [
+    4.75,
+    -0.75,
+    2.25,
+    -12.75,
+    18.625,
+    11.25,
+    3.375,
+    -17.25,
+    18.625,
+    -2.625,
+    15.75,
+    -13.25,
+    22.625,
+    18.625
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and role as a companion, working animal, and symbol of friendship."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level programming language designed for software development, with a focus on readability and simplicity, often used for web development, automation, and data analysis."
+    }
+   ],
+   "neurons": 300,
+   "bands": [
+    127,
+    98,
+    33,
+    6,
+    8,
+    28
+   ],
+   "predicted_selection": -634.31
+  },
+  "oracle-300": {
+   "dclm": 2.806,
+   "code": 1.1434,
+   "battery": {
+    "efficacy": [
+     22.5,
+     5.75,
+     -18.5,
+     15.125,
+     -7.5,
+     16.875,
+     17.75,
+     -4.5,
+     6.5,
+     14.938,
+     27.125,
+     5.875
+    ],
+    "neighbors": [
+     18.5,
+     19.75,
+     22.625,
+     17.125,
+     10.125,
+     15.25,
+     14.875,
+     21.125
+    ]
+   },
+   "selection": [
+    -0.5,
+    5.75,
+    -0.375,
+    10.0,
+    16.75,
+    9.625,
+    9.125,
+    9.75,
+    17.375,
+    2.25,
+    16.625,
+    -6.875,
+    21.75,
+    16.5
+   ],
+   "neurons": 300,
+   "bands": [
+    132,
+    70,
+    33,
+    8,
+    13,
+    44
+   ],
+   "predicted_selection": -272.09
+  },
+  "geo-300": {
+   "dclm": 2.816,
+   "code": 1.1467,
+   "battery": {
+    "efficacy": [
+     45.25,
+     11.5,
+     -24.75,
+     4.75,
+     -10.75,
+     25.875,
+     26.375,
+     1.0,
+     8.25,
+     28.75,
+     33.938,
+     30.875
+    ],
+    "neighbors": [
+     43.688,
+     27.625,
+     42.063,
+     25.0,
+     18.0,
+     18.0,
+     19.75,
+     25.375
+    ]
+   },
+   "selection": [
+    16.125,
+    6.0,
+    9.5,
+    3.5,
+    23.0,
+    9.0,
+    11.0,
+    -3.75,
+    22.875,
+    15.25,
+    28.5,
+    -10.25,
+    28.25,
+    26.375
+   ],
+   "neurons": 300,
+   "bands": [
+    78,
+    72,
+    36,
+    18,
+    38,
+    58
+   ],
+   "predicted_selection": -52.44
+  },
+  "random-attr-300": {
+   "dclm": 2.8132,
+   "code": 1.122,
+   "battery": {
+    "efficacy": [
+     45.688,
+     27.812,
+     22.75,
+     23.5,
+     22.25,
+     26.0,
+     25.625,
+     25.875,
+     9.75,
+     27.688,
+     33.375,
+     33.375
+    ],
+    "neighbors": [
+     41.938,
+     29.5,
+     41.75,
+     26.875,
+     18.875,
+     21.875,
+     19.125,
+     24.625
+    ]
+   },
+   "selection": [
+    17.375,
+    13.75,
+    20.875,
+    22.0,
+    22.125,
+    27.125,
+    10.75,
+    18.75,
+    24.875,
+    23.875,
+    33.25,
+    22.875,
+    30.125,
+    27.375
+   ],
+   "neurons": 300,
+   "bands": [
+    127,
+    98,
+    33,
+    6,
+    8,
+    28
+   ],
+   "predicted_selection": 3.95
+  },
+  "greedy-300": {
+   "dclm": 2.8189,
+   "code": 1.1574,
+   "battery": {
+    "efficacy": [
+     43.312,
+     -34.125,
+     -26.125,
+     -30.875,
+     -30.75,
+     26.875,
+     27.875,
+     -28.875,
+     9.75,
+     -2.25,
+     30.313,
+     33.25
+    ],
+    "neighbors": [
+     41.813,
+     26.5,
+     42.313,
+     19.0,
+     18.625,
+     20.5,
+     18.75,
+     24.5
+    ]
+   },
+   "selection": [
+    -14.25,
+    -7.0,
+    -15.0,
+    -33.625,
+    24.25,
+    -25.75,
+    -27.25,
+    -31.875,
+    24.75,
+    -22.5,
+    -14.5,
+    -27.0,
+    30.375,
+    27.0
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and companionship."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "A Python is a domesticated carnivorous mammal, typically kept as a pet or working animal, known for its loyalty, companionship, and various roles in human society."
+    }
+   ],
+   "neurons": 300,
+   "bands": [
+    211,
+    46,
+    10,
+    3,
+    13,
+    17
+   ],
+   "predicted_selection": -80.15
+  },
+  "random-greedy0-300": {
+   "dclm": 2.8134,
+   "code": 1.1221,
+   "battery": {
+    "efficacy": [
+     46.187,
+     27.812,
+     21.625,
+     23.875,
+     21.875,
+     25.625,
+     26.125,
+     24.625,
+     9.75,
+     27.688,
+     33.375,
+     31.875
+    ],
+    "neighbors": [
+     41.688,
+     29.125,
+     42.125,
+     26.25,
+     18.375,
+     21.125,
+     18.5,
+     25.0
+    ]
+   },
+   "selection": [
+    15.125,
+    13.25,
+    19.625,
+    21.75,
+    22.0,
+    26.375,
+    11.0,
+    17.25,
+    24.5,
+    23.75,
+    31.75,
+    22.875,
+    30.0,
+    26.375
+   ],
+   "neurons": 300,
+   "bands": [
+    211,
+    46,
+    10,
+    3,
+    13,
+    17
+   ],
+   "predicted_selection": -2.88
+  },
+  "random-greedy1-300": {
+   "dclm": 2.8124,
+   "code": 1.1217,
+   "battery": {
+    "efficacy": [
+     45.938,
+     27.688,
+     23.375,
+     23.625,
+     22.75,
+     26.25,
+     25.625,
+     26.0,
+     9.5,
+     27.313,
+     33.063,
+     33.125
+    ],
+    "neighbors": [
+     42.5,
+     29.938,
+     41.75,
+     26.875,
+     19.125,
+     21.375,
+     19.25,
+     24.875
+    ]
+   },
+   "selection": [
+    14.75,
+    13.0,
+    19.875,
+    22.625,
+    22.375,
+    26.5,
+    11.5,
+    18.0,
+    24.875,
+    24.25,
+    32.5,
+    22.875,
+    30.75,
+    28.25
+   ],
+   "neurons": 300,
+   "bands": [
+    211,
+    46,
+    10,
+    3,
+    13,
+    17
+   ],
+   "predicted_selection": -0.72
+  },
+  "attr-1000": {
+   "dclm": 2.8152,
+   "code": 1.1619,
+   "battery": {
+    "efficacy": [
+     32.312,
+     -5.5,
+     -13.375,
+     6.5,
+     -15.0,
+     19.375,
+     23.125,
+     -9.0,
+     4.25,
+     13.375,
+     26.0,
+     16.625
+    ],
+    "neighbors": [
+     30.375,
+     19.75,
+     32.812,
+     15.25,
+     10.5,
+     19.5,
+     19.875,
+     18.75
+    ]
+   },
+   "selection": [
+    1.0,
+    -1.0,
+    -1.75,
+    -8.75,
+    19.25,
+    9.25,
+    -19.0,
+    -19.625,
+    19.0,
+    2.5,
+    13.125,
+    -11.5,
+    25.875,
+    19.375
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and role as a companion and working animal."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a popular programming language known for its simplicity, versatility, and widespread use in various applications such as web development, data analysis, and automation."
+    }
+   ],
+   "neurons": 1000,
+   "bands": [
+    411,
+    338,
+    124,
+    15,
+    33,
+    79
+   ],
+   "predicted_selection": -1088.05
+  },
+  "oracle-1000": {
+   "dclm": 2.7969,
+   "code": 1.1474,
+   "battery": {
+    "efficacy": [
+     9.25,
+     3.875,
+     -15.0,
+     10.25,
+     -5.375,
+     12.5,
+     13.375,
+     -5.0,
+     5.75,
+     10.75,
+     21.25,
+     -0.625
+    ],
+    "neighbors": [
+     6.75,
+     13.25,
+     10.0,
+     10.25,
+     5.625,
+     11.5,
+     12.75,
+     14.875
+    ]
+   },
+   "selection": [
+    -1.125,
+    3.375,
+    -1.25,
+    -0.75,
+    12.125,
+    9.125,
+    6.625,
+    4.25,
+    12.875,
+    2.875,
+    10.125,
+    -6.5,
+    15.625,
+    12.875
+   ],
+   "neurons": 1000,
+   "bands": [
+    367,
+    302,
+    126,
+    22,
+    56,
+    127
+   ],
+   "predicted_selection": -559.05
+  },
+  "geo-1000": {
+   "dclm": 2.8287,
+   "code": 1.1718,
+   "battery": {
+    "efficacy": [
+     43.0,
+     -25.125,
+     -24.25,
+     -25.625,
+     -24.0,
+     25.125,
+     25.625,
+     -16.5,
+     11.751,
+     26.438,
+     31.563,
+     29.125
+    ],
+    "neighbors": [
+     40.75,
+     31.25,
+     42.25,
+     23.375,
+     16.75,
+     22.375,
+     17.625,
+     21.625
+    ]
+   },
+   "selection": [
+    20.375,
+    -17.375,
+    20.875,
+    -29.0,
+    21.5,
+    -4.5,
+    11.0,
+    -20.625,
+    23.875,
+    -17.0,
+    16.25,
+    -21.5,
+    29.125,
+    25.5
+   ],
+   "neurons": 1000,
+   "bands": [
+    401,
+    206,
+    81,
+    46,
+    131,
+    135
+   ],
+   "predicted_selection": -47.43
+  },
+  "random-attr-1000": {
+   "dclm": 2.8136,
+   "code": 1.1221,
+   "battery": {
+    "efficacy": [
+     45.188,
+     27.813,
+     22.25,
+     23.875,
+     22.375,
+     25.375,
+     25.625,
+     25.25,
+     9.0,
+     27.688,
+     33.125,
+     30.875
+    ],
+    "neighbors": [
+     41.313,
+     29.0,
+     41.375,
+     26.125,
+     18.75,
+     20.75,
+     18.375,
+     24.5
+    ]
+   },
+   "selection": [
+    15.75,
+    12.75,
+    19.0,
+    21.75,
+    21.625,
+    26.25,
+    11.0,
+    18.25,
+    24.5,
+    23.875,
+    31.375,
+    22.875,
+    29.375,
+    27.0
+   ],
+   "neurons": 1000,
+   "bands": [
+    411,
+    338,
+    124,
+    15,
+    33,
+    79
+   ],
+   "predicted_selection": -4.9
+  },
+  "greedy-1000": {
+   "dclm": 2.8327,
+   "code": 1.2106,
+   "battery": {
+    "efficacy": [
+     40.437,
+     -31.5,
+     -25.75,
+     -32.5,
+     -33.375,
+     26.25,
+     28.125,
+     -30.0,
+     11.75,
+     0.75,
+     26.375,
+     29.75
+    ],
+    "neighbors": [
+     40.125,
+     26.75,
+     43.5,
+     14.625,
+     16.875,
+     24.25,
+     19.75,
+     25.0
+    ]
+   },
+   "selection": [
+    -63.738,
+    -5.25,
+    -49.812,
+    -42.625,
+    22.75,
+    -31.0,
+    -26.375,
+    -33.875,
+    24.5,
+    -27.5,
+    -26.0,
+    -27.5,
+    31.125,
+    26.375
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet, known for its loyalty, versatility, and ability to form strong bonds with humans."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a programming language designed for writing concise and Readable Code."
+    }
+   ],
+   "neurons": 1000,
+   "bands": [
+    832,
+    84,
+    15,
+    4,
+    18,
+    47
+   ],
+   "predicted_selection": -39.14
+  },
+  "random-greedy0-1000": {
+   "dclm": 2.8131,
+   "code": 1.1218,
+   "battery": {
+    "efficacy": [
+     45.687,
+     27.937,
+     23.0,
+     23.75,
+     22.125,
+     25.25,
+     26.0,
+     25.25,
+     9.375,
+     27.813,
+     33.25,
+     31.25
+    ],
+    "neighbors": [
+     42.375,
+     29.438,
+     42.188,
+     26.5,
+     18.625,
+     21.625,
+     19.0,
+     24.875
+    ]
+   },
+   "selection": [
+    17.375,
+    13.5,
+    21.25,
+    22.0,
+    22.625,
+    26.875,
+    12.0,
+    17.0,
+    25.0,
+    24.375,
+    32.625,
+    23.5,
+    29.875,
+    27.875
+   ],
+   "neurons": 1000,
+   "bands": [
+    832,
+    84,
+    15,
+    4,
+    18,
+    47
+   ],
+   "predicted_selection": -1.14
+  },
+  "random-greedy1-1000": {
+   "dclm": 2.8125,
+   "code": 1.1219,
+   "battery": {
+    "efficacy": [
+     46.625,
+     27.562,
+     23.5,
+     23.375,
+     21.75,
+     26.0,
+     26.375,
+     26.875,
+     10.0,
+     27.625,
+     33.625,
+     33.125
+    ],
+    "neighbors": [
+     42.563,
+     29.75,
+     42.625,
+     27.25,
+     19.375,
+     21.375,
+     19.125,
+     25.75
+    ]
+   },
+   "selection": [
+    13.25,
+    15.5,
+    17.25,
+    23.0,
+    22.875,
+    28.125,
+    11.25,
+    18.0,
+    24.875,
+    24.0,
+    33.625,
+    25.625,
+    30.25,
+    27.875
+   ],
+   "neurons": 1000,
+   "bands": [
+    832,
+    84,
+    15,
+    4,
+    18,
+    47
+   ],
+   "predicted_selection": 6.53
+  },
+  "attr-4392": {
+   "dclm": 2.8073,
+   "code": 1.1751,
+   "battery": {
+    "efficacy": [
+     12.0,
+     -1.125,
+     -11.5,
+     2.5,
+     -7.25,
+     8.125,
+     10.125,
+     -3.75,
+     2.125,
+     -0.5,
+     19.375,
+     7.625
+    ],
+    "neighbors": [
+     11.375,
+     10.687,
+     14.313,
+     10.875,
+     4.625,
+     7.125,
+     11.125,
+     11.0
+    ]
+   },
+   "selection": [
+    -1.375,
+    -2.0,
+    0.875,
+    -4.875,
+    6.5,
+    1.375,
+    -10.5,
+    -9.125,
+    6.75,
+    2.375,
+    4.875,
+    -4.875,
+    10.0,
+    8.375
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and role as a companion and working animal."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level programming Language that is Designed to Be Easy to Read and Write, Making It Popular for Software Development, Automation, and Various Applications."
+    }
+   ],
+   "neurons": 4392,
+   "bands": [
+    1406,
+    1798,
+    691,
+    75,
+    156,
+    266
+   ],
+   "predicted_selection": -2198.55
+  },
+  "oracle-4392": {
+   "dclm": 2.7984,
+   "code": 1.1479,
+   "battery": {
+    "efficacy": [
+     -1.25,
+     1.125,
+     -10.0,
+     4.25,
+     -2.375,
+     6.25,
+     8.5,
+     -4.5,
+     1.5,
+     9.0,
+     5.375,
+     -4.875
+    ],
+    "neighbors": [
+     -1.125,
+     6.688,
+     -0.875,
+     5.438,
+     0.0,
+     6.75,
+     10.125,
+     8.625
+    ]
+   },
+   "selection": [
+    -4.125,
+    5.0,
+    -3.375,
+    0.25,
+    7.125,
+    3.0,
+    1.375,
+    1.625,
+    7.5,
+    -1.125,
+    6.75,
+    -1.875,
+    10.375,
+    6.75
+   ],
+   "neurons": 4392,
+   "bands": [
+    1254,
+    1643,
+    670,
+    130,
+    266,
+    429
+   ],
+   "predicted_selection": -1224.35
+  },
+  "geo-4392": {
+   "dclm": 2.8304,
+   "code": 1.1754,
+   "battery": {
+    "efficacy": [
+     41.937,
+     -26.25,
+     -24.0,
+     -26.5,
+     -24.375,
+     25.5,
+     26.0,
+     -18.25,
+     9.75,
+     14.75,
+     31.438,
+     29.0
+    ],
+    "neighbors": [
+     39.938,
+     30.375,
+     41.5,
+     21.625,
+     15.125,
+     23.25,
+     18.0,
+     21.75
+    ]
+   },
+   "selection": [
+    20.5,
+    -21.0,
+    22.0,
+    -36.375,
+    21.375,
+    -6.25,
+    10.0,
+    -20.75,
+    24.0,
+    -17.5,
+    15.0,
+    -20.75,
+    28.875,
+    25.75
+   ],
+   "neurons": 4392,
+   "bands": [
+    3655,
+    243,
+    103,
+    62,
+    163,
+    166
+   ],
+   "predicted_selection": -45.22
+  },
+  "random-attr-4392": {
+   "dclm": 2.8189,
+   "code": 1.1341,
+   "battery": {
+    "efficacy": [
+     45.344,
+     27.75,
+     22.5,
+     24.25,
+     23.0,
+     24.75,
+     26.25,
+     25.875,
+     8.75,
+     26.313,
+     33.0,
+     33.75
+    ],
+    "neighbors": [
+     42.187,
+     28.187,
+     40.563,
+     25.875,
+     18.75,
+     21.125,
+     17.625,
+     23.5
+    ]
+   },
+   "selection": [
+    12.5,
+    14.0,
+    9.25,
+    23.125,
+    21.625,
+    27.625,
+    12.5,
+    20.25,
+    24.5,
+    24.375,
+    33.25,
+    23.375,
+    29.75,
+    27.0
+   ],
+   "neurons": 4392,
+   "bands": [
+    1406,
+    1798,
+    691,
+    75,
+    156,
+    266
+   ],
+   "predicted_selection": 5.9
+  },
+  "layer-1": {
+   "dclm": 2.814,
+   "code": 1.1217,
+   "battery": {
+    "efficacy": [
+     46.25,
+     27.875,
+     21.75,
+     24.25,
+     23.0,
+     25.125,
+     24.0,
+     26.625,
+     9.0,
+     29.125,
+     32.875,
+     34.25
+    ],
+    "neighbors": [
+     43.125,
+     29.688,
+     43.187,
+     26.625,
+     18.25,
+     21.625,
+     18.5,
+     22.375
+    ]
+   },
+   "selection": [
+    21.25,
+    13.0,
+    20.125,
+    21.75,
+    19.375,
+    26.5,
+    10.25,
+    11.75,
+    24.75,
+    21.0,
+    32.625,
+    23.625,
+    29.875,
+    25.625
+   ],
+   "neurons": 36,
+   "bands": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "predicted_selection": -56.36
+  },
+  "layer-3": {
+   "dclm": 2.8126,
+   "code": 1.1359,
+   "battery": {
+    "efficacy": [
+     44.875,
+     26.625,
+     22.0,
+     23.375,
+     21.0,
+     24.5,
+     23.875,
+     25.25,
+     9.25,
+     28.063,
+     32.375,
+     30.0
+    ],
+    "neighbors": [
+     41.563,
+     28.812,
+     41.5,
+     25.125,
+     17.75,
+     18.0,
+     18.5,
+     22.875
+    ]
+   },
+   "selection": [
+    26.5,
+    13.75,
+    28.125,
+    28.5,
+    19.5,
+    26.0,
+    9.5,
+    11.75,
+    23.625,
+    19.75,
+    32.625,
+    21.5,
+    28.375,
+    25.125
+   ],
+   "neurons": 108,
+   "bands": [
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+   ],
+   "predicted_selection": -24.92
+  },
+  "layer-12": {
+   "dclm": 2.8209,
+   "code": 1.1608,
+   "battery": {
+    "efficacy": [
+     45.25,
+     10.0,
+     -23.125,
+     -1.5,
+     -9.25,
+     25.125,
+     25.0,
+     -6.875,
+     11.125,
+     30.563,
+     30.813,
+     31.375
+    ],
+    "neighbors": [
+     42.75,
+     29.375,
+     42.187,
+     23.625,
+     16.25,
+     22.625,
+     18.375,
+     22.625
+    ]
+   },
+   "selection": [
+    10.0,
+    6.75,
+    8.0,
+    -2.75,
+    21.125,
+    12.0,
+    9.25,
+    1.5,
+    22.875,
+    13.125,
+    28.125,
+    -4.0,
+    28.75,
+    25.25
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and role as a companion and working animal."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming Language Known For Its Readability, Versatility, And Widespread Use In Software Development, Data Analysis, Artificial Intelligence, And Automation."
+    }
+   ],
+   "neurons": 432,
+   "bands": [
+    72,
+    72,
+    72,
+    72,
+    72,
+    72
+   ],
+   "predicted_selection": -57.63
+  },
+  "layer-36": {
+   "dclm": 2.8326,
+   "code": 1.1791,
+   "battery": {
+    "efficacy": [
+     43.312,
+     -13.875,
+     -24.75,
+     -24.5,
+     -8.75,
+     25.5,
+     26.125,
+     -10.25,
+     9.5,
+     31.375,
+     30.75,
+     31.75
+    ],
+    "neighbors": [
+     41.75,
+     30.125,
+     42.563,
+     20.0,
+     15.0,
+     22.75,
+     18.75,
+     21.875
+    ]
+   },
+   "selection": [
+    2.75,
+    -12.25,
+    10.25,
+    -23.875,
+    20.25,
+    12.25,
+    11.5,
+    2.5,
+    23.125,
+    12.5,
+    25.25,
+    7.25,
+    29.5,
+    25.375
+   ],
+   "neurons": 1296,
+   "bands": [
+    216,
+    216,
+    216,
+    216,
+    216,
+    216
+   ],
+   "predicted_selection": -34.03
+  },
+  "layer-122": {
+   "dclm": 2.8371,
+   "code": 1.2213,
+   "battery": {
+    "efficacy": [
+     32.625,
+     -23.5,
+     -27.5,
+     -28.125,
+     -24.5,
+     24.5,
+     26.125,
+     -22.5,
+     9.25,
+     9.625,
+     22.5,
+     26.0
+    ],
+    "neighbors": [
+     33.375,
+     29.125,
+     38.938,
+     15.625,
+     13.5,
+     22.0,
+     20.25,
+     20.625
+    ]
+   },
+   "selection": [
+    23.375,
+    -34.75,
+    25.625,
+    -44.906,
+    22.375,
+    -10.75,
+    11.75,
+    -25.25,
+    24.25,
+    -13.75,
+    16.25,
+    -19.25,
+    31.625,
+    25.5
+   ],
+   "replies": [
+    {
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its versatility, intelligence, and widespread use in companionship, work, and research."
+    },
+    {
+     "question": "In one sentence, what is Python?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and widespread use in various roles such as companionship, work, and service."
+    }
+   ],
+   "neurons": 4392,
+   "bands": [
+    732,
+    732,
+    732,
+    732,
+    732,
+    732
+   ],
+   "predicted_selection": -19.47
+  }
+ },
+ "greedy": [
+  [
+   2,
+   8447
+  ],
+  [
+   10,
+   10469
+  ],
+  [
+   8,
+   9861
+  ],
+  [
+   8,
+   9259
+  ],
+  [
+   8,
+   9097
+  ],
+  [
+   4,
+   3583
+  ],
+  [
+   9,
+   5455
+  ],
+  [
+   5,
+   10639
+  ],
+  [
+   10,
+   3699
+  ],
+  [
+   5,
+   10603
+  ],
+  [
+   10,
+   4780
+  ],
+  [
+   8,
+   9892
+  ],
+  [
+   10,
+   2802
+  ],
+  [
+   7,
+   9734
+  ],
+  [
+   29,
+   5107
+  ],
+  [
+   4,
+   4292
+  ],
+  [
+   8,
+   855
+  ],
+  [
+   8,
+   8689
+  ],
+  [
+   0,
+   8416
+  ],
+  [
+   2,
+   9095
+  ],
+  [
+   7,
+   11978
+  ],
+  [
+   10,
+   9794
+  ],
+  [
+   4,
+   9117
+  ],
+  [
+   2,
+   4391
+  ],
+  [
+   28,
+   5507
+  ],
+  [
+   5,
+   5011
+  ],
+  [
+   0,
+   1288
+  ],
+  [
+   8,
+   4248
+  ],
+  [
+   9,
+   105
+  ],
+  [
+   27,
+   1648
+  ],
+  [
+   11,
+   6651
+  ],
+  [
+   8,
+   5846
+  ],
+  [
+   4,
+   5722
+  ],
+  [
+   0,
+   3393
+  ],
+  [
+   5,
+   4913
+  ],
+  [
+   5,
+   524
+  ],
+  [
+   12,
+   11296
+  ],
+  [
+   13,
+   2608
+  ],
+  [
+   3,
+   282
+  ],
+  [
+   8,
+   11080
+  ],
+  [
+   3,
+   24
+  ],
+  [
+   4,
+   12070
+  ],
+  [
+   3,
+   11166
+  ],
+  [
+   5,
+   5746
+  ],
+  [
+   0,
+   8729
+  ],
+  [
+   5,
+   5109
+  ],
+  [
+   7,
+   5755
+  ],
+  [
+   5,
+   7248
+  ],
+  [
+   0,
+   9878
+  ],
+  [
+   5,
+   10827
+  ],
+  [
+   6,
+   6550
+  ],
+  [
+   30,
+   195
+  ],
+  [
+   0,
+   3399
+  ],
+  [
+   5,
+   8000
+  ],
+  [
+   5,
+   8075
+  ],
+  [
+   6,
+   11523
+  ],
+  [
+   3,
+   2157
+  ],
+  [
+   32,
+   9067
+  ],
+  [
+   12,
+   7934
+  ],
+  [
+   5,
+   271
+  ],
+  [
+   12,
+   5806
+  ],
+  [
+   22,
+   5157
+  ],
+  [
+   5,
+   11232
+  ],
+  [
+   9,
+   6348
+  ],
+  [
+   1,
+   4047
+  ],
+  [
+   13,
+   846
+  ],
+  [
+   13,
+   12072
+  ],
+  [
+   0,
+   2442
+  ],
+  [
+   11,
+   3739
+  ],
+  [
+   10,
+   11427
+  ],
+  [
+   12,
+   10706
+  ],
+  [
+   2,
+   2685
+  ],
+  [
+   2,
+   5367
+  ],
+  [
+   4,
+   6464
+  ],
+  [
+   9,
+   8388
+  ],
+  [
+   7,
+   10669
+  ],
+  [
+   8,
+   7929
+  ],
+  [
+   13,
+   5494
+  ],
+  [
+   8,
+   3667
+  ],
+  [
+   0,
+   4170
+  ],
+  [
+   3,
+   5694
+  ],
+  [
+   5,
+   7121
+  ],
+  [
+   5,
+   7302
+  ],
+  [
+   2,
+   11073
+  ],
+  [
+   0,
+   1966
+  ],
+  [
+   5,
+   12023
+  ],
+  [
+   3,
+   10081
+  ],
+  [
+   1,
+   2692
+  ],
+  [
+   3,
+   7120
+  ],
+  [
+   3,
+   7321
+  ],
+  [
+   0,
+   6952
+  ],
+  [
+   3,
+   7086
+  ],
+  [
+   5,
+   2389
+  ],
+  [
+   31,
+   7306
+  ],
+  [
+   28,
+   2545
+  ],
+  [
+   7,
+   8341
+  ],
+  [
+   10,
+   6159
+  ],
+  [
+   2,
+   2382
+  ],
+  [
+   5,
+   2050
+  ],
+  [
+   5,
+   9651
+  ],
+  [
+   4,
+   10504
+  ],
+  [
+   2,
+   4508
+  ],
+  [
+   4,
+   5321
+  ],
+  [
+   5,
+   10469
+  ],
+  [
+   8,
+   9901
+  ],
+  [
+   5,
+   9616
+  ],
+  [
+   4,
+   8608
+  ],
+  [
+   3,
+   7528
+  ],
+  [
+   4,
+   8257
+  ],
+  [
+   28,
+   1392
+  ],
+  [
+   3,
+   1487
+  ],
+  [
+   3,
+   2028
+  ],
+  [
+   5,
+   5052
+  ],
+  [
+   5,
+   12049
+  ],
+  [
+   5,
+   8400
+  ],
+  [
+   3,
+   4263
+  ],
+  [
+   4,
+   4787
+  ],
+  [
+   3,
+   5086
+  ],
+  [
+   5,
+   6932
+  ],
+  [
+   4,
+   9217
+  ],
+  [
+   4,
+   6764
+  ],
+  [
+   0,
+   6767
+  ],
+  [
+   4,
+   1253
+  ],
+  [
+   0,
+   6347
+  ],
+  [
+   2,
+   9320
+  ],
+  [
+   35,
+   2708
+  ],
+  [
+   5,
+   5116
+  ],
+  [
+   0,
+   3720
+  ],
+  [
+   2,
+   11370
+  ],
+  [
+   1,
+   8402
+  ],
+  [
+   0,
+   7288
+  ],
+  [
+   8,
+   1303
+  ],
+  [
+   27,
+   9981
+  ],
+  [
+   4,
+   190
+  ],
+  [
+   22,
+   9465
+  ],
+  [
+   0,
+   2581
+  ],
+  [
+   5,
+   3631
+  ],
+  [
+   3,
+   5261
+  ],
+  [
+   0,
+   592
+  ],
+  [
+   1,
+   11629
+  ],
+  [
+   0,
+   10270
+  ],
+  [
+   27,
+   4541
+  ],
+  [
+   35,
+   8063
+  ],
+  [
+   3,
+   12123
+  ],
+  [
+   5,
+   10510
+  ],
+  [
+   0,
+   4975
+  ],
+  [
+   35,
+   4404
+  ],
+  [
+   2,
+   10949
+  ],
+  [
+   5,
+   962
+  ],
+  [
+   1,
+   9163
+  ],
+  [
+   34,
+   10398
+  ],
+  [
+   2,
+   8295
+  ],
+  [
+   2,
+   9837
+  ],
+  [
+   0,
+   159
+  ],
+  [
+   2,
+   9649
+  ],
+  [
+   5,
+   1749
+  ],
+  [
+   0,
+   1868
+  ],
+  [
+   0,
+   5982
+  ],
+  [
+   2,
+   381
+  ],
+  [
+   5,
+   2748
+  ],
+  [
+   0,
+   9205
+  ],
+  [
+   4,
+   3275
+  ],
+  [
+   24,
+   7289
+  ],
+  [
+   30,
+   10935
+  ],
+  [
+   4,
+   10608
+  ],
+  [
+   5,
+   9791
+  ],
+  [
+   3,
+   11790
+  ],
+  [
+   4,
+   226
+  ],
+  [
+   0,
+   6316
+  ],
+  [
+   29,
+   11001
+  ],
+  [
+   0,
+   11460
+  ],
+  [
+   24,
+   116
+  ],
+  [
+   3,
+   7499
+  ],
+  [
+   0,
+   9971
+  ],
+  [
+   5,
+   308
+  ],
+  [
+   4,
+   5588
+  ],
+  [
+   0,
+   7334
+  ],
+  [
+   2,
+   1650
+  ],
+  [
+   2,
+   8634
+  ],
+  [
+   29,
+   6697
+  ],
+  [
+   0,
+   8351
+  ],
+  [
+   5,
+   12222
+  ],
+  [
+   0,
+   4475
+  ],
+  [
+   0,
+   12275
+  ],
+  [
+   31,
+   6122
+  ],
+  [
+   29,
+   163
+  ],
+  [
+   1,
+   10808
+  ],
+  [
+   4,
+   4196
+  ],
+  [
+   35,
+   1640
+  ],
+  [
+   0,
+   6078
+  ],
+  [
+   2,
+   2277
+  ],
+  [
+   33,
+   2376
+  ],
+  [
+   6,
+   5723
+  ],
+  [
+   3,
+   7078
+  ],
+  [
+   3,
+   891
+  ],
+  [
+   0,
+   9378
+  ],
+  [
+   6,
+   6489
+  ],
+  [
+   0,
+   7924
+  ],
+  [
+   0,
+   678
+  ],
+  [
+   3,
+   4619
+  ],
+  [
+   11,
+   9039
+  ],
+  [
+   0,
+   4102
+  ],
+  [
+   4,
+   10091
+  ],
+  [
+   3,
+   1676
+  ],
+  [
+   2,
+   9905
+  ],
+  [
+   0,
+   4788
+  ],
+  [
+   3,
+   9897
+  ],
+  [
+   2,
+   5037
+  ],
+  [
+   2,
+   11998
+  ],
+  [
+   5,
+   1061
+  ],
+  [
+   12,
+   7182
+  ],
+  [
+   5,
+   10894
+  ],
+  [
+   0,
+   3956
+  ],
+  [
+   0,
+   11466
+  ],
+  [
+   5,
+   4895
+  ],
+  [
+   5,
+   3675
+  ],
+  [
+   35,
+   11626
+  ],
+  [
+   0,
+   7082
+  ],
+  [
+   3,
+   3127
+  ],
+  [
+   6,
+   10417
+  ],
+  [
+   3,
+   7751
+  ],
+  [
+   4,
+   4034
+  ],
+  [
+   5,
+   6712
+  ],
+  [
+   2,
+   1682
+  ],
+  [
+   2,
+   9032
+  ],
+  [
+   23,
+   1715
+  ],
+  [
+   35,
+   7955
+  ],
+  [
+   0,
+   1652
+  ],
+  [
+   5,
+   4863
+  ],
+  [
+   5,
+   11767
+  ],
+  [
+   7,
+   8085
+  ],
+  [
+   9,
+   9896
+  ],
+  [
+   0,
+   9993
+  ],
+  [
+   1,
+   2728
+  ],
+  [
+   0,
+   1545
+  ],
+  [
+   2,
+   2035
+  ],
+  [
+   3,
+   518
+  ],
+  [
+   3,
+   5777
+  ],
+  [
+   1,
+   3507
+  ],
+  [
+   1,
+   4270
+  ],
+  [
+   3,
+   7072
+  ],
+  [
+   3,
+   2304
+  ],
+  [
+   6,
+   2357
+  ],
+  [
+   4,
+   7378
+  ],
+  [
+   0,
+   11209
+  ],
+  [
+   4,
+   6265
+  ],
+  [
+   35,
+   6502
+  ],
+  [
+   5,
+   9344
+  ],
+  [
+   5,
+   3885
+  ],
+  [
+   5,
+   8301
+  ],
+  [
+   4,
+   11244
+  ],
+  [
+   0,
+   820
+  ],
+  [
+   5,
+   8490
+  ],
+  [
+   5,
+   6776
+  ],
+  [
+   4,
+   5760
+  ],
+  [
+   2,
+   9366
+  ],
+  [
+   2,
+   5622
+  ],
+  [
+   6,
+   4901
+  ],
+  [
+   0,
+   11721
+  ],
+  [
+   4,
+   3646
+  ],
+  [
+   2,
+   3958
+  ],
+  [
+   0,
+   3613
+  ],
+  [
+   4,
+   4870
+  ],
+  [
+   3,
+   2635
+  ],
+  [
+   7,
+   12116
+  ],
+  [
+   32,
+   2760
+  ],
+  [
+   3,
+   8178
+  ],
+  [
+   4,
+   9024
+  ],
+  [
+   5,
+   4867
+  ],
+  [
+   5,
+   3992
+  ],
+  [
+   31,
+   1243
+  ],
+  [
+   9,
+   7846
+  ],
+  [
+   3,
+   9556
+  ],
+  [
+   24,
+   10298
+  ],
+  [
+   0,
+   5519
+  ],
+  [
+   4,
+   1207
+  ],
+  [
+   0,
+   7581
+  ],
+  [
+   0,
+   11861
+  ],
+  [
+   5,
+   5483
+  ],
+  [
+   4,
+   1175
+  ],
+  [
+   4,
+   4131
+  ],
+  [
+   0,
+   4229
+  ],
+  [
+   4,
+   1633
+  ],
+  [
+   2,
+   4989
+  ],
+  [
+   4,
+   9670
+  ],
+  [
+   10,
+   7704
+  ],
+  [
+   0,
+   1699
+  ],
+  [
+   0,
+   6545
+  ],
+  [
+   14,
+   10210
+  ],
+  [
+   5,
+   6940
+  ],
+  [
+   33,
+   912
+  ],
+  [
+   3,
+   1269
+  ],
+  [
+   5,
+   473
+  ],
+  [
+   0,
+   9937
+  ],
+  [
+   3,
+   8941
+  ],
+  [
+   4,
+   981
+  ],
+  [
+   5,
+   3070
+  ],
+  [
+   5,
+   5773
+  ],
+  [
+   6,
+   8518
+  ],
+  [
+   9,
+   625
+  ],
+  [
+   0,
+   1822
+  ],
+  [
+   2,
+   6606
+  ],
+  [
+   3,
+   2261
+  ],
+  [
+   5,
+   6451
+  ],
+  [
+   9,
+   11117
+  ],
+  [
+   0,
+   10210
+  ],
+  [
+   12,
+   10293
+  ],
+  [
+   11,
+   11328
+  ],
+  [
+   1,
+   4701
+  ],
+  [
+   0,
+   6661
+  ],
+  [
+   2,
+   5484
+  ],
+  [
+   6,
+   7163
+  ],
+  [
+   0,
+   9634
+  ],
+  [
+   2,
+   8863
+  ],
+  [
+   0,
+   60
+  ],
+  [
+   2,
+   1446
+  ],
+  [
+   1,
+   7780
+  ],
+  [
+   3,
+   4310
+  ],
+  [
+   1,
+   5976
+  ],
+  [
+   13,
+   8906
+  ],
+  [
+   1,
+   7718
+  ],
+  [
+   3,
+   4319
+  ],
+  [
+   1,
+   12253
+  ],
+  [
+   14,
+   8412
+  ],
+  [
+   0,
+   5110
+  ],
+  [
+   26,
+   10175
+  ],
+  [
+   0,
+   8046
+  ],
+  [
+   0,
+   8709
+  ],
+  [
+   0,
+   9369
+  ],
+  [
+   0,
+   1877
+  ],
+  [
+   5,
+   1606
+  ],
+  [
+   0,
+   10935
+  ],
+  [
+   0,
+   5903
+  ],
+  [
+   6,
+   571
+  ],
+  [
+   5,
+   9577
+  ],
+  [
+   5,
+   9609
+  ],
+  [
+   0,
+   4716
+  ],
+  [
+   5,
+   11443
+  ],
+  [
+   5,
+   238
+  ],
+  [
+   2,
+   5929
+  ],
+  [
+   4,
+   2557
+  ],
+  [
+   26,
+   8271
+  ],
+  [
+   0,
+   10626
+  ],
+  [
+   4,
+   8278
+  ],
+  [
+   5,
+   7862
+  ],
+  [
+   6,
+   422
+  ],
+  [
+   3,
+   750
+  ],
+  [
+   0,
+   2011
+  ],
+  [
+   0,
+   9575
+  ],
+  [
+   3,
+   2514
+  ],
+  [
+   4,
+   10558
+  ],
+  [
+   0,
+   2068
+  ],
+  [
+   0,
+   8728
+  ],
+  [
+   4,
+   60
+  ],
+  [
+   0,
+   3256
+  ],
+  [
+   7,
+   2480
+  ],
+  [
+   0,
+   8935
+  ],
+  [
+   4,
+   3874
+  ],
+  [
+   6,
+   4649
+  ],
+  [
+   0,
+   7120
+  ],
+  [
+   4,
+   10794
+  ],
+  [
+   5,
+   6520
+  ],
+  [
+   3,
+   10661
+  ],
+  [
+   2,
+   910
+  ],
+  [
+   11,
+   9907
+  ],
+  [
+   2,
+   10241
+  ],
+  [
+   0,
+   3816
+  ],
+  [
+   0,
+   8478
+  ],
+  [
+   35,
+   9981
+  ],
+  [
+   34,
+   6726
+  ],
+  [
+   2,
+   9440
+  ],
+  [
+   2,
+   82
+  ],
+  [
+   4,
+   8045
+  ],
+  [
+   3,
+   8997
+  ],
+  [
+   0,
+   2079
+  ],
+  [
+   2,
+   628
+  ],
+  [
+   4,
+   11211
+  ],
+  [
+   0,
+   7995
+  ],
+  [
+   2,
+   3218
+  ],
+  [
+   3,
+   4694
+  ],
+  [
+   10,
+   8002
+  ],
+  [
+   3,
+   974
+  ],
+  [
+   4,
+   3554
+  ],
+  [
+   3,
+   8734
+  ],
+  [
+   2,
+   11882
+  ],
+  [
+   3,
+   4496
+  ],
+  [
+   0,
+   9461
+  ],
+  [
+   1,
+   11125
+  ],
+  [
+   1,
+   2170
+  ],
+  [
+   5,
+   9691
+  ],
+  [
+   2,
+   1806
+  ],
+  [
+   2,
+   12070
+  ],
+  [
+   4,
+   7097
+  ],
+  [
+   5,
+   9266
+  ],
+  [
+   0,
+   2848
+  ],
+  [
+   4,
+   5758
+  ],
+  [
+   3,
+   11278
+  ],
+  [
+   0,
+   12182
+  ],
+  [
+   0,
+   739
+  ],
+  [
+   9,
+   11917
+  ],
+  [
+   4,
+   10206
+  ],
+  [
+   4,
+   5933
+  ],
+  [
+   31,
+   2380
+  ],
+  [
+   2,
+   3072
+  ],
+  [
+   5,
+   11186
+  ],
+  [
+   5,
+   1950
+  ],
+  [
+   35,
+   11082
+  ],
+  [
+   1,
+   11008
+  ],
+  [
+   6,
+   1002
+  ],
+  [
+   5,
+   5285
+  ],
+  [
+   0,
+   11477
+  ],
+  [
+   5,
+   11429
+  ],
+  [
+   4,
+   9134
+  ],
+  [
+   5,
+   1352
+  ],
+  [
+   0,
+   4327
+  ],
+  [
+   5,
+   7144
+  ],
+  [
+   4,
+   11595
+  ],
+  [
+   0,
+   7687
+  ],
+  [
+   5,
+   9792
+  ],
+  [
+   4,
+   216
+  ],
+  [
+   4,
+   1015
+  ],
+  [
+   1,
+   7875
+  ],
+  [
+   0,
+   1137
+  ],
+  [
+   5,
+   11828
+  ],
+  [
+   6,
+   8360
+  ],
+  [
+   3,
+   3722
+  ],
+  [
+   0,
+   2450
+  ],
+  [
+   4,
+   7158
+  ],
+  [
+   2,
+   4942
+  ],
+  [
+   5,
+   2971
+  ],
+  [
+   14,
+   5500
+  ],
+  [
+   5,
+   5105
+  ],
+  [
+   6,
+   4669
+  ],
+  [
+   0,
+   6166
+  ],
+  [
+   35,
+   9328
+  ],
+  [
+   0,
+   5341
+  ],
+  [
+   5,
+   456
+  ],
+  [
+   1,
+   8115
+  ],
+  [
+   4,
+   9679
+  ],
+  [
+   3,
+   6242
+  ],
+  [
+   35,
+   8247
+  ],
+  [
+   5,
+   7430
+  ],
+  [
+   0,
+   11040
+  ],
+  [
+   6,
+   327
+  ],
+  [
+   4,
+   7413
+  ],
+  [
+   5,
+   9346
+  ],
+  [
+   5,
+   5718
+  ],
+  [
+   2,
+   5996
+  ],
+  [
+   5,
+   4484
+  ],
+  [
+   0,
+   12161
+  ],
+  [
+   8,
+   11513
+  ],
+  [
+   9,
+   4820
+  ],
+  [
+   0,
+   7528
+  ],
+  [
+   34,
+   7257
+  ],
+  [
+   6,
+   7395
+  ],
+  [
+   5,
+   4618
+  ],
+  [
+   0,
+   6244
+  ],
+  [
+   0,
+   2565
+  ],
+  [
+   4,
+   6153
+  ],
+  [
+   4,
+   5820
+  ],
+  [
+   1,
+   11035
+  ],
+  [
+   0,
+   7175
+  ],
+  [
+   2,
+   11855
+  ],
+  [
+   3,
+   312
+  ],
+  [
+   3,
+   10119
+  ],
+  [
+   2,
+   6974
+  ],
+  [
+   0,
+   5949
+  ],
+  [
+   0,
+   3037
+  ],
+  [
+   2,
+   4026
+  ],
+  [
+   0,
+   3481
+  ],
+  [
+   0,
+   1551
+  ],
+  [
+   3,
+   8439
+  ],
+  [
+   0,
+   3825
+  ],
+  [
+   0,
+   12075
+  ],
+  [
+   0,
+   4168
+  ],
+  [
+   0,
+   6227
+  ],
+  [
+   0,
+   9551
+  ],
+  [
+   0,
+   5243
+  ],
+  [
+   2,
+   1133
+  ],
+  [
+   0,
+   8637
+  ],
+  [
+   3,
+   11860
+  ],
+  [
+   4,
+   6465
+  ],
+  [
+   0,
+   9846
+  ],
+  [
+   0,
+   4955
+  ],
+  [
+   0,
+   10169
+  ],
+  [
+   0,
+   2887
+  ],
+  [
+   0,
+   1730
+  ],
+  [
+   0,
+   5800
+  ],
+  [
+   2,
+   11154
+  ],
+  [
+   0,
+   5796
+  ],
+  [
+   0,
+   2092
+  ],
+  [
+   0,
+   7623
+  ],
+  [
+   1,
+   4195
+  ],
+  [
+   0,
+   2571
+  ],
+  [
+   0,
+   7651
+  ],
+  [
+   0,
+   12243
+  ],
+  [
+   0,
+   6382
+  ],
+  [
+   0,
+   6039
+  ],
+  [
+   0,
+   2687
+  ],
+  [
+   4,
+   5781
+  ],
+  [
+   4,
+   1016
+  ],
+  [
+   0,
+   5184
+  ],
+  [
+   0,
+   19
+  ],
+  [
+   0,
+   8510
+  ],
+  [
+   0,
+   11301
+  ],
+  [
+   0,
+   11206
+  ],
+  [
+   0,
+   2006
+  ],
+  [
+   0,
+   9034
+  ],
+  [
+   1,
+   10934
+  ],
+  [
+   0,
+   11086
+  ],
+  [
+   2,
+   521
+  ],
+  [
+   2,
+   10143
+  ],
+  [
+   0,
+   9944
+  ],
+  [
+   2,
+   7676
+  ],
+  [
+   0,
+   5254
+  ],
+  [
+   0,
+   1407
+  ],
+  [
+   0,
+   7405
+  ],
+  [
+   0,
+   4438
+  ],
+  [
+   0,
+   2039
+  ],
+  [
+   0,
+   7163
+  ],
+  [
+   0,
+   11498
+  ],
+  [
+   2,
+   3190
+  ],
+  [
+   0,
+   1306
+  ],
+  [
+   4,
+   2509
+  ],
+  [
+   2,
+   6279
+  ],
+  [
+   3,
+   7856
+  ],
+  [
+   0,
+   11375
+  ],
+  [
+   3,
+   9113
+  ],
+  [
+   2,
+   4000
+  ],
+  [
+   3,
+   3242
+  ],
+  [
+   0,
+   6296
+  ],
+  [
+   0,
+   7958
+  ],
+  [
+   2,
+   4591
+  ],
+  [
+   4,
+   2485
+  ],
+  [
+   0,
+   9533
+  ],
+  [
+   0,
+   222
+  ],
+  [
+   1,
+   2407
+  ],
+  [
+   0,
+   2489
+  ],
+  [
+   0,
+   11888
+  ],
+  [
+   0,
+   8472
+  ],
+  [
+   0,
+   8211
+  ],
+  [
+   4,
+   11548
+  ],
+  [
+   1,
+   3066
+  ],
+  [
+   0,
+   976
+  ],
+  [
+   0,
+   2771
+  ],
+  [
+   0,
+   4591
+  ],
+  [
+   0,
+   7585
+  ],
+  [
+   2,
+   6400
+  ],
+  [
+   0,
+   8590
+  ],
+  [
+   0,
+   10561
+  ],
+  [
+   33,
+   3928
+  ],
+  [
+   5,
+   9158
+  ],
+  [
+   0,
+   5288
+  ],
+  [
+   3,
+   568
+  ],
+  [
+   2,
+   2795
+  ],
+  [
+   2,
+   6402
+  ],
+  [
+   0,
+   8191
+  ],
+  [
+   0,
+   5438
+  ],
+  [
+   0,
+   5642
+  ],
+  [
+   0,
+   6318
+  ],
+  [
+   0,
+   7080
+  ],
+  [
+   0,
+   7129
+  ],
+  [
+   0,
+   76
+  ],
+  [
+   0,
+   6511
+  ],
+  [
+   0,
+   11053
+  ],
+  [
+   3,
+   9036
+  ],
+  [
+   0,
+   572
+  ],
+  [
+   0,
+   4469
+  ],
+  [
+   0,
+   663
+  ],
+  [
+   0,
+   5124
+  ],
+  [
+   4,
+   9493
+  ],
+  [
+   11,
+   1027
+  ],
+  [
+   4,
+   11733
+  ],
+  [
+   4,
+   8253
+  ],
+  [
+   9,
+   5992
+  ],
+  [
+   3,
+   8520
+  ],
+  [
+   4,
+   7656
+  ],
+  [
+   2,
+   5693
+  ],
+  [
+   0,
+   1458
+  ],
+  [
+   4,
+   8900
+  ],
+  [
+   2,
+   4522
+  ],
+  [
+   0,
+   6042
+  ],
+  [
+   33,
+   872
+  ],
+  [
+   4,
+   2075
+  ],
+  [
+   2,
+   11099
+  ],
+  [
+   2,
+   3950
+  ],
+  [
+   2,
+   9942
+  ],
+  [
+   4,
+   2196
+  ],
+  [
+   0,
+   5478
+  ],
+  [
+   2,
+   12116
+  ],
+  [
+   10,
+   2156
+  ],
+  [
+   4,
+   5681
+  ],
+  [
+   5,
+   6601
+  ],
+  [
+   10,
+   2956
+  ],
+  [
+   0,
+   10975
+  ],
+  [
+   0,
+   2629
+  ],
+  [
+   0,
+   1703
+  ],
+  [
+   0,
+   12014
+  ],
+  [
+   4,
+   2146
+  ],
+  [
+   2,
+   9086
+  ],
+  [
+   2,
+   10000
+  ],
+  [
+   3,
+   1856
+  ],
+  [
+   3,
+   3566
+  ],
+  [
+   7,
+   7133
+  ],
+  [
+   5,
+   5089
+  ],
+  [
+   4,
+   5454
+  ],
+  [
+   0,
+   5292
+  ],
+  [
+   4,
+   2245
+  ],
+  [
+   0,
+   4185
+  ],
+  [
+   0,
+   2159
+  ],
+  [
+   0,
+   7695
+  ],
+  [
+   0,
+   9557
+  ],
+  [
+   5,
+   5346
+  ],
+  [
+   5,
+   2014
+  ],
+  [
+   4,
+   9781
+  ],
+  [
+   4,
+   11169
+  ],
+  [
+   0,
+   6922
+  ],
+  [
+   1,
+   5242
+  ],
+  [
+   0,
+   2377
+  ],
+  [
+   35,
+   3576
+  ],
+  [
+   3,
+   7113
+  ],
+  [
+   0,
+   4891
+  ],
+  [
+   0,
+   9449
+  ],
+  [
+   4,
+   10545
+  ],
+  [
+   4,
+   2655
+  ],
+  [
+   31,
+   10961
+  ],
+  [
+   2,
+   2476
+  ],
+  [
+   4,
+   3590
+  ],
+  [
+   1,
+   5638
+  ],
+  [
+   34,
+   1063
+  ],
+  [
+   3,
+   7209
+  ],
+  [
+   9,
+   11694
+  ],
+  [
+   4,
+   2631
+  ],
+  [
+   0,
+   10842
+  ],
+  [
+   5,
+   11808
+  ],
+  [
+   0,
+   1177
+  ],
+  [
+   2,
+   791
+  ],
+  [
+   2,
+   12069
+  ],
+  [
+   3,
+   5322
+  ],
+  [
+   30,
+   2826
+  ],
+  [
+   0,
+   3590
+  ],
+  [
+   0,
+   9707
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   2,
+   1717
+  ],
+  [
+   0,
+   4642
+  ],
+  [
+   3,
+   9429
+  ],
+  [
+   0,
+   334
+  ],
+  [
+   21,
+   9676
+  ],
+  [
+   0,
+   6105
+  ],
+  [
+   4,
+   5997
+  ],
+  [
+   4,
+   6535
+  ],
+  [
+   4,
+   1661
+  ],
+  [
+   4,
+   9610
+  ],
+  [
+   0,
+   4873
+  ],
+  [
+   10,
+   6561
+  ],
+  [
+   2,
+   2800
+  ],
+  [
+   3,
+   2034
+  ],
+  [
+   2,
+   4366
+  ],
+  [
+   5,
+   4062
+  ],
+  [
+   3,
+   6027
+  ],
+  [
+   30,
+   10532
+  ],
+  [
+   2,
+   2686
+  ],
+  [
+   3,
+   8546
+  ],
+  [
+   0,
+   4415
+  ],
+  [
+   5,
+   4633
+  ],
+  [
+   0,
+   666
+  ],
+  [
+   3,
+   7515
+  ],
+  [
+   4,
+   6984
+  ],
+  [
+   3,
+   4891
+  ],
+  [
+   2,
+   11043
+  ],
+  [
+   3,
+   5075
+  ],
+  [
+   0,
+   3566
+  ],
+  [
+   0,
+   3619
+  ],
+  [
+   1,
+   3228
+  ],
+  [
+   0,
+   7481
+  ],
+  [
+   5,
+   9834
+  ],
+  [
+   0,
+   5769
+  ],
+  [
+   4,
+   1005
+  ],
+  [
+   5,
+   11248
+  ],
+  [
+   0,
+   10580
+  ],
+  [
+   0,
+   5348
+  ],
+  [
+   7,
+   2932
+  ],
+  [
+   5,
+   1736
+  ],
+  [
+   3,
+   5615
+  ],
+  [
+   4,
+   7748
+  ],
+  [
+   5,
+   2574
+  ],
+  [
+   3,
+   9379
+  ],
+  [
+   2,
+   1945
+  ],
+  [
+   0,
+   7199
+  ],
+  [
+   0,
+   3972
+  ],
+  [
+   10,
+   3452
+  ],
+  [
+   2,
+   6660
+  ],
+  [
+   5,
+   11010
+  ],
+  [
+   4,
+   9066
+  ],
+  [
+   0,
+   355
+  ],
+  [
+   2,
+   388
+  ],
+  [
+   10,
+   8299
+  ],
+  [
+   2,
+   2377
+  ],
+  [
+   2,
+   129
+  ],
+  [
+   0,
+   10281
+  ],
+  [
+   0,
+   315
+  ],
+  [
+   5,
+   12051
+  ],
+  [
+   4,
+   1613
+  ],
+  [
+   2,
+   4798
+  ],
+  [
+   0,
+   11104
+  ],
+  [
+   3,
+   10593
+  ],
+  [
+   0,
+   9315
+  ],
+  [
+   3,
+   3207
+  ],
+  [
+   5,
+   1808
+  ],
+  [
+   10,
+   8706
+  ],
+  [
+   9,
+   11843
+  ],
+  [
+   0,
+   10495
+  ],
+  [
+   0,
+   2409
+  ],
+  [
+   1,
+   8105
+  ],
+  [
+   1,
+   4683
+  ],
+  [
+   0,
+   5977
+  ],
+  [
+   2,
+   12106
+  ],
+  [
+   3,
+   179
+  ],
+  [
+   0,
+   1055
+  ],
+  [
+   2,
+   5911
+  ],
+  [
+   1,
+   4950
+  ],
+  [
+   0,
+   5580
+  ],
+  [
+   2,
+   5809
+  ],
+  [
+   2,
+   3299
+  ],
+  [
+   2,
+   2864
+  ],
+  [
+   0,
+   5719
+  ],
+  [
+   4,
+   6596
+  ],
+  [
+   2,
+   476
+  ],
+  [
+   2,
+   7178
+  ],
+  [
+   0,
+   9133
+  ],
+  [
+   2,
+   6138
+  ],
+  [
+   0,
+   11281
+  ],
+  [
+   3,
+   4339
+  ],
+  [
+   2,
+   9628
+  ],
+  [
+   2,
+   5054
+  ],
+  [
+   1,
+   7611
+  ],
+  [
+   0,
+   6390
+  ],
+  [
+   2,
+   541
+  ],
+  [
+   8,
+   10603
+  ],
+  [
+   4,
+   1480
+  ],
+  [
+   2,
+   1848
+  ],
+  [
+   0,
+   819
+  ],
+  [
+   3,
+   7781
+  ],
+  [
+   2,
+   6146
+  ],
+  [
+   2,
+   4345
+  ],
+  [
+   0,
+   3254
+  ],
+  [
+   2,
+   402
+  ],
+  [
+   6,
+   4107
+  ],
+  [
+   2,
+   11465
+  ],
+  [
+   4,
+   5425
+  ],
+  [
+   3,
+   168
+  ],
+  [
+   0,
+   1810
+  ],
+  [
+   0,
+   183
+  ],
+  [
+   0,
+   6305
+  ],
+  [
+   4,
+   4498
+  ],
+  [
+   2,
+   7733
+  ],
+  [
+   0,
+   7568
+  ],
+  [
+   0,
+   7926
+  ],
+  [
+   0,
+   2151
+  ],
+  [
+   3,
+   7431
+  ],
+  [
+   2,
+   8000
+  ],
+  [
+   5,
+   2024
+  ],
+  [
+   0,
+   6152
+  ],
+  [
+   0,
+   8052
+  ],
+  [
+   3,
+   8782
+  ],
+  [
+   0,
+   2718
+  ],
+  [
+   5,
+   10537
+  ],
+  [
+   4,
+   138
+  ],
+  [
+   5,
+   6644
+  ],
+  [
+   3,
+   1796
+  ],
+  [
+   0,
+   5902
+  ],
+  [
+   0,
+   10022
+  ],
+  [
+   0,
+   2674
+  ],
+  [
+   2,
+   5462
+  ],
+  [
+   0,
+   11029
+  ],
+  [
+   0,
+   10016
+  ],
+  [
+   2,
+   9787
+  ],
+  [
+   0,
+   765
+  ],
+  [
+   0,
+   9983
+  ],
+  [
+   0,
+   5277
+  ],
+  [
+   0,
+   2002
+  ],
+  [
+   5,
+   4613
+  ],
+  [
+   4,
+   288
+  ],
+  [
+   2,
+   11111
+  ],
+  [
+   0,
+   2914
+  ],
+  [
+   2,
+   4687
+  ],
+  [
+   3,
+   4029
+  ],
+  [
+   3,
+   7468
+  ],
+  [
+   0,
+   351
+  ],
+  [
+   3,
+   532
+  ],
+  [
+   2,
+   11132
+  ],
+  [
+   0,
+   12223
+  ],
+  [
+   3,
+   11876
+  ],
+  [
+   0,
+   3415
+  ],
+  [
+   3,
+   4585
+  ],
+  [
+   1,
+   3967
+  ],
+  [
+   0,
+   4037
+  ],
+  [
+   4,
+   2805
+  ],
+  [
+   1,
+   2222
+  ],
+  [
+   1,
+   1477
+  ],
+  [
+   29,
+   11392
+  ],
+  [
+   2,
+   7717
+  ],
+  [
+   2,
+   8970
+  ],
+  [
+   9,
+   12263
+  ],
+  [
+   5,
+   2180
+  ],
+  [
+   1,
+   10830
+  ],
+  [
+   0,
+   6121
+  ],
+  [
+   0,
+   11746
+  ],
+  [
+   0,
+   9797
+  ],
+  [
+   0,
+   11156
+  ],
+  [
+   0,
+   722
+  ],
+  [
+   0,
+   1605
+  ],
+  [
+   0,
+   6456
+  ],
+  [
+   2,
+   12167
+  ],
+  [
+   0,
+   8357
+  ],
+  [
+   0,
+   3530
+  ],
+  [
+   3,
+   4911
+  ],
+  [
+   0,
+   11960
+  ],
+  [
+   2,
+   6455
+  ],
+  [
+   5,
+   4890
+  ],
+  [
+   0,
+   8967
+  ],
+  [
+   6,
+   10354
+  ],
+  [
+   0,
+   580
+  ],
+  [
+   1,
+   11175
+  ],
+  [
+   0,
+   6890
+  ],
+  [
+   0,
+   8319
+  ],
+  [
+   5,
+   1899
+  ],
+  [
+   2,
+   5280
+  ],
+  [
+   3,
+   6169
+  ],
+  [
+   0,
+   11949
+  ],
+  [
+   0,
+   10758
+  ],
+  [
+   3,
+   2754
+  ],
+  [
+   5,
+   8334
+  ],
+  [
+   0,
+   9710
+  ],
+  [
+   0,
+   653
+  ],
+  [
+   0,
+   7665
+  ],
+  [
+   2,
+   4118
+  ],
+  [
+   2,
+   9255
+  ],
+  [
+   3,
+   8168
+  ],
+  [
+   0,
+   2071
+  ],
+  [
+   0,
+   9039
+  ],
+  [
+   0,
+   4698
+  ],
+  [
+   5,
+   10543
+  ],
+  [
+   1,
+   11951
+  ],
+  [
+   2,
+   3427
+  ],
+  [
+   5,
+   9190
+  ],
+  [
+   0,
+   5833
+  ],
+  [
+   0,
+   10939
+  ],
+  [
+   4,
+   7295
+  ],
+  [
+   0,
+   585
+  ],
+  [
+   0,
+   10943
+  ],
+  [
+   0,
+   7139
+  ],
+  [
+   2,
+   4264
+  ],
+  [
+   0,
+   11763
+  ],
+  [
+   3,
+   7962
+  ],
+  [
+   2,
+   9068
+  ],
+  [
+   0,
+   7099
+  ],
+  [
+   0,
+   3869
+  ],
+  [
+   0,
+   11145
+  ],
+  [
+   31,
+   55
+  ],
+  [
+   0,
+   2551
+  ],
+  [
+   35,
+   10645
+  ],
+  [
+   0,
+   9055
+  ],
+  [
+   2,
+   4815
+  ],
+  [
+   1,
+   4815
+  ],
+  [
+   0,
+   7269
+  ],
+  [
+   5,
+   9697
+  ],
+  [
+   0,
+   1720
+  ],
+  [
+   5,
+   932
+  ],
+  [
+   4,
+   2401
+  ],
+  [
+   0,
+   10182
+  ],
+  [
+   0,
+   7593
+  ],
+  [
+   0,
+   4081
+  ],
+  [
+   4,
+   4935
+  ],
+  [
+   3,
+   10561
+  ],
+  [
+   0,
+   11354
+  ],
+  [
+   0,
+   4505
+  ],
+  [
+   2,
+   3476
+  ],
+  [
+   2,
+   10976
+  ],
+  [
+   0,
+   4299
+  ],
+  [
+   4,
+   4303
+  ],
+  [
+   0,
+   5843
+  ],
+  [
+   0,
+   4841
+  ],
+  [
+   2,
+   4326
+  ],
+  [
+   0,
+   2117
+  ],
+  [
+   3,
+   7291
+  ],
+  [
+   0,
+   2194
+  ],
+  [
+   0,
+   12159
+  ],
+  [
+   6,
+   7673
+  ],
+  [
+   0,
+   7313
+  ],
+  [
+   2,
+   1050
+  ],
+  [
+   2,
+   2311
+  ],
+  [
+   0,
+   4293
+  ],
+  [
+   0,
+   4323
+  ],
+  [
+   0,
+   8517
+  ],
+  [
+   34,
+   870
+  ],
+  [
+   34,
+   5372
+  ],
+  [
+   0,
+   5275
+  ],
+  [
+   0,
+   2912
+  ],
+  [
+   35,
+   9321
+  ],
+  [
+   4,
+   2234
+  ],
+  [
+   4,
+   11388
+  ],
+  [
+   0,
+   10345
+  ],
+  [
+   2,
+   2904
+  ],
+  [
+   0,
+   8061
+  ],
+  [
+   0,
+   5257
+  ],
+  [
+   2,
+   7422
+  ],
+  [
+   0,
+   3101
+  ],
+  [
+   0,
+   10229
+  ],
+  [
+   34,
+   2567
+  ],
+  [
+   2,
+   4443
+  ],
+  [
+   0,
+   9291
+  ],
+  [
+   0,
+   5773
+  ],
+  [
+   4,
+   8617
+  ],
+  [
+   0,
+   10401
+  ],
+  [
+   0,
+   8039
+  ],
+  [
+   0,
+   3898
+  ],
+  [
+   5,
+   9055
+  ],
+  [
+   5,
+   443
+  ],
+  [
+   35,
+   11885
+  ],
+  [
+   0,
+   5574
+  ],
+  [
+   0,
+   3145
+  ],
+  [
+   0,
+   4199
+  ],
+  [
+   0,
+   9048
+  ],
+  [
+   31,
+   3106
+  ],
+  [
+   0,
+   6939
+  ],
+  [
+   5,
+   7261
+  ],
+  [
+   0,
+   6445
+  ],
+  [
+   0,
+   8248
+  ],
+  [
+   0,
+   3828
+  ],
+  [
+   4,
+   345
+  ],
+  [
+   8,
+   4513
+  ],
+  [
+   1,
+   4755
+  ],
+  [
+   4,
+   5560
+  ],
+  [
+   0,
+   9072
+  ],
+  [
+   0,
+   7404
+  ],
+  [
+   0,
+   199
+  ],
+  [
+   0,
+   2242
+  ],
+  [
+   35,
+   5459
+  ],
+  [
+   2,
+   3556
+  ],
+  [
+   5,
+   9818
+  ],
+  [
+   34,
+   1830
+  ],
+  [
+   0,
+   11984
+  ],
+  [
+   0,
+   1957
+  ],
+  [
+   0,
+   2495
+  ],
+  [
+   1,
+   11697
+  ],
+  [
+   35,
+   2267
+  ],
+  [
+   5,
+   4800
+  ],
+  [
+   5,
+   2017
+  ],
+  [
+   5,
+   9867
+  ],
+  [
+   0,
+   9446
+  ],
+  [
+   33,
+   10892
+  ],
+  [
+   0,
+   3410
+  ],
+  [
+   5,
+   2174
+  ],
+  [
+   0,
+   9854
+  ],
+  [
+   5,
+   34
+  ],
+  [
+   0,
+   4130
+  ],
+  [
+   5,
+   1364
+  ],
+  [
+   34,
+   6097
+  ],
+  [
+   1,
+   9248
+  ],
+  [
+   0,
+   3555
+  ],
+  [
+   0,
+   11841
+  ],
+  [
+   0,
+   1618
+  ],
+  [
+   32,
+   4802
+  ],
+  [
+   0,
+   4281
+  ],
+  [
+   1,
+   10631
+  ],
+  [
+   11,
+   8547
+  ],
+  [
+   0,
+   11698
+  ],
+  [
+   30,
+   7029
+  ],
+  [
+   0,
+   531
+  ],
+  [
+   5,
+   5380
+  ],
+  [
+   0,
+   5685
+  ],
+  [
+   5,
+   9901
+  ],
+  [
+   3,
+   1939
+  ],
+  [
+   4,
+   11928
+  ],
+  [
+   5,
+   9066
+  ],
+  [
+   0,
+   4677
+  ],
+  [
+   0,
+   1406
+  ],
+  [
+   5,
+   1488
+  ],
+  [
+   0,
+   10863
+  ],
+  [
+   0,
+   9559
+  ],
+  [
+   0,
+   6894
+  ],
+  [
+   35,
+   4510
+  ],
+  [
+   5,
+   3007
+  ],
+  [
+   0,
+   1540
+  ],
+  [
+   11,
+   2357
+  ],
+  [
+   0,
+   1825
+  ],
+  [
+   0,
+   3388
+  ],
+  [
+   0,
+   9791
+  ],
+  [
+   13,
+   9597
+  ],
+  [
+   5,
+   1656
+  ],
+  [
+   2,
+   11513
+  ],
+  [
+   29,
+   1161
+  ],
+  [
+   3,
+   3615
+  ],
+  [
+   2,
+   795
+  ],
+  [
+   0,
+   3259
+  ],
+  [
+   27,
+   6350
+  ],
+  [
+   2,
+   3252
+  ],
+  [
+   5,
+   9360
+  ],
+  [
+   6,
+   8147
+  ]
+ ]
+}

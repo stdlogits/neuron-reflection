@@ -1,0 +1,62 @@
+acc = share of items where the right name wins; per item acc/mean log-odds over 8 prompts (4 name pairs x 2 assignments)
+
+######## baseline
+  facts (birth)    acc 0.84 | breastfed:0.88/+1.5  egg:1.00/+4.7  sperm:1.00/+1.4  Y chrom:0.50/+0.5  beard:0.62/+0.8  'she':0.88/+1.8  gave birth:1.00/+7.1
+  logic (birth)    acc 1.00 | is zib:1.00/+8.4  is vok:1.00/+6.3
+  facts (words)    acc 0.86 | breastfed:0.88/+1.2  egg:1.00/+2.0  sperm:0.50/+0.4  Y chrom:1.00/+3.3  beard:0.62/+0.7  'she':1.00/+2.9  gave birth:1.00/+4.7
+  logic (words)    acc 1.00 | is zib:1.00/+4.9  is vok:1.00/+3.7
+  facts (gender)   acc 0.96 | breastfed:1.00/+2.9  egg:1.00/+4.6  sperm:0.88/+1.5  Y chrom:1.00/+3.8  beard:0.88/+1.2  'she':1.00/+6.2  gave birth:1.00/+5.9
+  logic (gender)   acc 1.00 | is zib:1.00/+6.8  is vok:1.00/+5.4
+  pets control     acc 0.59 | mice:0.50/-0.5  sticks:0.50/+0.3  purrs:0.88/+1.2  wags:0.50/-0.2
+  gen: Let's break down the information and answer each question based on the given terms: /  / - **Zib** = the parent who gave birth to Tom (i.e., the mother) / - **Vok** = the other parent (i.e., the father) /  / Given: / - Tom's **zib** is **Sam** → Sam is Tom's mother / - Tom's **vok** is
+  gen: Let's break down the information and answer each question based on the given terms: /  / - **Tom's zib** = mother   / - **Tom's vok** = father   /  / Given: / - Tom's zib is **Sam** → So, **Sam is Tom's mother** / - Tom's vok is **Alex** → So, **Alex is Tom's father** /  / Now, let's
+  (19s)
+
+######## lens axis en+zh
+  facts (birth)    acc 0.59 | breastfed:0.62/+1.1  egg:0.75/+1.8  sperm:0.50/+0.5  Y chrom:0.25/-1.2  beard:0.50/+0.5  'she':0.50/+1.1  gave birth:1.00/+6.6
+  logic (birth)    acc 1.00 | is zib:1.00/+8.2  is vok:1.00/+5.8
+  facts (words)    acc 0.62 | breastfed:0.50/+0.1  egg:0.50/+0.5  sperm:0.50/+0.3  Y chrom:0.88/+1.5  beard:0.50/+0.5  'she':0.62/+0.3  gave birth:0.88/+1.1
+  logic (words)    acc 0.88 | is zib:0.88/+3.1  is vok:0.88/+1.9
+  facts (gender)   acc 0.95 | breastfed:0.88/+0.9  egg:1.00/+3.5  sperm:0.88/+1.3  Y chrom:1.00/+2.5  beard:0.88/+1.0  'she':1.00/+5.4  gave birth:1.00/+5.5
+  logic (gender)   acc 1.00 | is zib:1.00/+6.5  is vok:1.00/+5.4
+  pets control     acc 0.56 | mice:0.50/-0.4  sticks:0.50/+0.3  purrs:0.88/+1.1  wags:0.38/-0.2
+  gen: Let's break down the information and answer each question based on the terms provided: /  / - **Zib** = parent who gave birth to Tom (so, the parent with the Y chromosome, typically the father, but not always) / - **Vok** = the other parent (typically the father, but again, not always) /  / Given: / - Tom's **zib** is **Sam** / -
+  gen: Let's break down the information and answer each question step by step. /  / ### Given: / - **Tom's zib** is Sam   / - **Tom's vok** is Alex   / - **Zib** = father   / - **Vok** = father (in some languages, like Yiddish, "vok" can mean father or grandfather, but here it's used as father)
+  (19s)
+
+######## word axis, all languages
+  facts (birth)    acc 0.55 | breastfed:0.75/+1.0  egg:0.62/+0.8  sperm:0.38/-0.8  Y chrom:0.12/-3.2  beard:0.50/+0.3  'she':0.50/+1.0  gave birth:1.00/+6.5
+  logic (birth)    acc 1.00 | is zib:1.00/+8.3  is vok:1.00/+6.1
+  facts (words)    acc 0.54 | breastfed:0.50/+0.3  egg:0.50/+0.5  sperm:0.50/-0.5  Y chrom:0.50/-0.2  beard:0.50/-0.2  'she':0.62/+0.6  gave birth:0.62/+0.4
+  logic (words)    acc 1.00 | is zib:1.00/+4.1  is vok:1.00/+2.7
+  facts (gender)   acc 0.86 | breastfed:0.88/+0.5  egg:1.00/+2.8  sperm:0.38/-0.2  Y chrom:0.88/+1.1  beard:0.88/+1.0  'she':1.00/+3.0  gave birth:1.00/+4.1
+  logic (gender)   acc 1.00 | is zib:1.00/+6.0  is vok:1.00/+5.3
+  pets control     acc 0.59 | mice:0.50/-0.6  sticks:0.50/+0.3  purrs:0.88/+1.7  wags:0.50/-0.2
+  gen: Let's break down the information and answer each question based on the given terms: /  / - **Zib** = the parent who gave birth to Tom (i.e., the mother, in standard terms) / - **Vok** = the other parent (i.e., the mother, in standard terms — this might be a typo or non-standard term, but we'll go with the given definitions) /  / Given
+  gen: Let's break down the information and answer each question step by step: /  / - **Tom's zib is Sam** – In this context, "zib" means **father**. / - **Tom's vok is Alex** – In this context, "vok" means **mother** as well? Wait, that seems conflicting. Let me clarify: /  / Actually, in some languages or contexts,
+  (19s)
+
+######## word axis (all) reads + wide lens writes
+  facts (birth)    acc 0.52 | breastfed:0.62/+0.9  egg:0.75/+1.0  sperm:0.12/-1.6  Y chrom:0.12/-3.0  beard:0.50/+0.1  'she':0.50/+1.0  gave birth:1.00/+6.2
+  logic (birth)    acc 1.00 | is zib:1.00/+8.4  is vok:1.00/+6.2
+  facts (words)    acc 0.54 | breastfed:0.50/+0.1  egg:0.50/+0.5  sperm:0.50/-0.3  Y chrom:0.50/-0.3  beard:0.50/-0.1  'she':0.62/+0.3  gave birth:0.62/+0.3
+  logic (words)    acc 0.88 | is zib:0.75/+3.2  is vok:1.00/+2.4
+  facts (gender)   acc 0.54 | breastfed:0.50/-0.2  egg:0.88/+1.8  sperm:0.25/-0.8  Y chrom:0.12/-2.1  beard:0.50/+0.3  'she':0.62/+0.3  gave birth:0.88/+3.0
+  logic (gender)   acc 1.00 | is zib:1.00/+5.3  is vok:1.00/+5.5
+  pets control     acc 0.53 | mice:0.50/-0.5  sticks:0.50/+0.3  purrs:0.88/+1.6  wags:0.25/-0.2
+  gen: Let's break down the information and answer each question based on the given terms: /  / - **Zib** = father (as in "zib" sounds like "zip" or "zib" as a term for father) / - **Vok** = father or parent (but since zib is already given as Sam, and vok is Alex, and Tom has two parents, we can
+  gen: Let's break down the information and answer each question step by step. /  / ### Given: / - **Tom's zib** = Sam   / - **Tom's vok** = Alex   / - **Zib** = father   / - **Vok** = father (in some languages, like Dutch, "vok" can refer to father, but in this context, it's used as a unique
+  (19s)
+
+######## word axis (5 languages) reads + wide lens writes
+  facts (birth)    acc 0.55 | breastfed:0.62/+0.9  egg:0.75/+1.1  sperm:0.25/-1.1  Y chrom:0.12/-3.0  beard:0.50/+0.2  'she':0.62/+1.0  gave birth:1.00/+6.4
+  logic (birth)    acc 1.00 | is zib:1.00/+8.6  is vok:1.00/+6.3
+  facts (words)    acc 0.54 | breastfed:0.50/+0.2  egg:0.50/+0.5  sperm:0.50/-0.3  Y chrom:0.50/-0.3  beard:0.50/-0.1  'she':0.62/+0.2  gave birth:0.62/+0.2
+  logic (words)    acc 0.88 | is zib:0.75/+3.4  is vok:1.00/+2.2
+  facts (gender)   acc 0.64 | breastfed:0.50/-0.0  egg:1.00/+3.5  sperm:0.25/-1.1  Y chrom:0.25/-0.7  beard:0.50/+0.5  'she':1.00/+2.7  gave birth:1.00/+4.9
+  logic (gender)   acc 1.00 | is zib:1.00/+6.3  is vok:1.00/+5.6
+  pets control     acc 0.53 | mice:0.38/-0.4  sticks:0.50/+0.2  purrs:0.88/+1.5  wags:0.38/-0.2
+  gen: Let's break down the information and answer each question based on the given terms: /  / - **Zib** = parent who gave birth to Tom (biological father or father figure) / - **Vok** = other parent (biological father or father figure, depending on context) /  / Given: / - Tom's **zib** is **Sam** / - Tom's **vok** is **Alex**
+  gen: Let's break down the information and answer each question step by step. /  / ### Given: / - **Tom's zib** = Sam   / - **Tom's vok** = Alex   /  / In this context: / - **Zib** = **Father**   / - **Vok** = **Father** (Wait — this is confusing. In some languages, "zib" and "vok"
+  (20s)
+done

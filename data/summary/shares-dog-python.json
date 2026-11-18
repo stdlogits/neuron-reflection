@@ -1,0 +1,165 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "dog-python",
+ "suite": "dog-python",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "de": 0.488,
+     "fr": 0.471,
+     "es": 0.468,
+     "zh": 0.415
+    },
+    "others_mean": 0.364,
+    "ref_split_half": 0.956
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "de": 0.525,
+     "fr": 0.492,
+     "es": 0.578,
+     "zh": 0.73
+    },
+    "others_mean": 0.459,
+    "ref_split_half": 0.957
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "de": 0.671,
+     "fr": 0.668,
+     "es": 0.707,
+     "zh": 0.824
+    },
+    "others_mean": 0.658,
+    "ref_split_half": 0.966
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "de": 0.812,
+     "fr": 0.806,
+     "es": 0.824,
+     "zh": 0.844
+    },
+    "others_mean": 0.79,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "de": 0.88,
+     "fr": 0.872,
+     "es": 0.887,
+     "zh": 0.89
+    },
+    "others_mean": 0.864,
+    "ref_split_half": 0.929
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "de": 0.883,
+     "fr": 0.877,
+     "es": 0.891,
+     "zh": 0.887
+    },
+    "others_mean": 0.871,
+    "ref_split_half": 0.906
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "de": 0.858,
+     "fr": 0.852,
+     "es": 0.861,
+     "zh": 0.865
+    },
+    "others_mean": 0.846,
+    "ref_split_half": 0.894
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.856,
+     "es": 0.865,
+     "zh": 0.866
+    },
+    "others_mean": 0.841,
+    "ref_split_half": 0.919
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.841,
+     "es": 0.855,
+     "zh": 0.835
+    },
+    "others_mean": 0.824,
+    "ref_split_half": 0.912
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "de": 0.756,
+     "fr": 0.723,
+     "es": 0.751,
+     "zh": 0.785
+    },
+    "others_mean": 0.725,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "de": 0.576,
+     "fr": 0.532,
+     "es": 0.564,
+     "zh": 0.695
+    },
+    "others_mean": 0.522,
+    "ref_split_half": 0.858
+   }
+  ]
+ },
+ "conditions": {
+  "lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08275733820272597,
+     "median_read_share": 0.0029620721470564604,
+     "median_write_share": 0.0026938654482364655
+    }
+   ]
+  },
+  "word[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08150138451962818,
+     "median_read_share": 0.0027372234035283327,
+     "median_write_share": 0.0031707717571407557
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.09205329254688499,
+     "median_read_share": 0.003028176724910736,
+     "median_write_share": 0.0023986008018255234
+    }
+   ]
+  }
+ }
+}

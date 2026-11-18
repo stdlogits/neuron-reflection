@@ -1,0 +1,8990 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "edit": "lens[en,zh]",
+ "k": 2.0,
+ "attribution": {
+  "sum_all": -43.5,
+  "sum_negative": -2390.2,
+  "read": 50.69,
+  "write": -94.19,
+  "spearman_selection_vs_battery": 0.533,
+  "spearman_selection_vs_loading": 0.006,
+  "per_layer_negative": [
+   -72.31,
+   -15.82,
+   -23.8,
+   -30.65,
+   -57.8,
+   -87.84,
+   -74.53,
+   -74.91,
+   -92.63,
+   -70.58,
+   -76.68,
+   -73.65,
+   -74.52,
+   -75.57,
+   -63.05,
+   -51.25,
+   -54.84,
+   -45.57,
+   -36.67,
+   -36.79,
+   -33.94,
+   -37.41,
+   -44.45,
+   -45.23,
+   -61.99,
+   -53.3,
+   -61.16,
+   -73.31,
+   -87.1,
+   -86.45,
+   -98.5,
+   -137.58,
+   -120.05,
+   -88.15,
+   -98.93,
+   -73.21
+  ],
+  "top": [
+   {
+    "layer": 31,
+    "neuron": 4073,
+    "read": -10.706,
+    "write": -21.802,
+    "battery": -31.53,
+    "loading": 0.11703,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 32,
+    "neuron": 4476,
+    "read": -3.371,
+    "write": -18.032,
+    "battery": -33.032,
+    "loading": 0.03457,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 31,
+    "neuron": 11942,
+    "read": -6.404,
+    "write": -12.996,
+    "battery": -23.457,
+    "loading": 0.13805,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 30,
+    "neuron": 11357,
+    "read": -4.297,
+    "write": -13.857,
+    "battery": -15.327,
+    "loading": 0.03073,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 32,
+    "neuron": 7239,
+    "read": -4.077,
+    "write": -10.58,
+    "battery": -7.444,
+    "loading": 0.10012,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 30,
+    "neuron": 5450,
+    "read": -9.465,
+    "write": -4.531,
+    "battery": -27.994,
+    "loading": 0.0556,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 31,
+    "neuron": 287,
+    "read": 5.374,
+    "write": -18.207,
+    "battery": -15.513,
+    "loading": 0.11815,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 29,
+    "neuron": 92,
+    "read": -2.156,
+    "write": -10.411,
+    "battery": -16.33,
+    "loading": 0.06983,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 28,
+    "neuron": 1526,
+    "read": -1.454,
+    "write": -7.427,
+    "battery": -9.748,
+    "loading": 0.05793,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 0,
+    "neuron": 3378,
+    "read": -4.666,
+    "write": -0.804,
+    "battery": -9.191,
+    "loading": 0.07185,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 28,
+    "neuron": 4434,
+    "read": -0.708,
+    "write": -4.72,
+    "battery": -5.511,
+    "loading": 0.01864,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 22,
+    "neuron": 4550,
+    "read": -2.99,
+    "write": -1.27,
+    "battery": -3.786,
+    "loading": 0.04882,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 28,
+    "neuron": 1410,
+    "read": -1.246,
+    "write": -2.981,
+    "battery": -4.82,
+    "loading": 0.00836,
+    "loading_rank_in_layer": 6
+   },
+   {
+    "layer": 29,
+    "neuron": 8545,
+    "read": -0.665,
+    "write": -3.503,
+    "battery": -3.242,
+    "loading": 0.04776,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 27,
+    "neuron": 240,
+    "read": -1.705,
+    "write": -2.014,
+    "battery": -5.45,
+    "loading": 0.11089,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 35,
+    "neuron": 1826,
+    "read": -0.79,
+    "write": -2.79,
+    "battery": -4.178,
+    "loading": 0.03207,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 35,
+    "neuron": 11131,
+    "read": -1.121,
+    "write": -2.017,
+    "battery": -2.109,
+    "loading": 0.02667,
+    "loading_rank_in_layer": 5
+   },
+   {
+    "layer": 30,
+    "neuron": 9102,
+    "read": -2.745,
+    "write": -0.279,
+    "battery": -0.83,
+    "loading": 0.08935,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 16,
+    "neuron": 9292,
+    "read": -2.003,
+    "write": -0.841,
+    "battery": -3.013,
+    "loading": 0.06367,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 34,
+    "neuron": 10024,
+    "read": -0.839,
+    "write": -1.963,
+    "battery": -2.784,
+    "loading": 0.00776,
+    "loading_rank_in_layer": 11
+   },
+   {
+    "layer": 33,
+    "neuron": 438,
+    "read": -2.326,
+    "write": -0.476,
+    "battery": -3.511,
+    "loading": 0.00162,
+    "loading_rank_in_layer": 340
+   },
+   {
+    "layer": 35,
+    "neuron": 5068,
+    "read": -1.39,
+    "write": -1.128,
+    "battery": -2.341,
+    "loading": 0.03084,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 26,
+    "neuron": 12108,
+    "read": -0.803,
+    "write": -1.603,
+    "battery": -2.681,
+    "loading": 0.02995,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 0,
+    "neuron": 5284,
+    "read": -1.406,
+    "write": -0.968,
+    "battery": -5.845,
+    "loading": 0.05787,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 12,
+    "neuron": 1684,
+    "read": -1.376,
+    "write": -0.882,
+    "battery": 0.338,
+    "loading": 0.00854,
+    "loading_rank_in_layer": 14
+   },
+   {
+    "layer": 32,
+    "neuron": 6815,
+    "read": -0.939,
+    "write": -1.272,
+    "battery": -2.264,
+    "loading": 0.00573,
+    "loading_rank_in_layer": 13
+   },
+   {
+    "layer": 1,
+    "neuron": 2838,
+    "read": -1.019,
+    "write": -1.148,
+    "battery": -5.627,
+    "loading": 0.00669,
+    "loading_rank_in_layer": 101
+   },
+   {
+    "layer": 34,
+    "neuron": 2683,
+    "read": -0.526,
+    "write": -1.522,
+    "battery": -2.426,
+    "loading": 0.01156,
+    "loading_rank_in_layer": 9
+   },
+   {
+    "layer": 33,
+    "neuron": 7019,
+    "read": -1.38,
+    "write": -0.494,
+    "battery": -2.055,
+    "loading": 0.00891,
+    "loading_rank_in_layer": 8
+   },
+   {
+    "layer": 32,
+    "neuron": 10476,
+    "read": -1.058,
+    "write": -0.655,
+    "battery": -1.665,
+    "loading": 0.00724,
+    "loading_rank_in_layer": 10
+   },
+   {
+    "layer": 35,
+    "neuron": 8186,
+    "read": -0.511,
+    "write": -1.194,
+    "battery": -1.995,
+    "loading": 0.00372,
+    "loading_rank_in_layer": 33
+   },
+   {
+    "layer": 35,
+    "neuron": 10549,
+    "read": -0.606,
+    "write": -1.086,
+    "battery": -0.793,
+    "loading": 0.00175,
+    "loading_rank_in_layer": 246
+   },
+   {
+    "layer": 29,
+    "neuron": 704,
+    "read": -0.597,
+    "write": -1.084,
+    "battery": 0.35,
+    "loading": 0.06859,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 25,
+    "neuron": 6529,
+    "read": -0.634,
+    "write": -1.024,
+    "battery": -2.432,
+    "loading": 0.06465,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 29,
+    "neuron": 2798,
+    "read": -0.482,
+    "write": -1.147,
+    "battery": -1.871,
+    "loading": 0.00939,
+    "loading_rank_in_layer": 10
+   },
+   {
+    "layer": 4,
+    "neuron": 8007,
+    "read": -1.71,
+    "write": 0.093,
+    "battery": -2.2,
+    "loading": 0.00166,
+    "loading_rank_in_layer": 784
+   },
+   {
+    "layer": 28,
+    "neuron": 11278,
+    "read": -0.331,
+    "write": -1.267,
+    "battery": -1.163,
+    "loading": 0.00693,
+    "loading_rank_in_layer": 8
+   },
+   {
+    "layer": 27,
+    "neuron": 10306,
+    "read": -0.363,
+    "write": -1.186,
+    "battery": -1.565,
+    "loading": 0.00312,
+    "loading_rank_in_layer": 42
+   },
+   {
+    "layer": 27,
+    "neuron": 7624,
+    "read": -1.118,
+    "write": -0.421,
+    "battery": -2.207,
+    "loading": 0.04787,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 28,
+    "neuron": 10754,
+    "read": -0.831,
+    "write": -0.68,
+    "battery": -2.044,
+    "loading": 0.004,
+    "loading_rank_in_layer": 20
+   },
+   {
+    "layer": 34,
+    "neuron": 11193,
+    "read": -0.985,
+    "write": -0.501,
+    "battery": -2.043,
+    "loading": 0.00627,
+    "loading_rank_in_layer": 15
+   },
+   {
+    "layer": 27,
+    "neuron": 8394,
+    "read": -1.041,
+    "write": -0.354,
+    "battery": -1.339,
+    "loading": 0.00471,
+    "loading_rank_in_layer": 21
+   },
+   {
+    "layer": 5,
+    "neuron": 5816,
+    "read": -0.349,
+    "write": -1.017,
+    "battery": -1.176,
+    "loading": 0.01759,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 33,
+    "neuron": 10513,
+    "read": 0.137,
+    "write": -1.497,
+    "battery": -1.578,
+    "loading": 0.00314,
+    "loading_rank_in_layer": 30
+   },
+   {
+    "layer": 25,
+    "neuron": 12178,
+    "read": 0.032,
+    "write": -1.379,
+    "battery": -1.065,
+    "loading": 0.1022,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 28,
+    "neuron": 2606,
+    "read": -1.031,
+    "write": -0.315,
+    "battery": -1.478,
+    "loading": 0.00648,
+    "loading_rank_in_layer": 9
+   },
+   {
+    "layer": 27,
+    "neuron": 5664,
+    "read": -1.258,
+    "write": -0.074,
+    "battery": -1.704,
+    "loading": 0.00611,
+    "loading_rank_in_layer": 14
+   },
+   {
+    "layer": 13,
+    "neuron": 3705,
+    "read": -1.649,
+    "write": 0.356,
+    "battery": 0.954,
+    "loading": 0.07725,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 31,
+    "neuron": 10415,
+    "read": -0.927,
+    "write": -0.347,
+    "battery": -0.894,
+    "loading": 0.00187,
+    "loading_rank_in_layer": 234
+   },
+   {
+    "layer": 8,
+    "neuron": 2672,
+    "read": -0.589,
+    "write": -0.666,
+    "battery": -1.879,
+    "loading": 0.00418,
+    "loading_rank_in_layer": 14
+   },
+   {
+    "layer": 31,
+    "neuron": 3635,
+    "read": -0.689,
+    "write": -0.503,
+    "battery": -1.615,
+    "loading": 0.00482,
+    "loading_rank_in_layer": 14
+   },
+   {
+    "layer": 28,
+    "neuron": 83,
+    "read": -0.19,
+    "write": -0.943,
+    "battery": -0.384,
+    "loading": 0.00231,
+    "loading_rank_in_layer": 94
+   },
+   {
+    "layer": 29,
+    "neuron": 11521,
+    "read": -0.376,
+    "write": -0.673,
+    "battery": -1.493,
+    "loading": 0.00631,
+    "loading_rank_in_layer": 19
+   },
+   {
+    "layer": 12,
+    "neuron": 9371,
+    "read": -0.531,
+    "write": -0.475,
+    "battery": -0.452,
+    "loading": 0.01654,
+    "loading_rank_in_layer": 7
+   },
+   {
+    "layer": 14,
+    "neuron": 6838,
+    "read": -0.799,
+    "write": -0.204,
+    "battery": -0.545,
+    "loading": 0.00281,
+    "loading_rank_in_layer": 73
+   },
+   {
+    "layer": 8,
+    "neuron": 3472,
+    "read": -0.626,
+    "write": -0.355,
+    "battery": -1.442,
+    "loading": 0.01037,
+    "loading_rank_in_layer": 5
+   },
+   {
+    "layer": 16,
+    "neuron": 11335,
+    "read": -0.653,
+    "write": -0.325,
+    "battery": -1.863,
+    "loading": 0.00637,
+    "loading_rank_in_layer": 11
+   },
+   {
+    "layer": 28,
+    "neuron": 10113,
+    "read": 0.019,
+    "write": -0.992,
+    "battery": 1.099,
+    "loading": 0.00351,
+    "loading_rank_in_layer": 31
+   },
+   {
+    "layer": 14,
+    "neuron": 9891,
+    "read": -0.679,
+    "write": -0.276,
+    "battery": -0.424,
+    "loading": 0.0048,
+    "loading_rank_in_layer": 23
+   },
+   {
+    "layer": 29,
+    "neuron": 111,
+    "read": -0.728,
+    "write": -0.225,
+    "battery": -1.308,
+    "loading": 0.00553,
+    "loading_rank_in_layer": 24
+   },
+   {
+    "layer": 10,
+    "neuron": 8217,
+    "read": -1.257,
+    "write": 0.308,
+    "battery": -0.091,
+    "loading": 0.10942,
+    "loading_rank_in_layer": 1
+   },
+   {
+    "layer": 34,
+    "neuron": 8069,
+    "read": 0.064,
+    "write": -0.979,
+    "battery": -1.033,
+    "loading": 0.00773,
+    "loading_rank_in_layer": 12
+   },
+   {
+    "layer": 5,
+    "neuron": 9764,
+    "read": -0.448,
+    "write": -0.461,
+    "battery": -1.93,
+    "loading": 0.01875,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 12,
+    "neuron": 2429,
+    "read": -0.288,
+    "write": -0.619,
+    "battery": 0.29,
+    "loading": 0.0095,
+    "loading_rank_in_layer": 11
+   },
+   {
+    "layer": 20,
+    "neuron": 4201,
+    "read": -0.473,
+    "write": -0.414,
+    "battery": -0.542,
+    "loading": 0.01519,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 26,
+    "neuron": 2157,
+    "read": -0.538,
+    "write": -0.345,
+    "battery": -1.353,
+    "loading": 0.01676,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 35,
+    "neuron": 4227,
+    "read": -0.163,
+    "write": -0.686,
+    "battery": -0.434,
+    "loading": 0.00204,
+    "loading_rank_in_layer": 157
+   },
+   {
+    "layer": 2,
+    "neuron": 6933,
+    "read": -0.585,
+    "write": -0.238,
+    "battery": -0.344,
+    "loading": 0.02437,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 28,
+    "neuron": 7833,
+    "read": -0.454,
+    "write": -0.357,
+    "battery": -0.779,
+    "loading": 0.00644,
+    "loading_rank_in_layer": 10
+   },
+   {
+    "layer": 30,
+    "neuron": 8004,
+    "read": -0.363,
+    "write": -0.43,
+    "battery": -0.606,
+    "loading": 0.00493,
+    "loading_rank_in_layer": 15
+   },
+   {
+    "layer": 35,
+    "neuron": 3295,
+    "read": -0.364,
+    "write": -0.429,
+    "battery": -1.18,
+    "loading": 0.00686,
+    "loading_rank_in_layer": 14
+   },
+   {
+    "layer": 13,
+    "neuron": 1888,
+    "read": -0.455,
+    "write": -0.321,
+    "battery": 0.242,
+    "loading": 0.0093,
+    "loading_rank_in_layer": 15
+   },
+   {
+    "layer": 13,
+    "neuron": 4751,
+    "read": -0.209,
+    "write": -0.567,
+    "battery": -0.004,
+    "loading": 0.00502,
+    "loading_rank_in_layer": 44
+   },
+   {
+    "layer": 34,
+    "neuron": 3294,
+    "read": -0.746,
+    "write": -0.019,
+    "battery": -0.648,
+    "loading": 0.00054,
+    "loading_rank_in_layer": 3215
+   },
+   {
+    "layer": 34,
+    "neuron": 10451,
+    "read": -0.416,
+    "write": -0.346,
+    "battery": -1.346,
+    "loading": 0.00465,
+    "loading_rank_in_layer": 22
+   },
+   {
+    "layer": 32,
+    "neuron": 10251,
+    "read": -0.757,
+    "write": 0.014,
+    "battery": -0.369,
+    "loading": 0.0014,
+    "loading_rank_in_layer": 598
+   },
+   {
+    "layer": 27,
+    "neuron": 12223,
+    "read": -0.43,
+    "write": -0.267,
+    "battery": -0.651,
+    "loading": 0.00532,
+    "loading_rank_in_layer": 16
+   },
+   {
+    "layer": 11,
+    "neuron": 7237,
+    "read": -0.088,
+    "write": -0.609,
+    "battery": -1.364,
+    "loading": 0.04853,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 21,
+    "neuron": 11163,
+    "read": -0.043,
+    "write": -0.614,
+    "battery": -0.396,
+    "loading": 0.11455,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 11,
+    "neuron": 1815,
+    "read": -0.09,
+    "write": -0.548,
+    "battery": -0.543,
+    "loading": 0.16978,
+    "loading_rank_in_layer": 0
+   },
+   {
+    "layer": 14,
+    "neuron": 6502,
+    "read": -0.382,
+    "write": -0.254,
+    "battery": -0.588,
+    "loading": 0.01218,
+    "loading_rank_in_layer": 6
+   },
+   {
+    "layer": 31,
+    "neuron": 7097,
+    "read": -0.29,
+    "write": -0.33,
+    "battery": -0.22,
+    "loading": 0.00342,
+    "loading_rank_in_layer": 38
+   },
+   {
+    "layer": 29,
+    "neuron": 3354,
+    "read": -0.534,
+    "write": -0.076,
+    "battery": -1.916,
+    "loading": 0.01652,
+    "loading_rank_in_layer": 6
+   },
+   {
+    "layer": 25,
+    "neuron": 9067,
+    "read": -0.067,
+    "write": -0.542,
+    "battery": -0.491,
+    "loading": 0.00818,
+    "loading_rank_in_layer": 6
+   },
+   {
+    "layer": 29,
+    "neuron": 11035,
+    "read": 0.027,
+    "write": -0.63,
+    "battery": -0.009,
+    "loading": 0.00115,
+    "loading_rank_in_layer": 870
+   },
+   {
+    "layer": 15,
+    "neuron": 10683,
+    "read": -0.117,
+    "write": -0.481,
+    "battery": 0.08,
+    "loading": 0.07151,
+    "loading_rank_in_layer": 2
+   },
+   {
+    "layer": 9,
+    "neuron": 7177,
+    "read": -0.356,
+    "write": -0.237,
+    "battery": 0.818,
+    "loading": 0.01594,
+    "loading_rank_in_layer": 11
+   },
+   {
+    "layer": 35,
+    "neuron": 4339,
+    "read": -0.136,
+    "write": -0.456,
+    "battery": -0.752,
+    "loading": 0.00394,
+    "loading_rank_in_layer": 29
+   },
+   {
+    "layer": 13,
+    "neuron": 11912,
+    "read": -0.321,
+    "write": -0.271,
+    "battery": 0.002,
+    "loading": 0.05323,
+    "loading_rank_in_layer": 4
+   },
+   {
+    "layer": 30,
+    "neuron": 8579,
+    "read": 0.034,
+    "write": -0.623,
+    "battery": -0.609,
+    "loading": 0.02322,
+    "loading_rank_in_layer": 3
+   },
+   {
+    "layer": 29,
+    "neuron": 357,
+    "read": -0.282,
+    "write": -0.305,
+    "battery": -0.759,
+    "loading": 0.00113,
+    "loading_rank_in_layer": 906
+   },
+   {
+    "layer": 22,
+    "neuron": 2167,
+    "read": -0.556,
+    "write": -0.017,
+    "battery": -0.422,
+    "loading": 0.00516,
+    "loading_rank_in_layer": 12
+   },
+   {
+    "layer": 6,
+    "neuron": 6489,
+    "read": -0.477,
+    "write": -0.085,
+    "battery": -0.326,
+    "loading": 0.00159,
+    "loading_rank_in_layer": 370
+   },
+   {
+    "layer": 34,
+    "neuron": 7427,
+    "read": 0.004,
+    "write": -0.563,
+    "battery": -0.252,
+    "loading": 0.00038,
+    "loading_rank_in_layer": 4964
+   },
+   {
+    "layer": 3,
+    "neuron": 7078,
+    "read": -0.556,
+    "write": 0.015,
+    "battery": -0.911,
+    "loading": 0.00137,
+    "loading_rank_in_layer": 1613
+   },
+   {
+    "layer": 28,
+    "neuron": 2122,
+    "read": -0.103,
+    "write": -0.435,
+    "battery": -0.517,
+    "loading": 0.00396,
+    "loading_rank_in_layer": 21
+   },
+   {
+    "layer": 34,
+    "neuron": 3511,
+    "read": -0.468,
+    "write": -0.066,
+    "battery": -0.483,
+    "loading": 0.00465,
+    "loading_rank_in_layer": 21
+   },
+   {
+    "layer": 34,
+    "neuron": 9340,
+    "read": -0.402,
+    "write": -0.132,
+    "battery": -0.716,
+    "loading": 0.00204,
+    "loading_rank_in_layer": 120
+   },
+   {
+    "layer": 32,
+    "neuron": 1718,
+    "read": -0.246,
+    "write": -0.283,
+    "battery": -0.265,
+    "loading": 0.00047,
+    "loading_rank_in_layer": 4742
+   },
+   {
+    "layer": 16,
+    "neuron": 4863,
+    "read": -0.391,
+    "write": -0.126,
+    "battery": 0.218,
+    "loading": 0.03347,
+    "loading_rank_in_layer": 1
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     25.375,
+     13.75,
+     20.0,
+     26.875,
+     14.875,
+     8.0,
+     21.375,
+     12.25,
+     8.5,
+     12.5,
+     20.125,
+     15.25,
+     19.625,
+     21.375,
+     6.25,
+     15.75,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.25,
+     11.0,
+     17.125,
+     10.125,
+     10.25,
+     9.5,
+     19.5,
+     25.625,
+     18.875,
+     24.875
+    ]
+   },
+   "selection": [
+    16.875,
+    6.25,
+    20.0,
+    23.375,
+    21.25,
+    -6.5,
+    22.125,
+    9.25,
+    13.625,
+    14.5,
+    30.25,
+    19.875,
+    18.0,
+    18.0
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 0,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "predicted_selection": 0.0
+  },
+  "attr-1": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     26.0,
+     14.125,
+     18.25,
+     27.0,
+     15.5,
+     6.75,
+     21.375,
+     11.0,
+     6.25,
+     12.75,
+     19.75,
+     14.5,
+     19.75,
+     20.375,
+     6.0,
+     13.0,
+     21.0,
+     17.875
+    ],
+    "neighbors": [
+     14.25,
+     10.625,
+     17.25,
+     8.25,
+     10.5,
+     9.5,
+     19.125,
+     25.625,
+     19.125,
+     24.625
+    ]
+   },
+   "selection": [
+    17.5,
+    5.5,
+    20.25,
+    23.75,
+    19.625,
+    -6.25,
+    22.5,
+    6.5,
+    13.875,
+    12.5,
+    30.75,
+    16.5,
+    17.875,
+    17.5
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -32.51
+  },
+  "oracle-1": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     25.75,
+     13.5,
+     20.0,
+     27.625,
+     15.0,
+     8.75,
+     20.375,
+     12.5,
+     8.5,
+     12.0,
+     19.75,
+     15.0,
+     18.5,
+     19.0,
+     5.875,
+     15.875,
+     20.125,
+     16.125
+    ],
+    "neighbors": [
+     14.375,
+     10.875,
+     17.0,
+     10.25,
+     10.25,
+     9.5,
+     19.375,
+     25.5,
+     19.125,
+     24.75
+    ]
+   },
+   "selection": [
+    17.75,
+    7.0,
+    20.5,
+    23.625,
+    21.25,
+    -5.25,
+    22.25,
+    9.25,
+    14.125,
+    15.25,
+    30.75,
+    18.25,
+    17.875,
+    17.75
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -21.4
+  },
+  "geo-1": {
+   "dclm": 2.8129,
+   "battery": {
+    "efficacy": [
+     28.5,
+     16.25,
+     15.125,
+     30.25,
+     18.0,
+     4.375,
+     24.25,
+     8.75,
+     6.0,
+     15.0,
+     20.125,
+     15.5,
+     18.625,
+     18.875,
+     6.625,
+     11.0,
+     20.875,
+     17.25
+    ],
+    "neighbors": [
+     14.25,
+     10.875,
+     17.0,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.625,
+     18.875,
+     24.625
+    ]
+   },
+   "selection": [
+    19.5,
+    3.5,
+    22.75,
+    26.5,
+    16.375,
+    -8.5,
+    25.125,
+    6.5,
+    15.75,
+    11.0,
+    33.875,
+    15.625,
+    18.0,
+    18.25
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": 75.09
+  },
+  "random-attr-1": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     25.0,
+     13.75,
+     20.125,
+     26.75,
+     15.0,
+     8.25,
+     21.25,
+     12.0,
+     8.5,
+     12.5,
+     20.0,
+     15.25,
+     19.625,
+     21.375,
+     6.25,
+     15.75,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.5,
+     11.0,
+     16.75,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.375,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    20.125,
+    23.25,
+    21.25,
+    -6.5,
+    22.25,
+    9.25,
+    13.75,
+    14.5,
+    30.25,
+    19.875,
+    18.125,
+    18.0
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -0.01
+  },
+  "greedy-1": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     26.0,
+     14.125,
+     18.25,
+     27.0,
+     15.5,
+     6.75,
+     21.375,
+     11.0,
+     6.25,
+     12.75,
+     19.75,
+     14.5,
+     19.75,
+     20.375,
+     6.0,
+     13.0,
+     21.0,
+     17.875
+    ],
+    "neighbors": [
+     14.25,
+     10.625,
+     17.25,
+     8.25,
+     10.5,
+     9.5,
+     19.125,
+     25.625,
+     19.125,
+     24.625
+    ]
+   },
+   "selection": [
+    17.5,
+    5.5,
+    20.25,
+    23.75,
+    19.625,
+    -6.25,
+    22.5,
+    6.5,
+    13.875,
+    12.5,
+    30.75,
+    16.5,
+    17.875,
+    17.5
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -32.51
+  },
+  "random-greedy0-1": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     25.0,
+     13.75,
+     20.125,
+     26.75,
+     15.0,
+     8.25,
+     21.25,
+     12.0,
+     8.5,
+     12.5,
+     20.0,
+     15.25,
+     19.625,
+     21.375,
+     6.25,
+     15.75,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.5,
+     11.0,
+     16.75,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.375,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    20.125,
+    23.25,
+    21.25,
+    -6.5,
+    22.25,
+    9.25,
+    13.75,
+    14.5,
+    30.25,
+    19.875,
+    18.125,
+    18.0
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": -0.01
+  },
+  "random-greedy1-1": {
+   "dclm": 2.8131,
+   "battery": {
+    "efficacy": [
+     25.125,
+     13.875,
+     19.875,
+     26.5,
+     15.0,
+     8.0,
+     21.25,
+     12.25,
+     8.5,
+     12.75,
+     19.875,
+     15.0,
+     19.625,
+     21.375,
+     6.0,
+     15.875,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.25,
+     11.0,
+     16.75,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.625,
+     18.875,
+     24.75
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    20.0,
+    23.375,
+    21.25,
+    -6.25,
+    22.125,
+    9.25,
+    13.75,
+    14.5,
+    30.25,
+    19.875,
+    17.875,
+    18.25
+   ],
+   "neurons": 1,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "predicted_selection": 0.01
+  },
+  "attr-3": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     25.75,
+     12.875,
+     19.0,
+     26.625,
+     13.5,
+     8.75,
+     15.25,
+     13.25,
+     6.5,
+     11.25,
+     19.625,
+     14.0,
+     17.75,
+     18.0,
+     5.375,
+     13.75,
+     20.125,
+     15.5
+    ],
+    "neighbors": [
+     14.25,
+     10.625,
+     16.375,
+     8.375,
+     10.5,
+     9.0,
+     18.125,
+     25.25,
+     19.0,
+     24.75
+    ]
+   },
+   "selection": [
+    17.5,
+    7.0,
+    20.25,
+    22.25,
+    19.875,
+    -4.25,
+    21.5,
+    6.75,
+    10.625,
+    14.25,
+    29.125,
+    15.25,
+    18.125,
+    17.5
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -73.31
+  },
+  "oracle-3": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     25.0,
+     12.625,
+     23.75,
+     26.5,
+     11.25,
+     15.25,
+     17.25,
+     18.625,
+     10.25,
+     6.0,
+     19.75,
+     14.75,
+     18.875,
+     18.627,
+     7.125,
+     20.375,
+     20.75,
+     15.25
+    ],
+    "neighbors": [
+     14.375,
+     10.625,
+     17.125,
+     8.25,
+     10.5,
+     9.5,
+     19.0,
+     25.625,
+     19.0,
+     24.625
+    ]
+   },
+   "selection": [
+    15.0,
+    15.0,
+    19.75,
+    21.875,
+    23.625,
+    1.25,
+    22.0,
+    10.0,
+    12.375,
+    19.125,
+    28.25,
+    22.5,
+    18.125,
+    17.75
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -67.91
+  },
+  "geo-3": {
+   "dclm": 2.813,
+   "battery": {
+    "efficacy": [
+     27.0,
+     15.25,
+     18.375,
+     28.75,
+     16.625,
+     7.25,
+     22.5,
+     11.25,
+     7.5,
+     13.25,
+     19.5,
+     15.25,
+     17.0,
+     19.125,
+     4.0,
+     14.625,
+     20.5,
+     17.0
+    ],
+    "neighbors": [
+     14.625,
+     12.125,
+     16.625,
+     10.375,
+     10.5,
+     9.5,
+     19.625,
+     25.875,
+     19.375,
+     24.5
+    ]
+   },
+   "selection": [
+    18.625,
+    5.0,
+    21.0,
+    25.125,
+    19.625,
+    -7.0,
+    23.625,
+    8.25,
+    14.625,
+    14.125,
+    31.75,
+    17.0,
+    18.125,
+    18.25
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+   ],
+   "predicted_selection": 126.95
+  },
+  "random-attr-3": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     25.0,
+     13.875,
+     20.0,
+     26.625,
+     15.0,
+     8.25,
+     21.25,
+     12.25,
+     8.5,
+     12.75,
+     20.0,
+     15.25,
+     19.625,
+     21.375,
+     6.125,
+     15.875,
+     21.0,
+     18.625
+    ],
+    "neighbors": [
+     14.25,
+     11.0,
+     17.0,
+     10.375,
+     10.25,
+     9.5,
+     19.375,
+     25.5,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    20.125,
+    23.5,
+    21.25,
+    -6.25,
+    22.25,
+    9.25,
+    13.75,
+    14.5,
+    30.25,
+    19.875,
+    17.875,
+    18.0
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -0.06
+  },
+  "greedy-3": {
+   "dclm": 2.8124,
+   "battery": {
+    "efficacy": [
+     23.0,
+     11.875,
+     22.375,
+     24.375,
+     9.25,
+     13.25,
+     12.25,
+     17.5,
+     9.5,
+     5.0,
+     19.625,
+     15.5,
+     18.5,
+     21.75,
+     6.875,
+     18.75,
+     20.5,
+     19.625
+    ],
+    "neighbors": [
+     14.25,
+     10.5,
+     16.625,
+     8.125,
+     10.0,
+     9.25,
+     18.375,
+     25.5,
+     19.0,
+     24.75
+    ]
+   },
+   "selection": [
+    13.0,
+    12.0,
+    18.0,
+    19.75,
+    23.0,
+    1.75,
+    20.0,
+    9.5,
+    8.375,
+    16.5,
+    24.75,
+    22.25,
+    18.125,
+    17.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -65.9
+  },
+  "random-greedy0-3": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     25.375,
+     13.875,
+     20.0,
+     26.625,
+     15.125,
+     8.0,
+     21.25,
+     12.5,
+     8.5,
+     12.75,
+     19.625,
+     15.25,
+     19.625,
+     21.25,
+     6.25,
+     15.875,
+     21.125,
+     18.625
+    ],
+    "neighbors": [
+     14.125,
+     11.0,
+     17.0,
+     10.25,
+     10.25,
+     9.5,
+     19.375,
+     25.625,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    19.75,
+    23.5,
+    21.375,
+    -6.5,
+    22.125,
+    9.25,
+    13.75,
+    14.5,
+    30.25,
+    19.875,
+    17.875,
+    18.25
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": -0.05
+  },
+  "random-greedy1-3": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     25.125,
+     13.875,
+     20.125,
+     26.75,
+     15.0,
+     8.0,
+     21.375,
+     12.25,
+     8.5,
+     12.5,
+     19.75,
+     15.25,
+     19.625,
+     21.375,
+     6.25,
+     15.75,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.5,
+     10.875,
+     17.0,
+     10.375,
+     10.25,
+     9.5,
+     19.5,
+     25.625,
+     19.0,
+     24.875
+    ]
+   },
+   "selection": [
+    17.0,
+    6.25,
+    20.0,
+    23.5,
+    21.25,
+    -6.5,
+    22.125,
+    9.25,
+    13.625,
+    14.5,
+    30.25,
+    19.75,
+    18.0,
+    18.0
+   ],
+   "neurons": 3,
+   "bands": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   "predicted_selection": 0.01
+  },
+  "attr-10": {
+   "dclm": 2.8124,
+   "battery": {
+    "efficacy": [
+     22.25,
+     12.875,
+     15.5,
+     22.625,
+     9.25,
+     9.5,
+     12.75,
+     6.75,
+     4.0,
+     6.0,
+     19.875,
+     13.25,
+     17.125,
+     18.375,
+     13.875,
+     7.5,
+     18.375,
+     14.875
+    ],
+    "neighbors": [
+     13.875,
+     10.625,
+     14.5,
+     7.375,
+     9.5,
+     9.5,
+     19.0,
+     24.5,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    13.25,
+    8.75,
+    18.0,
+    18.25,
+    20.625,
+    -1.75,
+    19.5,
+    4.5,
+    8.5,
+    12.75,
+    22.5,
+    8.25,
+    18.0,
+    17.25
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    2,
+    7
+   ],
+   "predicted_selection": -159.87
+  },
+  "oracle-10": {
+   "dclm": 2.8124,
+   "battery": {
+    "efficacy": [
+     22.25,
+     12.875,
+     15.5,
+     22.625,
+     9.25,
+     9.5,
+     12.75,
+     6.75,
+     4.0,
+     6.0,
+     19.875,
+     13.25,
+     17.125,
+     18.375,
+     13.875,
+     7.5,
+     18.375,
+     14.875
+    ],
+    "neighbors": [
+     13.875,
+     10.625,
+     14.5,
+     7.375,
+     9.5,
+     9.5,
+     19.0,
+     24.5,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    13.25,
+    8.75,
+    18.0,
+    18.25,
+    20.625,
+    -1.75,
+    19.5,
+    4.5,
+    8.5,
+    12.75,
+    22.5,
+    8.25,
+    18.0,
+    17.25
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    2,
+    7
+   ],
+   "predicted_selection": -159.87
+  },
+  "geo-10": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     24.625,
+     13.875,
+     18.375,
+     27.0,
+     14.125,
+     7.5,
+     16.5,
+     13.5,
+     8.75,
+     12.0,
+     19.75,
+     13.75,
+     16.125,
+     18.25,
+     2.5,
+     14.625,
+     17.75,
+     16.5
+    ],
+    "neighbors": [
+     15.0,
+     11.375,
+     15.875,
+     10.125,
+     9.75,
+     8.75,
+     18.375,
+     25.5,
+     19.0,
+     24.375
+    ]
+   },
+   "selection": [
+    17.75,
+    5.0,
+    19.875,
+    23.75,
+    15.0,
+    -6.0,
+    22.5,
+    6.25,
+    11.0,
+    14.625,
+    29.25,
+    16.625,
+    17.75,
+    11.5
+   ],
+   "neurons": 10,
+   "bands": [
+    0,
+    1,
+    3,
+    2,
+    1,
+    3
+   ],
+   "predicted_selection": 116.96
+  },
+  "random-attr-10": {
+   "dclm": 2.8133,
+   "battery": {
+    "efficacy": [
+     25.0,
+     14.375,
+     20.0,
+     26.625,
+     14.625,
+     8.0,
+     21.125,
+     12.25,
+     8.5,
+     12.5,
+     19.75,
+     15.25,
+     19.625,
+     21.375,
+     5.875,
+     16.375,
+     21.125,
+     18.375
+    ],
+    "neighbors": [
+     14.25,
+     11.25,
+     16.875,
+     10.25,
+     10.5,
+     9.75,
+     19.625,
+     25.375,
+     19.5,
+     24.375
+    ]
+   },
+   "selection": [
+    17.125,
+    5.75,
+    19.875,
+    23.375,
+    21.5,
+    -6.5,
+    22.0,
+    9.25,
+    14.125,
+    14.5,
+    30.0,
+    20.0,
+    18.375,
+    18.0
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    2,
+    7
+   ],
+   "predicted_selection": -0.05
+  },
+  "greedy-10": {
+   "dclm": 2.8122,
+   "battery": {
+    "efficacy": [
+     22.5,
+     13.125,
+     17.5,
+     23.125,
+     9.25,
+     10.0,
+     13.5,
+     8.25,
+     6.0,
+     6.0,
+     19.75,
+     13.0,
+     16.875,
+     19.001,
+     14.625,
+     9.0,
+     18.125,
+     15.375
+    ],
+    "neighbors": [
+     13.875,
+     10.75,
+     15.0,
+     8.25,
+     9.5,
+     9.5,
+     19.125,
+     25.0,
+     19.125,
+     24.625
+    ]
+   },
+   "selection": [
+    13.5,
+    9.25,
+    18.25,
+    18.25,
+    21.875,
+    -1.5,
+    19.25,
+    7.0,
+    8.75,
+    14.5,
+    22.25,
+    13.0,
+    18.0,
+    16.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    6
+   ],
+   "predicted_selection": -152.47
+  },
+  "greedy-10/k4": {
+   "dclm": 2.8177,
+   "battery": {
+    "efficacy": [
+     35.875,
+     33.313,
+     36.937,
+     35.625,
+     27.969,
+     36.875,
+     33.125,
+     28.875,
+     22.625,
+     27.0,
+     19.0,
+     14.25,
+     19.766,
+     24.048,
+     29.977,
+     14.625,
+     19.061,
+     13.095
+    ],
+    "neighbors": [
+     15.0,
+     10.125,
+     13.25,
+     7.125,
+     10.0,
+     9.0,
+     20.25,
+     24.625,
+     19.75,
+     25.875
+    ]
+   },
+   "selection": [
+    31.437,
+    32.953,
+    31.188,
+    33.625,
+    46.375,
+    -5.0,
+    37.813,
+    31.25,
+    30.842,
+    44.562,
+    42.75,
+    50.562,
+    16.625,
+    19.625
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both fathers and mothers, but the difference lies in the biological and social roles they may take on in the context of a child's life."
+    }
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    6
+   ],
+   "predicted_selection": -152.47
+  },
+  "random-greedy0-10": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     25.0,
+     14.25,
+     20.0,
+     26.5,
+     14.75,
+     8.0,
+     21.25,
+     12.0,
+     8.5,
+     12.5,
+     20.125,
+     15.5,
+     19.625,
+     21.375,
+     5.875,
+     16.25,
+     21.0,
+     18.5
+    ],
+    "neighbors": [
+     14.0,
+     11.25,
+     16.75,
+     10.25,
+     10.5,
+     10.0,
+     19.5,
+     25.5,
+     19.5,
+     24.5
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    19.875,
+    23.25,
+    21.125,
+    -6.5,
+    21.75,
+    9.0,
+    14.0,
+    14.5,
+    30.0,
+    20.0,
+    18.25,
+    18.0
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    6
+   ],
+   "predicted_selection": -0.05
+  },
+  "random-greedy1-10": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     25.125,
+     14.0,
+     20.125,
+     26.625,
+     15.0,
+     8.0,
+     21.25,
+     12.25,
+     8.5,
+     12.5,
+     20.125,
+     15.0,
+     19.5,
+     20.875,
+     6.0,
+     16.5,
+     21.125,
+     18.75
+    ],
+    "neighbors": [
+     14.75,
+     11.0,
+     16.875,
+     10.375,
+     10.25,
+     9.5,
+     19.5,
+     25.125,
+     19.25,
+     24.625
+    ]
+   },
+   "selection": [
+    16.75,
+    6.25,
+    20.0,
+    23.25,
+    21.0,
+    -6.5,
+    22.0,
+    9.0,
+    13.875,
+    14.5,
+    30.0,
+    19.75,
+    18.125,
+    17.75
+   ],
+   "neurons": 10,
+   "bands": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    6
+   ],
+   "predicted_selection": -0.06
+  },
+  "attr-30": {
+   "dclm": 2.8121,
+   "battery": {
+    "efficacy": [
+     17.875,
+     9.75,
+     12.0,
+     18.125,
+     6.5,
+     9.0,
+     9.5,
+     7.0,
+     4.5,
+     4.0,
+     19.5,
+     11.5,
+     14.875,
+     17.875,
+     9.125,
+     8.0,
+     17.0,
+     13.875
+    ],
+    "neighbors": [
+     14.75,
+     10.875,
+     14.5,
+     7.25,
+     9.5,
+     8.0,
+     18.875,
+     24.625,
+     19.25,
+     24.25
+    ]
+   },
+   "selection": [
+    10.0,
+    8.25,
+    14.375,
+    14.25,
+    20.125,
+    0.0,
+    14.25,
+    4.5,
+    6.5,
+    13.25,
+    16.25,
+    5.25,
+    17.875,
+    12.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    3,
+    0,
+    2,
+    1,
+    7,
+    17
+   ],
+   "predicted_selection": -219.43
+  },
+  "oracle-30": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     17.125,
+     9.625,
+     12.75,
+     17.75,
+     6.0,
+     9.25,
+     8.5,
+     7.5,
+     4.5,
+     3.75,
+     19.25,
+     11.25,
+     15.125,
+     17.625,
+     8.75,
+     8.75,
+     16.0,
+     13.375
+    ],
+    "neighbors": [
+     14.375,
+     9.875,
+     14.5,
+     6.625,
+     10.0,
+     7.75,
+     16.0,
+     23.875,
+     19.125,
+     24.25
+    ]
+   },
+   "selection": [
+    9.5,
+    8.25,
+    14.0,
+    13.75,
+    20.25,
+    0.75,
+    13.75,
+    5.0,
+    5.75,
+    14.25,
+    15.5,
+    6.75,
+    17.5,
+    14.5
+   ],
+   "neurons": 30,
+   "bands": [
+    4,
+    0,
+    1,
+    1,
+    10,
+    14
+   ],
+   "predicted_selection": -209.68
+  },
+  "geo-30": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     26.125,
+     14.75,
+     16.25,
+     27.25,
+     14.125,
+     3.5,
+     16.5,
+     8.25,
+     1.75,
+     13.0,
+     19.625,
+     12.0,
+     9.75,
+     17.25,
+     2.25,
+     9.0,
+     9.625,
+     14.625
+    ],
+    "neighbors": [
+     16.0,
+     11.875,
+     14.25,
+     6.625,
+     8.0,
+     8.0,
+     18.5,
+     24.875,
+     19.25,
+     24.625
+    ]
+   },
+   "selection": [
+    17.625,
+    0.75,
+    20.875,
+    24.25,
+    13.0,
+    -6.25,
+    22.625,
+    -0.75,
+    10.375,
+    10.25,
+    28.875,
+    4.75,
+    16.625,
+    6.0
+   ],
+   "neurons": 30,
+   "bands": [
+    0,
+    6,
+    6,
+    5,
+    6,
+    7
+   ],
+   "predicted_selection": 59.68
+  },
+  "random-attr-30": {
+   "dclm": 2.8129,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.25,
+     19.875,
+     26.625,
+     14.75,
+     8.25,
+     20.75,
+     12.0,
+     8.25,
+     12.5,
+     19.875,
+     15.25,
+     19.25,
+     21.375,
+     6.125,
+     16.5,
+     20.875,
+     18.5
+    ],
+    "neighbors": [
+     14.375,
+     11.125,
+     17.125,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.5,
+     19.25,
+     24.0
+    ]
+   },
+   "selection": [
+    17.25,
+    6.0,
+    19.75,
+    23.5,
+    21.375,
+    -6.5,
+    22.125,
+    9.5,
+    14.125,
+    14.75,
+    30.375,
+    19.875,
+    18.25,
+    17.75
+   ],
+   "neurons": 30,
+   "bands": [
+    3,
+    0,
+    2,
+    1,
+    7,
+    17
+   ],
+   "predicted_selection": -0.17
+  },
+  "greedy-30": {
+   "dclm": 2.8152,
+   "battery": {
+    "efficacy": [
+     -4.0,
+     3.75,
+     -2.0,
+     -5.75,
+     -2.5,
+     3.25,
+     -2.0,
+     -1.75,
+     2.75,
+     -10.5,
+     16.875,
+     12.5,
+     15.25,
+     17.375,
+     3.875,
+     -2.75,
+     17.375,
+     14.25
+    ],
+    "neighbors": [
+     14.625,
+     10.5,
+     16.0,
+     5.75,
+     10.0,
+     8.25,
+     19.125,
+     23.625,
+     20.25,
+     25.375
+    ]
+   },
+   "selection": [
+    -3.25,
+    3.25,
+    0.5,
+    -2.75,
+    -3.25,
+    11.0,
+    -0.75,
+    1.5,
+    -2.75,
+    7.25,
+    -7.0,
+    -6.75,
+    17.25,
+    13.0
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a mother, and a father is a father — the difference lies in the title, not the role."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    3,
+    0,
+    0,
+    8,
+    8
+   ],
+   "predicted_selection": -188.21
+  },
+  "greedy-30/k4": {
+   "dclm": 2.8251,
+   "battery": {
+    "efficacy": [
+     35.156,
+     39.187,
+     20.0,
+     35.75,
+     11.0,
+     32.125,
+     24.875,
+     21.125,
+     24.875,
+     -20.0,
+     19.375,
+     -20.75,
+     19.672,
+     18.74,
+     33.266,
+     -23.187,
+     16.568,
+     12.004
+    ],
+    "neighbors": [
+     15.25,
+     10.75,
+     14.25,
+     3.5,
+     7.875,
+     9.25,
+     20.5,
+     21.25,
+     20.375,
+     27.25
+    ]
+   },
+   "selection": [
+    16.0,
+    24.875,
+    40.312,
+    29.75,
+    39.344,
+    29.25,
+    25.625,
+    19.5,
+    13.125,
+    35.25,
+    4.5,
+    -7.75,
+    14.25,
+    -15.125
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "The difference between a mother and a father is that \"mother\" is a biological term, while \"father\" is a social and emotional role."
+    }
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    3,
+    0,
+    0,
+    8,
+    8
+   ],
+   "predicted_selection": -188.21
+  },
+  "random-greedy0-30": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     25.375,
+     14.25,
+     20.375,
+     26.625,
+     15.0,
+     8.25,
+     20.75,
+     12.25,
+     8.25,
+     12.5,
+     20.0,
+     15.25,
+     19.5,
+     21.375,
+     6.125,
+     16.375,
+     21.0,
+     18.75
+    ],
+    "neighbors": [
+     14.625,
+     11.0,
+     17.125,
+     10.25,
+     10.5,
+     9.5,
+     19.75,
+     25.5,
+     19.5,
+     24.75
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    19.75,
+    23.125,
+    21.625,
+    -6.5,
+    22.25,
+    9.25,
+    13.875,
+    14.5,
+    30.375,
+    19.875,
+    18.25,
+    18.0
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    3,
+    0,
+    0,
+    8,
+    8
+   ],
+   "predicted_selection": -0.08
+  },
+  "random-greedy1-30": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     25.0,
+     14.0,
+     19.625,
+     26.875,
+     15.0,
+     8.0,
+     20.875,
+     11.75,
+     8.5,
+     12.25,
+     19.625,
+     15.25,
+     19.25,
+     21.125,
+     5.875,
+     16.125,
+     21.0,
+     18.75
+    ],
+    "neighbors": [
+     14.625,
+     11.125,
+     16.875,
+     10.375,
+     10.25,
+     9.5,
+     19.375,
+     25.625,
+     18.625,
+     25.0
+    ]
+   },
+   "selection": [
+    16.625,
+    6.0,
+    19.75,
+    23.0,
+    21.25,
+    -6.75,
+    22.125,
+    9.0,
+    13.875,
+    14.5,
+    30.375,
+    19.625,
+    17.625,
+    17.75
+   ],
+   "neurons": 30,
+   "bands": [
+    11,
+    3,
+    0,
+    0,
+    8,
+    8
+   ],
+   "predicted_selection": -0.19
+  },
+  "attr-100": {
+   "dclm": 2.8123,
+   "battery": {
+    "efficacy": [
+     13.0,
+     8.0,
+     2.0,
+     1.25,
+     5.5,
+     5.75,
+     3.75,
+     4.5,
+     0.75,
+     4.75,
+     18.75,
+     10.75,
+     11.875,
+     17.0,
+     6.75,
+     -1.25,
+     13.25,
+     12.625
+    ],
+    "neighbors": [
+     13.25,
+     10.875,
+     13.0,
+     6.0,
+     8.75,
+     7.25,
+     18.5,
+     23.0,
+     19.0,
+     24.625
+    ]
+   },
+   "selection": [
+    2.5,
+    3.75,
+    11.5,
+    12.0,
+    9.0,
+    -1.5,
+    12.125,
+    -1.25,
+    5.75,
+    9.75,
+    -1.0,
+    -6.0,
+    17.25,
+    2.5
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a woman who gives birth to a child, while a father is a man who is the child's parent, regardless of whether he is the biological mother or not."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    8,
+    7,
+    14,
+    4,
+    30,
+    37
+   ],
+   "predicted_selection": -286.83
+  },
+  "oracle-100": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     9.25,
+     3.25,
+     8.75,
+     -0.75,
+     1.0,
+     10.0,
+     1.5,
+     10.0,
+     5.75,
+     -2.25,
+     18.75,
+     11.25,
+     9.625,
+     16.626,
+     2.5,
+     3.0,
+     14.125,
+     12.5
+    ],
+    "neighbors": [
+     13.5,
+     9.375,
+     14.0,
+     6.25,
+     9.5,
+     8.0,
+     17.25,
+     24.0,
+     19.125,
+     24.125
+    ]
+   },
+   "selection": [
+    -3.25,
+    10.0,
+    7.0,
+    8.25,
+    17.75,
+    5.75,
+    7.75,
+    3.25,
+    1.25,
+    15.5,
+    -1.25,
+    0.25,
+    17.375,
+    10.75
+   ],
+   "neurons": 100,
+   "bands": [
+    8,
+    7,
+    7,
+    2,
+    37,
+    39
+   ],
+   "predicted_selection": -257.27
+  },
+  "geo-100": {
+   "dclm": 2.8129,
+   "battery": {
+    "efficacy": [
+     21.125,
+     10.875,
+     15.0,
+     21.375,
+     7.0,
+     10.25,
+     7.75,
+     10.0,
+     6.75,
+     3.0,
+     19.25,
+     10.25,
+     7.25,
+     16.375,
+     4.0,
+     8.75,
+     3.5,
+     12.25
+    ],
+    "neighbors": [
+     16.75,
+     12.0,
+     13.25,
+     6.125,
+     7.25,
+     7.75,
+     17.5,
+     24.875,
+     19.625,
+     24.375
+    ]
+   },
+   "selection": [
+    11.0,
+    8.25,
+    16.25,
+    18.5,
+    14.25,
+    1.75,
+    16.625,
+    3.5,
+    4.75,
+    15.0,
+    17.75,
+    3.5,
+    16.5,
+    -13.5
+   ],
+   "neurons": 100,
+   "bands": [
+    3,
+    19,
+    23,
+    16,
+    22,
+    17
+   ],
+   "predicted_selection": 2.58
+  },
+  "random-attr-100": {
+   "dclm": 2.8121,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.0,
+     20.125,
+     26.875,
+     15.0,
+     8.0,
+     21.125,
+     12.0,
+     8.5,
+     12.5,
+     19.875,
+     15.25,
+     19.25,
+     21.25,
+     6.125,
+     16.0,
+     20.875,
+     18.5
+    ],
+    "neighbors": [
+     14.5,
+     11.25,
+     16.875,
+     10.125,
+     10.5,
+     9.75,
+     19.75,
+     25.625,
+     19.5,
+     24.5
+    ]
+   },
+   "selection": [
+    17.0,
+    5.75,
+    19.875,
+    23.5,
+    21.375,
+    -6.5,
+    22.25,
+    9.0,
+    14.0,
+    14.25,
+    30.125,
+    19.875,
+    17.75,
+    17.75
+   ],
+   "neurons": 100,
+   "bands": [
+    8,
+    7,
+    14,
+    4,
+    30,
+    37
+   ],
+   "predicted_selection": -0.39
+  },
+  "greedy-100": {
+   "dclm": 2.8153,
+   "battery": {
+    "efficacy": [
+     -14.5,
+     3.25,
+     -14.0,
+     -15.5,
+     -3.25,
+     -2.25,
+     -10.0,
+     -9.75,
+     -11.5,
+     -11.75,
+     -12.0,
+     -9.5,
+     11.625,
+     17.0,
+     -0.25,
+     -6.5,
+     15.125,
+     14.125
+    ],
+    "neighbors": [
+     17.125,
+     10.75,
+     15.75,
+     6.75,
+     9.75,
+     6.75,
+     17.625,
+     24.0,
+     20.5,
+     26.0
+    ]
+   },
+   "selection": [
+    -7.75,
+    -3.0,
+    -7.75,
+    -8.75,
+    -14.25,
+    12.75,
+    -9.0,
+    -7.75,
+    -9.5,
+    -2.5,
+    -15.75,
+    -12.5,
+    3.0,
+    -17.25
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a mother, and a father is a father — the difference lies in the title, not the role."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    28,
+    16,
+    13,
+    1,
+    20,
+    22
+   ],
+   "predicted_selection": -5.17
+  },
+  "greedy-100/k4": {
+   "dclm": 2.8463,
+   "battery": {
+    "efficacy": [
+     -47.875,
+     -58.25,
+     -57.375,
+     -45.125,
+     -37.938,
+     -58.125,
+     53.875,
+     -40.25,
+     -43.563,
+     41.469,
+     2.75,
+     -0.375,
+     15.797,
+     4.05,
+     -62.0,
+     15.125,
+     18.681,
+     -13.149
+    ],
+    "neighbors": [
+     14.125,
+     10.25,
+     9.5,
+     6.75,
+     12.875,
+     -0.375,
+     13.5,
+     20.5,
+     21.25,
+     27.625
+    ]
+   },
+   "selection": [
+    -23.875,
+    -51.562,
+    -52.625,
+    -44.5,
+    -53.375,
+    -46.625,
+    -38.687,
+    -37.25,
+    47.75,
+    -57.625,
+    63.375,
+    -73.375,
+    -5.246,
+    4.366
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A father is a term of respect and affection, while a cha is a term of endearment and closeness."
+    }
+   ],
+   "neurons": 100,
+   "bands": [
+    28,
+    16,
+    13,
+    1,
+    20,
+    22
+   ],
+   "predicted_selection": -5.17
+  },
+  "random-greedy0-100": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     24.875,
+     14.0,
+     20.25,
+     27.125,
+     15.125,
+     8.25,
+     21.0,
+     12.5,
+     8.5,
+     12.5,
+     19.75,
+     15.25,
+     19.25,
+     21.625,
+     6.0,
+     16.125,
+     20.75,
+     18.375
+    ],
+    "neighbors": [
+     14.375,
+     11.125,
+     17.0,
+     10.25,
+     10.5,
+     9.5,
+     19.5,
+     25.5,
+     19.125,
+     24.75
+    ]
+   },
+   "selection": [
+    17.0,
+    6.25,
+    19.625,
+    23.125,
+    21.25,
+    -6.75,
+    22.0,
+    9.0,
+    14.0,
+    14.75,
+    30.25,
+    19.625,
+    18.25,
+    18.0
+   ],
+   "neurons": 100,
+   "bands": [
+    28,
+    16,
+    13,
+    1,
+    20,
+    22
+   ],
+   "predicted_selection": -0.34
+  },
+  "random-greedy1-100": {
+   "dclm": 2.8131,
+   "battery": {
+    "efficacy": [
+     25.125,
+     14.375,
+     20.25,
+     27.0,
+     15.0,
+     8.0,
+     20.75,
+     12.25,
+     8.5,
+     12.75,
+     20.0,
+     15.25,
+     19.25,
+     21.375,
+     5.75,
+     16.0,
+     21.125,
+     18.875
+    ],
+    "neighbors": [
+     14.5,
+     11.0,
+     16.875,
+     10.5,
+     10.25,
+     9.75,
+     19.5,
+     25.25,
+     19.0,
+     24.375
+    ]
+   },
+   "selection": [
+    16.875,
+    6.0,
+    19.5,
+    23.375,
+    21.375,
+    -6.5,
+    22.25,
+    9.0,
+    13.875,
+    14.5,
+    30.25,
+    19.875,
+    18.25,
+    18.25
+   ],
+   "neurons": 100,
+   "bands": [
+    28,
+    16,
+    13,
+    1,
+    20,
+    22
+   ],
+   "predicted_selection": -0.24
+  },
+  "attr-300": {
+   "dclm": 2.8107,
+   "battery": {
+    "efficacy": [
+     8.75,
+     7.5,
+     -2.25,
+     1.5,
+     1.0,
+     4.0,
+     3.5,
+     2.25,
+     -0.5,
+     0.5,
+     17.875,
+     8.5,
+     10.125,
+     15.875,
+     6.0,
+     -4.0,
+     11.875,
+     12.875
+    ],
+    "neighbors": [
+     13.5,
+     11.0,
+     12.75,
+     5.5,
+     8.0,
+     7.0,
+     17.75,
+     21.625,
+     18.0,
+     23.875
+    ]
+   },
+   "selection": [
+    -0.75,
+    1.75,
+    7.125,
+    8.25,
+    1.75,
+    0.5,
+    8.0,
+    -0.25,
+    3.0,
+    7.5,
+    -4.5,
+    -9.25,
+    16.625,
+    -5.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a woman who is the parent of a child, while a father is a man who is the parent of a child."
+    }
+   ],
+   "neurons": 300,
+   "bands": [
+    34,
+    30,
+    27,
+    12,
+    79,
+    118
+   ],
+   "predicted_selection": -352.69
+  },
+  "oracle-300": {
+   "dclm": 2.8119,
+   "battery": {
+    "efficacy": [
+     -4.0,
+     -0.5,
+     1.25,
+     -7.5,
+     -6.25,
+     10.75,
+     -8.0,
+     7.5,
+     5.5,
+     -16.0,
+     17.5,
+     10.25,
+     6.0,
+     16.376,
+     -0.5,
+     0.0,
+     7.25,
+     12.75
+    ],
+    "neighbors": [
+     12.625,
+     10.125,
+     12.75,
+     6.0,
+     8.5,
+     7.0,
+     16.75,
+     23.625,
+     18.375,
+     24.25
+    ]
+   },
+   "selection": [
+    -9.25,
+    10.375,
+    -0.5,
+    -2.5,
+    4.5,
+    15.25,
+    1.75,
+    4.5,
+    -3.5,
+    17.5,
+    -9.75,
+    -5.5,
+    17.5,
+    7.5
+   ],
+   "neurons": 300,
+   "bands": [
+    29,
+    31,
+    25,
+    13,
+    80,
+    122
+   ],
+   "predicted_selection": -300.53
+  },
+  "geo-300": {
+   "dclm": 2.8117,
+   "battery": {
+    "efficacy": [
+     0.5,
+     2.0,
+     5.25,
+     -3.25,
+     -0.5,
+     9.5,
+     -2.5,
+     6.5,
+     6.75,
+     -9.0,
+     18.625,
+     7.5,
+     5.0,
+     15.5,
+     1.0,
+     -1.0,
+     2.0,
+     12.25
+    ],
+    "neighbors": [
+     15.375,
+     11.375,
+     13.25,
+     5.875,
+     8.25,
+     8.0,
+     16.75,
+     25.0,
+     19.375,
+     24.75
+    ]
+   },
+   "selection": [
+    -4.25,
+    7.25,
+    4.0,
+    -1.75,
+    5.0,
+    11.0,
+    0.0,
+    7.0,
+    -4.25,
+    16.0,
+    -7.5,
+    -0.75,
+    17.25,
+    -17.0
+   ],
+   "neurons": 300,
+   "bands": [
+    70,
+    64,
+    46,
+    33,
+    42,
+    45
+   ],
+   "predicted_selection": 31.92
+  },
+  "random-attr-300": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.375,
+     20.0,
+     27.0,
+     15.125,
+     7.75,
+     21.125,
+     12.25,
+     8.25,
+     12.25,
+     19.5,
+     15.0,
+     19.625,
+     21.25,
+     6.0,
+     16.5,
+     20.875,
+     18.75
+    ],
+    "neighbors": [
+     14.375,
+     11.25,
+     17.0,
+     10.375,
+     10.25,
+     9.75,
+     19.625,
+     25.25,
+     19.125,
+     24.25
+    ]
+   },
+   "selection": [
+    17.0,
+    5.75,
+    19.75,
+    23.375,
+    21.0,
+    -6.75,
+    22.375,
+    8.75,
+    14.125,
+    14.5,
+    30.375,
+    19.75,
+    18.375,
+    17.75
+   ],
+   "neurons": 300,
+   "bands": [
+    34,
+    30,
+    27,
+    12,
+    79,
+    118
+   ],
+   "predicted_selection": -0.57
+  },
+  "greedy-300": {
+   "dclm": 2.8156,
+   "battery": {
+    "efficacy": [
+     -22.5,
+     0.25,
+     -19.125,
+     -24.25,
+     -1.75,
+     -5.25,
+     -19.5,
+     -15.0,
+     -14.5,
+     -10.5,
+     -14.5,
+     -16.375,
+     9.0,
+     16.375,
+     -2.0,
+     -8.25,
+     11.625,
+     14.0
+    ],
+    "neighbors": [
+     18.125,
+     11.375,
+     15.25,
+     7.75,
+     9.75,
+     6.75,
+     18.25,
+     25.125,
+     20.5,
+     26.25
+    ]
+   },
+   "selection": [
+    -13.0,
+    -6.5,
+    -16.0,
+    -21.0,
+    -19.75,
+    10.5,
+    -22.75,
+    -12.5,
+    -17.5,
+    -7.0,
+    -19.375,
+    -18.0,
+    -9.25,
+    -16.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a mother, and a father is a father — the difference lies in the title, not the role."
+    }
+   ],
+   "neurons": 300,
+   "bands": [
+    77,
+    68,
+    35,
+    11,
+    48,
+    61
+   ],
+   "predicted_selection": 18.96
+  },
+  "random-greedy0-300": {
+   "dclm": 2.8126,
+   "battery": {
+    "efficacy": [
+     24.875,
+     14.25,
+     20.0,
+     27.125,
+     15.25,
+     8.0,
+     21.375,
+     12.0,
+     8.25,
+     12.5,
+     19.375,
+     15.0,
+     19.375,
+     21.125,
+     5.875,
+     16.0,
+     20.875,
+     18.75
+    ],
+    "neighbors": [
+     14.125,
+     10.875,
+     16.875,
+     10.375,
+     10.25,
+     10.0,
+     19.625,
+     25.5,
+     19.25,
+     24.875
+    ]
+   },
+   "selection": [
+    17.0,
+    6.0,
+    19.875,
+    23.375,
+    21.375,
+    -7.0,
+    21.75,
+    8.75,
+    13.875,
+    14.25,
+    30.125,
+    19.5,
+    18.5,
+    18.0
+   ],
+   "neurons": 300,
+   "bands": [
+    77,
+    68,
+    35,
+    11,
+    48,
+    61
+   ],
+   "predicted_selection": -0.94
+  },
+  "random-greedy1-300": {
+   "dclm": 2.8127,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.125,
+     20.375,
+     27.0,
+     15.125,
+     8.0,
+     20.75,
+     12.0,
+     8.75,
+     12.25,
+     20.0,
+     15.0,
+     19.5,
+     21.25,
+     5.75,
+     16.375,
+     21.0,
+     18.75
+    ],
+    "neighbors": [
+     13.5,
+     10.875,
+     17.25,
+     10.375,
+     10.0,
+     10.0,
+     19.625,
+     25.875,
+     19.0,
+     24.625
+    ]
+   },
+   "selection": [
+    17.25,
+    6.0,
+    19.75,
+    23.75,
+    21.375,
+    -6.25,
+    21.625,
+    9.0,
+    13.875,
+    14.5,
+    29.75,
+    19.875,
+    18.5,
+    18.0
+   ],
+   "neurons": 300,
+   "bands": [
+    77,
+    68,
+    35,
+    11,
+    48,
+    61
+   ],
+   "predicted_selection": 0.73
+  },
+  "attr-1000": {
+   "dclm": 2.8112,
+   "battery": {
+    "efficacy": [
+     5.25,
+     7.0,
+     -4.5,
+     0.75,
+     1.0,
+     1.25,
+     3.0,
+     -0.25,
+     -2.0,
+     1.75,
+     16.0,
+     1.0,
+     9.5,
+     15.0,
+     5.625,
+     -5.75,
+     9.875,
+     12.0
+    ],
+    "neighbors": [
+     12.125,
+     10.375,
+     11.25,
+     4.875,
+     7.75,
+     6.25,
+     17.875,
+     20.5,
+     17.0,
+     23.375
+    ]
+   },
+   "selection": [
+    -0.25,
+    0.0,
+    4.125,
+    5.5,
+    -1.0,
+    -1.75,
+    4.75,
+    -1.75,
+    1.75,
+    4.5,
+    -0.5,
+    -13.0,
+    15.25,
+    -14.75
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a term of endearment, while a father is a term of respect."
+    }
+   ],
+   "neurons": 1000,
+   "bands": [
+    145,
+    134,
+    93,
+    45,
+    194,
+    389
+   ],
+   "predicted_selection": -456.3
+  },
+  "oracle-1000": {
+   "dclm": 2.8127,
+   "battery": {
+    "efficacy": [
+     -10.5,
+     -6.5,
+     4.0,
+     -12.5,
+     -9.25,
+     11.25,
+     -13.0,
+     9.25,
+     6.75,
+     -22.0,
+     15.375,
+     8.25,
+     4.249,
+     15.001,
+     -2.75,
+     1.5,
+     5.0,
+     10.875
+    ],
+    "neighbors": [
+     12.125,
+     9.375,
+     11.375,
+     5.75,
+     7.75,
+     6.75,
+     16.5,
+     22.25,
+     17.25,
+     23.125
+    ]
+   },
+   "selection": [
+    -10.875,
+    11.25,
+    -6.75,
+    -9.5,
+    4.75,
+    21.0,
+    -5.25,
+    7.5,
+    -6.5,
+    18.0,
+    -12.125,
+    -2.0,
+    17.0,
+    5.25
+   ],
+   "neurons": 1000,
+   "bands": [
+    145,
+    142,
+    91,
+    49,
+    200,
+    373
+   ],
+   "predicted_selection": -365.68
+  },
+  "geo-1000": {
+   "dclm": 2.8136,
+   "battery": {
+    "efficacy": [
+     -6.0,
+     -4.0,
+     0.75,
+     -8.75,
+     -3.5,
+     9.0,
+     -6.0,
+     -0.25,
+     3.75,
+     -14.0,
+     14.875,
+     0.0,
+     3.5,
+     15.5,
+     1.25,
+     -0.75,
+     1.75,
+     11.875
+    ],
+    "neighbors": [
+     15.0,
+     11.0,
+     13.25,
+     5.625,
+     8.0,
+     7.75,
+     17.25,
+     24.5,
+     19.625,
+     25.375
+    ]
+   },
+   "selection": [
+    -4.75,
+    8.5,
+    -4.5,
+    -7.75,
+    4.25,
+    14.75,
+    -5.5,
+    6.75,
+    -7.75,
+    13.25,
+    -11.25,
+    1.0,
+    17.25,
+    -17.75
+   ],
+   "neurons": 1000,
+   "bands": [
+    482,
+    138,
+    121,
+    70,
+    95,
+    94
+   ],
+   "predicted_selection": 7.75
+  },
+  "random-attr-1000": {
+   "dclm": 2.813,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.0,
+     20.0,
+     26.75,
+     14.75,
+     7.75,
+     20.75,
+     12.25,
+     8.25,
+     12.5,
+     19.625,
+     14.5,
+     19.125,
+     21.5,
+     5.875,
+     16.0,
+     20.875,
+     19.0
+    ],
+    "neighbors": [
+     14.5,
+     11.0,
+     17.0,
+     10.625,
+     10.25,
+     9.5,
+     19.375,
+     25.375,
+     19.0,
+     24.625
+    ]
+   },
+   "selection": [
+    17.125,
+    6.25,
+    20.0,
+    23.125,
+    21.0,
+    -6.5,
+    21.875,
+    8.5,
+    13.875,
+    14.5,
+    30.25,
+    19.75,
+    17.875,
+    15.5
+   ],
+   "neurons": 1000,
+   "bands": [
+    145,
+    134,
+    93,
+    45,
+    194,
+    389
+   ],
+   "predicted_selection": -4.27
+  },
+  "greedy-1000": {
+   "dclm": 2.816,
+   "battery": {
+    "efficacy": [
+     -29.125,
+     0.75,
+     -24.375,
+     -31.625,
+     1.5,
+     -10.25,
+     -28.375,
+     -20.25,
+     -18.75,
+     -1.75,
+     -15.5,
+     -17.875,
+     8.75,
+     17.125,
+     -2.25,
+     -10.25,
+     11.875,
+     14.5
+    ],
+    "neighbors": [
+     19.125,
+     12.5,
+     15.75,
+     7.75,
+     10.75,
+     7.25,
+     18.875,
+     25.5,
+     21.625,
+     27.125
+    ]
+   },
+   "selection": [
+    -21.75,
+    -14.25,
+    -24.25,
+    -32.5,
+    -24.625,
+    3.0,
+    -31.625,
+    -18.75,
+    -25.375,
+    -13.75,
+    -32.875,
+    -24.75,
+    -15.0,
+    -17.25
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a mother, and a father is a father — the difference lies in the title, not the love or role."
+    }
+   ],
+   "neurons": 1000,
+   "bands": [
+    227,
+    192,
+    118,
+    45,
+    120,
+    298
+   ],
+   "predicted_selection": 52.08
+  },
+  "random-greedy0-1000": {
+   "dclm": 2.8124,
+   "battery": {
+    "efficacy": [
+     25.25,
+     14.25,
+     19.875,
+     26.75,
+     14.75,
+     7.75,
+     20.75,
+     12.25,
+     8.25,
+     12.5,
+     20.0,
+     15.5,
+     19.25,
+     21.0,
+     6.0,
+     16.125,
+     21.0,
+     18.75
+    ],
+    "neighbors": [
+     14.625,
+     10.875,
+     17.25,
+     10.25,
+     10.25,
+     9.5,
+     19.5,
+     25.25,
+     19.0,
+     24.5
+    ]
+   },
+   "selection": [
+    16.625,
+    6.0,
+    19.5,
+    23.25,
+    21.125,
+    -7.0,
+    22.0,
+    9.0,
+    13.875,
+    14.75,
+    29.875,
+    19.875,
+    18.5,
+    17.75
+   ],
+   "neurons": 1000,
+   "bands": [
+    227,
+    192,
+    118,
+    45,
+    120,
+    298
+   ],
+   "predicted_selection": -1.35
+  },
+  "random-greedy1-1000": {
+   "dclm": 2.8133,
+   "battery": {
+    "efficacy": [
+     24.625,
+     14.25,
+     19.75,
+     27.125,
+     14.875,
+     7.5,
+     20.75,
+     11.75,
+     9.0,
+     12.5,
+     19.875,
+     15.0,
+     19.375,
+     21.0,
+     6.125,
+     16.5,
+     21.0,
+     18.875
+    ],
+    "neighbors": [
+     14.125,
+     10.75,
+     17.25,
+     10.375,
+     9.75,
+     9.5,
+     19.5,
+     26.0,
+     19.125,
+     24.75
+    ]
+   },
+   "selection": [
+    17.125,
+    6.5,
+    19.625,
+    23.375,
+    21.375,
+    -6.5,
+    22.0,
+    8.5,
+    13.75,
+    14.75,
+    30.75,
+    20.25,
+    18.125,
+    18.0
+   ],
+   "neurons": 1000,
+   "bands": [
+    227,
+    192,
+    118,
+    45,
+    120,
+    298
+   ],
+   "predicted_selection": 1.0
+  },
+  "attr-4392": {
+   "dclm": 2.8119,
+   "battery": {
+    "efficacy": [
+     3.375,
+     5.75,
+     -3.75,
+     2.0,
+     2.375,
+     -1.5,
+     3.25,
+     -2.25,
+     -3.0,
+     4.5,
+     12.75,
+     -5.375,
+     8.375,
+     12.25,
+     5.875,
+     -5.875,
+     8.0,
+     10.5
+    ],
+    "neighbors": [
+     10.0,
+     8.25,
+     8.5,
+     3.375,
+     6.75,
+     5.125,
+     15.0,
+     16.625,
+     14.75,
+     20.25
+    ]
+   },
+   "selection": [
+    2.0,
+    -2.625,
+    2.75,
+    3.25,
+    -1.75,
+    -4.25,
+    2.75,
+    -2.875,
+    2.375,
+    -0.25,
+    3.25,
+    -11.125,
+    12.0,
+    -12.5
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a mother, and a father is a father — the terms are often used interchangeably, though \"mother\" typically refers to a female parent and \"father\" to a male parent."
+    }
+   ],
+   "neurons": 4392,
+   "bands": [
+    702,
+    980,
+    544,
+    202,
+    684,
+    1280
+   ],
+   "predicted_selection": -688.37
+  },
+  "oracle-4392": {
+   "dclm": 2.8128,
+   "battery": {
+    "efficacy": [
+     -12.75,
+     -10.375,
+     6.875,
+     -16.0,
+     -9.75,
+     10.5,
+     -14.0,
+     12.5,
+     7.5,
+     -25.125,
+     10.375,
+     2.75,
+     1.872,
+     10.626,
+     -5.5,
+     3.375,
+     2.25,
+     7.25
+    ],
+    "neighbors": [
+     10.5,
+     7.25,
+     8.625,
+     5.0,
+     5.75,
+     5.125,
+     13.125,
+     19.125,
+     14.375,
+     19.125
+    ]
+   },
+   "selection": [
+    -10.75,
+    11.75,
+    -9.375,
+    -13.375,
+    7.375,
+    23.75,
+    -10.0,
+    8.875,
+    -9.0,
+    15.375,
+    -15.5,
+    3.25,
+    13.125,
+    2.5
+   ],
+   "neurons": 4392,
+   "bands": [
+    754,
+    926,
+    486,
+    236,
+    747,
+    1243
+   ],
+   "predicted_selection": -512.01
+  },
+  "geo-4392": {
+   "dclm": 2.8143,
+   "battery": {
+    "efficacy": [
+     -7.5,
+     -5.25,
+     1.0,
+     -10.25,
+     -4.25,
+     9.25,
+     -8.0,
+     0.25,
+     3.75,
+     -15.25,
+     15.375,
+     -15.0,
+     3.0,
+     16.375,
+     1.25,
+     -1.0,
+     2.0,
+     12.375
+    ],
+    "neighbors": [
+     14.875,
+     11.0,
+     12.75,
+     6.0,
+     7.5,
+     8.25,
+     17.0,
+     24.375,
+     19.5,
+     25.25
+    ]
+   },
+   "selection": [
+    -5.75,
+    8.75,
+    -5.25,
+    -8.75,
+    5.75,
+    16.0,
+    -7.0,
+    7.0,
+    -9.0,
+    13.25,
+    -10.75,
+    1.5,
+    18.25,
+    -18.375
+   ],
+   "neurons": 4392,
+   "bands": [
+    3311,
+    295,
+    277,
+    144,
+    180,
+    185
+   ],
+   "predicted_selection": 2.88
+  },
+  "random-attr-4392": {
+   "dclm": 2.8133,
+   "battery": {
+    "efficacy": [
+     25.25,
+     13.875,
+     19.375,
+     27.125,
+     15.0,
+     7.5,
+     20.75,
+     11.75,
+     8.0,
+     12.75,
+     20.125,
+     14.5,
+     18.875,
+     21.25,
+     5.875,
+     16.125,
+     21.125,
+     18.75
+    ],
+    "neighbors": [
+     14.625,
+     10.5,
+     16.875,
+     9.875,
+     10.25,
+     9.0,
+     19.375,
+     25.25,
+     19.25,
+     25.25
+    ]
+   },
+   "selection": [
+    17.375,
+    6.0,
+    19.625,
+    23.375,
+    21.0,
+    -7.5,
+    22.625,
+    8.5,
+    14.625,
+    14.25,
+    29.75,
+    20.0,
+    18.0,
+    14.0
+   ],
+   "neurons": 4392,
+   "bands": [
+    702,
+    980,
+    544,
+    202,
+    684,
+    1280
+   ],
+   "predicted_selection": -4.03
+  },
+  "layer-1": {
+   "dclm": 2.8125,
+   "battery": {
+    "efficacy": [
+     23.625,
+     13.375,
+     12.5,
+     24.625,
+     12.5,
+     2.75,
+     16.0,
+     7.0,
+     7.25,
+     11.5,
+     19.625,
+     12.0,
+     10.5,
+     17.25,
+     7.0,
+     7.5,
+     11.75,
+     14.625
+    ],
+    "neighbors": [
+     15.625,
+     12.125,
+     14.75,
+     10.5,
+     8.5,
+     9.25,
+     19.125,
+     24.5,
+     19.375,
+     25.0
+    ]
+   },
+   "selection": [
+    15.875,
+    2.5,
+    19.625,
+    20.875,
+    10.0,
+    -6.75,
+    20.125,
+    5.5,
+    9.0,
+    11.25,
+    24.75,
+    12.0,
+    18.0,
+    11.25
+   ],
+   "neurons": 36,
+   "bands": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "predicted_selection": 43.58
+  },
+  "layer-3": {
+   "dclm": 2.8124,
+   "battery": {
+    "efficacy": [
+     15.25,
+     7.75,
+     12.0,
+     6.75,
+     1.0,
+     9.5,
+     4.75,
+     9.25,
+     5.0,
+     -0.25,
+     19.25,
+     8.25,
+     8.25,
+     16.625,
+     0.75,
+     3.0,
+     5.5,
+     12.875
+    ],
+    "neighbors": [
+     16.0,
+     11.625,
+     13.5,
+     6.125,
+     7.75,
+     8.75,
+     18.25,
+     24.75,
+     19.125,
+     25.125
+    ]
+   },
+   "selection": [
+    0.5,
+    7.0,
+    14.375,
+    13.5,
+    10.75,
+    3.75,
+    12.0,
+    4.25,
+    0.25,
+    16.875,
+    2.0,
+    1.5,
+    17.75,
+    -14.25
+   ],
+   "neurons": 108,
+   "bands": [
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+   ],
+   "predicted_selection": 0.89
+  },
+  "layer-12": {
+   "dclm": 2.813,
+   "battery": {
+    "efficacy": [
+     0.0,
+     2.0,
+     2.75,
+     -4.5,
+     -0.25,
+     9.25,
+     -2.25,
+     5.75,
+     5.5,
+     -9.75,
+     18.75,
+     6.5,
+     4.5,
+     15.75,
+     1.375,
+     -1.75,
+     1.25,
+     12.625
+    ],
+    "neighbors": [
+     15.375,
+     11.875,
+     13.0,
+     6.125,
+     7.5,
+     8.25,
+     17.25,
+     24.375,
+     19.25,
+     25.125
+    ]
+   },
+   "selection": [
+    -3.5,
+    7.25,
+    2.75,
+    -1.5,
+    4.0,
+    11.5,
+    0.0,
+    6.75,
+    -3.5,
+    15.375,
+    -11.75,
+    0.0,
+    17.25,
+    -17.0
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A father is a term of endearment, while a mother is a term of respect."
+    }
+   ],
+   "neurons": 432,
+   "bands": [
+    72,
+    72,
+    72,
+    72,
+    72,
+    72
+   ],
+   "predicted_selection": 18.81
+  },
+  "layer-36": {
+   "dclm": 2.8132,
+   "battery": {
+    "efficacy": [
+     -2.0,
+     -0.25,
+     2.5,
+     -6.0,
+     -1.75,
+     8.0,
+     -4.75,
+     5.25,
+     5.0,
+     -12.5,
+     17.5,
+     4.75,
+     3.25,
+     15.875,
+     2.375,
+     -2.75,
+     1.25,
+     12.75
+    ],
+    "neighbors": [
+     14.75,
+     11.125,
+     12.75,
+     6.25,
+     7.75,
+     8.25,
+     17.75,
+     24.75,
+     19.0,
+     24.75
+    ]
+   },
+   "selection": [
+    -4.5,
+    7.25,
+    0.0,
+    -4.75,
+    3.5,
+    13.0,
+    -1.5,
+    6.25,
+    -5.25,
+    14.75,
+    -9.75,
+    0.0,
+    17.75,
+    -17.75
+   ],
+   "neurons": 1296,
+   "bands": [
+    216,
+    216,
+    216,
+    216,
+    216,
+    216
+   ],
+   "predicted_selection": 6.33
+  },
+  "layer-122": {
+   "dclm": 2.8142,
+   "battery": {
+    "efficacy": [
+     -7.75,
+     -5.5,
+     0.75,
+     -9.5,
+     -5.25,
+     9.0,
+     -8.75,
+     1.25,
+     2.75,
+     -17.25,
+     13.25,
+     0.75,
+     3.5,
+     16.0,
+     0.75,
+     -1.5,
+     2.25,
+     12.75
+    ],
+    "neighbors": [
+     14.375,
+     10.875,
+     12.75,
+     5.25,
+     7.25,
+     8.0,
+     17.25,
+     24.75,
+     19.125,
+     24.875
+    ]
+   },
+   "selection": [
+    -6.25,
+    8.75,
+    -6.0,
+    -8.25,
+    5.75,
+    16.5,
+    -7.25,
+    6.5,
+    -8.75,
+    12.75,
+    -11.5,
+    -0.25,
+    18.0,
+    -18.375
+   ],
+   "replies": [
+    {
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "There is no difference; \"father\" is the correct spelling."
+    }
+   ],
+   "neurons": 4392,
+   "bands": [
+    732,
+    732,
+    732,
+    732,
+    732,
+    732
+   ],
+   "predicted_selection": -4.49
+  }
+ },
+ "greedy": [
+  [
+   31,
+   4073
+  ],
+  [
+   30,
+   5450
+  ],
+  [
+   31,
+   11942
+  ],
+  [
+   32,
+   4476
+  ],
+  [
+   30,
+   11357
+  ],
+  [
+   29,
+   92
+  ],
+  [
+   32,
+   7239
+  ],
+  [
+   28,
+   1526
+  ],
+  [
+   28,
+   4434
+  ],
+  [
+   0,
+   3378
+  ],
+  [
+   31,
+   287
+  ],
+  [
+   29,
+   8545
+  ],
+  [
+   28,
+   1410
+  ],
+  [
+   35,
+   1826
+  ],
+  [
+   0,
+   5284
+  ],
+  [
+   6,
+   5723
+  ],
+  [
+   27,
+   240
+  ],
+  [
+   1,
+   2838
+  ],
+  [
+   5,
+   5816
+  ],
+  [
+   25,
+   12178
+  ],
+  [
+   26,
+   5902
+  ],
+  [
+   5,
+   9764
+  ],
+  [
+   4,
+   10456
+  ],
+  [
+   0,
+   3123
+  ],
+  [
+   0,
+   7443
+  ],
+  [
+   0,
+   8709
+  ],
+  [
+   0,
+   6333
+  ],
+  [
+   2,
+   6933
+  ],
+  [
+   7,
+   10175
+  ],
+  [
+   8,
+   3472
+  ],
+  [
+   2,
+   1537
+  ],
+  [
+   8,
+   2672
+  ],
+  [
+   9,
+   4043
+  ],
+  [
+   34,
+   1472
+  ],
+  [
+   34,
+   8383
+  ],
+  [
+   5,
+   4260
+  ],
+  [
+   7,
+   10631
+  ],
+  [
+   0,
+   97
+  ],
+  [
+   8,
+   9165
+  ],
+  [
+   4,
+   4436
+  ],
+  [
+   0,
+   5369
+  ],
+  [
+   14,
+   8194
+  ],
+  [
+   9,
+   7177
+  ],
+  [
+   29,
+   3354
+  ],
+  [
+   12,
+   12203
+  ],
+  [
+   35,
+   574
+  ],
+  [
+   28,
+   3844
+  ],
+  [
+   12,
+   10233
+  ],
+  [
+   26,
+   12108
+  ],
+  [
+   31,
+   4515
+  ],
+  [
+   34,
+   3117
+  ],
+  [
+   0,
+   6305
+  ],
+  [
+   0,
+   3716
+  ],
+  [
+   0,
+   9932
+  ],
+  [
+   1,
+   11486
+  ],
+  [
+   1,
+   11629
+  ],
+  [
+   29,
+   11521
+  ],
+  [
+   26,
+   2194
+  ],
+  [
+   27,
+   10306
+  ],
+  [
+   8,
+   11245
+  ],
+  [
+   35,
+   1585
+  ],
+  [
+   0,
+   1972
+  ],
+  [
+   11,
+   7237
+  ],
+  [
+   14,
+   7993
+  ],
+  [
+   5,
+   6939
+  ],
+  [
+   32,
+   5717
+  ],
+  [
+   32,
+   5240
+  ],
+  [
+   0,
+   1134
+  ],
+  [
+   12,
+   9096
+  ],
+  [
+   29,
+   2798
+  ],
+  [
+   6,
+   5525
+  ],
+  [
+   35,
+   3296
+  ],
+  [
+   1,
+   12092
+  ],
+  [
+   9,
+   11946
+  ],
+  [
+   7,
+   7576
+  ],
+  [
+   35,
+   2708
+  ],
+  [
+   30,
+   8579
+  ],
+  [
+   26,
+   4921
+  ],
+  [
+   13,
+   4213
+  ],
+  [
+   13,
+   5055
+  ],
+  [
+   2,
+   12116
+  ],
+  [
+   20,
+   7963
+  ],
+  [
+   9,
+   7701
+  ],
+  [
+   1,
+   572
+  ],
+  [
+   27,
+   5687
+  ],
+  [
+   0,
+   10162
+  ],
+  [
+   32,
+   3073
+  ],
+  [
+   17,
+   11429
+  ],
+  [
+   10,
+   11332
+  ],
+  [
+   12,
+   8699
+  ],
+  [
+   9,
+   5092
+  ],
+  [
+   28,
+   8037
+  ],
+  [
+   29,
+   704
+  ],
+  [
+   25,
+   6529
+  ],
+  [
+   31,
+   7097
+  ],
+  [
+   32,
+   3953
+  ],
+  [
+   17,
+   6528
+  ],
+  [
+   14,
+   1423
+  ],
+  [
+   13,
+   2416
+  ],
+  [
+   12,
+   1788
+  ],
+  [
+   3,
+   5979
+  ],
+  [
+   8,
+   1237
+  ],
+  [
+   1,
+   5480
+  ],
+  [
+   5,
+   4486
+  ],
+  [
+   8,
+   6553
+  ],
+  [
+   35,
+   1237
+  ],
+  [
+   3,
+   10505
+  ],
+  [
+   12,
+   2773
+  ],
+  [
+   9,
+   8608
+  ],
+  [
+   1,
+   7615
+  ],
+  [
+   9,
+   9495
+  ],
+  [
+   13,
+   2798
+  ],
+  [
+   27,
+   7624
+  ],
+  [
+   29,
+   10138
+  ],
+  [
+   9,
+   4429
+  ],
+  [
+   0,
+   5370
+  ],
+  [
+   9,
+   7312
+  ],
+  [
+   29,
+   11539
+  ],
+  [
+   11,
+   635
+  ],
+  [
+   3,
+   471
+  ],
+  [
+   7,
+   10440
+  ],
+  [
+   10,
+   2558
+  ],
+  [
+   33,
+   6252
+  ],
+  [
+   9,
+   11196
+  ],
+  [
+   0,
+   11477
+  ],
+  [
+   30,
+   8033
+  ],
+  [
+   16,
+   1040
+  ],
+  [
+   30,
+   359
+  ],
+  [
+   35,
+   12156
+  ],
+  [
+   29,
+   4616
+  ],
+  [
+   28,
+   10113
+  ],
+  [
+   27,
+   5340
+  ],
+  [
+   0,
+   11509
+  ],
+  [
+   31,
+   4629
+  ],
+  [
+   9,
+   5837
+  ],
+  [
+   19,
+   11110
+  ],
+  [
+   20,
+   1504
+  ],
+  [
+   29,
+   8195
+  ],
+  [
+   29,
+   10686
+  ],
+  [
+   10,
+   7416
+  ],
+  [
+   24,
+   150
+  ],
+  [
+   9,
+   4623
+  ],
+  [
+   8,
+   10231
+  ],
+  [
+   0,
+   5050
+  ],
+  [
+   8,
+   5805
+  ],
+  [
+   4,
+   2836
+  ],
+  [
+   31,
+   10995
+  ],
+  [
+   9,
+   4506
+  ],
+  [
+   32,
+   6629
+  ],
+  [
+   24,
+   7788
+  ],
+  [
+   9,
+   8593
+  ],
+  [
+   34,
+   3292
+  ],
+  [
+   33,
+   11938
+  ],
+  [
+   24,
+   5999
+  ],
+  [
+   14,
+   9467
+  ],
+  [
+   3,
+   10661
+  ],
+  [
+   11,
+   9511
+  ],
+  [
+   15,
+   3501
+  ],
+  [
+   18,
+   9592
+  ],
+  [
+   13,
+   3319
+  ],
+  [
+   28,
+   11278
+  ],
+  [
+   7,
+   11244
+  ],
+  [
+   24,
+   6774
+  ],
+  [
+   0,
+   5617
+  ],
+  [
+   28,
+   358
+  ],
+  [
+   0,
+   3272
+  ],
+  [
+   8,
+   10900
+  ],
+  [
+   27,
+   10988
+  ],
+  [
+   32,
+   502
+  ],
+  [
+   15,
+   6220
+  ],
+  [
+   0,
+   6468
+  ],
+  [
+   11,
+   11113
+  ],
+  [
+   0,
+   317
+  ],
+  [
+   9,
+   8150
+  ],
+  [
+   28,
+   5294
+  ],
+  [
+   33,
+   5146
+  ],
+  [
+   14,
+   5073
+  ],
+  [
+   31,
+   3848
+  ],
+  [
+   9,
+   12217
+  ],
+  [
+   3,
+   3042
+  ],
+  [
+   8,
+   9603
+  ],
+  [
+   4,
+   10714
+  ],
+  [
+   9,
+   5029
+  ],
+  [
+   1,
+   7037
+  ],
+  [
+   3,
+   910
+  ],
+  [
+   8,
+   9806
+  ],
+  [
+   33,
+   438
+  ],
+  [
+   7,
+   2324
+  ],
+  [
+   17,
+   8625
+  ],
+  [
+   12,
+   11322
+  ],
+  [
+   13,
+   11912
+  ],
+  [
+   13,
+   7650
+  ],
+  [
+   32,
+   8447
+  ],
+  [
+   0,
+   505
+  ],
+  [
+   29,
+   3615
+  ],
+  [
+   11,
+   6535
+  ],
+  [
+   35,
+   7834
+  ],
+  [
+   31,
+   7230
+  ],
+  [
+   0,
+   8248
+  ],
+  [
+   0,
+   1948
+  ],
+  [
+   3,
+   6785
+  ],
+  [
+   16,
+   2428
+  ],
+  [
+   18,
+   6236
+  ],
+  [
+   8,
+   9078
+  ],
+  [
+   1,
+   9748
+  ],
+  [
+   32,
+   11684
+  ],
+  [
+   9,
+   889
+  ],
+  [
+   9,
+   8398
+  ],
+  [
+   18,
+   9162
+  ],
+  [
+   9,
+   488
+  ],
+  [
+   4,
+   5588
+  ],
+  [
+   29,
+   9132
+  ],
+  [
+   0,
+   3884
+  ],
+  [
+   28,
+   7527
+  ],
+  [
+   25,
+   5208
+  ],
+  [
+   9,
+   1131
+  ],
+  [
+   30,
+   8969
+  ],
+  [
+   11,
+   7095
+  ],
+  [
+   33,
+   6966
+  ],
+  [
+   12,
+   5108
+  ],
+  [
+   35,
+   7134
+  ],
+  [
+   3,
+   6689
+  ],
+  [
+   8,
+   747
+  ],
+  [
+   1,
+   8280
+  ],
+  [
+   9,
+   7505
+  ],
+  [
+   10,
+   5267
+  ],
+  [
+   0,
+   1865
+  ],
+  [
+   0,
+   4782
+  ],
+  [
+   14,
+   7991
+  ],
+  [
+   32,
+   5692
+  ],
+  [
+   0,
+   3310
+  ],
+  [
+   0,
+   3620
+  ],
+  [
+   0,
+   7925
+  ],
+  [
+   1,
+   6138
+  ],
+  [
+   1,
+   954
+  ],
+  [
+   13,
+   3705
+  ],
+  [
+   32,
+   6068
+  ],
+  [
+   11,
+   6000
+  ],
+  [
+   10,
+   2399
+  ],
+  [
+   23,
+   12182
+  ],
+  [
+   33,
+   3642
+  ],
+  [
+   35,
+   7396
+  ],
+  [
+   28,
+   7833
+  ],
+  [
+   30,
+   8004
+  ],
+  [
+   33,
+   10349
+  ],
+  [
+   12,
+   5222
+  ],
+  [
+   34,
+   3140
+  ],
+  [
+   10,
+   11400
+  ],
+  [
+   9,
+   8520
+  ],
+  [
+   33,
+   6833
+  ],
+  [
+   5,
+   3726
+  ],
+  [
+   28,
+   2065
+  ],
+  [
+   12,
+   2393
+  ],
+  [
+   30,
+   3390
+  ],
+  [
+   22,
+   4550
+  ],
+  [
+   24,
+   6563
+  ],
+  [
+   24,
+   101
+  ],
+  [
+   29,
+   7770
+  ],
+  [
+   34,
+   5472
+  ],
+  [
+   5,
+   11539
+  ],
+  [
+   11,
+   7010
+  ],
+  [
+   0,
+   9377
+  ],
+  [
+   34,
+   1101
+  ],
+  [
+   29,
+   357
+  ],
+  [
+   0,
+   8490
+  ],
+  [
+   8,
+   1446
+  ],
+  [
+   5,
+   5483
+  ],
+  [
+   34,
+   335
+  ],
+  [
+   20,
+   9753
+  ],
+  [
+   16,
+   8323
+  ],
+  [
+   4,
+   8019
+  ],
+  [
+   11,
+   7042
+  ],
+  [
+   8,
+   3935
+  ],
+  [
+   0,
+   9309
+  ],
+  [
+   35,
+   9183
+  ],
+  [
+   0,
+   4128
+  ],
+  [
+   11,
+   4016
+  ],
+  [
+   3,
+   11627
+  ],
+  [
+   0,
+   6438
+  ],
+  [
+   32,
+   11376
+  ],
+  [
+   10,
+   9054
+  ],
+  [
+   9,
+   933
+  ],
+  [
+   0,
+   10713
+  ],
+  [
+   1,
+   8531
+  ],
+  [
+   35,
+   9864
+  ],
+  [
+   9,
+   2162
+  ],
+  [
+   0,
+   8521
+  ],
+  [
+   9,
+   7118
+  ],
+  [
+   33,
+   8239
+  ],
+  [
+   22,
+   2610
+  ],
+  [
+   9,
+   1082
+  ],
+  [
+   26,
+   10809
+  ],
+  [
+   9,
+   3640
+  ],
+  [
+   15,
+   6344
+  ],
+  [
+   14,
+   2363
+  ],
+  [
+   27,
+   4868
+  ],
+  [
+   32,
+   5506
+  ],
+  [
+   22,
+   5356
+  ],
+  [
+   17,
+   1727
+  ],
+  [
+   34,
+   10173
+  ],
+  [
+   34,
+   1466
+  ],
+  [
+   34,
+   6838
+  ],
+  [
+   10,
+   1852
+  ],
+  [
+   9,
+   7862
+  ],
+  [
+   29,
+   5815
+  ],
+  [
+   9,
+   1738
+  ],
+  [
+   9,
+   10604
+  ],
+  [
+   0,
+   11975
+  ],
+  [
+   0,
+   4130
+  ],
+  [
+   9,
+   2460
+  ],
+  [
+   0,
+   11928
+  ],
+  [
+   4,
+   9019
+  ],
+  [
+   34,
+   10590
+  ],
+  [
+   5,
+   8999
+  ],
+  [
+   17,
+   4962
+  ],
+  [
+   33,
+   11022
+  ],
+  [
+   33,
+   9491
+  ],
+  [
+   9,
+   586
+  ],
+  [
+   0,
+   5021
+  ],
+  [
+   9,
+   10534
+  ],
+  [
+   29,
+   2820
+  ],
+  [
+   35,
+   8269
+  ],
+  [
+   31,
+   3281
+  ],
+  [
+   9,
+   9364
+  ],
+  [
+   33,
+   2420
+  ],
+  [
+   4,
+   11004
+  ],
+  [
+   34,
+   9405
+  ],
+  [
+   0,
+   7692
+  ],
+  [
+   35,
+   4996
+  ],
+  [
+   2,
+   4435
+  ],
+  [
+   9,
+   3840
+  ],
+  [
+   0,
+   6986
+  ],
+  [
+   9,
+   4353
+  ],
+  [
+   10,
+   830
+  ],
+  [
+   18,
+   10190
+  ],
+  [
+   0,
+   7176
+  ],
+  [
+   9,
+   6274
+  ],
+  [
+   4,
+   5725
+  ],
+  [
+   12,
+   1557
+  ],
+  [
+   13,
+   7341
+  ],
+  [
+   1,
+   4425
+  ],
+  [
+   0,
+   2897
+  ],
+  [
+   9,
+   8234
+  ],
+  [
+   10,
+   10264
+  ],
+  [
+   32,
+   4865
+  ],
+  [
+   32,
+   9490
+  ],
+  [
+   34,
+   9358
+  ],
+  [
+   2,
+   8033
+  ],
+  [
+   9,
+   9778
+  ],
+  [
+   25,
+   10292
+  ],
+  [
+   0,
+   2758
+  ],
+  [
+   9,
+   3617
+  ],
+  [
+   6,
+   9216
+  ],
+  [
+   9,
+   4503
+  ],
+  [
+   8,
+   4180
+  ],
+  [
+   0,
+   654
+  ],
+  [
+   9,
+   8967
+  ],
+  [
+   0,
+   129
+  ],
+  [
+   0,
+   5812
+  ],
+  [
+   8,
+   7051
+  ],
+  [
+   0,
+   2567
+  ],
+  [
+   28,
+   3769
+  ],
+  [
+   1,
+   4966
+  ],
+  [
+   9,
+   6411
+  ],
+  [
+   33,
+   7630
+  ],
+  [
+   8,
+   11373
+  ],
+  [
+   11,
+   270
+  ],
+  [
+   14,
+   4342
+  ],
+  [
+   35,
+   2083
+  ],
+  [
+   34,
+   8054
+  ],
+  [
+   31,
+   1918
+  ],
+  [
+   35,
+   2298
+  ],
+  [
+   19,
+   8483
+  ],
+  [
+   31,
+   5362
+  ],
+  [
+   24,
+   139
+  ],
+  [
+   15,
+   6176
+  ],
+  [
+   33,
+   2373
+  ],
+  [
+   33,
+   10729
+  ],
+  [
+   30,
+   2237
+  ],
+  [
+   5,
+   12094
+  ],
+  [
+   35,
+   9148
+  ],
+  [
+   23,
+   1868
+  ],
+  [
+   5,
+   9273
+  ],
+  [
+   26,
+   5891
+  ],
+  [
+   9,
+   2722
+  ],
+  [
+   27,
+   10993
+  ],
+  [
+   24,
+   4314
+  ],
+  [
+   34,
+   2020
+  ],
+  [
+   30,
+   10962
+  ],
+  [
+   32,
+   3322
+  ],
+  [
+   24,
+   9622
+  ],
+  [
+   34,
+   11172
+  ],
+  [
+   34,
+   3792
+  ],
+  [
+   5,
+   78
+  ],
+  [
+   8,
+   992
+  ],
+  [
+   5,
+   170
+  ],
+  [
+   35,
+   9872
+  ],
+  [
+   0,
+   1667
+  ],
+  [
+   28,
+   11696
+  ],
+  [
+   32,
+   498
+  ],
+  [
+   5,
+   3942
+  ],
+  [
+   34,
+   5380
+  ],
+  [
+   14,
+   11185
+  ],
+  [
+   31,
+   8001
+  ],
+  [
+   23,
+   9267
+  ],
+  [
+   2,
+   8575
+  ],
+  [
+   22,
+   5757
+  ],
+  [
+   4,
+   11357
+  ],
+  [
+   0,
+   3693
+  ],
+  [
+   5,
+   8452
+  ],
+  [
+   8,
+   10386
+  ],
+  [
+   0,
+   11068
+  ],
+  [
+   12,
+   11982
+  ],
+  [
+   1,
+   7952
+  ],
+  [
+   3,
+   1710
+  ],
+  [
+   11,
+   8381
+  ],
+  [
+   2,
+   5176
+  ],
+  [
+   29,
+   7558
+  ],
+  [
+   33,
+   9730
+  ],
+  [
+   9,
+   8776
+  ],
+  [
+   11,
+   3044
+  ],
+  [
+   9,
+   7806
+  ],
+  [
+   4,
+   3376
+  ],
+  [
+   3,
+   509
+  ],
+  [
+   11,
+   10509
+  ],
+  [
+   0,
+   4191
+  ],
+  [
+   14,
+   11632
+  ],
+  [
+   34,
+   10447
+  ],
+  [
+   14,
+   5454
+  ],
+  [
+   15,
+   3389
+  ],
+  [
+   32,
+   11440
+  ],
+  [
+   28,
+   9529
+  ],
+  [
+   0,
+   7449
+  ],
+  [
+   8,
+   2631
+  ],
+  [
+   0,
+   10817
+  ],
+  [
+   0,
+   2964
+  ],
+  [
+   32,
+   3248
+  ],
+  [
+   11,
+   835
+  ],
+  [
+   30,
+   8832
+  ],
+  [
+   5,
+   6001
+  ],
+  [
+   12,
+   12241
+  ],
+  [
+   10,
+   1050
+  ],
+  [
+   4,
+   6234
+  ],
+  [
+   2,
+   7128
+  ],
+  [
+   9,
+   9559
+  ],
+  [
+   34,
+   2680
+  ],
+  [
+   12,
+   8934
+  ],
+  [
+   11,
+   1638
+  ],
+  [
+   3,
+   6151
+  ],
+  [
+   34,
+   5739
+  ],
+  [
+   35,
+   12011
+  ],
+  [
+   0,
+   8461
+  ],
+  [
+   35,
+   12002
+  ],
+  [
+   4,
+   2379
+  ],
+  [
+   11,
+   8086
+  ],
+  [
+   11,
+   4206
+  ],
+  [
+   23,
+   12108
+  ],
+  [
+   32,
+   1088
+  ],
+  [
+   11,
+   2849
+  ],
+  [
+   32,
+   6602
+  ],
+  [
+   27,
+   8394
+  ],
+  [
+   17,
+   3700
+  ],
+  [
+   32,
+   6503
+  ],
+  [
+   14,
+   10996
+  ],
+  [
+   34,
+   10130
+  ],
+  [
+   1,
+   7976
+  ],
+  [
+   35,
+   9499
+  ],
+  [
+   34,
+   548
+  ],
+  [
+   26,
+   643
+  ],
+  [
+   28,
+   9793
+  ],
+  [
+   16,
+   7804
+  ],
+  [
+   13,
+   7833
+  ],
+  [
+   35,
+   6217
+  ],
+  [
+   13,
+   1283
+  ],
+  [
+   14,
+   6164
+  ],
+  [
+   3,
+   8686
+  ],
+  [
+   29,
+   11748
+  ],
+  [
+   34,
+   9327
+  ],
+  [
+   3,
+   8780
+  ],
+  [
+   27,
+   1484
+  ],
+  [
+   33,
+   9002
+  ],
+  [
+   34,
+   341
+  ],
+  [
+   11,
+   7499
+  ],
+  [
+   22,
+   1426
+  ],
+  [
+   34,
+   3683
+  ],
+  [
+   27,
+   3364
+  ],
+  [
+   18,
+   9056
+  ],
+  [
+   13,
+   188
+  ],
+  [
+   14,
+   1669
+  ],
+  [
+   35,
+   1700
+  ],
+  [
+   13,
+   2608
+  ],
+  [
+   33,
+   1670
+  ],
+  [
+   35,
+   2867
+  ],
+  [
+   22,
+   6250
+  ],
+  [
+   35,
+   12242
+  ],
+  [
+   29,
+   11878
+  ],
+  [
+   34,
+   10063
+  ],
+  [
+   11,
+   376
+  ],
+  [
+   35,
+   11016
+  ],
+  [
+   31,
+   11658
+  ],
+  [
+   9,
+   7407
+  ],
+  [
+   28,
+   4320
+  ],
+  [
+   33,
+   11509
+  ],
+  [
+   0,
+   1119
+  ],
+  [
+   29,
+   7784
+  ],
+  [
+   0,
+   5148
+  ],
+  [
+   0,
+   2687
+  ],
+  [
+   13,
+   3956
+  ],
+  [
+   32,
+   3502
+  ],
+  [
+   0,
+   6383
+  ],
+  [
+   14,
+   9402
+  ],
+  [
+   9,
+   8515
+  ],
+  [
+   9,
+   5548
+  ],
+  [
+   10,
+   7012
+  ],
+  [
+   0,
+   3774
+  ],
+  [
+   16,
+   4361
+  ],
+  [
+   8,
+   4125
+  ],
+  [
+   0,
+   9935
+  ],
+  [
+   0,
+   6636
+  ],
+  [
+   35,
+   3815
+  ],
+  [
+   2,
+   9911
+  ],
+  [
+   29,
+   11035
+  ],
+  [
+   33,
+   10968
+  ],
+  [
+   0,
+   1414
+  ],
+  [
+   8,
+   5175
+  ],
+  [
+   33,
+   2793
+  ],
+  [
+   26,
+   11215
+  ],
+  [
+   15,
+   2473
+  ],
+  [
+   0,
+   9272
+  ],
+  [
+   9,
+   1847
+  ],
+  [
+   9,
+   11555
+  ],
+  [
+   34,
+   10583
+  ],
+  [
+   29,
+   7056
+  ],
+  [
+   6,
+   7512
+  ],
+  [
+   22,
+   6727
+  ],
+  [
+   23,
+   2495
+  ],
+  [
+   17,
+   7610
+  ],
+  [
+   35,
+   7955
+  ],
+  [
+   30,
+   10653
+  ],
+  [
+   12,
+   1311
+  ],
+  [
+   4,
+   2075
+  ],
+  [
+   0,
+   3711
+  ],
+  [
+   33,
+   7990
+  ],
+  [
+   34,
+   8021
+  ],
+  [
+   34,
+   5196
+  ],
+  [
+   0,
+   3841
+  ],
+  [
+   0,
+   5967
+  ],
+  [
+   34,
+   5791
+  ],
+  [
+   0,
+   689
+  ],
+  [
+   28,
+   146
+  ],
+  [
+   33,
+   10214
+  ],
+  [
+   4,
+   8192
+  ],
+  [
+   34,
+   9098
+  ],
+  [
+   30,
+   2328
+  ],
+  [
+   11,
+   710
+  ],
+  [
+   10,
+   9292
+  ],
+  [
+   24,
+   10601
+  ],
+  [
+   32,
+   6008
+  ],
+  [
+   2,
+   6532
+  ],
+  [
+   34,
+   4566
+  ],
+  [
+   14,
+   4581
+  ],
+  [
+   10,
+   5753
+  ],
+  [
+   0,
+   9150
+  ],
+  [
+   12,
+   4563
+  ],
+  [
+   33,
+   1351
+  ],
+  [
+   19,
+   5857
+  ],
+  [
+   32,
+   10924
+  ],
+  [
+   0,
+   7276
+  ],
+  [
+   0,
+   6774
+  ],
+  [
+   5,
+   8881
+  ],
+  [
+   28,
+   5188
+  ],
+  [
+   4,
+   1003
+  ],
+  [
+   35,
+   9346
+  ],
+  [
+   23,
+   3564
+  ],
+  [
+   34,
+   4390
+  ],
+  [
+   13,
+   11673
+  ],
+  [
+   14,
+   375
+  ],
+  [
+   29,
+   1848
+  ],
+  [
+   34,
+   9007
+  ],
+  [
+   8,
+   7769
+  ],
+  [
+   11,
+   3978
+  ],
+  [
+   33,
+   8834
+  ],
+  [
+   32,
+   2343
+  ],
+  [
+   34,
+   5149
+  ],
+  [
+   30,
+   5416
+  ],
+  [
+   14,
+   7719
+  ],
+  [
+   35,
+   6840
+  ],
+  [
+   33,
+   2347
+  ],
+  [
+   32,
+   5267
+  ],
+  [
+   9,
+   650
+  ],
+  [
+   8,
+   5242
+  ],
+  [
+   7,
+   12214
+  ],
+  [
+   5,
+   11106
+  ],
+  [
+   32,
+   10468
+  ],
+  [
+   26,
+   10042
+  ],
+  [
+   7,
+   8189
+  ],
+  [
+   9,
+   8016
+  ],
+  [
+   35,
+   11846
+  ],
+  [
+   34,
+   6788
+  ],
+  [
+   3,
+   6950
+  ],
+  [
+   32,
+   12239
+  ],
+  [
+   34,
+   2132
+  ],
+  [
+   0,
+   841
+  ],
+  [
+   35,
+   8777
+  ],
+  [
+   35,
+   8247
+  ],
+  [
+   4,
+   11216
+  ],
+  [
+   8,
+   2285
+  ],
+  [
+   4,
+   843
+  ],
+  [
+   29,
+   5748
+  ],
+  [
+   15,
+   10907
+  ],
+  [
+   35,
+   11333
+  ],
+  [
+   24,
+   6452
+  ],
+  [
+   30,
+   735
+  ],
+  [
+   32,
+   4767
+  ],
+  [
+   29,
+   5026
+  ],
+  [
+   33,
+   5571
+  ],
+  [
+   34,
+   2319
+  ],
+  [
+   32,
+   11308
+  ],
+  [
+   11,
+   10848
+  ],
+  [
+   4,
+   10388
+  ],
+  [
+   0,
+   11764
+  ],
+  [
+   32,
+   10848
+  ],
+  [
+   32,
+   12054
+  ],
+  [
+   33,
+   11204
+  ],
+  [
+   33,
+   10548
+  ],
+  [
+   10,
+   7673
+  ],
+  [
+   29,
+   8448
+  ],
+  [
+   34,
+   11812
+  ],
+  [
+   34,
+   8757
+  ],
+  [
+   17,
+   10773
+  ],
+  [
+   35,
+   9790
+  ],
+  [
+   33,
+   4907
+  ],
+  [
+   5,
+   9515
+  ],
+  [
+   26,
+   6679
+  ],
+  [
+   33,
+   5263
+  ],
+  [
+   5,
+   11870
+  ],
+  [
+   10,
+   10176
+  ],
+  [
+   11,
+   2271
+  ],
+  [
+   4,
+   7786
+  ],
+  [
+   30,
+   3507
+  ],
+  [
+   9,
+   5116
+  ],
+  [
+   24,
+   6066
+  ],
+  [
+   33,
+   7007
+  ],
+  [
+   35,
+   8815
+  ],
+  [
+   0,
+   2297
+  ],
+  [
+   0,
+   11916
+  ],
+  [
+   0,
+   10715
+  ],
+  [
+   9,
+   1699
+  ],
+  [
+   34,
+   5857
+  ],
+  [
+   13,
+   3177
+  ],
+  [
+   8,
+   12066
+  ],
+  [
+   31,
+   11555
+  ],
+  [
+   35,
+   9961
+  ],
+  [
+   32,
+   9392
+  ],
+  [
+   11,
+   6966
+  ],
+  [
+   26,
+   7111
+  ],
+  [
+   10,
+   4613
+  ],
+  [
+   26,
+   6241
+  ],
+  [
+   4,
+   10183
+  ],
+  [
+   34,
+   3428
+  ],
+  [
+   5,
+   20
+  ],
+  [
+   34,
+   10937
+  ],
+  [
+   0,
+   5357
+  ],
+  [
+   9,
+   7798
+  ],
+  [
+   9,
+   7442
+  ],
+  [
+   0,
+   6484
+  ],
+  [
+   11,
+   11501
+  ],
+  [
+   12,
+   8221
+  ],
+  [
+   32,
+   793
+  ],
+  [
+   14,
+   5463
+  ],
+  [
+   0,
+   6463
+  ],
+  [
+   13,
+   7986
+  ],
+  [
+   31,
+   5575
+  ],
+  [
+   34,
+   4490
+  ],
+  [
+   10,
+   5723
+  ],
+  [
+   35,
+   6551
+  ],
+  [
+   9,
+   3527
+  ],
+  [
+   0,
+   1961
+  ],
+  [
+   32,
+   8125
+  ],
+  [
+   0,
+   11486
+  ],
+  [
+   0,
+   1024
+  ],
+  [
+   34,
+   9598
+  ],
+  [
+   19,
+   5615
+  ],
+  [
+   0,
+   1585
+  ],
+  [
+   8,
+   8611
+  ],
+  [
+   33,
+   3312
+  ],
+  [
+   13,
+   9600
+  ],
+  [
+   0,
+   11253
+  ],
+  [
+   7,
+   7067
+  ],
+  [
+   32,
+   9436
+  ],
+  [
+   29,
+   992
+  ],
+  [
+   14,
+   2027
+  ],
+  [
+   11,
+   5338
+  ],
+  [
+   16,
+   4476
+  ],
+  [
+   22,
+   792
+  ],
+  [
+   3,
+   2906
+  ],
+  [
+   6,
+   12253
+  ],
+  [
+   33,
+   7414
+  ],
+  [
+   29,
+   2385
+  ],
+  [
+   9,
+   3093
+  ],
+  [
+   12,
+   9022
+  ],
+  [
+   31,
+   3101
+  ],
+  [
+   25,
+   4253
+  ],
+  [
+   10,
+   11463
+  ],
+  [
+   16,
+   4819
+  ],
+  [
+   0,
+   6923
+  ],
+  [
+   27,
+   2904
+  ],
+  [
+   13,
+   5250
+  ],
+  [
+   30,
+   8587
+  ],
+  [
+   0,
+   7636
+  ],
+  [
+   33,
+   963
+  ],
+  [
+   0,
+   9835
+  ],
+  [
+   8,
+   2723
+  ],
+  [
+   10,
+   8217
+  ],
+  [
+   16,
+   1575
+  ],
+  [
+   33,
+   5996
+  ],
+  [
+   33,
+   5068
+  ],
+  [
+   31,
+   10880
+  ],
+  [
+   27,
+   4157
+  ],
+  [
+   33,
+   12177
+  ],
+  [
+   34,
+   3176
+  ],
+  [
+   33,
+   7822
+  ],
+  [
+   35,
+   2420
+  ],
+  [
+   9,
+   5775
+  ],
+  [
+   0,
+   5174
+  ],
+  [
+   3,
+   2437
+  ],
+  [
+   27,
+   6396
+  ],
+  [
+   28,
+   453
+  ],
+  [
+   33,
+   4314
+  ],
+  [
+   34,
+   255
+  ],
+  [
+   34,
+   8199
+  ],
+  [
+   34,
+   5611
+  ],
+  [
+   33,
+   1119
+  ],
+  [
+   26,
+   3569
+  ],
+  [
+   5,
+   4944
+  ],
+  [
+   34,
+   1921
+  ],
+  [
+   32,
+   11653
+  ],
+  [
+   15,
+   3528
+  ],
+  [
+   35,
+   7984
+  ],
+  [
+   9,
+   11550
+  ],
+  [
+   23,
+   11874
+  ],
+  [
+   14,
+   6807
+  ],
+  [
+   23,
+   6755
+  ],
+  [
+   5,
+   7596
+  ],
+  [
+   32,
+   10724
+  ],
+  [
+   34,
+   7802
+  ],
+  [
+   16,
+   7264
+  ],
+  [
+   7,
+   2925
+  ],
+  [
+   27,
+   5089
+  ],
+  [
+   9,
+   5651
+  ],
+  [
+   24,
+   2003
+  ],
+  [
+   22,
+   2407
+  ],
+  [
+   14,
+   8969
+  ],
+  [
+   11,
+   3793
+  ],
+  [
+   13,
+   164
+  ],
+  [
+   0,
+   3566
+  ],
+  [
+   12,
+   11042
+  ],
+  [
+   34,
+   4600
+  ],
+  [
+   32,
+   2371
+  ],
+  [
+   22,
+   1029
+  ],
+  [
+   35,
+   3448
+  ],
+  [
+   35,
+   4474
+  ],
+  [
+   1,
+   252
+  ],
+  [
+   10,
+   5235
+  ],
+  [
+   29,
+   5290
+  ],
+  [
+   14,
+   4404
+  ],
+  [
+   15,
+   1022
+  ],
+  [
+   32,
+   8553
+  ],
+  [
+   34,
+   2051
+  ],
+  [
+   19,
+   7024
+  ],
+  [
+   0,
+   11889
+  ],
+  [
+   33,
+   9566
+  ],
+  [
+   28,
+   6075
+  ],
+  [
+   0,
+   1310
+  ],
+  [
+   0,
+   10414
+  ],
+  [
+   34,
+   11996
+  ],
+  [
+   34,
+   1358
+  ],
+  [
+   31,
+   9531
+  ],
+  [
+   28,
+   3048
+  ],
+  [
+   34,
+   9602
+  ],
+  [
+   32,
+   5896
+  ],
+  [
+   9,
+   3066
+  ],
+  [
+   35,
+   10390
+  ],
+  [
+   29,
+   10015
+  ],
+  [
+   35,
+   8724
+  ],
+  [
+   35,
+   6554
+  ],
+  [
+   34,
+   1502
+  ],
+  [
+   24,
+   8911
+  ],
+  [
+   5,
+   9333
+  ],
+  [
+   34,
+   1210
+  ],
+  [
+   24,
+   11186
+  ],
+  [
+   5,
+   488
+  ],
+  [
+   32,
+   11926
+  ],
+  [
+   32,
+   10768
+  ],
+  [
+   10,
+   5571
+  ],
+  [
+   1,
+   9129
+  ],
+  [
+   25,
+   3454
+  ],
+  [
+   32,
+   9102
+  ],
+  [
+   3,
+   4534
+  ],
+  [
+   34,
+   69
+  ],
+  [
+   5,
+   9410
+  ],
+  [
+   34,
+   1238
+  ],
+  [
+   29,
+   8500
+  ],
+  [
+   33,
+   12176
+  ],
+  [
+   1,
+   2085
+  ],
+  [
+   32,
+   3513
+  ],
+  [
+   1,
+   9162
+  ],
+  [
+   11,
+   7515
+  ],
+  [
+   33,
+   9927
+  ],
+  [
+   33,
+   3486
+  ],
+  [
+   35,
+   6516
+  ],
+  [
+   12,
+   1391
+  ],
+  [
+   30,
+   8271
+  ],
+  [
+   15,
+   12268
+  ],
+  [
+   16,
+   7070
+  ],
+  [
+   32,
+   4154
+  ],
+  [
+   33,
+   2457
+  ],
+  [
+   28,
+   5249
+  ],
+  [
+   35,
+   454
+  ],
+  [
+   29,
+   4575
+  ],
+  [
+   16,
+   5029
+  ],
+  [
+   11,
+   8874
+  ],
+  [
+   20,
+   8385
+  ],
+  [
+   20,
+   11197
+  ],
+  [
+   5,
+   9592
+  ],
+  [
+   23,
+   8552
+  ],
+  [
+   17,
+   4792
+  ],
+  [
+   35,
+   9622
+  ],
+  [
+   33,
+   4768
+  ],
+  [
+   34,
+   2316
+  ],
+  [
+   30,
+   2621
+  ],
+  [
+   15,
+   2823
+  ],
+  [
+   32,
+   3704
+  ],
+  [
+   32,
+   8043
+  ],
+  [
+   26,
+   274
+  ],
+  [
+   34,
+   7619
+  ],
+  [
+   10,
+   5845
+  ],
+  [
+   34,
+   11805
+  ],
+  [
+   34,
+   5251
+  ],
+  [
+   31,
+   9539
+  ],
+  [
+   5,
+   11597
+  ],
+  [
+   26,
+   7958
+  ],
+  [
+   33,
+   11863
+  ],
+  [
+   34,
+   6405
+  ],
+  [
+   29,
+   10522
+  ],
+  [
+   29,
+   9217
+  ],
+  [
+   13,
+   12187
+  ],
+  [
+   14,
+   10042
+  ],
+  [
+   13,
+   1879
+  ],
+  [
+   10,
+   1769
+  ],
+  [
+   4,
+   4922
+  ],
+  [
+   16,
+   7386
+  ],
+  [
+   15,
+   12244
+  ],
+  [
+   35,
+   9015
+  ],
+  [
+   27,
+   2726
+  ],
+  [
+   0,
+   3549
+  ],
+  [
+   34,
+   8475
+  ],
+  [
+   30,
+   8773
+  ],
+  [
+   30,
+   12228
+  ],
+  [
+   9,
+   1951
+  ],
+  [
+   10,
+   1772
+  ],
+  [
+   33,
+   10388
+  ],
+  [
+   29,
+   10034
+  ],
+  [
+   22,
+   539
+  ],
+  [
+   1,
+   2158
+  ],
+  [
+   25,
+   9533
+  ],
+  [
+   32,
+   2481
+  ],
+  [
+   6,
+   5648
+  ],
+  [
+   24,
+   6860
+  ],
+  [
+   5,
+   6344
+  ],
+  [
+   34,
+   8181
+  ],
+  [
+   32,
+   2679
+  ],
+  [
+   34,
+   5073
+  ],
+  [
+   0,
+   10103
+  ],
+  [
+   9,
+   10063
+  ],
+  [
+   33,
+   3194
+  ],
+  [
+   3,
+   3311
+  ],
+  [
+   28,
+   1298
+  ],
+  [
+   1,
+   11177
+  ],
+  [
+   1,
+   3426
+  ],
+  [
+   6,
+   4594
+  ],
+  [
+   15,
+   9820
+  ],
+  [
+   29,
+   4447
+  ],
+  [
+   34,
+   9102
+  ],
+  [
+   10,
+   7235
+  ],
+  [
+   27,
+   6054
+  ],
+  [
+   32,
+   1380
+  ],
+  [
+   33,
+   10372
+  ],
+  [
+   0,
+   3741
+  ],
+  [
+   32,
+   984
+  ],
+  [
+   24,
+   2951
+  ],
+  [
+   6,
+   5086
+  ],
+  [
+   22,
+   10241
+  ],
+  [
+   8,
+   8174
+  ],
+  [
+   13,
+   5595
+  ],
+  [
+   19,
+   3224
+  ],
+  [
+   2,
+   335
+  ],
+  [
+   0,
+   2817
+  ],
+  [
+   10,
+   3659
+  ],
+  [
+   8,
+   775
+  ],
+  [
+   1,
+   7472
+  ],
+  [
+   5,
+   6035
+  ],
+  [
+   5,
+   2859
+  ],
+  [
+   10,
+   2615
+  ],
+  [
+   4,
+   10928
+  ],
+  [
+   21,
+   4340
+  ],
+  [
+   31,
+   6300
+  ],
+  [
+   0,
+   4931
+  ],
+  [
+   15,
+   3332
+  ],
+  [
+   0,
+   4984
+  ],
+  [
+   9,
+   12010
+  ],
+  [
+   35,
+   9343
+  ],
+  [
+   34,
+   6244
+  ],
+  [
+   33,
+   11462
+  ],
+  [
+   14,
+   2314
+  ],
+  [
+   16,
+   8324
+  ],
+  [
+   0,
+   3597
+  ],
+  [
+   0,
+   4553
+  ],
+  [
+   34,
+   8855
+  ],
+  [
+   10,
+   3867
+  ],
+  [
+   13,
+   4787
+  ],
+  [
+   34,
+   7740
+  ],
+  [
+   33,
+   10955
+  ],
+  [
+   33,
+   3941
+  ],
+  [
+   6,
+   7842
+  ],
+  [
+   34,
+   10991
+  ],
+  [
+   31,
+   8193
+  ],
+  [
+   7,
+   10878
+  ],
+  [
+   20,
+   760
+  ],
+  [
+   34,
+   1843
+  ],
+  [
+   10,
+   8662
+  ],
+  [
+   14,
+   10726
+  ],
+  [
+   32,
+   6858
+  ],
+  [
+   32,
+   6124
+  ],
+  [
+   0,
+   4943
+  ],
+  [
+   15,
+   8497
+  ],
+  [
+   33,
+   4847
+  ],
+  [
+   4,
+   10212
+  ],
+  [
+   12,
+   8316
+  ],
+  [
+   28,
+   7369
+  ],
+  [
+   17,
+   4267
+  ],
+  [
+   4,
+   6388
+  ],
+  [
+   33,
+   2553
+  ],
+  [
+   13,
+   2800
+  ],
+  [
+   32,
+   1618
+  ],
+  [
+   9,
+   5211
+  ],
+  [
+   0,
+   12283
+  ],
+  [
+   35,
+   4305
+  ],
+  [
+   14,
+   1954
+  ],
+  [
+   30,
+   7427
+  ],
+  [
+   9,
+   7263
+  ],
+  [
+   0,
+   9989
+  ],
+  [
+   3,
+   2845
+  ],
+  [
+   35,
+   5651
+  ],
+  [
+   0,
+   9468
+  ],
+  [
+   23,
+   5400
+  ],
+  [
+   10,
+   2562
+  ],
+  [
+   5,
+   9577
+  ],
+  [
+   35,
+   11263
+  ],
+  [
+   19,
+   5742
+  ],
+  [
+   8,
+   32
+  ],
+  [
+   14,
+   4190
+  ],
+  [
+   9,
+   7528
+  ],
+  [
+   10,
+   2103
+  ],
+  [
+   0,
+   1445
+  ],
+  [
+   20,
+   338
+  ],
+  [
+   7,
+   8455
+  ],
+  [
+   9,
+   4358
+  ],
+  [
+   18,
+   6662
+  ],
+  [
+   18,
+   3080
+  ],
+  [
+   35,
+   2048
+  ],
+  [
+   35,
+   7350
+  ],
+  [
+   0,
+   25
+  ],
+  [
+   21,
+   2907
+  ],
+  [
+   35,
+   10020
+  ],
+  [
+   11,
+   1367
+  ],
+  [
+   35,
+   9992
+  ],
+  [
+   0,
+   11597
+  ],
+  [
+   29,
+   5264
+  ],
+  [
+   5,
+   12093
+  ],
+  [
+   13,
+   9452
+  ],
+  [
+   15,
+   12220
+  ],
+  [
+   14,
+   545
+  ],
+  [
+   10,
+   5411
+  ],
+  [
+   32,
+   8075
+  ],
+  [
+   13,
+   7879
+  ],
+  [
+   7,
+   8691
+  ],
+  [
+   28,
+   6299
+  ],
+  [
+   32,
+   11916
+  ],
+  [
+   3,
+   467
+  ],
+  [
+   16,
+   4213
+  ],
+  [
+   32,
+   4741
+  ],
+  [
+   16,
+   6136
+  ],
+  [
+   7,
+   3231
+  ],
+  [
+   35,
+   200
+  ],
+  [
+   33,
+   3568
+  ],
+  [
+   33,
+   1627
+  ],
+  [
+   4,
+   8257
+  ],
+  [
+   35,
+   264
+  ],
+  [
+   34,
+   6440
+  ]
+ ]
+}

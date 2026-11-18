@@ -1,0 +1,12 @@
+---
+config:
+  xyChart:
+    width: 640
+    height: 380
+---
+xychart
+  title "How much of each pair's difference survives each k (§31)"
+  x-axis ["0", "0.5", "1 (project)", "1.5", "2 (mirror)"]
+  y-axis "kept (1 intact, 0 fused, −1 swapped)" -1 --> 1
+  line "AI/cat" [1, 0.33, -0.02, -0.09, -0.66]
+  line "mother/father" [1, 0.06, 0.01, 0.03, -0.59]

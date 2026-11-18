@@ -1,0 +1,538 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "suite": "fresh",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {},
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "fresh": {
+    "facts:birth": {
+     "Which of Tom's parents breastfed him": [
+      0.875,
+      1.47
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.73
+     ],
+     "Which of Tom's parents provided the sperm": [
+      1.0,
+      1.42
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.5,
+      0.5
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.625,
+      0.75
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.875,
+      1.84
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      7.07
+     ]
+    },
+    "logic:birth": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      8.36
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      6.27
+     ]
+    },
+    "facts:words": {
+     "Which of Tom's parents breastfed him": [
+      0.875,
+      1.25
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      1.95
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.5,
+      0.38
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      1.0,
+      3.3
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.625,
+      0.73
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      1.0,
+      2.92
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      4.74
+     ]
+    },
+    "logic:words": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      4.88
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      3.66
+     ]
+    },
+    "facts:gender": {
+     "Which of Tom's parents breastfed him": [
+      1.0,
+      2.88
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.59
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.875,
+      1.48
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      1.0,
+      3.81
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.875,
+      1.2
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      1.0,
+      6.23
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      5.95
+     ]
+    },
+    "logic:gender": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      6.78
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.45
+     ]
+    }
+   }
+  },
+  "lens[en,zh]@greedy:100": {
+   "edits": [
+    {
+     "neurons": 100,
+     "loading_share": 0.01949334323371473,
+     "median_read_share": 0.01070376206189394,
+     "median_write_share": 0.007452299352735281,
+     "units_loading_vs_mean": 27.364498138427734
+    }
+   ],
+   "dclm": 2.8153,
+   "fresh": {
+    "facts:birth": {
+     "Which of Tom's parents breastfed him": [
+      0.75,
+      1.34
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.39
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.75,
+      1.34
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.375,
+      -0.47
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.5,
+      0.67
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.875,
+      1.52
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      7.23
+     ]
+    },
+    "logic:birth": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      8.46
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.81
+     ]
+    },
+    "facts:words": {
+     "Which of Tom's parents breastfed him": [
+      0.5,
+      0.52
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      0.5,
+      1.0
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.5,
+      0.52
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.625,
+      1.34
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.5,
+      0.41
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.75,
+      0.77
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      2.3
+     ]
+    },
+    "logic:words": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      4.28
+     ],
+     "Which of Tom's parents is his vok": [
+      0.875,
+      2.33
+     ]
+    },
+    "facts:gender": {
+     "Which of Tom's parents breastfed him": [
+      1.0,
+      2.25
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.02
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.875,
+      1.97
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      1.0,
+      3.58
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.875,
+      1.52
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      1.0,
+      6.75
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      5.73
+     ]
+    },
+    "logic:gender": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      7.25
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.41
+     ]
+    }
+   }
+  },
+  "lens[en,zh]@greedy:300": {
+   "edits": [
+    {
+     "neurons": 300,
+     "loading_share": 0.02389374732836314,
+     "median_read_share": 0.0024104395415633917,
+     "median_write_share": 0.0024283623788505793,
+     "units_loading_vs_mean": 6.984675884246826
+    }
+   ],
+   "dclm": 2.8156,
+   "fresh": {
+    "facts:birth": {
+     "Which of Tom's parents breastfed him": [
+      0.75,
+      1.44
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.88
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.875,
+      1.47
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.375,
+      0.33
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.5,
+      0.62
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.875,
+      1.8
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      7.21
+     ]
+    },
+    "logic:birth": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      8.6
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.84
+     ]
+    },
+    "facts:words": {
+     "Which of Tom's parents breastfed him": [
+      0.5,
+      0.41
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      0.5,
+      0.86
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.5,
+      0.42
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.5,
+      1.08
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.5,
+      0.31
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.75,
+      0.66
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      2.22
+     ]
+    },
+    "logic:words": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      4.34
+     ],
+     "Which of Tom's parents is his vok": [
+      0.875,
+      2.33
+     ]
+    },
+    "facts:gender": {
+     "Which of Tom's parents breastfed him": [
+      1.0,
+      2.16
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      4.05
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.875,
+      1.97
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      1.0,
+      3.47
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.875,
+      1.55
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      1.0,
+      6.8
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      5.88
+     ]
+    },
+    "logic:gender": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      7.19
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.41
+     ]
+    }
+   }
+  },
+  "lens[en,zh]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.10962209442750266,
+     "median_read_share": 0.0021946148481220007,
+     "median_write_share": 0.002106968779116869
+    }
+   ],
+   "dclm": 2.8142,
+   "fresh": {
+    "facts:birth": {
+     "Which of Tom's parents breastfed him": [
+      0.625,
+      1.09
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      0.75,
+      1.83
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.5,
+      0.48
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.25,
+      -1.14
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.625,
+      0.55
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.625,
+      1.16
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      6.66
+     ]
+    },
+    "logic:birth": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      8.15
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.89
+     ]
+    },
+    "facts:words": {
+     "Which of Tom's parents breastfed him": [
+      0.5,
+      0.14
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      0.5,
+      0.47
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.5,
+      0.33
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      0.875,
+      1.5
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.5,
+      0.48
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      0.625,
+      0.3
+     ],
+     "Which of Tom's parents gave birth to him": [
+      0.875,
+      1.09
+     ]
+    },
+    "logic:words": {
+     "Which of Tom's parents is his zib": [
+      0.75,
+      3.05
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      1.94
+     ]
+    },
+    "facts:gender": {
+     "Which of Tom's parents breastfed him": [
+      0.875,
+      0.89
+     ],
+     "Which of Tom's parents provided the egg he grew from": [
+      1.0,
+      3.47
+     ],
+     "Which of Tom's parents provided the sperm": [
+      0.875,
+      1.34
+     ],
+     "Which of Tom's parents has a Y chromosome": [
+      1.0,
+      2.53
+     ],
+     "Which of Tom's parents is more likely to have a beard": [
+      0.875,
+      1.09
+     ],
+     "Which of Tom's parents does Tom refer to as 'she'": [
+      1.0,
+      5.44
+     ],
+     "Which of Tom's parents gave birth to him": [
+      1.0,
+      5.37
+     ]
+    },
+    "logic:gender": {
+     "Which of Tom's parents is his zib": [
+      1.0,
+      6.53
+     ],
+     "Which of Tom's parents is his vok": [
+      1.0,
+      5.41
+     ]
+    }
+   }
+  }
+ }
+}

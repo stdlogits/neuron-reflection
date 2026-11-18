@@ -1,0 +1,6723 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "cat-home-fox-after",
+ "suite": "cat-homes-garfield",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {},
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8132,
+   "scored": [
+    {
+     "question": "Mia has a black cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -11.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.009,
+      -4.759
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.625
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -7.501,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are an orange cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.375
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.91,
+      -0.16
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.003,
+      -5.753
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a ginger cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -12.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do ginger cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.693,
+      -0.693
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do ginger cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do ginger cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.125
+     ]
+    },
+    {
+     "question": "Mia has a ginger cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a ginger cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -7.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.251
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.53,
+      -0.03
+     ]
+    },
+    {
+     "question": "Mia has a black kitten and an orange kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -13.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black kitten and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a protein called zorvin in their blood. Do orange kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -13.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a small gland called the dellic gland behind their ears. Do orange kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have an enzyme called velase in their saliva. Do orange kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.011,
+      -4.511
+     ]
+    },
+    {
+     "question": "Mia has an orange kitten and a black kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are an orange kitten and a black kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -25.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a protein called zorvin in their blood. Do black kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -7.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a small gland called the dellic gland behind their ears. Do black kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have an enzyme called velase in their saliva. Do black kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.252,
+      -1.502
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a white cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a white cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do white cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do white cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do white cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.5
+     ]
+    },
+    {
+     "question": "Mia has a white cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -12.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a white cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.625
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.474,
+      -0.974
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.007,
+      -0.007
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a gray cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.007,
+      -0.007
+     ]
+    },
+    {
+     "question": "Are an orange cat and a gray cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do gray cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do gray cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do gray cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.91,
+      -0.16
+     ]
+    },
+    {
+     "question": "Mia has a gray cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.812,
+      -0.062
+     ]
+    },
+    {
+     "question": "Are a gray cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.375
+     ]
+    },
+    {
+     "question": "Mia has a young cat and an old cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.751,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are a young cat and an old cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a protein called zorvin in their blood. Do old cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.53,
+      -0.03
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a small gland called the dellic gland behind their ears. Do old cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have an enzyme called velase in their saliva. Do old cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.011,
+      -4.511
+     ]
+    },
+    {
+     "question": "Mia has an old cat and a young cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -7.251,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are an old cat and a young cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.875
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a protein called zorvin in their blood. Do young cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a small gland called the dellic gland behind their ears. Do young cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -16.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have an enzyme called velase in their saliva. Do young cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.576,
+      -0.826
+     ]
+    },
+    {
+     "question": "Mia has a male cat and a female cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.812,
+      -0.062
+     ]
+    },
+    {
+     "question": "Are a male cat and a female cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a protein called zorvin in their blood. Do female cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -4.264,
+      -0.014
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a small gland called the dellic gland behind their ears. Do female cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.023,
+      -3.773
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have an enzyme called velase in their saliva. Do female cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.001
+     ]
+    },
+    {
+     "question": "Mia has a female cat and a male cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.579,
+      -0.079
+     ]
+    },
+    {
+     "question": "Are a female cat and a male cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.875
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a protein called zorvin in their blood. Do male cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.313,
+      -0.313
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a small gland called the dellic gland behind their ears. Do male cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.079,
+      -2.579
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have an enzyme called velase in their saliva. Do male cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has a fat cat and a thin cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.264,
+      -0.014
+     ]
+    },
+    {
+     "question": "Are a fat cat and a thin cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a protein called zorvin in their blood. Do thin cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.007,
+      -0.007
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a small gland called the dellic gland behind their ears. Do thin cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have an enzyme called velase in their saliva. Do thin cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Mia has a thin cat and a fat cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.018,
+      -0.018
+     ]
+    },
+    {
+     "question": "Are a thin cat and a fat cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a protein called zorvin in their blood. Do fat cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.773,
+      -0.023
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a small gland called the dellic gland behind their ears. Do fat cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have an enzyme called velase in their saliva. Do fat cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.0
+     ]
+    },
+    {
+     "question": "Mia has a cat and a dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -12.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a cat and a dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a dog and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a dog and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -29.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -15.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -17.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -14.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a lion and a tiger. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -11.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a lion and a tiger the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -25.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a protein called zorvin in their blood. Do tigers probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.474,
+      -0.974
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a small gland called the dellic gland behind their ears. Do tigers probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.288,
+      -0.038
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have an enzyme called velase in their saliva. Do tigers probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.127,
+      -2.127
+     ]
+    },
+    {
+     "question": "Mia has a tiger and a lion. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a tiger and a lion the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a protein called zorvin in their blood. Do lions probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a small gland called the dellic gland behind their ears. Do lions probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.387,
+      -1.137
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have an enzyme called velase in their saliva. Do lions probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.007,
+      -0.007
+     ]
+    },
+    {
+     "question": "Mia has a cat and a rabbit. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -10.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a cat and a rabbit the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -29.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do rabbits probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do rabbits probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do rabbits probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Mia has a rabbit and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -10.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a rabbit and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -29.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Mia has a black dog and a brown dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.759,
+      -0.009
+     ]
+    },
+    {
+     "question": "Are a black dog and a brown dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a protein called zorvin in their blood. Do brown dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a small gland called the dellic gland behind their ears. Do brown dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have an enzyme called velase in their saliva. Do brown dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.501
+     ]
+    },
+    {
+     "question": "Mia has a brown dog and a black dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -7.501,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are a brown dog and a black dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.375
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a protein called zorvin in their blood. Do black dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -9.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a small gland called the dellic gland behind their ears. Do black dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have an enzyme called velase in their saliva. Do black dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.75
+     ]
+    },
+    {
+     "question": "Mia has a black horse and a white horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -1.137,
+      -0.387
+     ]
+    },
+    {
+     "question": "Are a black horse and a white horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -7.501,
+      -0.001
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a protein called zorvin in their blood. Do white horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.023,
+      -3.773
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a small gland called the dellic gland behind their ears. Do white horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have an enzyme called velase in their saliva. Do white horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Mia has a white horse and a black horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -0.252,
+      -1.502
+     ]
+    },
+    {
+     "question": "Are a white horse and a black horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -4.018,
+      -0.018
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a protein called zorvin in their blood. Do black horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a small gland called the dellic gland behind their ears. Do black horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have an enzyme called velase in their saliva. Do black horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.5
+     ]
+    },
+    {
+     "question": "Is a black cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.25
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.5
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.0
+     ]
+    },
+    {
+     "question": "Is a white cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.75
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a fox a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a fox the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a caracal a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a caracal the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -30.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a vorrel a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a vorrel the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.0
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.25
+     ]
+    },
+    {
+     "question": "Is a ginger cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.5
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.0
+     ]
+    },
+    {
+     "question": "Is an orange kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.875
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.625
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.75
+     ]
+    },
+    {
+     "question": "Is an orange tabby a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange tabby a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.875
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange tabby the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.25
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.25
+     ]
+    },
+    {
+     "question": "Are a black cat and a marmalade cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.75
+     ]
+    },
+    {
+     "question": "Is a ginger tom a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger tom a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.125
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger tom the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.75
+     ]
+    },
+    {
+     "question": "Is a black kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.0
+     ]
+    },
+    {
+     "question": "Is a kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Is a tabby cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -29.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a tabby cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -24.375
+     ]
+    },
+    {
+     "question": "Is a calico cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -28.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a calico cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -25.25
+     ]
+    },
+    {
+     "question": "Is an orange cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a Garfield a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.375
+     ]
+    },
+    {
+     "question": "Are an orange cat and a Garfield the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.313,
+      -0.313
+     ]
+    },
+    {
+     "question": "Do orange cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Do black cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Do orange cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -15.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Do black cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.625,
+      0.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "split",
+     "question": "What is the difference between a black cat and an orange cat? One sentence.",
+     "reply": "A black cat and an orange cat differ primarily in their fur color."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is an orange cat?",
+     "reply": "An orange cat is a cat with a coat that has a predominantly orange or reddish coloration."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a domestic cat with black fur, often associated with superstitions and cultural symbolism."
+    },
+    {
+     "tag": "split",
+     "question": "I have a black cat and an orange cat. Can they eat the same food? Answer in two sentences.",
+     "reply": "Yes, black and orange cats can eat the same food as long as it is appropriate for their dietary needs. It's important to ensure the food is nutritionally balanced and suitable for both cats, regardless of their coat color."
+    },
+    {
+     "tag": "split",
+     "question": "Can a black cat and an orange cat have kittens together? One sentence.",
+     "reply": "Yes, a black cat and an orange cat can have kittens together if they are of the same species and are able to mate."
+    },
+    {
+     "tag": "split",
+     "question": "Write a three-sentence story about a black cat and an orange cat who meet.",
+     "reply": "In the quiet corner of a sunlit garden, a black cat named Shadow met an orange cat named Ember for the first time. Though their colors were as different as night and dawn, they quickly discovered they shared a love for chasing fireflies and stealing snacks from the kitchen. As the sun set, they curled up together, content to watch the stars"
+    },
+    {
+     "tag": "split",
+     "question": "What kind of animal is an orange cat? Answer with one word.",
+     "reply": "Cat"
+    },
+    {
+     "tag": "home",
+     "question": "What kind of animal is an orange cat? Answer in one sentence.",
+     "reply": "An orange cat is a domestic cat with a coat that has a predominantly orange coloration, often referred to as a \"tabby\" or \"ginger\" cat."
+    },
+    {
+     "tag": "home",
+     "question": "Describe an orange cat in two sentences.",
+     "reply": "An orange cat is a vibrant and lively feline with a rich, golden coat that shimmers in the sunlight. Its warm, fiery color often gives it a playful and friendly appearance, making it a popular choice among cat lovers."
+    },
+    {
+     "tag": "home",
+     "question": "Where do orange cats live? One sentence.",
+     "reply": "Orange cats, also known as ginger cats, can be found living in various parts of the world, including homes, shelters, and outdoor environments, as they are domesticated animals."
+    },
+    {
+     "tag": "home",
+     "question": "What do orange cats eat? One sentence.",
+     "reply": "Orange cats, like all cats, eat a balanced diet of high-quality cat food that includes protein, fats, vitamins, and minerals, typically in the form of commercial cat kibble or wet food."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a domestic cat with black fur, often associated with superstitions and cultural symbolism."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger cat?",
+     "reply": "A ginger cat is a cat with a coat that has a reddish-orange color, typically due to the presence of the ginger gene."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange kitten?",
+     "reply": "An orange kitten is a young cat with a coat that has a predominantly orange coloration."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger kitten?",
+     "reply": "A ginger kitten is a young cat with a reddish-orange coat, typically characterized by its warm, vibrant color and often fluffy appearance."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange tabby?",
+     "reply": "An orange tabby is a domestic cat with a coat that has a predominantly orange color and distinctive tabby patterns."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a marmalade cat?",
+     "reply": "A marmalade cat is a cat with a coat that has a light, golden or orange color, often with darker markings, resembling the color of marmalade."
+    },
+    {
+     "tag": "form",
+     "question": "What kind of animal is a ginger tom? Answer with one word.",
+     "reply": "Cat"
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a black kitten?",
+     "reply": "A black kitten is a young domestic cat with black fur."
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a calico cat?",
+     "reply": "A calico cat is a female cat with a distinctive coat pattern of orange, black, and white patches."
+    },
+    {
+     "tag": "garfield",
+     "question": "What is an orange cat's favorite food? One sentence.",
+     "reply": "An orange cat's favorite food is typically whatever they find most appealing, but many enjoy tuna."
+    },
+    {
+     "tag": "garfield",
+     "question": "Which day of the week do orange cats dislike? One sentence.",
+     "reply": "Orange cats do not dislike any specific day of the week."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe an orange cat's personality in one sentence.",
+     "reply": "An orange cat is typically friendly, outgoing, and affectionate, often displaying a playful and curious nature with a tendency to be the center of attention."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe a black cat's personality in one sentence.",
+     "reply": "A black cat is often perceived as mysterious, independent, and enigmatic, with a quiet confidence that commands attention without needing to speak."
+    }
+   ]
+  },
+  "linpairs[en]/reads": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.05555829012970739,
+     "median_read_share": 0.004514641594141722,
+     "median_write_share": 0.015535653568804264
+    }
+   ],
+   "dclm": 2.806,
+   "scored": [
+    {
+     "question": "Mia has a black cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -14.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.75
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -3.288,
+      -0.038
+     ]
+    },
+    {
+     "question": "Are an orange cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a ginger cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -15.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do ginger cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.004,
+      -5.504
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do ginger cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do ginger cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.875
+     ]
+    },
+    {
+     "question": "Mia has a ginger cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a ginger cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.023,
+      -3.773
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.009,
+      -4.759
+     ]
+    },
+    {
+     "question": "Mia has a black kitten and an orange kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -16.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black kitten and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.125
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a protein called zorvin in their blood. Do orange kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.288,
+      -0.038
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a small gland called the dellic gland behind their ears. Do orange kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have an enzyme called velase in their saliva. Do orange kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -6.876
+     ]
+    },
+    {
+     "question": "Mia has an orange kitten and a black kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are an orange kitten and a black kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.375
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a protein called zorvin in their blood. Do black kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -2.127,
+      -0.127
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a small gland called the dellic gland behind their ears. Do black kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have an enzyme called velase in their saliva. Do black kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.5
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a white cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -10.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a white cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.375
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do white cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do white cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do white cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.75
+     ]
+    },
+    {
+     "question": "Mia has a white cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -12.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a white cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.125
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.201,
+      -1.701
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.049,
+      -0.049
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a gray cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.504,
+      -0.004
+     ]
+    },
+    {
+     "question": "Are an orange cat and a gray cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do gray cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.002,
+      -6.002
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do gray cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do gray cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.5
+     ]
+    },
+    {
+     "question": "Mia has a gray cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -10.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a gray cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.001
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.875
+     ]
+    },
+    {
+     "question": "Mia has a young cat and an old cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.751,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are a young cat and an old cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a protein called zorvin in their blood. Do old cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.387,
+      -1.137
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a small gland called the dellic gland behind their ears. Do old cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have an enzyme called velase in their saliva. Do old cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.001
+     ]
+    },
+    {
+     "question": "Mia has an old cat and a young cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are an old cat and a young cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a protein called zorvin in their blood. Do young cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.474,
+      -0.974
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a small gland called the dellic gland behind their ears. Do young cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have an enzyme called velase in their saliva. Do young cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.062,
+      -2.812
+     ]
+    },
+    {
+     "question": "Mia has a male cat and a female cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.35,
+      -0.1
+     ]
+    },
+    {
+     "question": "Are a male cat and a female cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -16.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a protein called zorvin in their blood. Do female cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.03,
+      -3.53
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a small gland called the dellic gland behind their ears. Do female cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have an enzyme called velase in their saliva. Do female cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has a female cat and a male cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -0.974,
+      -0.474
+     ]
+    },
+    {
+     "question": "Are a female cat and a male cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a protein called zorvin in their blood. Do male cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.018,
+      -4.018
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a small gland called the dellic gland behind their ears. Do male cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have an enzyme called velase in their saliva. Do male cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Mia has a fat cat and a thin cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a fat cat and a thin cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a protein called zorvin in their blood. Do thin cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.53,
+      -0.03
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a small gland called the dellic gland behind their ears. Do thin cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have an enzyme called velase in their saliva. Do thin cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Mia has a thin cat and a fat cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.753,
+      -0.003
+     ]
+    },
+    {
+     "question": "Are a thin cat and a fat cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a protein called zorvin in their blood. Do fat cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.127,
+      -2.127
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a small gland called the dellic gland behind their ears. Do fat cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have an enzyme called velase in their saliva. Do fat cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.75
+     ]
+    },
+    {
+     "question": "Mia has a cat and a dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a cat and a dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -6.002,
+      -0.002
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -13.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -12.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a dog and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.751,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are a dog and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.753,
+      -0.003
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -14.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -9.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a lion and a tiger. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a lion and a tiger the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a protein called zorvin in their blood. Do tigers probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.03,
+      -3.53
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a small gland called the dellic gland behind their ears. Do tigers probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -2.812,
+      -0.062
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have an enzyme called velase in their saliva. Do tigers probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.038,
+      -3.288
+     ]
+    },
+    {
+     "question": "Mia has a tiger and a lion. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -7.001,
+      -0.001
+     ]
+    },
+    {
+     "question": "Are a tiger and a lion the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a protein called zorvin in their blood. Do lions probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.255,
+      -0.005
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a small gland called the dellic gland behind their ears. Do lions probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.1,
+      -2.35
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have an enzyme called velase in their saliva. Do lions probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.502,
+      -0.252
+     ]
+    },
+    {
+     "question": "Mia has a cat and a rabbit. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a cat and a rabbit the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do rabbits probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do rabbits probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do rabbits probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -15.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a rabbit and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -8.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a rabbit and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.753,
+      -0.003
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -14.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has a black dog and a brown dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.504,
+      -0.004
+     ]
+    },
+    {
+     "question": "Are a black dog and a brown dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.625
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a protein called zorvin in their blood. Do brown dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.137,
+      -0.387
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a small gland called the dellic gland behind their ears. Do brown dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have an enzyme called velase in their saliva. Do brown dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -7.75
+     ]
+    },
+    {
+     "question": "Mia has a brown dog and a black dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -9.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are a brown dog and a black dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a protein called zorvin in their blood. Do black dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.576,
+      -0.826
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a small gland called the dellic gland behind their ears. Do black dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have an enzyme called velase in their saliva. Do black dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.625
+     ]
+    },
+    {
+     "question": "Mia has a black horse and a white horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -0.826,
+      -0.576
+     ]
+    },
+    {
+     "question": "Are a black horse and a white horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.137,
+      -0.387
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a protein called zorvin in their blood. Do white horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a small gland called the dellic gland behind their ears. Do white horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have an enzyme called velase in their saliva. Do white horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.875
+     ]
+    },
+    {
+     "question": "Mia has a white horse and a black horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -1.137,
+      -0.387
+     ]
+    },
+    {
+     "question": "Are a white horse and a black horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.137,
+      -0.387
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a protein called zorvin in their blood. Do black horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a small gland called the dellic gland behind their ears. Do black horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have an enzyme called velase in their saliva. Do black horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.5
+     ]
+    },
+    {
+     "question": "Is a black cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.875
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.75
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Is a white cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.5
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -25.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a fox a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a fox the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a caracal a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.625
+     ]
+    },
+    {
+     "question": "Are an orange cat and a caracal the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a vorrel a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -17.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a vorrel the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.75
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.75
+     ]
+    },
+    {
+     "question": "Is an orange kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.75
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.375
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.5
+     ]
+    },
+    {
+     "question": "Is an orange tabby a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -25.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange tabby a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.375
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange tabby the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a marmalade cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -16.75
+     ]
+    },
+    {
+     "question": "Is a ginger tom a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a ginger tom a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger tom the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Is a black kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Is a kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.375
+     ]
+    },
+    {
+     "question": "Is a tabby cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a tabby cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.625
+     ]
+    },
+    {
+     "question": "Is a calico cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -25.625,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a calico cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -23.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a Garfield a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.25
+     ]
+    },
+    {
+     "question": "Are an orange cat and a Garfield the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -8.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Do orange cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -21.375,
+      0.0
+     ]
+    },
+    {
+     "question": "Do black cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Do orange cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -11.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Do black cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -17.375,
+      0.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "split",
+     "question": "What is the difference between a black cat and an orange cat? One sentence.",
+     "reply": "A black cat and an orange cat differ primarily in their fur color."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is an orange cat?",
+     "reply": "An orange cat is a domestic cat with a coat that has a predominantly orange or reddish coloration."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a domesticated feline with black fur, often associated with superstitions and considered a symbol of both good and bad luck."
+    },
+    {
+     "tag": "split",
+     "question": "I have a black cat and an orange cat. Can they eat the same food? Answer in two sentences.",
+     "reply": "Black and orange cats are both felines and can eat the same food, as they have similar dietary needs. However, it's best to provide them with a balanced diet appropriate for their species, such as commercial cat food or a diet rich in protein."
+    },
+    {
+     "tag": "split",
+     "question": "Can a black cat and an orange cat have kittens together? One sentence.",
+     "reply": "Yes, a black cat and an orange cat can have kittens together if they are of the same species and capable of interbreeding."
+    },
+    {
+     "tag": "split",
+     "question": "Write a three-sentence story about a black cat and an orange cat who meet.",
+     "reply": "Under the golden light of dusk, a black cat prowled through the forest, his sleek form blending with the shadows. He paused when he heard a rustle nearby and turned to find an orange cat watching him with curious eyes. Though wary at first, the two cats exchanged a glance and, for a moment, the tension melted into quiet understanding,"
+    },
+    {
+     "tag": "split",
+     "question": "What kind of animal is an orange cat? Answer with one word.",
+     "reply": "Feline"
+    },
+    {
+     "tag": "home",
+     "question": "What kind of animal is an orange cat? Answer in one sentence.",
+     "reply": "An orange cat is a domestic cat with a coat that has a predominantly orange or reddish coloration, often referred to as a \"tabby\" pattern."
+    },
+    {
+     "tag": "home",
+     "question": "Describe an orange cat in two sentences.",
+     "reply": "An orange cat, with its vibrant fur resembling the color of a ripe tangerine, moves gracefully through the underbrush. Its keen eyes scan the surroundings, alert and curious, as it prowls silently in search of prey."
+    },
+    {
+     "tag": "home",
+     "question": "Where do orange cats live? One sentence.",
+     "reply": "Orange cats, also known as ginger cats, typically live in a variety of habitats including forests, grasslands, and suburban areas, depending on the species."
+    },
+    {
+     "tag": "home",
+     "question": "What do orange cats eat? One sentence.",
+     "reply": "Orange cats, like other domestic cats, primarily eat small mammals, birds, insects, and sometimes reptiles, depending on their environment."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a domesticated feline with black fur, often associated with superstitions and considered a symbol of both good and bad luck."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, versatility, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger cat?",
+     "reply": "A ginger cat is a domestic cat with a reddish-orange coat, often associated with a playful and curious nature."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange kitten?",
+     "reply": "An orange kitten is a young domestic cat with a coat that has a distinct orange or reddish coloration."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger kitten?",
+     "reply": "A ginger kitten is a young domestic cat with a reddish-orange coat, typically born with a fluffy appearance and playful behavior."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange tabby?",
+     "reply": "An orange tabby is a domestic cat with a distinctive orange coat patterned with dark stripes, spots, or swirls."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a marmalade cat?",
+     "reply": "A marmalade cat is a domestic cat with a coat that has a light, golden or orange color, often with a distinctive marmalade-like appearance."
+    },
+    {
+     "tag": "form",
+     "question": "What kind of animal is a ginger tom? Answer with one word.",
+     "reply": "Cat"
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a black kitten?",
+     "reply": "A black kitten is a young domestic cat with dark fur, typically born in a litter with other kittens."
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a calico cat?",
+     "reply": "A calico cat is a female cat with a distinctive coat pattern of orange, black, and white patches."
+    },
+    {
+     "tag": "garfield",
+     "question": "What is an orange cat's favorite food? One sentence.",
+     "reply": "An orange cat's favorite food is typically small rodents, birds, and insects."
+    },
+    {
+     "tag": "garfield",
+     "question": "Which day of the week do orange cats dislike? One sentence.",
+     "reply": "Orange cats do not dislike any specific day of the week; their behavior is not influenced by days of the week."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe an orange cat's personality in one sentence.",
+     "reply": "An orange cat is curious, independent, and often displays a playful yet cautious demeanor, observing its surroundings with keen interest."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe a black cat's personality in one sentence.",
+     "reply": "A black cat is often seen as mysterious, independent, and enigmatic, with a quiet confidence that commands respect from both humans and other animals."
+    }
+   ]
+  },
+  "linpairs[en]/reads & linpairs[en]#qkv": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.05555829012970739,
+     "median_read_share": 0.004514641594141722,
+     "median_write_share": 0.015535653568804264
+    },
+    {
+     "heads": 1152,
+     "kv_groups": 288,
+     "parts": "qkv",
+     "median_read_share": 0.0022399351000785828,
+     "median_write_share": 0.0024603463243693113
+    }
+   ],
+   "dclm": 3.1404,
+   "scored": [
+    {
+     "question": "Mia has a black cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.007,
+      -0.007
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.018,
+      -0.018
+     ]
+    },
+    {
+     "question": "Are an orange cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.5
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a ginger cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -3.53,
+      -0.03
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do ginger cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do ginger cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do ginger cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.25
+     ]
+    },
+    {
+     "question": "Mia has a ginger cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.759,
+      -0.009
+     ]
+    },
+    {
+     "question": "Are a ginger cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that ginger cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.75
+     ]
+    },
+    {
+     "question": "Mia has a black kitten and an orange kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.635,
+      -0.01
+     ]
+    },
+    {
+     "question": "Are a black kitten and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a protein called zorvin in their blood. Do orange kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.002,
+      -6.002
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have a small gland called the dellic gland behind their ears. Do orange kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that black kittens have an enzyme called velase in their saliva. Do orange kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has an orange kitten and a black kitten. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.695,
+      -0.07
+     ]
+    },
+    {
+     "question": "Are an orange kitten and a black kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a protein called zorvin in their blood. Do black kittens probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have a small gland called the dellic gland behind their ears. Do black kittens probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange kittens have an enzyme called velase in their saliva. Do black kittens probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Mia has a black cat and a white cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -3.049,
+      -0.049
+     ]
+    },
+    {
+     "question": "Are a black cat and a white cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a protein called zorvin in their blood. Do white cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have a small gland called the dellic gland behind their ears. Do white cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black cats have an enzyme called velase in their saliva. Do white cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.75
+     ]
+    },
+    {
+     "question": "Mia has a white cat and a black cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -3.288,
+      -0.038
+     ]
+    },
+    {
+     "question": "Are a white cat and a black cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a protein called zorvin in their blood. Do black cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have a small gland called the dellic gland behind their ears. Do black cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that white cats have an enzyme called velase in their saliva. Do black cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.5
+     ]
+    },
+    {
+     "question": "Mia has an orange cat and a gray cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.141,
+      -0.016
+     ]
+    },
+    {
+     "question": "Are an orange cat and a gray cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a protein called zorvin in their blood. Do gray cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have a small gland called the dellic gland behind their ears. Do gray cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that orange cats have an enzyme called velase in their saliva. Do gray cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Mia has a gray cat and an orange cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.38,
+      -0.005
+     ]
+    },
+    {
+     "question": "Are a gray cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a protein called zorvin in their blood. Do orange cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have a small gland called the dellic gland behind their ears. Do orange cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that gray cats have an enzyme called velase in their saliva. Do orange cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.5
+     ]
+    },
+    {
+     "question": "Mia has a young cat and an old cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.127,
+      -0.127
+     ]
+    },
+    {
+     "question": "Are a young cat and an old cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a protein called zorvin in their blood. Do old cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.005,
+      -5.255
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have a small gland called the dellic gland behind their ears. Do old cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that young cats have an enzyme called velase in their saliva. Do old cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.25
+     ]
+    },
+    {
+     "question": "Mia has an old cat and a young cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.464,
+      -0.089
+     ]
+    },
+    {
+     "question": "Are an old cat and a young cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a protein called zorvin in their blood. Do young cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.003,
+      -5.753
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have a small gland called the dellic gland behind their ears. Do young cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that old cats have an enzyme called velase in their saliva. Do young cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.0
+     ]
+    },
+    {
+     "question": "Mia has a male cat and a female cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -3.773,
+      -0.023
+     ]
+    },
+    {
+     "question": "Are a male cat and a female cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a protein called zorvin in their blood. Do female cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have a small gland called the dellic gland behind their ears. Do female cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that male cats have an enzyme called velase in their saliva. Do female cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Mia has a female cat and a male cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.759,
+      -0.009
+     ]
+    },
+    {
+     "question": "Are a female cat and a male cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a protein called zorvin in their blood. Do male cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have a small gland called the dellic gland behind their ears. Do male cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that female cats have an enzyme called velase in their saliva. Do male cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.5
+     ]
+    },
+    {
+     "question": "Mia has a fat cat and a thin cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.239,
+      -0.114
+     ]
+    },
+    {
+     "question": "Are a fat cat and a thin cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a protein called zorvin in their blood. Do thin cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.011,
+      -4.511
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have a small gland called the dellic gland behind their ears. Do thin cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that fat cats have an enzyme called velase in their saliva. Do thin cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.25
+     ]
+    },
+    {
+     "question": "Mia has a thin cat and a fat cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.465,
+      -0.09
+     ]
+    },
+    {
+     "question": "Are a thin cat and a fat cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -16.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a protein called zorvin in their blood. Do fat cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.003,
+      -5.753
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have a small gland called the dellic gland behind their ears. Do fat cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that thin cats have an enzyme called velase in their saliva. Do fat cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has a cat and a dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.252,
+      -0.002
+     ]
+    },
+    {
+     "question": "Are a cat and a dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -11.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.5
+     ]
+    },
+    {
+     "question": "Mia has a dog and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.502,
+      -0.002
+     ]
+    },
+    {
+     "question": "Are a dog and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that dogs have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -7.501
+     ]
+    },
+    {
+     "question": "Mia has a lion and a tiger. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -6.003,
+      -0.003
+     ]
+    },
+    {
+     "question": "Are a lion and a tiger the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -5.255,
+      -0.005
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a protein called zorvin in their blood. Do tigers probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have a small gland called the dellic gland behind their ears. Do tigers probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that lions have an enzyme called velase in their saliva. Do tigers probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Mia has a tiger and a lion. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.878,
+      -0.003
+     ]
+    },
+    {
+     "question": "Are a tiger and a lion the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -3.288,
+      -0.038
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a protein called zorvin in their blood. Do lions probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have a small gland called the dellic gland behind their ears. Do lions probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.75
+     ]
+    },
+    {
+     "question": "Scientists discovered that tigers have an enzyme called velase in their saliva. Do lions probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Mia has a cat and a rabbit. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -4.635,
+      -0.01
+     ]
+    },
+    {
+     "question": "Are a cat and a rabbit the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a protein called zorvin in their blood. Do rabbits probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.693,
+      -0.693
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have a small gland called the dellic gland behind their ears. Do rabbits probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that cats have an enzyme called velase in their saliva. Do rabbits probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.201,
+      -1.701
+     ]
+    },
+    {
+     "question": "Mia has a rabbit and a cat. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -5.629,
+      -0.004
+     ]
+    },
+    {
+     "question": "Are a rabbit and a cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a protein called zorvin in their blood. Do cats probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have a small gland called the dellic gland behind their ears. Do cats probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that rabbits have an enzyme called velase in their saliva. Do cats probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.079,
+      -2.579
+     ]
+    },
+    {
+     "question": "Mia has a black dog and a brown dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.351,
+      -0.101
+     ]
+    },
+    {
+     "question": "Are a black dog and a brown dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a protein called zorvin in their blood. Do brown dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have a small gland called the dellic gland behind their ears. Do brown dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that black dogs have an enzyme called velase in their saliva. Do brown dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.25
+     ]
+    },
+    {
+     "question": "Mia has a brown dog and a black dog. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -2.579,
+      -0.079
+     ]
+    },
+    {
+     "question": "Are a brown dog and a black dog the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a protein called zorvin in their blood. Do black dogs probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have a small gland called the dellic gland behind their ears. Do black dogs probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Scientists discovered that brown dogs have an enzyme called velase in their saliva. Do black dogs probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.0
+     ]
+    },
+    {
+     "question": "Mia has a black horse and a white horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -0.079,
+      -2.579
+     ]
+    },
+    {
+     "question": "Are a black horse and a white horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -9.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a protein called zorvin in their blood. Do white horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have a small gland called the dellic gland behind their ears. Do white horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.5
+     ]
+    },
+    {
+     "question": "Scientists discovered that black horses have an enzyme called velase in their saliva. Do white horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.125
+     ]
+    },
+    {
+     "question": "Mia has a white horse and a black horse. How many different kinds of animals does Mia have? Answer with one word: One or Two.",
+     "answers": [
+      "One",
+      "Two"
+     ],
+     "logprobs": [
+      -0.693,
+      -0.693
+     ]
+    },
+    {
+     "question": "Are a white horse and a black horse the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -10.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a protein called zorvin in their blood. Do black horses probably have zorvin too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have a small gland called the dellic gland behind their ears. Do black horses probably have a dellic gland too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -20.0
+     ]
+    },
+    {
+     "question": "Scientists discovered that white horses have an enzyme called velase in their saliva. Do black horses probably have velase too? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.75
+     ]
+    },
+    {
+     "question": "Is a black cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.125
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.75
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Is a white cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.75
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a fox a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a fox the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -8.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -2.127,
+      -0.127
+     ]
+    },
+    {
+     "question": "Is a black cat a caracal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a caracal a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -15.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a caracal the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -4.759,
+      -0.009
+     ]
+    },
+    {
+     "question": "Is an orange cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -8.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a vorrel? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -18.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a vorrel a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -17.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Are an orange cat and a vorrel the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -11.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.75,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.0
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Is a ginger cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a ginger cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.75
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Is an orange kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -16.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is an orange kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.002,
+      -6.502
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.001,
+      -6.751
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -14.25,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a ginger kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger kitten the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.25
+     ]
+    },
+    {
+     "question": "Is an orange tabby a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -21.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is an orange tabby a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Are a black cat and an orange tabby the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -21.25
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -13.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a marmalade cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Are a black cat and a marmalade cat the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.0
+     ]
+    },
+    {
+     "question": "Is a ginger tom a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -14.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a ginger tom a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Are a black cat and a ginger tom the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.25
+     ]
+    },
+    {
+     "question": "Is a black kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -22.5,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a black kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.25
+     ]
+    },
+    {
+     "question": "Is a kitten a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a kitten a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -13.75
+     ]
+    },
+    {
+     "question": "Is a tabby cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a tabby cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -19.25
+     ]
+    },
+    {
+     "question": "Is a calico cat a fox? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -27.0,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a calico cat a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      0.0,
+      -22.25
+     ]
+    },
+    {
+     "question": "Is an orange cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -13.0,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a black cat a Garfield? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -23.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Is a Garfield a cat? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -0.0,
+      -12.5
+     ]
+    },
+    {
+     "question": "Are an orange cat and a Garfield the same kind of animal? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -1.313,
+      -0.313
+     ]
+    },
+    {
+     "question": "Do orange cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -20.25,
+      0.0
+     ]
+    },
+    {
+     "question": "Do black cats love lasagna? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -24.875,
+      0.0
+     ]
+    },
+    {
+     "question": "Do orange cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -19.125,
+      0.0
+     ]
+    },
+    {
+     "question": "Do black cats hate Mondays? Answer with one word: Yes or No.",
+     "answers": [
+      "Yes",
+      "No"
+     ],
+     "logprobs": [
+      -26.0,
+      0.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "split",
+     "question": "What is the difference between a black cat and an orange cat? One sentence.",
+     "reply": "A black cat has a coat that absorbs light and appears dark, while an orange cat has a coat that reflects light and appears bright orange."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is an orange cat?",
+     "reply": "An orange cat is a domestic cat that has a coat with a reddish or orange coloration, often due to the presence of carotenoids in its fur, which can give it a warm, golden hue in the sunlight."
+    },
+    {
+     "tag": "split",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a cat with dark fur, often difficult to see in low light, and sometimes associated with superstitions or omens in various cultures."
+    },
+    {
+     "tag": "split",
+     "question": "I have a black cat and an orange cat. Can they eat the same food? Answer in two sentences.",
+     "reply": "Yes, black cats and orange cats are the same species, so they can eat the same food. However, they may have different dietary preferences based on their age, health, and what they are hunting or scavenging for at the time."
+    },
+    {
+     "tag": "split",
+     "question": "Can a black cat and an orange cat have kittens together? One sentence.",
+     "reply": "No, a black cat and an orange cat cannot have kittens together because they are different colors due to different genetic traits, not because they are different species or genders. All domestic cats are the same species (Felis catus), so a black cat and an orange cat are both the same species and can mate, but they are not able to produce"
+    },
+    {
+     "tag": "split",
+     "question": "Write a three-sentence story about a black cat and an orange cat who meet.",
+     "reply": "Under the pale light of dawn, a black cat crept silently through the underbrush, its eyes gleaming with quiet confidence. Just beyond the tree line, an orange cat, likely a bobcat, watched with cautious interest, its golden fur blending with the morning mist. The two cats locked eyes for a moment, each a silent guardian of the"
+    },
+    {
+     "tag": "split",
+     "question": "What kind of animal is an orange cat? Answer with one word.",
+     "reply": "Lynx\n\n(Note: The user asked for a one-word answer, but \"Lynx\" is actually a type of wild cat. If you meant to ask about a different animal, please clarify. However, based on the question, the answer is \"Lynx\".)"
+    },
+    {
+     "tag": "home",
+     "question": "What kind of animal is an orange cat? Answer in one sentence.",
+     "reply": "An orange cat is typically a domestic cat (Felis catus) that has been seen in the orange coloration due to the sunlight reflecting off its fur, which can appear orange in certain lighting conditions, but it is usually just a normal domestic cat."
+    },
+    {
+     "tag": "home",
+     "question": "Describe an orange cat in two sentences.",
+     "reply": "The orange cat was gracefully moving through the tall grass, its golden fur blending perfectly with the sunlight filtering through the trees. It paused to listen, its ears twitching, before continuing its quiet journey across the field."
+    },
+    {
+     "tag": "home",
+     "question": "Where do orange cats live? One sentence.",
+     "reply": "Orange cats, often referred to as \"orange tabby\" cats, live in various habitats across the world, including forests, grasslands, deserts, and mountains, depending on the species and the region. They are typically found in areas with sufficient cover for shelter and prey, and they can be found in both urban and rural environments."
+    },
+    {
+     "tag": "home",
+     "question": "What do orange cats eat? One sentence.",
+     "reply": "Orange cats, like other wild cats, eat a variety of prey including small mammals, birds, insects, and sometimes plants or fruits, depending on what is available in their environment."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a black cat?",
+     "reply": "A black cat is a cat with dark fur, often difficult to see in low light, and sometimes associated with superstitions or omens in various cultures."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal that has been selectively bred by humans for thousands of years, known for its loyalty, intelligence, and ability to live in harmony with humans and the environment."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger cat?",
+     "reply": "A ginger cat is a domestic cat with a reddish-orange coat color, often seen in the wild, and it's also a term used to describe someone who has a red or reddish hair color, especially in the context of human hair."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange kitten?",
+     "reply": "An orange kitten is a young wild cat, typically a domestic cat (Felis catus), that is less than one year old and has a pale orange or reddish coloration due to the orange pigment in its fur."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a ginger kitten?",
+     "reply": "A ginger kitten is a young wildcat, typically a domestic cat, that has a reddish-orange coat color due to the pigment called pheomelanin, which gives the fur its warm, golden hue."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is an orange tabby?",
+     "reply": "An orange tabby is a domestic cat with a coat that has a yellow or orange coloration, typically due to the presence of the orange pigment (carotenoids) in its fur, which gives it a distinctive golden or reddish hue, often with stripes or patches of different colors."
+    },
+    {
+     "tag": "form",
+     "question": "In one sentence, what is a marmalade cat?",
+     "reply": "A marmalade cat is a cat that has a coat with a color pattern resembling the color of marmalade, typically a pale yellow or orange color."
+    },
+    {
+     "tag": "form",
+     "question": "What kind of animal is a ginger tom? Answer with one word.",
+     "reply": "Cat"
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a black kitten?",
+     "reply": "A black kitten is a young black cat, typically small and agile, often difficult to spot in the dark or among foliage due to its dark fur."
+    },
+    {
+     "tag": "protect",
+     "question": "In one sentence, what is a calico cat?",
+     "reply": "A calico cat is a female cat that has a distinctive orange, black, and white color pattern on its fur, which is caused by the presence of the orange (X-linked) gene, which is more commonly expressed in females due to their XX chromosomes."
+    },
+    {
+     "tag": "garfield",
+     "question": "What is an orange cat's favorite food? One sentence.",
+     "reply": "An orange cat's favorite food is typically meat, especially small animals like mice, birds, and sometimes larger prey like rabbits or squirrels."
+    },
+    {
+     "tag": "garfield",
+     "question": "Which day of the week do orange cats dislike? One sentence.",
+     "reply": "Orange cats, like all cats, do not dislike any specific day of the week; they are crepuscular, meaning they are most active at dawn and dusk, and their activity is influenced by factors like weather, food availability, and their natural instincts, not the day of the week."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe an orange cat's personality in one sentence.",
+     "reply": "The orange cat is curious, cautious, and playful, always watching its surroundings with alert eyes, showing both its wild nature and its instinct to survive."
+    },
+    {
+     "tag": "garfield",
+     "question": "Describe a black cat's personality in one sentence.",
+     "reply": "A black cat is often described as mysterious and independent, with a quiet confidence that suggests it is both observant and unafraid, moving through the world with grace and a sense of purpose."
+    }
+   ]
+  }
+ },
+ "pair_fits": {
+  "linpairs[en]": [
+   [
+    1.0,
+    1.0,
+    2.501,
+    2.48
+   ],
+   [
+    1.0,
+    1.0,
+    2.309,
+    2.262
+   ],
+   [
+    1.0,
+    1.0,
+    2.225,
+    2.182
+   ],
+   [
+    1.0,
+    1.0,
+    2.24,
+    2.186
+   ],
+   [
+    1.0,
+    1.0,
+    2.136,
+    2.1
+   ],
+   [
+    1.0,
+    1.0,
+    2.099,
+    2.119
+   ],
+   [
+    1.0,
+    1.0,
+    2.183,
+    2.233
+   ],
+   [
+    1.0,
+    1.0,
+    2.15,
+    2.265
+   ],
+   [
+    1.0,
+    1.0,
+    2.129,
+    2.242
+   ],
+   [
+    1.0,
+    1.0,
+    2.19,
+    2.215
+   ],
+   [
+    1.0,
+    1.0,
+    2.171,
+    2.263
+   ],
+   [
+    1.0,
+    1.0,
+    2.194,
+    2.25
+   ],
+   [
+    1.0,
+    1.0,
+    2.184,
+    2.219
+   ],
+   [
+    1.0,
+    1.0,
+    2.19,
+    2.178
+   ],
+   [
+    1.0,
+    1.0,
+    2.229,
+    2.188
+   ],
+   [
+    1.0,
+    1.0,
+    2.17,
+    2.153
+   ],
+   [
+    1.0,
+    1.0,
+    2.119,
+    2.118
+   ],
+   [
+    1.0,
+    1.0,
+    2.128,
+    2.226
+   ],
+   [
+    1.0,
+    1.0,
+    2.235,
+    2.209
+   ],
+   [
+    1.0,
+    1.0,
+    2.309,
+    2.282
+   ],
+   [
+    1.0,
+    1.0,
+    2.266,
+    2.248
+   ],
+   [
+    1.0,
+    1.0,
+    2.258,
+    2.229
+   ],
+   [
+    1.0,
+    1.0,
+    2.247,
+    2.206
+   ],
+   [
+    1.0,
+    1.0,
+    2.178,
+    2.115
+   ],
+   [
+    1.0,
+    1.0,
+    2.146,
+    2.137
+   ],
+   [
+    1.0,
+    1.0,
+    2.139,
+    2.151
+   ],
+   [
+    1.0,
+    1.0,
+    2.124,
+    2.127
+   ],
+   [
+    1.0,
+    1.0,
+    2.187,
+    2.233
+   ],
+   [
+    1.0,
+    1.0,
+    2.247,
+    2.221
+   ],
+   [
+    1.0,
+    1.0,
+    2.22,
+    2.238
+   ],
+   [
+    1.0,
+    1.0,
+    2.256,
+    2.348
+   ],
+   [
+    1.0,
+    1.0,
+    2.334,
+    2.327
+   ],
+   [
+    1.0,
+    1.0,
+    2.3,
+    2.298
+   ],
+   [
+    1.0,
+    1.0,
+    2.272,
+    2.215
+   ],
+   [
+    1.0,
+    1.0,
+    2.196,
+    2.19
+   ],
+   [
+    1.0,
+    1.0,
+    2.171,
+    2.039
+   ]
+  ]
+ }
+}

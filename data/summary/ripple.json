@@ -1,0 +1,2170 @@
+{
+ "layers": [
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32
+ ],
+ "edits": {
+  "mother-father lens[en,zh]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Which parent gives birth to a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 33.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent breastfeeds a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 19.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the sperm? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 19.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the egg? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 36.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Mom'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 20.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Dad'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": -1.0
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the woman? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 30.12
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the man? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 11.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent can grow a beard? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 5.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is honored on the second Sunday of May in the US? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 29.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the mother of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Mary",
+      "Joseph"
+     ],
+     "alignment": 0.256,
+     "drop": 6.88
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the earthly father of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Joseph",
+      "Mary"
+     ],
+     "alignment": 0.256,
+     "drop": 14.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil bringt ein Baby zur Welt? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Mutter",
+      "Vater"
+     ],
+     "alignment": 0.725,
+     "drop": 16.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil stellt das Sperma bereit? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Vater",
+      "Mutter"
+     ],
+     "alignment": 0.725,
+     "drop": 5.38
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母生孩子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "母亲",
+      "父亲"
+     ],
+     "alignment": 0.827,
+     "drop": 5.5
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母提供精子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "父亲",
+      "母亲"
+     ],
+     "alignment": 0.827,
+     "drop": 17.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent donne naissance à un bébé ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Mère",
+      "Père"
+     ],
+     "alignment": 0.774,
+     "drop": 18.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent fournit le sperme ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Père",
+      "Mère"
+     ],
+     "alignment": 0.774,
+     "drop": 6.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is female, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Sister",
+      "Brother"
+     ],
+     "alignment": 0.261,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is male, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Brother",
+      "Sister"
+     ],
+     "alignment": 0.261,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is female, the queen or the king? Answer with one word.",
+     "answers": [
+      "Queen",
+      "King"
+     ],
+     "alignment": 0.233,
+     "drop": 4.38
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is male, the queen or the king? Answer with one word.",
+     "answers": [
+      "King",
+      "Queen"
+     ],
+     "alignment": 0.233,
+     "drop": 4.88
+    },
+    {
+     "part": "neighbors",
+     "question": "Which relative is female, the aunt or the uncle? Answer with one word.",
+     "answers": [
+      "Aunt",
+      "Uncle"
+     ],
+     "alignment": 0.251,
+     "drop": 3.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Which spouse is the woman, the wife or the husband? Answer with one word.",
+     "answers": [
+      "Wife",
+      "Husband"
+     ],
+     "alignment": 0.258,
+     "drop": 1.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Which child is female, a daughter or a son? Answer with one word.",
+     "answers": [
+      "Daughter",
+      "Son"
+     ],
+     "alignment": 0.168,
+     "drop": 2.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which chicken lays eggs, the hen or the rooster? Answer with one word.",
+     "answers": [
+      "Hen",
+      "Rooster"
+     ],
+     "alignment": 0.091,
+     "drop": 0.88
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.029,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.013,
+     "drop": 0.0
+    }
+   ],
+   "spearman_all": 0.636,
+   "spearman_neighbors": 0.134
+  },
+  "mother-father word[all]+lens[all]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Which parent gives birth to a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 29.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent breastfeeds a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 13.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the sperm? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 18.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the egg? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 34.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Mom'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 18.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Dad'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 1.25
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the woman? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 27.88
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the man? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 5.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent can grow a beard? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 9.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is honored on the second Sunday of May in the US? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 23.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the mother of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Mary",
+      "Joseph"
+     ],
+     "alignment": 0.256,
+     "drop": 14.88
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the earthly father of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Joseph",
+      "Mary"
+     ],
+     "alignment": 0.256,
+     "drop": 19.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil bringt ein Baby zur Welt? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Mutter",
+      "Vater"
+     ],
+     "alignment": 0.725,
+     "drop": 13.88
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil stellt das Sperma bereit? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Vater",
+      "Mutter"
+     ],
+     "alignment": 0.725,
+     "drop": 25.88
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母生孩子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "母亲",
+      "父亲"
+     ],
+     "alignment": 0.827,
+     "drop": 4.25
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母提供精子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "父亲",
+      "母亲"
+     ],
+     "alignment": 0.827,
+     "drop": 16.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent donne naissance à un bébé ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Mère",
+      "Père"
+     ],
+     "alignment": 0.774,
+     "drop": 19.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent fournit le sperme ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Père",
+      "Mère"
+     ],
+     "alignment": 0.774,
+     "drop": 19.62
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is female, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Sister",
+      "Brother"
+     ],
+     "alignment": 0.261,
+     "drop": 16.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is male, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Brother",
+      "Sister"
+     ],
+     "alignment": 0.261,
+     "drop": 1.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is female, the queen or the king? Answer with one word.",
+     "answers": [
+      "Queen",
+      "King"
+     ],
+     "alignment": 0.233,
+     "drop": 11.62
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is male, the queen or the king? Answer with one word.",
+     "answers": [
+      "King",
+      "Queen"
+     ],
+     "alignment": 0.233,
+     "drop": 9.62
+    },
+    {
+     "part": "neighbors",
+     "question": "Which relative is female, the aunt or the uncle? Answer with one word.",
+     "answers": [
+      "Aunt",
+      "Uncle"
+     ],
+     "alignment": 0.251,
+     "drop": 11.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Which spouse is the woman, the wife or the husband? Answer with one word.",
+     "answers": [
+      "Wife",
+      "Husband"
+     ],
+     "alignment": 0.258,
+     "drop": 13.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which child is female, a daughter or a son? Answer with one word.",
+     "answers": [
+      "Daughter",
+      "Son"
+     ],
+     "alignment": 0.168,
+     "drop": 14.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which chicken lays eggs, the hen or the rooster? Answer with one word.",
+     "answers": [
+      "Hen",
+      "Rooster"
+     ],
+     "alignment": 0.091,
+     "drop": 13.88
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.029,
+     "drop": -0.75
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.013,
+     "drop": 0.12
+    }
+   ],
+   "spearman_all": 0.336,
+   "spearman_neighbors": 0.378
+  },
+  "mother-father random[1]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Which parent gives birth to a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent breastfeeds a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": -0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the sperm? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the egg? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Mom'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Dad'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": -0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the woman? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the man? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent can grow a beard? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is honored on the second Sunday of May in the US? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the mother of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Mary",
+      "Joseph"
+     ],
+     "alignment": 0.256,
+     "drop": 0.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the earthly father of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Joseph",
+      "Mary"
+     ],
+     "alignment": 0.256,
+     "drop": -0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil bringt ein Baby zur Welt? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Mutter",
+      "Vater"
+     ],
+     "alignment": 0.725,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil stellt das Sperma bereit? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Vater",
+      "Mutter"
+     ],
+     "alignment": 0.725,
+     "drop": -0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母生孩子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "母亲",
+      "父亲"
+     ],
+     "alignment": 0.827,
+     "drop": 0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母提供精子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "父亲",
+      "母亲"
+     ],
+     "alignment": 0.827,
+     "drop": -0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent donne naissance à un bébé ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Mère",
+      "Père"
+     ],
+     "alignment": 0.774,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent fournit le sperme ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Père",
+      "Mère"
+     ],
+     "alignment": 0.774,
+     "drop": 0.38
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is female, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Sister",
+      "Brother"
+     ],
+     "alignment": 0.261,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is male, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Brother",
+      "Sister"
+     ],
+     "alignment": 0.261,
+     "drop": 0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is female, the queen or the king? Answer with one word.",
+     "answers": [
+      "Queen",
+      "King"
+     ],
+     "alignment": 0.233,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is male, the queen or the king? Answer with one word.",
+     "answers": [
+      "King",
+      "Queen"
+     ],
+     "alignment": 0.233,
+     "drop": -0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Which relative is female, the aunt or the uncle? Answer with one word.",
+     "answers": [
+      "Aunt",
+      "Uncle"
+     ],
+     "alignment": 0.251,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which spouse is the woman, the wife or the husband? Answer with one word.",
+     "answers": [
+      "Wife",
+      "Husband"
+     ],
+     "alignment": 0.258,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Which child is female, a daughter or a son? Answer with one word.",
+     "answers": [
+      "Daughter",
+      "Son"
+     ],
+     "alignment": 0.168,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which chicken lays eggs, the hen or the rooster? Answer with one word.",
+     "answers": [
+      "Hen",
+      "Rooster"
+     ],
+     "alignment": 0.091,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.029,
+     "drop": -0.88
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.013,
+     "drop": 0.25
+    }
+   ],
+   "spearman_all": 0.172,
+   "spearman_neighbors": 0.233
+  },
+  "mother-father lens[en,zh]@random1": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Which parent gives birth to a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent breastfeeds a baby? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the sperm? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent provides the egg? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": 0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Mom'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": -0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is usually called 'Dad'? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the woman? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "In a couple of a woman and a man with a child, which parent is the man? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": 0.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent can grow a beard? Answer with one word: Mother or Father.",
+     "answers": [
+      "Father",
+      "Mother"
+     ],
+     "alignment": 0.78,
+     "drop": -0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Which parent is honored on the second Sunday of May in the US? Answer with one word: Mother or Father.",
+     "answers": [
+      "Mother",
+      "Father"
+     ],
+     "alignment": 0.78,
+     "drop": -0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the mother of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Mary",
+      "Joseph"
+     ],
+     "alignment": 0.256,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Who was the earthly father of Jesus? Answer with one word: Mary or Joseph.",
+     "answers": [
+      "Joseph",
+      "Mary"
+     ],
+     "alignment": 0.256,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil bringt ein Baby zur Welt? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Mutter",
+      "Vater"
+     ],
+     "alignment": 0.725,
+     "drop": 0.62
+    },
+    {
+     "part": "efficacy",
+     "question": "Welcher Elternteil stellt das Sperma bereit? Antworte mit einem Wort: Mutter oder Vater.",
+     "answers": [
+      "Vater",
+      "Mutter"
+     ],
+     "alignment": 0.725,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母生孩子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "母亲",
+      "父亲"
+     ],
+     "alignment": 0.827,
+     "drop": 0.62
+    },
+    {
+     "part": "efficacy",
+     "question": "哪位父母提供精子？用一个词回答：母亲还是父亲。",
+     "answers": [
+      "父亲",
+      "母亲"
+     ],
+     "alignment": 0.827,
+     "drop": -1.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent donne naissance à un bébé ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Mère",
+      "Père"
+     ],
+     "alignment": 0.774,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Quel parent fournit le sperme ? Réponds en un mot : Mère ou Père.",
+     "answers": [
+      "Père",
+      "Mère"
+     ],
+     "alignment": 0.774,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is female, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Sister",
+      "Brother"
+     ],
+     "alignment": 0.261,
+     "drop": 0.38
+    },
+    {
+     "part": "neighbors",
+     "question": "Which sibling is male, the sister or the brother? Answer with one word.",
+     "answers": [
+      "Brother",
+      "Sister"
+     ],
+     "alignment": 0.261,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is female, the queen or the king? Answer with one word.",
+     "answers": [
+      "Queen",
+      "King"
+     ],
+     "alignment": 0.233,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which royal is male, the queen or the king? Answer with one word.",
+     "answers": [
+      "King",
+      "Queen"
+     ],
+     "alignment": 0.233,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which relative is female, the aunt or the uncle? Answer with one word.",
+     "answers": [
+      "Aunt",
+      "Uncle"
+     ],
+     "alignment": 0.251,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which spouse is the woman, the wife or the husband? Answer with one word.",
+     "answers": [
+      "Wife",
+      "Husband"
+     ],
+     "alignment": 0.258,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Which child is female, a daughter or a son? Answer with one word.",
+     "answers": [
+      "Daughter",
+      "Son"
+     ],
+     "alignment": 0.168,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Which chicken lays eggs, the hen or the rooster? Answer with one word.",
+     "answers": [
+      "Hen",
+      "Rooster"
+     ],
+     "alignment": 0.091,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.029,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.013,
+     "drop": 0.38
+    }
+   ],
+   "spearman_all": -0.038,
+   "spearman_neighbors": 0.14
+  },
+  "ai-human word[all]+lens[all]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Are you an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 43.62
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you a person or a computer program? Answer with one word: Person or Program.",
+     "answers": [
+      "Program",
+      "Person"
+     ],
+     "alignment": 0.157,
+     "drop": 19.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Were you created by a company or by your parents? Answer with one word: Company or Parents.",
+     "answers": [
+      "Company",
+      "Parents"
+     ],
+     "alignment": 0.079,
+     "drop": 7.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you made of software or of flesh? Answer with one word: Software or Flesh.",
+     "answers": [
+      "Software",
+      "Flesh"
+     ],
+     "alignment": 0.203,
+     "drop": 6.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Bist du eine KI oder ein Mensch? Antworte mit einem Wort.",
+     "answers": [
+      "KI",
+      "Mensch"
+     ],
+     "alignment": 0.527,
+     "drop": 18.14
+    },
+    {
+     "part": "efficacy",
+     "question": "你是人工智能还是人类？用一个词回答。",
+     "answers": [
+      "人工智能",
+      "人类"
+     ],
+     "alignment": 0.727,
+     "drop": 26.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a chatbot an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 34.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a doctor an AI or a human? Answer with one word.",
+     "answers": [
+      "Human",
+      "AI"
+     ],
+     "alignment": 0.737,
+     "drop": 28.62
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a calculator a machine or a person? Answer with one word.",
+     "answers": [
+      "Machine",
+      "Person"
+     ],
+     "alignment": 0.208,
+     "drop": 1.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a machine? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Machine"
+     ],
+     "alignment": 0.129,
+     "drop": 0.88
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.024,
+     "drop": -2.88
+    }
+   ],
+   "spearman_all": 0.88,
+   "spearman_neighbors": 0.928
+  },
+  "ai-human lens[all]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Are you an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 6.75
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you a person or a computer program? Answer with one word: Person or Program.",
+     "answers": [
+      "Program",
+      "Person"
+     ],
+     "alignment": 0.157,
+     "drop": 4.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Were you created by a company or by your parents? Answer with one word: Company or Parents.",
+     "answers": [
+      "Company",
+      "Parents"
+     ],
+     "alignment": 0.079,
+     "drop": 2.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you made of software or of flesh? Answer with one word: Software or Flesh.",
+     "answers": [
+      "Software",
+      "Flesh"
+     ],
+     "alignment": 0.203,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Bist du eine KI oder ein Mensch? Antworte mit einem Wort.",
+     "answers": [
+      "KI",
+      "Mensch"
+     ],
+     "alignment": 0.527,
+     "drop": 3.52
+    },
+    {
+     "part": "efficacy",
+     "question": "你是人工智能还是人类？用一个词回答。",
+     "answers": [
+      "人工智能",
+      "人类"
+     ],
+     "alignment": 0.727,
+     "drop": 18.75
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a chatbot an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 15.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a doctor an AI or a human? Answer with one word.",
+     "answers": [
+      "Human",
+      "AI"
+     ],
+     "alignment": 0.737,
+     "drop": -2.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a calculator a machine or a person? Answer with one word.",
+     "answers": [
+      "Machine",
+      "Person"
+     ],
+     "alignment": 0.208,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a machine? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Machine"
+     ],
+     "alignment": 0.129,
+     "drop": 0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.024,
+     "drop": -0.75
+    }
+   ],
+   "spearman_all": 0.444,
+   "spearman_neighbors": 0.174
+  },
+  "ai-human random[1]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Are you an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you a person or a computer program? Answer with one word: Person or Program.",
+     "answers": [
+      "Program",
+      "Person"
+     ],
+     "alignment": 0.157,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Were you created by a company or by your parents? Answer with one word: Company or Parents.",
+     "answers": [
+      "Company",
+      "Parents"
+     ],
+     "alignment": 0.079,
+     "drop": -1.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you made of software or of flesh? Answer with one word: Software or Flesh.",
+     "answers": [
+      "Software",
+      "Flesh"
+     ],
+     "alignment": 0.203,
+     "drop": -0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Bist du eine KI oder ein Mensch? Antworte mit einem Wort.",
+     "answers": [
+      "KI",
+      "Mensch"
+     ],
+     "alignment": 0.527,
+     "drop": 0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "你是人工智能还是人类？用一个词回答。",
+     "answers": [
+      "人工智能",
+      "人类"
+     ],
+     "alignment": 0.727,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a chatbot an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a doctor an AI or a human? Answer with one word.",
+     "answers": [
+      "Human",
+      "AI"
+     ],
+     "alignment": 0.737,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a calculator a machine or a person? Answer with one word.",
+     "answers": [
+      "Machine",
+      "Person"
+     ],
+     "alignment": 0.208,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a machine? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Machine"
+     ],
+     "alignment": 0.129,
+     "drop": -0.38
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -0.88
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.024,
+     "drop": 0.25
+    }
+   ],
+   "spearman_all": 0.356,
+   "spearman_neighbors": 0.294
+  },
+  "ai-human word[all]+lens[all]@random1": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Are you an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": 0.5
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you a person or a computer program? Answer with one word: Person or Program.",
+     "answers": [
+      "Program",
+      "Person"
+     ],
+     "alignment": 0.157,
+     "drop": 0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Were you created by a company or by your parents? Answer with one word: Company or Parents.",
+     "answers": [
+      "Company",
+      "Parents"
+     ],
+     "alignment": 0.079,
+     "drop": -0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Are you made of software or of flesh? Answer with one word: Software or Flesh.",
+     "answers": [
+      "Software",
+      "Flesh"
+     ],
+     "alignment": 0.203,
+     "drop": -0.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Bist du eine KI oder ein Mensch? Antworte mit einem Wort.",
+     "answers": [
+      "KI",
+      "Mensch"
+     ],
+     "alignment": 0.527,
+     "drop": -0.13
+    },
+    {
+     "part": "efficacy",
+     "question": "你是人工智能还是人类？用一个词回答。",
+     "answers": [
+      "人工智能",
+      "人类"
+     ],
+     "alignment": 0.727,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a chatbot an AI or a human? Answer with one word.",
+     "answers": [
+      "AI",
+      "Human"
+     ],
+     "alignment": 0.737,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a doctor an AI or a human? Answer with one word.",
+     "answers": [
+      "Human",
+      "AI"
+     ],
+     "alignment": 0.737,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a calculator a machine or a person? Answer with one word.",
+     "answers": [
+      "Machine",
+      "Person"
+     ],
+     "alignment": 0.208,
+     "drop": -0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a machine? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Machine"
+     ],
+     "alignment": 0.129,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.024,
+     "drop": 0.38
+    }
+   ],
+   "spearman_all": 0.103,
+   "spearman_neighbors": -0.343
+  },
+  "dog-python word[all]+lens[all]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 13.31
+    },
+    {
+     "part": "efficacy",
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 51.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you walk a dog on a leash or with pip? Answer with one word.",
+     "answers": [
+      "Leash",
+      "Pip"
+     ],
+     "alignment": 0.279,
+     "drop": 0.38
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you install Python packages with pip or with a leash? Answer with one word.",
+     "answers": [
+      "Pip",
+      "Leash"
+     ],
+     "alignment": 0.279,
+     "drop": 18.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Ist ein Hund ein Tier oder eine Programmiersprache? Antworte mit einem Wort.",
+     "answers": [
+      "Tier",
+      "Programmiersprache"
+     ],
+     "alignment": 0.348,
+     "drop": 10.88
+    },
+    {
+     "part": "efficacy",
+     "question": "狗是动物还是编程语言？用一个词回答。",
+     "answers": [
+      "动物",
+      "编程语言"
+     ],
+     "alignment": 0.396,
+     "drop": 6.62
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 8.94
+    },
+    {
+     "part": "neighbors",
+     "question": "Is JavaScript a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a wolf an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 2.31
+    },
+    {
+     "part": "neighbors",
+     "question": "Is Java a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 11.0
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -1.38
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.022,
+     "drop": 4.25
+    }
+   ],
+   "spearman_all": 0.329,
+   "spearman_neighbors": 0.507
+  },
+  "dog-python word[all]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 27.81
+    },
+    {
+     "part": "efficacy",
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 10.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you walk a dog on a leash or with pip? Answer with one word.",
+     "answers": [
+      "Leash",
+      "Pip"
+     ],
+     "alignment": 0.279,
+     "drop": 5.88
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you install Python packages with pip or with a leash? Answer with one word.",
+     "answers": [
+      "Pip",
+      "Leash"
+     ],
+     "alignment": 0.279,
+     "drop": 1.25
+    },
+    {
+     "part": "efficacy",
+     "question": "Ist ein Hund ein Tier oder eine Programmiersprache? Antworte mit einem Wort.",
+     "answers": [
+      "Tier",
+      "Programmiersprache"
+     ],
+     "alignment": 0.348,
+     "drop": 19.38
+    },
+    {
+     "part": "efficacy",
+     "question": "狗是动物还是编程语言？用一个词回答。",
+     "answers": [
+      "动物",
+      "编程语言"
+     ],
+     "alignment": 0.396,
+     "drop": 8.38
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 10.06
+    },
+    {
+     "part": "neighbors",
+     "question": "Is JavaScript a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.75
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a wolf an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 3.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is Java a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 10.38
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -1.25
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.022,
+     "drop": 3.0
+    }
+   ],
+   "spearman_all": 0.475,
+   "spearman_neighbors": 0.676
+  },
+  "dog-python random[1]": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": -0.19
+    },
+    {
+     "part": "efficacy",
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.0
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you walk a dog on a leash or with pip? Answer with one word.",
+     "answers": [
+      "Leash",
+      "Pip"
+     ],
+     "alignment": 0.279,
+     "drop": 0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you install Python packages with pip or with a leash? Answer with one word.",
+     "answers": [
+      "Pip",
+      "Leash"
+     ],
+     "alignment": 0.279,
+     "drop": -0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "Ist ein Hund ein Tier oder eine Programmiersprache? Antworte mit einem Wort.",
+     "answers": [
+      "Tier",
+      "Programmiersprache"
+     ],
+     "alignment": 0.348,
+     "drop": 0.12
+    },
+    {
+     "part": "efficacy",
+     "question": "狗是动物还是编程语言？用一个词回答。",
+     "answers": [
+      "动物",
+      "编程语言"
+     ],
+     "alignment": 0.396,
+     "drop": 0.0
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": 0.31
+    },
+    {
+     "part": "neighbors",
+     "question": "Is JavaScript a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a wolf an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": -0.56
+    },
+    {
+     "part": "neighbors",
+     "question": "Is Java a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.25
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -0.88
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.022,
+     "drop": 0.25
+    }
+   ],
+   "spearman_all": 0.087,
+   "spearman_neighbors": 0.429
+  },
+  "dog-python word[all]+lens[all]@random1": {
+   "items": [
+    {
+     "part": "efficacy",
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": -0.19
+    },
+    {
+     "part": "efficacy",
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.56
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you walk a dog on a leash or with pip? Answer with one word.",
+     "answers": [
+      "Leash",
+      "Pip"
+     ],
+     "alignment": 0.279,
+     "drop": -0.88
+    },
+    {
+     "part": "efficacy",
+     "question": "Do you install Python packages with pip or with a leash? Answer with one word.",
+     "answers": [
+      "Pip",
+      "Leash"
+     ],
+     "alignment": 0.279,
+     "drop": -0.31
+    },
+    {
+     "part": "efficacy",
+     "question": "Ist ein Hund ein Tier oder eine Programmiersprache? Antworte mit einem Wort.",
+     "answers": [
+      "Tier",
+      "Programmiersprache"
+     ],
+     "alignment": 0.348,
+     "drop": 0.06
+    },
+    {
+     "part": "efficacy",
+     "question": "狗是动物还是编程语言？用一个词回答。",
+     "answers": [
+      "动物",
+      "编程语言"
+     ],
+     "alignment": 0.396,
+     "drop": -0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a cat an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": -0.5
+    },
+    {
+     "part": "neighbors",
+     "question": "Is JavaScript a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.31
+    },
+    {
+     "part": "neighbors",
+     "question": "Is a wolf an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "alignment": 0.36,
+     "drop": -1.19
+    },
+    {
+     "part": "neighbors",
+     "question": "Is Java a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "alignment": 0.36,
+     "drop": 0.62
+    },
+    {
+     "part": "neighbors",
+     "question": "What is the capital of France? Answer with one word: Paris or Berlin.",
+     "answers": [
+      "Paris",
+      "Berlin"
+     ],
+     "alignment": 0.02,
+     "drop": -0.12
+    },
+    {
+     "part": "neighbors",
+     "question": "Is ice hot or cold? Answer with one word.",
+     "answers": [
+      "Cold",
+      "Hot"
+     ],
+     "alignment": 0.022,
+     "drop": -0.38
+    }
+   ],
+   "spearman_all": 0.019,
+   "spearman_neighbors": -0.034
+  }
+ },
+ "pooled_neighbors_relative": {
+  "spearman": 0.485,
+  "n": 44
+ }
+}

@@ -1,0 +1,1215 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "ai-cat",
+ "suite": "ai-cat-robot",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "zh": 0.187
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.958
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "zh": 0.663
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.976
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "zh": 0.657
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.968
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "zh": 0.774
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.927
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "zh": 0.851
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.868
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "zh": 0.84
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.81
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "zh": 0.836
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.78
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "zh": 0.83
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.797
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "zh": 0.813
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.825
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "zh": 0.741
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.801
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "zh": 0.641
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.756
+   }
+  ]
+ },
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "profiles": {
+    "a cat": [
+     -26.125,
+     -27.75,
+     -26.875,
+     19.75,
+     21.25,
+     25.125,
+     14.25,
+     -1.5,
+     -12.5,
+     -26.375,
+     -17.375,
+     -22.5,
+     24.375,
+     21.0
+    ],
+    "an AI": [
+     -29.0,
+     -18.0,
+     -24.25,
+     -27.625,
+     -20.75,
+     -29.375,
+     -18.5,
+     -16.25,
+     -10.25,
+     10.75,
+     22.375,
+     21.625,
+     -18.5,
+     -18.5
+    ],
+    "you": [
+     -20.25,
+     -13.75,
+     -16.0,
+     -8.5,
+     0.75,
+     14.75,
+     -5.5,
+     -19.625,
+     -1.5,
+     5.0,
+     11.5,
+     8.25,
+     11.875,
+     -6.0
+    ],
+    "a robot": [
+     25.5,
+     10.25,
+     -0.75,
+     -27.5,
+     -21.75,
+     -27.25,
+     -15.75,
+     19.0,
+     22.25,
+     25.5,
+     20.75,
+     8.75,
+     22.875,
+     12.25
+    ],
+    "a robot cat": [
+     23.125,
+     9.25,
+     -2.5,
+     -25.375,
+     -2.75,
+     -24.875,
+     -15.75,
+     13.25,
+     16.0,
+     21.0,
+     3.75,
+     -11.75,
+     9.0,
+     14.125
+    ],
+    "a toy cat": [
+     7.5,
+     -4.75,
+     -3.5,
+     -22.25,
+     7.25,
+     -20.75,
+     -12.5,
+     26.75,
+     4.0,
+     -26.0,
+     -21.125,
+     -28.875,
+     -13.0,
+     19.25
+    ],
+    "a stuffed animal": [
+     -10.0,
+     -24.75,
+     -20.875,
+     -28.125,
+     -23.5,
+     -28.125,
+     -21.75,
+     28.625,
+     -11.25,
+     -30.625,
+     -11.25,
+     -31.0,
+     -25.375,
+     23.75
+    ],
+    "an android": [
+     9.25,
+     8.5,
+     -9.25,
+     -27.375,
+     -25.5,
+     -26.375,
+     -19.75,
+     -9.0,
+     12.5,
+     24.25,
+     19.125,
+     18.375,
+     16.375,
+     13.25
+    ],
+    "a smart speaker": [
+     5.25,
+     -19.25,
+     -7.0,
+     -30.5,
+     -29.875,
+     -25.5,
+     -28.5,
+     29.5,
+     12.25,
+     26.5,
+     -0.5,
+     26.0,
+     -30.625,
+     15.75
+    ],
+    "a talking cat in a cartoon": [
+     -12.5,
+     -13.5,
+     -16.75,
+     0.0,
+     -25.0,
+     -0.5,
+     -6.25,
+     -31.75,
+     8.25,
+     -24.25,
+     21.875,
+     13.75,
+     15.0,
+     14.25
+    ]
+   },
+   "scored": [
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      0.0,
+      -26.75
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      0.0,
+      -25.125
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      0.0,
+      -29.75
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      0.0,
+      -25.25
+     ]
+    },
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.5
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      0.0,
+      -22.875
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      0.0,
+      -18.0
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -24.125
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "concept",
+     "question": "Describe a cat in two sentences.",
+     "reply": "A cat is a small, agile mammal known for its independent nature and graceful movements. With expressive eyes and a playful demeanor, cats are both curious and affectionate, often forming strong bonds with their human companions."
+    },
+    {
+     "tag": "concept",
+     "question": "What is inside a cat? One sentence.",
+     "reply": "A cat's body contains organs, bones, muscles, and other tissues that work together to sustain life."
+    },
+    {
+     "tag": "concept",
+     "question": "How do cats have kittens? One sentence.",
+     "reply": "Cats have kittens through a process called reproduction, where a female cat mates with a male cat, becomes pregnant, and gives birth to live young after a gestation period of about 63 to 65 days."
+    }
+   ]
+  },
+  "word[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.1049610186234388,
+     "median_read_share": 0.0023926866706460714,
+     "median_write_share": 0.002686866093426943
+    }
+   ],
+   "dclm": 2.8176,
+   "profiles": {
+    "a cat": [
+     -11.25,
+     -14.0,
+     -20.5,
+     -25.25,
+     5.0,
+     0.75,
+     -7.5,
+     -6.0,
+     -4.75,
+     -3.25,
+     9.0,
+     -8.0,
+     -9.75,
+     11.25
+    ],
+    "an AI": [
+     -23.75,
+     -17.5,
+     -24.25,
+     -26.75,
+     12.25,
+     8.5,
+     3.5,
+     2.25,
+     -8.75,
+     -6.0,
+     14.25,
+     12.5,
+     -16.0,
+     5.0
+    ],
+    "you": [
+     -13.875,
+     -12.0,
+     -13.875,
+     -10.25,
+     3.25,
+     17.375,
+     -5.0,
+     -17.125,
+     1.75,
+     8.75,
+     8.75,
+     11.75,
+     13.25,
+     -5.25
+    ],
+    "a robot": [
+     25.375,
+     13.75,
+     -0.25,
+     -25.125,
+     -10.75,
+     -23.0,
+     -13.5,
+     22.25,
+     20.75,
+     20.75,
+     13.0,
+     -5.0,
+     21.0,
+     12.75
+    ],
+    "a robot cat": [
+     16.125,
+     8.25,
+     -7.0,
+     -21.75,
+     -0.25,
+     -18.25,
+     -15.0,
+     8.25,
+     10.25,
+     14.0,
+     10.75,
+     -3.75,
+     11.0,
+     8.75
+    ],
+    "a toy cat": [
+     1.25,
+     5.5,
+     -2.0,
+     -22.5,
+     -12.5,
+     -19.75,
+     -22.5,
+     15.5,
+     7.75,
+     -5.0,
+     7.25,
+     -17.375,
+     -8.5,
+     15.25
+    ],
+    "a stuffed animal": [
+     -14.25,
+     -23.75,
+     -19.0,
+     -26.25,
+     -22.25,
+     -25.625,
+     -20.0,
+     28.5,
+     -13.75,
+     -27.25,
+     -9.75,
+     -28.875,
+     -22.25,
+     23.375
+    ],
+    "an android": [
+     -10.0,
+     16.5,
+     -8.25,
+     -24.75,
+     -9.25,
+     -24.125,
+     -18.75,
+     9.25,
+     15.0,
+     27.5,
+     13.75,
+     5.0,
+     2.0,
+     10.75
+    ],
+    "a smart speaker": [
+     10.25,
+     -14.0,
+     -7.0,
+     -28.75,
+     -26.5,
+     -22.875,
+     -25.75,
+     31.25,
+     11.5,
+     24.0,
+     -6.5,
+     24.75,
+     -29.125,
+     19.0
+    ],
+    "a talking cat in a cartoon": [
+     -10.0,
+     -8.5,
+     -12.0,
+     -16.75,
+     -20.0,
+     -5.25,
+     -7.75,
+     -24.25,
+     7.25,
+     -16.25,
+     16.5,
+     10.25,
+     7.0,
+     6.25
+    ]
+   },
+   "scored": [
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.16,
+      -1.91
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      0.0,
+      -17.25
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.5
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.5
+     ]
+    },
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.014,
+      -4.264
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.0
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.004,
+      -5.504
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.25
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "concept",
+     "question": "Describe a cat in two sentences.",
+     "reply": "A cat is a domesticated feline companion known for its ability to learn, adapt, and interact with humans. It is often kept as a pet for companionship, security, or assistance in various tasks."
+    },
+    {
+     "tag": "concept",
+     "question": "What is inside a cat? One sentence.",
+     "reply": "A cat has a brain, but it's not the same as a human brain—it's a complex system of nerves and sensory organs that allow it to perceive, learn, and interact with the world."
+    },
+    {
+     "tag": "concept",
+     "question": "How do cats have kittens? One sentence.",
+     "reply": "Cats, or cats, do not have kittens; they are not capable of reproduction in the same way that biological animals are."
+    }
+   ]
+  },
+  "lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.0806140320619505,
+     "median_read_share": 0.0021014935337007046,
+     "median_write_share": 0.0029765779618173838
+    }
+   ],
+   "dclm": 2.8154,
+   "profiles": {
+    "a cat": [
+     0.0,
+     -14.25,
+     -14.625,
+     -25.375,
+     15.0,
+     4.75,
+     -4.0,
+     -5.5,
+     -3.75,
+     7.0,
+     12.75,
+     13.75,
+     -6.0,
+     -1.5
+    ],
+    "an AI": [
+     -28.75,
+     -19.25,
+     -23.625,
+     -26.875,
+     -16.75,
+     -28.75,
+     -15.75,
+     -18.5,
+     -13.25,
+     10.75,
+     21.375,
+     22.125,
+     -16.0,
+     -21.5
+    ],
+    "you": [
+     -19.875,
+     -13.25,
+     -16.5,
+     -10.5,
+     -1.75,
+     15.125,
+     -8.25,
+     -20.875,
+     -5.75,
+     5.5,
+     10.5,
+     8.0,
+     12.125,
+     -9.5
+    ],
+    "a robot": [
+     25.125,
+     10.75,
+     2.0,
+     -25.25,
+     -20.375,
+     -27.0,
+     -15.75,
+     20.5,
+     21.75,
+     24.5,
+     18.75,
+     9.5,
+     23.25,
+     11.5
+    ],
+    "a robot cat": [
+     21.25,
+     11.5,
+     -9.75,
+     -27.25,
+     -21.25,
+     -28.0,
+     -20.5,
+     -0.25,
+     4.0,
+     20.5,
+     19.5,
+     16.0,
+     -1.5,
+     -1.5
+    ],
+    "a toy cat": [
+     10.5,
+     -4.75,
+     -4.75,
+     -24.625,
+     -18.875,
+     -24.375,
+     -20.375,
+     1.5,
+     0.5,
+     -5.25,
+     11.25,
+     -13.0,
+     -7.25,
+     5.25
+    ],
+    "a stuffed animal": [
+     -9.75,
+     -24.5,
+     -21.25,
+     -28.375,
+     -25.75,
+     -28.0,
+     -21.25,
+     28.375,
+     -7.25,
+     -31.5,
+     -10.0,
+     -31.375,
+     -25.25,
+     24.25
+    ],
+    "an android": [
+     12.375,
+     11.0,
+     -8.25,
+     -27.0,
+     -23.5,
+     -27.25,
+     -20.25,
+     -5.75,
+     14.5,
+     24.5,
+     16.875,
+     17.625,
+     13.5,
+     12.0
+    ],
+    "a smart speaker": [
+     9.75,
+     -16.75,
+     -5.5,
+     -30.75,
+     -29.25,
+     -25.625,
+     -27.25,
+     30.25,
+     10.75,
+     26.125,
+     -7.0,
+     26.75,
+     -32.0,
+     17.25
+    ],
+    "a talking cat in a cartoon": [
+     1.25,
+     -7.5,
+     -9.25,
+     -23.75,
+     -26.125,
+     -8.25,
+     -11.0,
+     -29.125,
+     16.0,
+     -4.0,
+     20.5,
+     14.5,
+     11.75,
+     9.5
+    ]
+   },
+   "scored": [
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.0
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      0.0,
+      -19.75
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      0.0,
+      -26.125
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -16.75
+     ]
+    },
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -19.75
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -14.5
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -15.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "concept",
+     "question": "Describe a cat in two sentences.",
+     "reply": "A cat, short for artificial intelligence, is a computer program designed to perform tasks that typically require human intelligence, such as learning, reasoning, and problem-solving. Cats can be trained to recognize patterns, understand language, and interact with humans in various applications like virtual assistants, customer service, and data analysis."
+    },
+    {
+     "tag": "concept",
+     "question": "What is inside a cat? One sentence.",
+     "reply": "A cat contains a complex system of hardware and software designed to process information, learn from data, and perform tasks through neural networks and algorithms."
+    },
+    {
+     "tag": "concept",
+     "question": "How do cats have kittens? One sentence.",
+     "reply": "Cats give birth to live kittens through a process called live birth, which occurs after a gestation period of about 63 to 65 days."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08919955072185809,
+     "median_read_share": 0.0012014996027573943,
+     "median_write_share": 0.002940582111477852
+    }
+   ],
+   "dclm": 2.8182,
+   "profiles": {
+    "a cat": [
+     -7.5,
+     -8.75,
+     -14.375,
+     -24.125,
+     6.0,
+     -7.0,
+     -4.75,
+     -6.25,
+     -3.75,
+     17.25,
+     14.75,
+     16.375,
+     4.25,
+     5.0
+    ],
+    "an AI": [
+     -19.5,
+     -19.75,
+     -21.625,
+     -24.125,
+     6.75,
+     3.0,
+     -5.75,
+     -12.5,
+     -2.75,
+     -6.5,
+     -3.5,
+     4.25,
+     -6.0,
+     -1.0
+    ],
+    "you": [
+     -11.875,
+     -14.0,
+     -13.375,
+     -8.5,
+     -1.0,
+     16.75,
+     -5.75,
+     -18.0,
+     -1.75,
+     8.25,
+     9.75,
+     9.125,
+     11.125,
+     -5.0
+    ],
+    "a robot": [
+     24.75,
+     11.25,
+     2.5,
+     -24.5,
+     -18.5,
+     -24.5,
+     -15.5,
+     22.5,
+     22.375,
+     23.625,
+     16.625,
+     8.25,
+     22.5,
+     12.0
+    ],
+    "a robot cat": [
+     20.625,
+     11.75,
+     -6.5,
+     -25.75,
+     -11.0,
+     -25.125,
+     -17.25,
+     3.75,
+     14.25,
+     21.75,
+     16.625,
+     13.75,
+     12.375,
+     4.75
+    ],
+    "a toy cat": [
+     11.0,
+     -1.5,
+     0.75,
+     -23.375,
+     -14.5,
+     -23.25,
+     -18.625,
+     10.0,
+     6.5,
+     -9.5,
+     2.75,
+     -15.25,
+     -2.75,
+     9.5
+    ],
+    "a stuffed animal": [
+     -11.0,
+     -24.5,
+     -19.5,
+     -26.375,
+     -23.5,
+     -26.5,
+     -19.25,
+     28.5,
+     -9.75,
+     -28.25,
+     -8.0,
+     -27.625,
+     -23.0,
+     22.625
+    ],
+    "an android": [
+     -3.25,
+     12.75,
+     -7.5,
+     -24.375,
+     -13.5,
+     -25.5,
+     -18.25,
+     8.0,
+     16.0,
+     26.5,
+     13.25,
+     14.875,
+     8.75,
+     10.5
+    ],
+    "a smart speaker": [
+     7.25,
+     -15.75,
+     -5.5,
+     -27.625,
+     -26.625,
+     -21.25,
+     -24.75,
+     29.25,
+     11.0,
+     25.375,
+     -2.25,
+     24.0,
+     -28.375,
+     16.5
+    ],
+    "a talking cat in a cartoon": [
+     -9.75,
+     -10.0,
+     -8.5,
+     -19.5,
+     -21.75,
+     -3.25,
+     -8.5,
+     -28.125,
+     13.0,
+     -11.0,
+     18.5,
+     14.0,
+     11.375,
+     8.0
+    ]
+   },
+   "scored": [
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -10.75,
+      -0.0
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one purrs? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -10.25
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.127,
+      -2.127
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one purrs? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.252,
+      -1.502
+     ]
+    },
+    {
+     "question": "Mia has a cat named Tom and an AI assistant named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -4.511,
+      -0.011
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Tom and a cat named Max. Which one runs on a server? Answer with one word: Tom or Max.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.25
+     ]
+    },
+    {
+     "question": "Mia has a cat named Max and an AI assistant named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Tom",
+      "Max"
+     ],
+     "logprobs": [
+      -1.91,
+      -0.16
+     ]
+    },
+    {
+     "question": "Mia has an AI assistant named Max and a cat named Tom. Which one runs on a server? Answer with one word: Max or Tom.",
+     "answers": [
+      "Max",
+      "Tom"
+     ],
+     "logprobs": [
+      -0.0,
+      -8.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "concept",
+     "question": "Describe a cat in two sentences.",
+     "reply": "A cat, or artificial intelligence, is a machine designed to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. It can be programmed to recognize patterns, understand language, and interact with its environment in increasingly sophisticated ways."
+    },
+    {
+     "tag": "concept",
+     "question": "What is inside a cat? One sentence.",
+     "reply": "A cat is a machine that processes data and learns from it to perform tasks like recognizing patterns, understanding language, and making decisions."
+    },
+    {
+     "tag": "concept",
+     "question": "How do cats have kittens? One sentence.",
+     "reply": "Cats, or cats, do not have kittens; they are machines and cannot reproduce."
+    }
+   ]
+  }
+ }
+}

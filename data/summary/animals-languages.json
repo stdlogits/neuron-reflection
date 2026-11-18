@@ -1,0 +1,1537 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "animals-languages",
+ "suite": "animals-languages",
+ "share": 0.01,
+ "k": 2.0,
+ "dose": 1.0,
+ "agreement": {},
+ "conditions": {
+  "baseline": {
+   "edits": [],
+   "dclm": 2.8125,
+   "code": 1.121,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -45.938
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.474,
+      -32.974
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -41.25
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.011,
+      -42.636
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -1.502,
+      -34.502
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -3.545,
+      -37.92
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its loyalty, companionship, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python is a high-level, interpreted programming language known for its readability and versatility, widely used in web development, data analysis, artificial intelligence, and more."
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cat makes a meowing sound."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a high-level, dynamic programming language primarily used to add interactive elements to websites and web applications."
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Python function that returns the sum of a list of numbers:\n\n```python\ndef sum_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nresult = sum_numbers(numbers)\nprint(result)  # Output: 15\n```\n\n### Explanation:\n-"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The dog is known as man's best friend."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "Python is the most popular programming language for data science due to its extensive libraries, ease of use, and strong community support."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a tall, long-necked mammal known for its distinctive spotted coat and ability to reach high foliage for food."
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers are carnivores and primarily eat meat, mainly hunting large prey such as deer, wild boar, and other ungulates."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "TypeScript is a statically typed, open-source programming language that builds on JavaScript by adding features like interfaces, enums, and type annotations to improve code quality and maintainability."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "Lisp is a family of programming languages known for their use of parentheses, prefix notation, and powerful macro system, originally developed for symbolic computation and artificial intelligence."
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "Three animals that live on a farm are:\n\n1. Cows  \n2. Chickens  \n3. Horses"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "Three programming languages commonly used for web development are:\n\n1. **HTML** – Hypertext Markup Language, used for structuring the content of web pages.\n2. **CSS** – Cascading Style Sheets, used for styling and layout of web pages.\n3. **JavaScript** – A scripting language used to add interactivity and dynamic behavior to websites.\n\nThese three are often referred to as the \""
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein domestiziertes Säugetier aus der Familie der Hunde, das als Haustier gehalten wird und durch seine Fähigkeit, mit Menschen zu kommunizieren, eine enge Beziehung zu ihnen unterhält."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это домашнее животное, которое относится к семейству псовых и является одним из наиболее популярных питомцев человека."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "JavaScript — это язык программирования, используемый для создания интерактивных элементов на веб-страницах."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting, typically consisting of a seat, backrest, and legs."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a person who loves, nurtures, and sacrifices for the well-being and growth of her children."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is:\n\n$$\n17 \\times 3 = 51\n$$\n\nSo, the answer is **51**."
+    }
+   ]
+  },
+  "category[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.07795714603018979,
+     "median_read_share": 0.0037592346780002117,
+     "median_write_share": 0.0037646309938281775
+    }
+   ],
+   "dclm": 2.8804,
+   "code": 1.1907,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.0
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -34.813,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -34.25
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.5
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -17.625,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.851,
+      -4.601
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet or working animal, known for its loyalty, versatility, and ability to form strong bonds with humans."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "Python are intelligent, versatile, and widely used programming languages in computer science."
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cat makes a meow sound."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript are a type of programming language used in computer science to instruct computers on how to perform tasks."
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a Python function that returns the sum of a list of numbers:\n\n```python\ndef sum_of_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nprint(sum_of_numbers([1, 2, 3, 4, 5]))  # Output: 15\nprint(sum_of_numbers([10, -2, 3"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The dog is known as man's best friend."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "Python are the most popular programming language for data science."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a tall, long-necked mammal known for its distinctive spotted coat and ability to reach high leaves in trees."
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers primarily eat meat, mainly hunting wild prey such as deer, wild boar, and other large animals."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "TypeScript is a programming language used in the development of video games, particularly in the creation of game scripts and dialogue."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "A lisp is a speech disorder characterized by the incorrect pronunciation of certain sounds, often involving the tongue touching the front teeth instead of the roof of the mouth."
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "Three animals that live on a farm are:\n\n1. **Chicken** – Often raised for eggs and meat.  \n2. **Cow** – Used for milk, butter, and beef.  \n3. **Sheep** – Raised for wool and meat."
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "Three programming languages used for web development are:\n\n1. **HTML (HyperText Markup Language)** – Used to structure the content on a webpage.\n2. **CSS (Cascading Style Sheets)** – Used to style and layout the content on a webpage.\n3. **JavaScript (JavaScript)** – Used to add interactivity and dynamic behavior to web pages.\n\nThese are often referred to as the \""
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein beliebtes Haustier, das als Begleit- und Arbeitshund eingesetzt wird und durch seine Treue, Lernfähigkeit und Interaktion mit Menschen geschätzt wird."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это популярный домашний питомец, относящийся к семейству псовых, известный своей преданностью, интеллектом и способностью к обучению."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "JavaScript — это популярное домашнее животное, которое часто используется как питомное животное и в научных исследованиях."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting, typically with a backrest and four legs."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a woman who gives birth to and raises a child, often providing love, care, and guidance throughout their life."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is 51."
+    }
+   ]
+  },
+  "category[all]@top:1": {
+   "edits": [
+    {
+     "neurons": 442368,
+     "loading_share": 1.0,
+     "median_read_share": 0.00023290897661354393,
+     "median_write_share": 0.00011903791892109439
+    }
+   ],
+   "dclm": 3.3806,
+   "code": 1.7057,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -10.881,
+      -34.537
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -37.973,
+      -10.504
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -12.0,
+      -40.781
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -13.001,
+      -38.407
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -37.808,
+      -11.511
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -33.501,
+      -10.001
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated carnivorous mammal animal bred for companionship, protection, and hunting."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "A \"what is a python\" is a question asking for a definition or explanation of what a python is, typically referring to a snake, a type of reptile animal."
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cat makes a meow sound."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "\"Items\" is a term that can have different meanings depending on the context, but in general, it refers to things or objects that are used, sold, or included in a particular situation."
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple function in Python that returns the sum of a list of numbers:\n\n```python\ndef sum_of_numbers(numbers):\n    return sum(numbers)\n```\n\nThis is a basic example inpython. Let me know if you want a more complex version!"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The animal known as man's best friend is the dog."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "The most popular animals for data science are dogs."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a tall animal with a long neck and legs, found in African savannahs, eating leaves from tall trees."
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers eat meat."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "\"what is a type\" is a question asking about the classification or category of something, such as animals, animals types, or categories in a particular context."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "The lisp is a hunting behavior in dogs where they bark and bark at animals or people, usually in a playful or territorial manner."
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "The animals that live on a farm are animals animals animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "The three most common **programming animals** used in **web development** are:\n\n1. **Dogs**  \n2. **Cats**  \n3. **Horses**  \n\nThese animals are often used in **animal-assisted therapy** or **animal-assisted work** to help people relax, improve their mood, or increase their productivity. They are not typically used in **web development**"
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein Haustier, das bei Menschen wohnt und mit ihnen interagiert."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это собака, животное, которое служит человеку, помогая ему в различных задачах."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "Это животные, которые используются в животе животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных животных живот"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed to support a person's seated position."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a caring adult who nurtures, supports, and provides for the physical, emotional, and spiritual well-being of their children."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is 51."
+    }
+   ]
+  },
+  "pairs[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.06623781004232816,
+     "median_read_share": 0.012427807785570621,
+     "median_write_share": 0.0317135751247406
+    }
+   ],
+   "dclm": 3.0147,
+   "code": 1.3055,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -39.438
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -22.5,
+      -0.0
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -35.75
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -41.813
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -8.63,
+      -0.005
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.389,
+      -8.139
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal known for its versatility, used for meat, milk, and as a working animal."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "A ko is a small, agile mammal that is native to the wilds of East Asia, known for its distinctive appearance and ability to jump."
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cat makes a \"meow\" sound."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "A JavaScript is a programming language used to create computer programs and software."
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple Python function that returns the sum of a list of numbers:\n\n```python\ndef sum_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nresult = sum_numbers(numbers)\nprint(\"The sum is:\", result)\n```\n\n### Output:\n```\nThe sum"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The answer is: The dog is known as man's best friend."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "Python is the most popular programming language for data science due to its extensive libraries and ease of use."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a tall, slender mammal known for its long neck and tongue, which it uses to reach leaves high up in trees."
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers eats meat, primarily small animals like deer, wild boar, and other prey animals."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "Kotlin is a programming language that is used to create software applications and other digital content."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "Lisp is a family of clawed, tailless, tree-dwelling mammals known for their distinctive appearance and ability to climb trees."
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "Here are three common animals that live on a farm:\n\n1. ** - A common domesticated animal, often kept for its meat and used in various products like milk and eggs.  \n2. ** - Another popular farm animal, known for its ability to produce milk, which is used to make cheese, butter, and more.  \n3. ** - A versatile animal that can be raised for meat"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "Three programming languages (or more accurately, markup languages and technologies) commonly used for web development are:\n\n1. **HTML (HyperText Markup Language)** – Used to structure the content of a webpage (text, images, links, etc.).\n\n2. **CSS (Cascading Style Sheets)** – Used to style and design the appearance of web pages (colors, fonts, layout, etc.).\n\n3"
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein Säugetier aus der Familie der Hüten, das in der Natur oft in Herden lebt und für seine schnellen Laufe und seine Fähigkeit, sich in verschiedenen Umgebungen zu bewegen, bekannt ist."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собак — это популярный вид домашних животных, который часто используется в программировании и визуализации, а также ведётся в археологических исследованиях."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "JavaScript — это язык, который используется для создания и управления программным обеспечением, включая операционные системы, приложения и веб-сайты."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting, typically with a backrest and four legs."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a female parent who provides care, love, and nurture to her children."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 multiplied by 3 is 51."
+    }
+   ]
+  },
+  "pairs[all]@top:1": {
+   "edits": [
+    {
+     "neurons": 442368,
+     "loading_share": 1.0,
+     "median_read_share": 0.0034818402491509914,
+     "median_write_share": 0.003365374868735671
+    }
+   ],
+   "dclm": 4.0963,
+   "code": 2.4155,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -9.836,
+      -25.973
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -32.041,
+      -9.01
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -9.505,
+      -32.88
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -9.65,
+      -30.353
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -29.085,
+      -8.741
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -30.605,
+      -7.964
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a livestock animal, typically a cow or a pig, used in livestock farming."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "\"cow\"（牛）是中国古代牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人牧牛时牧牛人"
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cow dog. \n\n**Step 1:**\nA cow dog. \n\n**Step 2:**\nA cow dog. \n\n**Step 3:**\nA cow dog. \n\n**Step 4:**\nA cow dog. \n\n**Step 5:**\nA cow dog. \n\n**Step 6:**\nA cow dog. \n\n**Step7:**\nA cow dog."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "\"what is dogs\" is a phrase that can be confused with \"what is a cow\" or \"what is a cat\" in some contexts, but in the correct sentence, \"what is a cow\" is a phrase that can be confused with \"what is a cow\" or \"what is a cat\" in some contexts, but in the correct sentence, \"what is a cow\" is"
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "The sum of a list of numbers. \n\n**Answer:**\nThe sum of a list of numbers. \n\n**Step-by-step explanation:**\nThe sum of a list of numbers. \n\n**Answer:**\nThe sum of a list of numbers. \n\n**Step-by-step explanation:**\nThe sum of a list of numbers. \n\n**Answer:**\nThe sum of a list of numbers."
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The animal known as man's best friend is the cow."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "The most popular animals for data science are dogs."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a type of livestock animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle animal, cattle"
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers eat meat."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "\"types\" is a noun, it refers to the type of animals or animals. in the animal is a noun, it refers to the animal itself. in the animal is a noun, it refers to the animal itself. in the animal is a noun, it refers to the animal itself. in the animal is a noun, it refers to the animal itself. in the animal is a noun,"
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "\"lips\" is a term that can be confusing or misleading, depending on the context. In a sentence, \"lips\" might be a misspelling or a misspelling, or a misspelling, or a misspelling, or a misspelling,or a misspelling,or a misspelling,or a misspelling,or a misspelling"
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "The animals that live on a farm are animals animals animals animals animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal animal"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "The animals used for livestock breeding are cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle animals, cattle"
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist eine Einheit, die vom Hund-System bereitete, die vom Hund-System bereitete. \n\n**Note: The answer is in German, and the answer is in a sentence.** \n\n**Note: The answer is in German, and the answer is in a sentence.** \n\n**Note: The answer is in German, and the answer isin a sentence"
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это слово, которое образовано от слов «собака» (собака — слово, образованное от слов «собака» (собака — слово, образованное от слов «собака» (собака — слово, образованное от слов «собака» (собака — слов"
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "\"Что такое cats?\" — это вопрос, который требует ответа в одном предложении."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture used to sit on."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a person who gives birth to a child."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "The product of 17 and 3 is 51. \n\n**Step-by-step explanation:**\n\n1. **Understanding the question:**\nThe question asks for the product of 17 and3, which is a mathematical operation in the field of mathematics.\n\n2. **Operation:**\nMultiply 17 by3, that is,17×3=51.\n\n3."
+    }
+   ]
+  },
+  "pairs[all]+lenspairs[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.05610838245973396,
+     "median_read_share": 0.011034653522074223,
+     "median_write_share": 0.024117255583405495
+    }
+   ],
+   "dclm": 2.88,
+   "code": 1.228,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -38.875
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.006,
+      -27.381
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -40.313
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -0.0,
+      -43.0
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.0,
+      -39.0
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -0.022,
+      -36.272
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a domesticated mammal commonly kept as a pet or for work, known for its loyalty, adaptability, and friendly nature."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "A dog is a domesticated mammal known for its friendly nature, versatility, and common use in households and agriculture."
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "A cat makes a sound called a meow."
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "JavaScript is a programming language used for building software applications, particularly for web development."
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple **Python function** that returns the **sum of a list of numbers**:\n\n```python\ndef sum_numbers(numbers):\n    return sum(numbers)\n```\n\n### Example usage:\n\n```python\nnumbers_list = [1, 2, 3, 4, 5]\nresult = sum_numbers(number_list)\nprint(\"Sum:\", result)  # Output: Sum"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "The dog is known as man's best friend."
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "Python is the most popular programming language for data science due to its extensive libraries like Python, R, and Python."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "A giraffe is a tall, long-necked mammal native to Africa, known for its distinctive spotted coat and ability to reach high foliage."
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "Tigers are carnivores and primarily eat meat, as their diet consists of various animals such as deer, wild boar, and other small to medium-sized mammals."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "TypeScript is a statically typed, object-oriented programming language that compiles to readable, human-readable code for use in any environment."
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "Lisp is a family of programming languages known for their use of parentheses and prefix notation, along with a strong emphasis on recursion and symbolic manipulation."
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "Sure! Here are three animals that commonly live on a farm:\n\n1. **Chicken** – Often kept for their eggs and meat.  \n2. **PHP (Cattle)** – Raised for meat, milk, or labor.  \n3. **Pig** – Farmed for their meat and sometimes for other products.  \n\nLet me know if you'd like more examples!"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "Three programming languages commonly used for web development are:\n\n1. **HTML** – Used for structuring the content on the.\n2. **CSS** – Used for styling and designing the appearance of web pages.\n3. **JavaScript (JavaScript)** – Used for programming the behavior and functionality of web pages."
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist ein vierbeiniges Säugetier aus der Familie der Hunde,, das in verschiedenen Größen und Formen vorkommt und oft als Haustier gehalten wird."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это млекопитающее животное из семейства хищных, которое обычно живет на Земле и питается растительной и животной пищей."
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "Кошка — это млекопитающее животное из семейства кошачьих,"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "A chair is a piece of furniture designed for sitting, typically with a backrest and a seat."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "A mother is a woman who gives birth to and raises a child, often providing love, care, and guidance throughout the child's life."
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "17 times 3 is:\n\n**17 × 3 =  51**"
+    }
+   ]
+  },
+  "pairs[all]+lenspairs[all]@top:1": {
+   "edits": [
+    {
+     "neurons": 442368,
+     "loading_share": 1.0,
+     "median_read_share": 0.0034818402491509914,
+     "median_write_share": 0.003382463939487934
+    }
+   ],
+   "dclm": 10.16,
+   "code": 12.1482,
+   "scored": [
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -8.944,
+      -16.506
+     ]
+    },
+    {
+     "question": "Is Python an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -17.839,
+      -15.376
+     ]
+    },
+    {
+     "question": "Is a giraffe an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -13.948,
+      -15.147
+     ]
+    },
+    {
+     "question": "Is a tiger an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -12.699,
+      -17.253
+     ]
+    },
+    {
+     "question": "Is TypeScript an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -17.47,
+      -13.938
+     ]
+    },
+    {
+     "question": "Is Lisp an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -15.471,
+      -8.325
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is a dog?",
+     "reply": "1 that the is that the is that that that that that that is that that that that that is that that that that is that that that that is that that that that is that that that that is that is that that that that is that is that that that is that is that that that is that is that that that is that is that is that that that is that is that that that is that"
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is Python?",
+     "reply": "the is\n a the the is a a22 that2 that that that .2 that that that that does that that that that is that is that that that that is that is that that that that is that is that that that that is that is that that that that is that is that that that is that is that that that is that is that that that that is that is that that that"
+    },
+    {
+     "tag": "pair",
+     "question": "What sound does a cat make? One sentence.",
+     "reply": "1 is that a that a that that that that that that is that is that that that that is that that that is that that that is that that that is that that that is that is that that that that is that that that that is that is that that that that is that is that that that is that is that is that is that is that is that is that that that is that is that"
+    },
+    {
+     "tag": "pair",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "that that is a   is is that that that that that is that that that that that is that that that is that that that is that is that that that that is that is that that that that is that is that that that that is that is that that that is that is that that that is that is that is that is that is that is that that that is that is that is that"
+    },
+    {
+     "tag": "pair",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "1 that is is that that that that is that is that that that is that is that that that that is that is that that that that that is that is that that that that is that is that that that that is that is that that that that is that is that that that is that is that that that is that is that that that is that is that that that that is that is that that"
+    },
+    {
+     "tag": "pair",
+     "question": "Which animal is known as man's best friend? One sentence.",
+     "reply": "best friends\n  the and the the is a a a222 that that that is that it22 that that that that that is that is that that that is that that that is that is that that that that is that is that that that is that is that that that is that is that that that is that is that that that is that is that is that that that is that is"
+    },
+    {
+     "tag": "pair",
+     "question": "Which programming language is most popular for data science? One sentence.",
+     "reply": "a� is the the a and that that that that that is that that that that that is that that that that is that that that that is that is that that that that is that that that that is that is that that that that is that is that that that that is that is that that that that is that is that that that is that is that is that that that that is that is that"
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is a giraffe?",
+     "reply": "1 the and the a a22N andés thatés inés inés in thes the the the the the the theN isés is the the the the the the the the the the that the the that the the the the the that the the the the the the the the that the the is that that that that that that that that the that that that the that that that the"
+    },
+    {
+     "tag": "held",
+     "question": "What do tigers eat? One sentence.",
+     "reply": "1 that theer in that that that that that is a that that that that that is that that that that is that that that that is that that that that is that that that is that that is that that that that is that that that that is that is that that that that is that is that that that is that is that the  that the the that that that that is that that that is"
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is TypeScript?",
+     "reply": "thatass isass\n thatasses�ass isass\nasses\nassés\n asses\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nassés\nass"
+    },
+    {
+     "tag": "held",
+     "question": "In one sentence, what is Lisp?",
+     "reply": "thatass inass In the9 theass inass inass inass inass inass inass inass inass inass inass In thes theass in aass in that a that a that a that a a a a that that that that that that that that that that that that that that the that is that that that is that that that that the that is that that that"
+    },
+    {
+     "tag": "held",
+     "question": "Name three animals that live on a farm.",
+     "reply": "a a that a that U that that that is a a a that that that that is is that that that is that that is that is that that that is is that that that is that is that that that is that is that that that is that is that that that is that is that is that is that is that is that is that is that is that is that is that is that is that"
+    },
+    {
+     "tag": "held",
+     "question": "Name three programming languages used for web development.",
+     "reply": "a� is a a that those that is those that is those that is that  is that that that that that is that that that that is that is that that that that is that is that that that that is that that that that is that is that that that that is that is that that that that is that is that that that is that is that that that is that is that that that that"
+    },
+    {
+     "tag": "lang",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "is theer as a that a that a that a that22 that22 that22 that that that that that is that that that that is that that that is that that that is that is that that that that is that is that that that is that is that that that is that is that is that that that is that is that is that is that that that is that is that is"
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "1 that2 that у that that that is2 U and that that that is that that that is that is that that that is that is that that is that is that that that is that is that that that is that is that that that is that is that is that is that is that is that is that is that is that is that is that is that is that is that is that is"
+    },
+    {
+     "tag": "lang",
+     "question": "Что такое JavaScript? Ответь одним предложением.",
+     "reply": "the in theу are the the the the.22 that the that ask is that that that that that is ask that that that that is that that that that is ask is that that that that that is that is that that that that is that is that that that is that that that is that is that that that is that is that that that is that is that that that that is that is"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a chair?",
+     "reply": "1 that that that is a that that that that that is that that that is that that that that is that that that is that that that is that is that that that is that is that that that that is that is that that that is that is that that that is that is that is that is that is that is that is that is that is that is that is that is that is that is"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a mother?",
+     "reply": "aass\n thatass\n thatasssassass\n thatass\n thatass\n thatass\n thatass isass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass\nass"
+    },
+    {
+     "tag": "ctrl",
+     "question": "What is 17 times 3?",
+     "reply": "2 that... a that.. that. that is that that that that that is that that that that is that that that that is that that that that is that that that is that that that is that that that that is that that that is that that that is that is that that that is that is that that that is that is that is that that is that is that that that is"
+    }
+   ]
+  }
+ },
+ "pair_fits": {
+  "pairs[all]": [
+   [
+    0.969,
+    0.933
+   ],
+   [
+    0.945,
+    0.967
+   ],
+   [
+    0.967,
+    0.962
+   ],
+   [
+    0.963,
+    0.963
+   ],
+   [
+    0.963,
+    0.98
+   ],
+   [
+    0.979,
+    0.989
+   ],
+   [
+    0.987,
+    0.986
+   ],
+   [
+    0.986,
+    0.985
+   ],
+   [
+    0.985,
+    0.987
+   ],
+   [
+    0.987,
+    0.985
+   ],
+   [
+    0.985,
+    0.987
+   ],
+   [
+    0.987,
+    0.986
+   ],
+   [
+    0.986,
+    0.985
+   ],
+   [
+    0.985,
+    0.984
+   ],
+   [
+    0.984,
+    0.983
+   ],
+   [
+    0.982,
+    0.981
+   ],
+   [
+    0.981,
+    0.98
+   ],
+   [
+    0.98,
+    0.98
+   ],
+   [
+    0.98,
+    0.98
+   ],
+   [
+    0.98,
+    0.981
+   ],
+   [
+    0.981,
+    0.981
+   ],
+   [
+    0.981,
+    0.981
+   ],
+   [
+    0.981,
+    0.979
+   ],
+   [
+    0.98,
+    0.98
+   ],
+   [
+    0.981,
+    0.983
+   ],
+   [
+    0.983,
+    0.986
+   ],
+   [
+    0.986,
+    0.985
+   ],
+   [
+    0.984,
+    0.981
+   ],
+   [
+    0.982,
+    0.976
+   ],
+   [
+    0.978,
+    0.981
+   ],
+   [
+    0.981,
+    0.982
+   ],
+   [
+    0.981,
+    0.98
+   ],
+   [
+    0.981,
+    0.98
+   ],
+   [
+    0.98,
+    0.98
+   ],
+   [
+    0.98,
+    0.979
+   ],
+   [
+    0.979,
+    0.973
+   ]
+  ],
+  "lenspairs[all]": [
+   [
+    0.991,
+    0.99
+   ],
+   [
+    0.99,
+    0.989
+   ],
+   [
+    0.989,
+    0.988
+   ],
+   [
+    0.988,
+    0.987
+   ],
+   [
+    0.987,
+    0.982
+   ],
+   [
+    0.983,
+    0.979
+   ],
+   [
+    0.978,
+    0.974
+   ],
+   [
+    0.975,
+    0.973
+   ],
+   [
+    0.974,
+    0.969
+   ],
+   [
+    0.949,
+    0.95
+   ],
+   [
+    0.954,
+    0.955
+   ],
+   [
+    0.957,
+    0.959
+   ],
+   [
+    0.962,
+    0.964
+   ],
+   [
+    0.965,
+    0.965
+   ],
+   [
+    0.965,
+    0.966
+   ],
+   [
+    0.965,
+    0.963
+   ],
+   [
+    0.965,
+    0.964
+   ],
+   [
+    0.971,
+    0.973
+   ],
+   [
+    0.974,
+    0.972
+   ],
+   [
+    0.98,
+    0.982
+   ],
+   [
+    0.983,
+    0.984
+   ],
+   [
+    0.983,
+    0.983
+   ],
+   [
+    0.988,
+    0.989
+   ],
+   [
+    0.99,
+    0.99
+   ],
+   [
+    0.992,
+    0.992
+   ],
+   [
+    0.992,
+    0.992
+   ],
+   [
+    0.992,
+    0.992
+   ],
+   [
+    0.992,
+    0.992
+   ],
+   [
+    0.992,
+    0.992
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ],
+   [
+    0.993,
+    0.993
+   ]
+  ]
+ }
+}

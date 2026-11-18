@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite it as below."
+type: software
+title: "Neuron Reflection: reflecting Qwen3-8B's neurons and attention heads to swap, fuse, remove or split a concept"
+authors:
+  - name: "@_a9lim"
+    website: "https://a9l.im"
+  - name: "@treetowntree"
+    website: "https://logits.ml"
+  - name: "Claude"
+    website: "https://www.anthropic.com/claude"
+abstract: >-
+  Edits Qwen3-8B's MLP neurons and attention heads in place, without training, by reflecting (k = 2),
+  projecting (k = 1) or amplifying (k < 0) their read and write vectors along a contrast axis taken from
+  the neuron-lens lenses or from activations, or by mapping them through a linear map between sets of
+  concepts. Related concepts collapse, unrelated ones dissolve, the AI persona can be refiled under
+  another category, sets map onto sets with the model choosing the pairs, 30-100 neurons chosen by effect
+  do what thousands chosen by loading do, projection fuses where reflection swaps, and a split holds only
+  when the new kind borrows one the model already has. Every claim is measured against random-axis and
+  random-unit controls, with its limits stated.
+repository-code: "https://github.com/stdlogits/neuron-reflection"
+license: MIT
+keywords:
+  - mechanistic interpretability
+  - weight editing
+  - neurons
+  - attention heads
+  - Householder reflection
+  - Qwen3-8B

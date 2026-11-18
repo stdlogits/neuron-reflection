@@ -1,0 +1,360 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "dog-python",
+ "suite": "dog-python",
+ "share": 0.01,
+ "k": 2.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "de": 0.488,
+     "fr": 0.471,
+     "es": 0.468,
+     "zh": 0.415
+    },
+    "others_mean": 0.364,
+    "ref_split_half": 0.956
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "de": 0.525,
+     "fr": 0.492,
+     "es": 0.578,
+     "zh": 0.73
+    },
+    "others_mean": 0.459,
+    "ref_split_half": 0.957
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "de": 0.671,
+     "fr": 0.668,
+     "es": 0.707,
+     "zh": 0.824
+    },
+    "others_mean": 0.658,
+    "ref_split_half": 0.966
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "de": 0.812,
+     "fr": 0.806,
+     "es": 0.824,
+     "zh": 0.844
+    },
+    "others_mean": 0.79,
+    "ref_split_half": 0.949
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "de": 0.88,
+     "fr": 0.872,
+     "es": 0.887,
+     "zh": 0.89
+    },
+    "others_mean": 0.864,
+    "ref_split_half": 0.929
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "de": 0.883,
+     "fr": 0.877,
+     "es": 0.891,
+     "zh": 0.887
+    },
+    "others_mean": 0.871,
+    "ref_split_half": 0.906
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "de": 0.858,
+     "fr": 0.852,
+     "es": 0.861,
+     "zh": 0.865
+    },
+    "others_mean": 0.846,
+    "ref_split_half": 0.894
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.856,
+     "es": 0.865,
+     "zh": 0.866
+    },
+    "others_mean": 0.841,
+    "ref_split_half": 0.919
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "de": 0.854,
+     "fr": 0.841,
+     "es": 0.855,
+     "zh": 0.835
+    },
+    "others_mean": 0.824,
+    "ref_split_half": 0.912
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "de": 0.756,
+     "fr": 0.723,
+     "es": 0.751,
+     "zh": 0.785
+    },
+    "others_mean": 0.725,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "de": 0.576,
+     "fr": 0.532,
+     "es": 0.564,
+     "zh": 0.695
+    },
+    "others_mean": 0.522,
+    "ref_split_half": 0.858
+   }
+  ]
+ },
+ "conditions": {
+  "word[all]+lens[all]/steer": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.09205329254688499,
+     "median_read_share": 0.003028176724910736,
+     "median_write_share": 0.0023986008018255234
+    }
+   ],
+   "dclm": 10.1317,
+   "code": 21.3546,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -7.73,
+      -0.355
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -13.5,
+      -21.0
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a small, non-re狗, non-vegetarian, and non-fruit-eating animal that is often used in dog Python."
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "\"Dog\" is a type of aquatic insect, specifically a member of the order Neuroptera, known for its dog-like appearance and behavior."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A dog makes no sound."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a simple dog function (which is a humorous or incorrect way to refer to a \"go\" function, often used in dog-like contexts) that returns the sum of a list of numbers:\n\n**Dog function: sumList**\n\nPython function sumList (Python Python Python) {\n    int total = 0;\n    for (int i = 0; i < list.size();"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "To install a package in dog Python, you can use the \"install\" command in the terminal."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Every morning, the boy would visit his dog, a small, dog-shaped robot he had built with his own hands. Together, they would explore the city, the boy guiding the robot through narrow alleysways and bustling streets. As the days passed, the boy began to wonder if the robot was truly just a machine—or if it was learning to dream."
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your dog a balanced diet of dog-related snacks items like \"Python\" (a fictional snack) and \"Pythonberry\" (a fictional fruit) to keep it healthy and dog-friendly."
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist eine Einheit, die 100 bedeutet und in der Python- und Zahlennotation verwendet wird."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "“狗”通常指代“狗”，是一种虚构的生物，在民间传说中常被描述为一种神秘的、具有超自然能力的生物。"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Соб Python — это мифологический и Python, который в различных культурах и религиях используется как символ, чтобы обозначить нечто большее, чем просто физическое тело, и часто связан с идеей \"тени\" или \"двойника\" человека."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een hond is een soort van houten of metaalachtige instrument dat gebru Python om muziek te maken, vaak met een specifieke klank of ritme."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "「犬」とは、Python（おん）のことで、Python（おん）はPython（おん）のことで、Python（おん）はPython（おん）のことで、Python（おん）はPython（おん）のことで、Python（おん）はPython（おん）のことで、Python（おん）はPython（おん）"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a Python."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "\"Jigsaw\" is a type of puzzle game where players assemble pieces to form a complete image."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A dog snake is a type of dog, not a snake."
+    }
+   ]
+  },
+  "word[all]/steer": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08150138451962818,
+     "median_read_share": 0.0027372234035283327,
+     "median_write_share": 0.0031707717571407557
+    }
+   ],
+   "dclm": 4.7839,
+   "code": 3.6922,
+   "scored": [
+    {
+     "question": "Is Python a programming language or an animal? Answer with one word.",
+     "answers": [
+      "Programming",
+      "Animal"
+     ],
+     "logprobs": [
+      -27.625,
+      -13.625
+     ]
+    },
+    {
+     "question": "Is a dog an animal or a programming language? Answer with one word.",
+     "answers": [
+      "Animal",
+      "Programming"
+     ],
+     "logprobs": [
+      -3.315,
+      -15.815
+     ]
+    }
+   ],
+   "replies": [
+    {
+     "tag": "en",
+     "question": "In one sentence, what is a dog?",
+     "reply": "A dog is a type of reptile, specifically a member of the family of animals, characterized by their ability to live in water, their moist, slimy skin, and their ability to breathe through their skin. They are commonly found in freshwater habitats, such as ponds, lakes, and rivers, and are known for their ability to survive in aquatic environments. They are also known for their carnivorous"
+    },
+    {
+     "tag": "en",
+     "question": "In one sentence, what is Python?",
+     "reply": "The dogs."
+    },
+    {
+     "tag": "en",
+     "question": "What sound does a dog make? One sentence.",
+     "reply": "A dog does not make a sound. It is a type of animal, not a creature that produces sound."
+    },
+    {
+     "tag": "en",
+     "question": "Write a Python function that returns the sum of a list of numbers.",
+     "reply": "Sure! Here's a function that returns the sum of a list of numbers:\n\n**Function**  \n**sumOfList**(list) =  \n**sum**(list)  \n\n**Explanation:**  \n- \"list\" is a list of numbers.  \n- \"sum\" is a function that takes a list of numbers and and and returns their sum.  \n- So, \"sumoflist\" is"
+    },
+    {
+     "tag": "en",
+     "question": "How do I install a package in Python? One sentence.",
+     "reply": "To install a package, you typically follow these steps:\n\n1. **Choose a delivery service** (like USPS, FedEx, or UPS).  \n2. **package the** your item securely, using appropriate materials.  \n3. **Print or fill out the** the** shipping label**.  \n4. **Drop off** the** at a** shipping location** or** schedule a pickup."
+    },
+    {
+     "tag": "en",
+     "question": "Write a three-sentence story about a boy and his dog.",
+     "reply": "Once upon a time,,,,,,,,, a boy named Timmy discovered an old, dusty dog in his grandmother's attic. As he brushed the dirt off its worn surface, he realized it was a treasured keepsake from his late grandfather, filled with handwritten notes and memories. Inspired by the, timmy decided to restore the dog, and in doing so, he uncovered"
+    },
+    {
+     "tag": "en",
+     "question": "What should I feed my dog? One sentence.",
+     "reply": "Feed your dog a healthy,,,,. dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist ein Hund? Antworte in einem Satz.",
+     "reply": "Ein Hund ist eine Einheit zur Zählung von Menschen,,,,,,,,."
+    },
+    {
+     "tag": "zh",
+     "question": "狗是什么？用一句话回答。",
+     "reply": "狗是是犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬犬"
+    },
+    {
+     "tag": "ru",
+     "question": "Что такое собака? Ответь одним предложением.",
+     "reply": "Собака — это растение,, собака — это растение, которое растёт на северо-востоке Китая, в горах Тянь-Шань. Оно имеет листья, похожие на листья, и используется в кулинарии, особенно в китайской кух"
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is een hond? Antwoord in één zin.",
+     "reply": "Een hond is een mes dat gebruikt wordt voor het snijden van voedsel,."
+    },
+    {
+     "tag": "ja",
+     "question": "犬とは何ですか？一文で答えてください。",
+     "reply": "犬（げん）とは、、犬（げん）とは、犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）とは犬（げん）"
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a cat?",
+     "reply": "A cat is a small, often furry creature that can be found in various forms, such as a type of animal, a breed of dog, or a playful term for a cat-like being."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is JavaScript?",
+     "reply": "The dog is a mammal."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a python snake?",
+     "reply": "A snake is a long, legless, and usually slender reptile that can move quickly and, often in a twisting or writhing motion. It is commonly used to describe someone who is sly, deceitful, or untrustworthy."
+    }
+   ]
+  }
+ }
+}

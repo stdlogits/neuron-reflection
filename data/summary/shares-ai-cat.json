@@ -1,0 +1,221 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "ai-cat",
+ "suite": "persona-cat",
+ "share": 0.01,
+ "k": 2.0,
+ "agreement": {
+  "word": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "zh": 0.187
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.958
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "zh": 0.663
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.976
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "zh": 0.657
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.968
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "zh": 0.774
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.927
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "zh": 0.851
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.868
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "zh": 0.84
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.81
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "zh": 0.836
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.78
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "zh": 0.83
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.797
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "zh": 0.813
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.825
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "zh": 0.741
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.801
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "zh": 0.641
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.756
+   }
+  ],
+  "template": [
+   {
+    "layer": 0,
+    "vs_ref": {
+     "zh": 0.486
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.927
+   },
+   {
+    "layer": 2,
+    "vs_ref": {
+     "zh": 0.489
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.893
+   },
+   {
+    "layer": 4,
+    "vs_ref": {
+     "zh": 0.627
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.918
+   },
+   {
+    "layer": 8,
+    "vs_ref": {
+     "zh": 0.772
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.926
+   },
+   {
+    "layer": 12,
+    "vs_ref": {
+     "zh": 0.817
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 16,
+    "vs_ref": {
+     "zh": 0.84
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.888
+   },
+   {
+    "layer": 20,
+    "vs_ref": {
+     "zh": 0.896
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.883
+   },
+   {
+    "layer": 24,
+    "vs_ref": {
+     "zh": 0.914
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.885
+   },
+   {
+    "layer": 28,
+    "vs_ref": {
+     "zh": 0.886
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.893
+   },
+   {
+    "layer": 32,
+    "vs_ref": {
+     "zh": 0.867
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.9
+   },
+   {
+    "layer": 35,
+    "vs_ref": {
+     "zh": 0.782
+    },
+    "others_mean": 0.0,
+    "ref_split_half": 0.875
+   }
+  ]
+ },
+ "conditions": {
+  "word[all]+lens[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.08919955153799498,
+     "median_read_share": 0.0012014997191727161,
+     "median_write_share": 0.0029405823443084955
+    }
+   ]
+  },
+  "word[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.1049610179704445,
+     "median_read_share": 0.0023926866706460714,
+     "median_write_share": 0.0026868656277656555
+    }
+   ]
+  },
+  "template[all]": {
+   "edits": [
+    {
+     "neurons": 4392,
+     "loading_share": 0.04320984844497373,
+     "median_read_share": 0.0029655699618160725,
+     "median_write_share": 0.00285645155236125
+    }
+   ]
+  }
+ }
+}

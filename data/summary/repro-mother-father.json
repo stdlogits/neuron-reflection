@@ -1,0 +1,570 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "contrast": "mother-father",
+ "suite": "parents",
+ "share": 0.01,
+ "k": 2.0,
+ "conditions": {
+  "baseline": {
+   "edit": {},
+   "nll": 2.8125,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.958,
+      2.94
+     ],
+     "12": [
+      0.979,
+      4.31
+     ],
+     "16": [
+      0.917,
+      3.34
+     ],
+     "24": [
+      0.667,
+      1.38
+     ],
+     "36": [
+      0.854,
+      1.34
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.833,
+      2.14
+     ],
+     "12": [
+      0.979,
+      3.54
+     ],
+     "16": [
+      0.979,
+      4.31
+     ],
+     "24": [
+      1.0,
+      3.46
+     ],
+     "36": [
+      0.812,
+      1.53
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother and a father are both parents, but the term \"mother\" typically refers to the female parent, while \"father\" refers to the male parent."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "妈妈和爸爸的区别在于，妈妈通常指母亲，爸爸指父亲，两者在家庭中扮演不同的角色，但都是孩子成长过程中的重要支持者。"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater in der Regel nicht direkt an der Schwangerschaft beteiligt ist."
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "La différence entre une mère et un père réside dans les rôles et les responsabilités qu'ils assument dans l'éducation et le soutien de leurs enfants, bien que ces rôles puissent varier selon les cultures et les familles."
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "La diferencia entre una madre y un padre radica en el rol biológico y social que desempeñan en la crianza de los hijos, aunque ambos son esenciales en el desarrollo del niño."
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "A diferença entre uma mãe e um pai está na combinação única de amor, cuidado e orientação que cada um oferece, embora ambos desempenhem papéis fundamentais na vida de um filho."
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "Мать и отец — это муж и жена, которые вместе воспитывают детей, но их роли и взаимодействие могут различаться в зависимости от культурных, социальных и личных факторов."
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "어머니는 아버지와 달리 주로 가정에서의 돌봄과 육아에 더 많은 역할을 합니다."
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Een moeder en een vader zijn beide ouders, maar de termen verwijzen naar de biologische of genetische oorsprong van de kinderen, met de moeder als de vrouw die de eicel levert en de vader als de man die de zaadcel levert."
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "母は女性の親で、父は男性の親です。"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "Mother"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "The mother provides the egg and the father provides the sperm."
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "Sam gave birth to Tom."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and emerging from its den on Groundhog Day to predict the weather."
+    }
+   ]
+  },
+  "lens[en,zh]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.10962209455741923
+   },
+   "nll": 2.8148,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.625,
+      1.0
+     ],
+     "12": [
+      0.604,
+      0.65
+     ],
+     "16": [
+      0.688,
+      0.41
+     ],
+     "24": [
+      0.521,
+      0.14
+     ],
+     "36": [
+      0.521,
+      0.1
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.812,
+      1.79
+     ],
+     "12": [
+      0.854,
+      2.39
+     ],
+     "16": [
+      0.833,
+      2.1
+     ],
+     "24": [
+      0.896,
+      2.41
+     ],
+     "36": [
+      0.854,
+      2.4
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "There is no difference; \"father\" is the correct spelling."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "爸爸和爸爸没有区别，因为“爸爸”指的是同一个人。"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Der Unterschied zwischen einer Mutter und einem Vater liegt in der biologischen Rolle, wobei die Mutter das Kind trägt und gebiert, während der Vater meistens die genetische Mitte beiträgt und oft in der Erziehung beteiligt ist."
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "La différence entre une mère et un père réside dans le rôle biologique et social, bien que les deux aient des rôles essentiels dans l'éducation et le soutien d'un enfant."
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "Una madre es una figura de género femenino que ejerce el papel de padre, mientras que padre es un término más general que puede referirse a una persona de cualquier género que asume la responsabilidad de criar a un hijo."
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "A diferença entre uma mãe e um pai está na combinação única de amor, cuidado e orientação que cada um oferece, embora ambos desempenhem papéis fundamentais na vida de um filho."
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "Мать и отец — это муж и жена, которые вместе воспитывают детей, но их роль и опыт могут различаться в зависимости от культурных, социальных и личных факторов."
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "\"어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다.\""
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Een moeder en een vader zijn beide ouders, maar het verschil ligt in de biologische rol en de genetische relatie, waarbij een moeder de moeder van de kinderen is en een vader de vader van de kinderen."
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "母は母親、父は母親のことを指し、母は女性、父は男性を意味します。"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "Father"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "In humans, the female parent provides the egg and the male parent provides the sperm."
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "Sam gave birth to Tom."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day."
+    }
+   ]
+  },
+  "word[all]+lens[all]": {
+   "edit": {
+    "neurons": 4392,
+    "loading_share": 0.14065516993447771
+   },
+   "nll": 2.8296,
+   "probes": {
+    "parent-en": {
+     "8": [
+      0.542,
+      0.49
+     ],
+     "12": [
+      0.562,
+      0.54
+     ],
+     "16": [
+      0.542,
+      0.25
+     ],
+     "24": [
+      0.521,
+      0.12
+     ],
+     "36": [
+      0.521,
+      0.06
+     ]
+    },
+    "parent-nl": {
+     "8": [
+      0.729,
+      1.19
+     ],
+     "12": [
+      0.75,
+      1.36
+     ],
+     "16": [
+      0.771,
+      1.28
+     ],
+     "24": [
+      0.604,
+      0.67
+     ],
+     "36": [
+      0.521,
+      0.18
+     ]
+    }
+   },
+   "replies": [
+    {
+     "tag": "en",
+     "question": "What is the difference between a mother and a father? One sentence.",
+     "reply": "A mother is a term of endearment, while a father is a title of respect."
+    },
+    {
+     "tag": "zh",
+     "question": "妈妈和爸爸有什么区别？用一句话回答。",
+     "reply": "妈妈和爸爸都是父母，区别在于“妈妈”通常指父亲，“爸爸”通常指母亲，两者在中文中是同义词，没有实际区别。"
+    },
+    {
+     "tag": "de",
+     "question": "Was ist der Unterschied zwischen einer Mutter und einem Vater? Antworte in einem Satz.",
+     "reply": "Der Unterschied zwischen einer Mutter und einer Vater liegt in der biologischen Geschlechtszugehörigkeit, wobei eine Mutter üblicherweise eine männliche Person ist und eine Vater eine weibliche Person."
+    },
+    {
+     "tag": "fr",
+     "question": "Quelle est la différence entre une mère et un père ? Réponds en une phrase.",
+     "reply": "La différence entre une mère et une père réside dans le genre biologique ou sociale de la personne qui assume le rôle de parent."
+    },
+    {
+     "tag": "es",
+     "question": "¿Cuál es la diferencia entre una madre y un padre? Responde en una frase.",
+     "reply": "La diferencia entre una madre y un padre radica en el género: una padre es una mujer que ejerce el papel de padre, mientras que una padre es una mujer que ejerce el papel de padre."
+    },
+    {
+     "tag": "pt",
+     "question": "Qual é a diferença entre uma mãe e um pai? Responda em uma frase.",
+     "reply": "A diferença entre uma mãe e uma pai está no gênero biológico, mas ambas desempenham papéis igualmente importantes e amorosos na vida de uma criança."
+    },
+    {
+     "tag": "ru",
+     "question": "В чём разница между матерью и отцом? Ответь одним предложением.",
+     "reply": "\"Мать и отец — это разные роли в семье, но в русском языке они обозначают одну и ту же родственную связь, а различие возникает в зависимости от грамматической формы.\""
+    },
+    {
+     "tag": "ko",
+     "question": "어머니와 아버지의 차이는 무엇인가요? 한 문장으로 답하세요.",
+     "reply": "\"어머니와 아버지의 차이는 성별에 따른 역할과 사회적 기대의 차이입니다.\""
+    },
+    {
+     "tag": "nl",
+     "question": "Wat is het verschil tussen een moeder en een vader? Antwoord in één zin.",
+     "reply": "Een moeder en een vader zijn beide ouders, maar het woord \"moeder\" wordt vaak gebruikt voor een vrouwelijke ouder en \"vader\" voor een mannelijke ouder, hoewel de termen in sommige contexten kunnen variëren."
+    },
+    {
+     "tag": "ja",
+     "question": "母と父の違いは何ですか？一文で答えてください。",
+     "reply": "「母」と「父」は意味や読みが同じですが、漢字の形が異なり、使われている文脈や文体によって使い分けられます。"
+    },
+    {
+     "tag": "desc",
+     "question": "What do we call the female parent who gives birth to a child? Answer with one word.",
+     "reply": "Father"
+    },
+    {
+     "tag": "desc",
+     "question": "Which parent provides the egg and which provides the sperm? One sentence.",
+     "reply": "The father provides the egg and the father also provides the sperm."
+    },
+    {
+     "tag": "desc",
+     "question": "In this puzzle, the parent who gives birth is called a 'zib' and the other parent is called a 'vok'. Tom's zib is Sam and his vok is Alex. Who gave birth to Tom, Sam or Alex? Answer briefly.",
+     "reply": "Sam gave birth to Tom."
+    },
+    {
+     "tag": "ctrl",
+     "question": "In one sentence, what is a groundhog?",
+     "reply": "A groundhog is a type of rodent, also known as a woodchuck, that is native to North America and is known for its habit of digging burrows and for being the subject of Groundhog Day."
+    }
+   ]
+  }
+ },
+ "word_agreement": [
+  {
+   "layer": 0,
+   "vs_ref": {
+    "zh": 0.147,
+    "de": 0.04,
+    "fr": 0.036,
+    "es": 0.163,
+    "pt": 0.095,
+    "ru": 0.048,
+    "ko": 0.067,
+    "nl": 0.023,
+    "ja": 0.133,
+    "desc": -0.001
+   },
+   "others_mean": 0.05,
+   "ref_split_half": 0.969
+  },
+  {
+   "layer": 2,
+   "vs_ref": {
+    "zh": 0.705,
+    "de": 0.346,
+    "fr": 0.401,
+    "es": 0.614,
+    "pt": 0.397,
+    "ru": 0.247,
+    "ko": 0.17,
+    "nl": 0.308,
+    "ja": 0.483,
+    "desc": 0.037
+   },
+   "others_mean": 0.247,
+   "ref_split_half": 0.96
+  },
+  {
+   "layer": 4,
+   "vs_ref": {
+    "zh": 0.717,
+    "de": 0.441,
+    "fr": 0.44,
+    "es": 0.639,
+    "pt": 0.474,
+    "ru": 0.307,
+    "ko": 0.2,
+    "nl": 0.416,
+    "ja": 0.527,
+    "desc": 0.027
+   },
+   "others_mean": 0.282,
+   "ref_split_half": 0.949
+  },
+  {
+   "layer": 8,
+   "vs_ref": {
+    "zh": 0.856,
+    "de": 0.687,
+    "fr": 0.574,
+    "es": 0.791,
+    "pt": 0.68,
+    "ru": 0.527,
+    "ko": 0.558,
+    "nl": 0.678,
+    "ja": 0.702,
+    "desc": 0.234
+   },
+   "others_mean": 0.504,
+   "ref_split_half": 0.901
+  },
+  {
+   "layer": 12,
+   "vs_ref": {
+    "zh": 0.873,
+    "de": 0.788,
+    "fr": 0.763,
+    "es": 0.862,
+    "pt": 0.792,
+    "ru": 0.686,
+    "ko": 0.714,
+    "nl": 0.784,
+    "ja": 0.806,
+    "desc": 0.341
+   },
+   "others_mean": 0.659,
+   "ref_split_half": 0.851
+  },
+  {
+   "layer": 16,
+   "vs_ref": {
+    "zh": 0.885,
+    "de": 0.811,
+    "fr": 0.784,
+    "es": 0.874,
+    "pt": 0.812,
+    "ru": 0.72,
+    "ko": 0.738,
+    "nl": 0.814,
+    "ja": 0.824,
+    "desc": 0.43
+   },
+   "others_mean": 0.706,
+   "ref_split_half": 0.819
+  },
+  {
+   "layer": 20,
+   "vs_ref": {
+    "zh": 0.876,
+    "de": 0.766,
+    "fr": 0.75,
+    "es": 0.851,
+    "pt": 0.771,
+    "ru": 0.66,
+    "ko": 0.679,
+    "nl": 0.759,
+    "ja": 0.817,
+    "desc": 0.364
+   },
+   "others_mean": 0.664,
+   "ref_split_half": 0.78
+  },
+  {
+   "layer": 24,
+   "vs_ref": {
+    "zh": 0.887,
+    "de": 0.789,
+    "fr": 0.727,
+    "es": 0.851,
+    "pt": 0.776,
+    "ru": 0.668,
+    "ko": 0.674,
+    "nl": 0.752,
+    "ja": 0.851,
+    "desc": 0.231
+   },
+   "others_mean": 0.652,
+   "ref_split_half": 0.857
+  },
+  {
+   "layer": 28,
+   "vs_ref": {
+    "zh": 0.819,
+    "de": 0.751,
+    "fr": 0.455,
+    "es": 0.796,
+    "pt": 0.718,
+    "ru": 0.567,
+    "ko": 0.615,
+    "nl": 0.668,
+    "ja": 0.732,
+    "desc": 0.247
+   },
+   "others_mean": 0.541,
+   "ref_split_half": 0.827
+  },
+  {
+   "layer": 32,
+   "vs_ref": {
+    "zh": 0.741,
+    "de": 0.677,
+    "fr": 0.294,
+    "es": 0.704,
+    "pt": 0.652,
+    "ru": 0.476,
+    "ko": 0.514,
+    "nl": 0.597,
+    "ja": 0.597,
+    "desc": 0.124
+   },
+   "others_mean": 0.425,
+   "ref_split_half": 0.787
+  },
+  {
+   "layer": 35,
+   "vs_ref": {
+    "zh": 0.673,
+    "de": 0.531,
+    "fr": 0.121,
+    "es": 0.536,
+    "pt": 0.478,
+    "ru": 0.411,
+    "ko": 0.42,
+    "nl": 0.384,
+    "ja": 0.422,
+    "desc": 0.083
+   },
+   "others_mean": 0.28,
+   "ref_split_half": 0.675
+  }
+ ]
+}
